@@ -23,5 +23,5 @@ cat > "$APP/Contents/Info.plist" <<PLIST
 <key>LSUIElement</key><true/>
 </dict></plist>
 PLIST
-codesign -s "$SIGN_ID" --force "$APP"
+codesign -s "$SIGN_ID" --force $CODESIGN_FLAGS "$APP"  # release.sh adds --options runtime --timestamp
 echo "$APP"
