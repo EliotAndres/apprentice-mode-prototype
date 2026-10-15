@@ -157,7 +157,7 @@ final class RecorderEngine {
         }
     }
 
-    /// Menu "Delete today" / "Delete all": closes the open session first, then deletes.
+    /// Deletes today's sessions, or all of them: closes the open session first. Nothing calls it since the menu lost its delete items.
     func deleteSessions(onlyToday: Bool) {
         recordingQueue.sync {
             activityRecorder.endSession()

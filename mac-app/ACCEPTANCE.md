@@ -1,5 +1,7 @@
 # Acceptance (§8)
 
+Note: the data root has since moved to `~/.apprentice-mode/`.
+
 Run 2026-10-12 on macOS 26.6.2, Apprentice 0.1.0, data root `~/Library/Application Support/Apprentice`.
 ✅ = verified, ⏳ = needs Eliot at the machine.
 

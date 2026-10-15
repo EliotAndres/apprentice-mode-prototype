@@ -25,10 +25,10 @@ Spike: a status-item binary that takes one SCK screenshot, reads the AX element 
 ## ScreenCaptureKit
 
 - **The "private window picker" prompt.** On the first `SCStream` after the grant, macOS 15+ shows *"Apprentice is requesting to bypass the system private window picker and directly access your screen and audio"*. It is drawn by `UserNotificationCenter`, which shows up in context.jsonl as an `app_activated` at that moment. Answer **Allow**. macOS asks again periodically (roughly monthly).
-- If the prompt is denied or the grant lapses: `CGPreflightScreenCaptureAccess()` turns false, the 30 s poll pauses capture and shows the warning triangle, and capture resumes when it's back (`restartIfStopped`).
+- If the prompt is denied or the grant lapses: `CGPreflightScreenCaptureAccess()` turns false, the 30 s poll pauses capture and turns the menu bar icon orange, and capture resumes when it's back (`restartIfStopped`).
 - Frames: 1280×720 for a 1512×982 pt display at quality 0.6 came to about 116 KB on a busy Hacker News page.
 - `SCStream` only delivers frames when the screen changes. At rest the 1 fps stream costs nothing visible.
-- `excludingApplications: [self]` hides our windows but **not our status item**: the "676 KB" menu-bar title still shows in frames. On macOS 26 the status item seems to be composited outside our app's windows. Harmless, left as is.
+- `excludingApplications: [self]` hides our windows but **not our status item**: the menu bar icon still shows in frames. On macOS 26 the status item seems to be composited outside our app's windows. Harmless, left as is.
 - Resource use while recording, on a live session with Chrome / Firefox / Superset in use: `top` sampled every 5 s for a minute showed CPU 0.0 to 1.5% (mean ≈ 0.5%) and memory 16 to 18 MB.
 
 ## Accessibility quirks
@@ -47,5 +47,6 @@ Spike: a status-item binary that takes one SCK screenshot, reads the AX element 
 ## Other
 
 - `tmutil addexclusion` (sticky, no root) works on the data root.
+- Clicks on Apprentice's own windows (its menu, the status item) are skipped before the AX hit test. That hit test is answered in-process, on the recording queue, and AppKit crashes off the main thread.
 - `UserDefaults(suiteName:)` with our own bundle id logs a warning and doesn't work. The CLI binary lives in the same bundle, so `UserDefaults.standard` already shares the domain.
 - `launchctl`/`open`: a recorder started with `open` keeps running after the Claude session or terminal tab closes, since launchd is its parent. SIGHUP is ignored anyway.

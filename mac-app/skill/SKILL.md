@@ -9,7 +9,7 @@ Apprentice is a macOS menu bar app (`~/Applications/Apprentice.app`). It records
 
 ## Controlling it
 
-Data lives in `~/.apprentice-mode/` (call it `$D`). In Cowork, `$D` is the folder you were given. There are two ways to control the app; use the one your tools allow.
+Data lives in `~/.apprentice-mode/` (call it `$D`; `data_root` in the status says where if it was moved). In Cowork, `$D` is the folder you were given. There are two ways to control the app; use the one your tools allow.
 
 **If you can run commands** (Claude Code): `A=~/Applications/Apprentice.app/Contents/MacOS/Apprentice`, then `$A status | pause [--minutes N] | resume | stop | new-session`. If it isn't running, start it with `open -g ~/Applications/Apprentice.app`. Never run the binary with no arguments: it would lose its own permissions.
 
@@ -20,7 +20,8 @@ Data lives in `~/.apprentice-mode/` (call it `$D`). In Cowork, `$D` is the folde
 
 **Reporting:**
 - Give storage in human units: `today_bytes`, `total_bytes`, `actions_today`, `free_disk_bytes`.
-- The user can pause or resume with ⌃⌥⌘P.
+- The user can turn recording off or on with ⌃⌥⌘P or from the menu bar icon.
+- To exclude an app, add its bundle id to `excluded_apps` in `$D/config.json`. The app reloads it within 10 seconds.
 
 **Permissions:**
 - If any entry in `permissions` is false, tell the user to allow **Apprentice** in System Settings → Privacy & Security. The three entries are Screen & System Audio Recording, Accessibility and Input Monitoring. Apprentice uses its own grants, so it's listed under its own name. Never try to grant permissions yourself.
