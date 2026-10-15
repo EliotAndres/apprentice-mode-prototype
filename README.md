@@ -9,7 +9,7 @@
 ### Trying out the prototype
 The Mac App generates sensitive data (screenshot, accessibility tree), but it never leaves your computer. 
 To run it, you can either:
-- trust me and download the release [TODO: add link to release]
+- trust me and [download the release](https://github.com/EliotAndres/apprentice-mode-prototype/releases/latest/download/Apprentice.zip) (signed and notarized)
 - ask Claude to "vet the code, build and run the app"
 
 In both cases, you'll have to allow 3 permissions: Screen Recording, Accessibility and Input Monitoring.
