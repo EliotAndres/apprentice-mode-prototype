@@ -20,7 +20,7 @@ $A status | pause [--minutes N] | resume | stop | new-session | prune --keep-gb 
 
 The icon is the Claude spark. A small dot bottom right means it's recording right now (the dot hides while an excluded app is frontmost). Dimmed means off. Orange means a missing permission or a storage problem.
 
-The menu has **Turn off / Turn on Apprentice Mode** (⌃⌥⌘P does the same) and **Quit Claude**, which quits Apprentice. Opened with ⌥ held, it also shows **Debug ▸ Trigger Workflow Harvesting**: it opens a new Claude Code session in the data root (`claude://code/new?folder=…&q=…`) with `AUTOMATE_TASKS.md` as the prompt, asking for the last 3 days. Pausing for a set time is CLI-only (`pause --minutes N`), and excluded apps are edited in `config.json`.
+The menu has **Turn off / Turn on Apprentice Mode** (⌃⌥⌘P does the same), **Trigger Workflow Harvesting** and **Quit Claude**, which quits Apprentice. Trigger Workflow Harvesting opens a new Claude Code session in the data root (`claude://code/new?folder=…&q=…`) with `AUTOMATE_TASKS.md` as the prompt, asking for the last 3 days. Pausing for a set time is CLI-only (`pause --minutes N`), and excluded apps are edited in `config.json`.
 
 ## Permissions
 
@@ -36,7 +36,7 @@ macOS 15+ periodically asks whether Apprentice may keep recording the screen, wo
 config.json          cap_gb (20), retention_days (30), excluded_apps, redaction_patterns
 status.json          rewritten every 10 s
 command.json         file-based control (see the skill), answered in command-result.json
-AUTOMATE_TASKS.md    the Debug prompt, seeded from the skill only when missing; yours to edit
+AUTOMATE_TASKS.md    the Trigger Workflow Harvesting prompt, seeded from the skill only when missing; yours to edit
 feed/index.html      the workflow feed page, kept in sync with the app; Claude writes feed/data.js
 sessions/<YYYYMMDD-HHMMSS>/
   manifest.json  traces/dom.jsonl  traces/context.jsonl  screenshots/<seq>.jpg

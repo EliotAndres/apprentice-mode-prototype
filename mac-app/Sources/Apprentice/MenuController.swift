@@ -84,11 +84,7 @@ final class MenuController: NSObject, NSMenuDelegate {
         } else {
             addItem("Turn off Apprentice Mode", #selector(turnOff))
         }
-        if NSEvent.modifierFlags.contains(.option) {  // Debug only shows when the menu is opened with ⌥ held
-            let debugMenu = NSMenu()
-            addItem("Trigger Workflow Harvesting", #selector(triggerWorkflowHarvesting), to: debugMenu)
-            menu.setSubmenu(debugMenu, for: addItem("Debug"))
-        }
+        addItem("Trigger Workflow Harvesting", #selector(triggerWorkflowHarvesting))
         menu.addItem(.separator())
         addItem("Quit Claude", #selector(quit))  // quits Apprentice
     }
