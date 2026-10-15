@@ -12,6 +12,6 @@ To run it, you can either:
 - trust me and download the release [TODO: add link to release]
 - ask Claude to "vet the code, build and run the app"
 
-In both cases, you'll have to accept 3 permissions (one for accessibility, 2 for screen recording).
+In both cases, you'll have to allow 3 permissions: Screen Recording, Accessibility and Input Monitoring.
 
 Once done, I recommend deleting the data at ~/.apprentice-mode
