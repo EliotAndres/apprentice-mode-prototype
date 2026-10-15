@@ -1,0 +1,229 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 7-step flow on worldbank",
+   "description": "Repeated sequence on worldbank starting with CLICK button \"Close pop-up\"",
+   "site": "worldbank",
+   "steps": [
+    "CLICK button \"Close pop-up\"",
+    "CLICK textbox \"Search data e.g. GDP, population, Indone\"",
+    "CLICK textbox \"Search data e.g. GDP, population, Indone\"",
+    "CLICK textbox \"Search data e.g. GDP, population, Indone\"",
+    "CLICK textbox \"Search data e.g. GDP, population, Indone\"",
+    "TYPE textbox \"Search data e.g. GDP, population, Indone\"",
+    "ENTER textbox \"Search data e.g. GDP, population, Indone\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 127.104,
+     "end_t": 154.476,
+     "values": "Kenya"
+    },
+    {
+     "start_t": 581.563,
+     "end_t": 650.572,
+     "values": "Vietman, Viet, Vietnam, Vietnam"
+    },
+    {
+     "start_t": 692.395,
+     "end_t": 721.019,
+     "values": "Viet Nam"
+    },
+    {
+     "start_t": 1236.07,
+     "end_t": 1250.818,
+     "values": "Chile"
+    },
+    {
+     "start_t": 1306.823,
+     "end_t": 1307.379,
+     "values": ""
+    },
+    {
+     "start_t": 1322.492,
+     "end_t": 1337.311,
+     "values": "Chile"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 12-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\"",
+    "CLICK textbox \"Subject\"",
+    "CLICK textbox \"Subject\"",
+    "CLICK textbox \"Subject\"",
+    "TYPE textbox \"Subject\"",
+    "CLICK textbox \"Body\"",
+    "CLICK textbox \"Body\"",
+    "TYPE textbox \"Body\"",
+    "CLICK button \"Discard\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 393.038,
+     "end_t": 448.402,
+     "values": "olivia@example.com, Kenya macro snapshot, Hi olivia, Kenya: GDP US$135.94 billion (2025), growth 4.6%, population 57,532,493 (2025); capital Nairobi, currency Kenyan shilling (KES)."
+    },
+    {
+     "start_t": 783.199,
+     "end_t": 845.959,
+     "values": "raj@example.com, Vietnam macro snapshot, Hi raj, Vietnam: GDP US$514.7 billion (2025), growth 8.0%, population 101,598,527 (2025); capital Hanoi, currency Vietnamese ng (VND)."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK searchbox \"Search Wikipedia\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK searchbox \"Search Wikipedia\"",
+    "CLICK button \"Close\"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "ENTER searchbox \"Search Wikipedia\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 340.368,
+     "end_t": 361.57,
+     "values": "Kenya"
+    },
+    {
+     "start_t": 511.944,
+     "end_t": 526.082,
+     "values": "Jane Austen"
+    },
+    {
+     "start_t": 740.581,
+     "end_t": 754.137,
+     "values": "Vietnam"
+    },
+    {
+     "start_t": 1117.973,
+     "end_t": 1128.858,
+     "values": "Herman Melville"
+    },
+    {
+     "start_t": 1556.954,
+     "end_t": 1560.324,
+     "values": "Chile"
+    },
+    {
+     "start_t": 1948.973,
+     "end_t": 1962.748,
+     "values": "Alexandre Dumas"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on gutenberg",
+   "description": "Repeated sequence on gutenberg starting with CLICK textbox \"Search books\"",
+   "site": "gutenberg",
+   "steps": [
+    "CLICK textbox \"Search books\"",
+    "CLICK textbox \"Search books\"",
+    "TYPE textbox \"Search books\"",
+    "ENTER textbox \"Search books\"",
+    "CLICK link \"Pride and Prejudice Jane Austen 192356 d\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 455.987,
+     "end_t": 478.145,
+     "values": "Pride and Prejudice"
+    },
+    {
+     "start_t": 847.002,
+     "end_t": 863.019,
+     "values": "Ulysses"
+    },
+    {
+     "start_t": 878.633,
+     "end_t": 890.259,
+     "values": "Moby Dick"
+    },
+    {
+     "start_t": 1840.609,
+     "end_t": 1844.186,
+     "values": "The Count of Monte Cristo"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 538.924,
+     "end_t": 558.942,
+     "values": "Read: Pride and Prejudice by Jane Austen (1775-1817), Gutenberg since Jun 1, 1998, 192356 downloads"
+    },
+    {
+     "start_t": 1199.072,
+     "end_t": 1203.355,
+     "values": "Read: Moby Dick by Herman Melville (1819-1891), Gutenberg since Jul 1, 2001, 165043 downloads"
+    },
+    {
+     "start_t": 2011.69,
+     "end_t": 2016.124,
+     "values": "Read: The Count of Monte Cristo by Alexandre Dumas (1802-1870), Gutenberg since Jan 1, 1998, 53017 downloads"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 1654.196,
+     "end_t": 1657.687,
+     "values": "sofia@example.com"
+    },
+    {
+     "start_t": 1693.861,
+     "end_t": 1697.39,
+     "values": "Chile macro snapshot"
+    },
+    {
+     "start_t": 1734.501,
+     "end_t": 1739.24,
+     "values": "Hi sofia, Chile: GDP US$357.37 billion (2025), growth 2.5%, population 19,859,921 (2025); capital Santiago, currency Chilean peso (CLP)."
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

@@ -1,0 +1,94 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "0B883C9081D899C03B56C7CDD3507E29", "url": "https://www.1800flowers.com/", "title": "Flowers, Flower Delivery, Fresh Flowers Online \u2013 1-800-Flowers.com"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "11FF8D19B910C37A68947B7AE3EC521E", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "1DFC6D1A8A6C1B3512FCC5315B4050F8", "url": "https://www.ezcater.com/", "title": "Corporate Catering - Order Online from ezCater"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/", "title": "arXiv.org e-Print archive"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "url": "https://www.peerspace.com/", "title": "Peerspace | Unique venues for events, meetings, photo & film shoots"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "6695C2641B3039738437A1240F72E68E", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/", "title": "Non-Profit Free Legal Search Engine and Alert System \u2013 CourtListener.com"}
+{"t": 129.851, "type": "context", "kind": "url_change", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "url": "https://www.peerspace.com/?activity_selection=Team+offsite&location=Chicago", "site": "peerspace"}
+{"t": 129.857, "type": "context", "kind": "url_change", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "url": "https://www.peerspace.com/?activity_selection=Team+offsite&location=Chicago&__cf_chl_rt_tk=Osv4oc5SeAzF68iQhtE1pgye8jUrjDH6wpnPSttREKw-1791914206-1.0.1.1-HwJGLzDOV4O_vIF1EOaFomXnKOWWQhGi9IklgyB97jo", "site": "peerspace"}
+{"t": 129.89, "type": "context", "kind": "url_change", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "url": "https://www.peerspace.com/?activity_selection=Team+offsite&location=Chicago", "site": "peerspace"}
+{"t": 155.105, "type": "context", "kind": "url_change", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "url": "https://www.peerspace.com/?activity_selection=Team+offsite&location=Chicago&__cf_chl_tk=Osv4oc5SeAzF68iQhtE1pgye8jUrjDH6wpnPSttREKw-1791914206-1.0.1.1-HwJGLzDOV4O_vIF1EOaFomXnKOWWQhGi9IklgyB97jo", "site": "peerspace"}
+{"t": 158.961, "type": "context", "kind": "url_change", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "url": "https://www.peerspace.com/?activity_selection=Team+offsite&location=Chicago", "site": "peerspace"}
+{"t": 159.61, "type": "context", "kind": "title_change", "target_id": "58684F8C89C841C1920FF0FA9F963CAA", "title": "Peerspace | Unique venues for events, meetings, photo & film shoots"}
+{"t": 273.437, "type": "context", "kind": "tab_opened", "target_id": "9BAD46A0F143652EAF60CCC516376032", "url": "about:blank", "title": ""}
+{"t": 273.455, "type": "context", "kind": "title_change", "target_id": "9BAD46A0F143652EAF60CCC516376032", "title": "about:blank"}
+{"t": 273.55, "type": "context", "kind": "url_change", "target_id": "9BAD46A0F143652EAF60CCC516376032", "url": "https://www.theguardian.com/europe", "site": "theguardian"}
+{"t": 335.282, "type": "context", "kind": "url_change", "target_id": "9BAD46A0F143652EAF60CCC516376032", "url": "https://www.theguardian.com/world/2026/oct/13/allies-did-not-warn-kyiv-of-russian-ballistic-missile-strikes-says-zelenskyy", "site": "theguardian"}
+{"t": 349.926, "type": "context", "kind": "title_change", "target_id": "9BAD46A0F143652EAF60CCC516376032", "title": "Allies did not warn Kyiv of Russian ballistic missile strikes, says Zelenskyy | Ukraine | The Guardian"}
+{"t": 349.926, "type": "context", "kind": "tab_closed", "target_id": "9BAD46A0F143652EAF60CCC516376032"}
+{"t": 374.801, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/search/advanced", "site": "arxiv"}
+{"t": 406.621, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/search/advanced?advanced=1&terms-0-operator=AND&terms-0-term=retrieval+augmented+generation&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2023&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first", "site": "arxiv"}
+{"t": 418.099, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/abs/2312.10466", "site": "arxiv"}
+{"t": 489.437, "type": "context", "kind": "tab_opened", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733", "url": "about:blank", "title": ""}
+{"t": 489.457, "type": "context", "kind": "title_change", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733", "title": "about:blank"}
+{"t": 489.666, "type": "context", "kind": "url_change", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733", "url": "https://weather.com/?Goto=Redirected", "site": "weather"}
+{"t": 491.125, "type": "context", "kind": "title_change", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733", "title": "National and Local Weather Radar, Daily Forecast, Hurricane and information from The Weather Channel and weather.com"}
+{"t": 532.235, "type": "context", "kind": "url_change", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733", "url": "https://weather.com/us/illinois/city/chicago/today", "site": "weather"}
+{"t": 532.967, "type": "context", "kind": "title_change", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733", "title": "Weather Forecast and Conditions for Chicago, Illinois - The Weather Channel | Weather.com"}
+{"t": 540.782, "type": "context", "kind": "tab_closed", "target_id": "65CBE5B8A952E53A0D66A8476B5E1733"}
+{"t": 546.632, "type": "context", "kind": "tab_opened", "target_id": "DEA0D4757EAA4D94DF0169AFCE28366C", "url": "about:blank", "title": ""}
+{"t": 546.654, "type": "context", "kind": "title_change", "target_id": "DEA0D4757EAA4D94DF0169AFCE28366C", "title": "about:blank"}
+{"t": 547.073, "type": "context", "kind": "url_change", "target_id": "DEA0D4757EAA4D94DF0169AFCE28366C", "url": "https://www.semanticscholar.org/", "site": "semanticscholar"}
+{"t": 577.368, "type": "context", "kind": "url_change", "target_id": "DEA0D4757EAA4D94DF0169AFCE28366C", "url": "https://www.semanticscholar.org/search?q=RIGHT%3A%20Retrieval-augmented%20Generation%20for%20Mainstream%20Hashtag%20Recommendation&sort=relevance", "site": "semanticscholar"}
+{"t": 589.742, "type": "context", "kind": "url_change", "target_id": "DEA0D4757EAA4D94DF0169AFCE28366C", "url": "https://www.semanticscholar.org/paper/RIGHT%3A-Retrieval-augmented-Generation-for-Hashtag-Fan-Fan/ed795e4913449e29ed57fdf92ccd8c7d109e1cfb", "site": "semanticscholar"}
+{"t": 600.077, "type": "context", "kind": "tab_closed", "target_id": "DEA0D4757EAA4D94DF0169AFCE28366C"}
+{"t": 660.807, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/?q=Carpenter%20v.%20United%20States", "site": "courtlistener"}
+{"t": 687.923, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/opinion/4510032/carpenter-v-united-states/?q=Carpenter+v.+United+States", "site": "courtlistener"}
+{"t": 695.876, "type": "context", "kind": "tab_opened", "target_id": "A2869950812BC27FC7CFA3B08D241DEA", "url": "about:blank", "title": ""}
+{"t": 695.898, "type": "context", "kind": "title_change", "target_id": "A2869950812BC27FC7CFA3B08D241DEA", "title": "about:blank"}
+{"t": 696.403, "type": "context", "kind": "url_change", "target_id": "A2869950812BC27FC7CFA3B08D241DEA", "url": "https://www.law.cornell.edu/", "site": "cornell"}
+{"t": 742.302, "type": "context", "kind": "url_change", "target_id": "A2869950812BC27FC7CFA3B08D241DEA", "url": "https://www.law.cornell.edu/search/searchResultsForm.html", "site": "cornell"}
+{"t": 754.703, "type": "context", "kind": "url_change", "target_id": "A2869950812BC27FC7CFA3B08D241DEA", "url": "https://www.law.cornell.edu/uscode/text/18/2703", "site": "cornell"}
+{"t": 760.083, "type": "context", "kind": "title_change", "target_id": "A2869950812BC27FC7CFA3B08D241DEA", "title": "18 U.S. Code \u00a7 2703 - Required disclosure of customer communications or records | U.S. Code | US Law | LII / Legal Information Institute"}
+{"t": 760.083, "type": "context", "kind": "tab_closed", "target_id": "A2869950812BC27FC7CFA3B08D241DEA"}
+{"t": 850.878, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/search/advanced", "site": "arxiv"}
+{"t": 869.498, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=protein+structure+diffusion&terms-0-field=title&classification-physics_archives=all&classification-q_biology=y&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2024&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first", "site": "arxiv"}
+{"t": 877.357, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/abs/2311.13466", "site": "arxiv"}
+{"t": 882.999, "type": "context", "kind": "tab_opened", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8", "url": "about:blank", "title": ""}
+{"t": 883.015, "type": "context", "kind": "title_change", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8", "title": "about:blank"}
+{"t": 883.235, "type": "context", "kind": "url_change", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8", "url": "https://www.semanticscholar.org/", "site": "semanticscholar"}
+{"t": 893.893, "type": "context", "kind": "url_change", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8", "url": "https://www.semanticscholar.org/search?q=Accelerating%20Inference%20in%20Molecular%20Diffusion%20Models%20with%20Latent%20Representations%20of%20Protein%20Structure&sort=relevance", "site": "semanticscholar"}
+{"t": 912.089, "type": "context", "kind": "url_change", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8", "url": "https://www.semanticscholar.org/paper/Accelerating-Inference-in-Molecular-Diffusion-with-Dunn-Koes/4dce31663630b64546c7168ae7076a40ca41ca62", "site": "semanticscholar"}
+{"t": 923.622, "type": "context", "kind": "title_change", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8", "title": "[PDF] Accelerating Inference in Molecular Diffusion Models with Latent Representations of Protein Structure | Semantic Scholar"}
+{"t": 923.622, "type": "context", "kind": "tab_closed", "target_id": "C8105B12C695555B7CFC87C7C2F10DF8"}
+{"t": 944.963, "type": "context", "kind": "url_change", "target_id": "0B883C9081D899C03B56C7CDD3507E29", "url": "https://www.1800flowers.com/searchterm/tulips", "site": "1800flowers"}
+{"t": 985.101, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/opinion/", "site": "courtlistener"}
+{"t": 1056.788, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/?type=o&q=Bostock%20v.%20Clayton%20County&type=o&order_by=score%20desc&stat_Published=on", "site": "courtlistener"}
+{"t": 1066.524, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/opinion/4760997/bostock-v-clayton-county/?type=o&type=o&q=Bostock+v.+Clayton+County&order_by=score+desc&stat_Published=on", "site": "courtlistener"}
+{"t": 1204.298, "type": "context", "kind": "tab_opened", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB", "url": "about:blank", "title": ""}
+{"t": 1204.315, "type": "context", "kind": "title_change", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB", "title": "about:blank"}
+{"t": 1204.342, "type": "context", "kind": "url_change", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB", "url": "https://www.law.cornell.edu/", "site": "cornell"}
+{"t": 1217.499, "type": "context", "kind": "url_change", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB", "url": "https://www.law.cornell.edu/search/searchResultsForm.html", "site": "cornell"}
+{"t": 1222.829, "type": "context", "kind": "url_change", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB", "url": "https://www.law.cornell.edu/uscode/text/42/2000e-2", "site": "cornell"}
+{"t": 1228.141, "type": "context", "kind": "title_change", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB", "title": "42 U.S. Code \u00a7 2000e-2 - Unlawful employment practices | U.S. Code | US Law | LII / Legal Information Institute"}
+{"t": 1228.142, "type": "context", "kind": "tab_closed", "target_id": "9A53A6B3E2C112C8E00E203B43C075CB"}
+{"t": 1290.976, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/search/advanced", "site": "arxiv"}
+{"t": 1304.655, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=graph+neural+networks+traffic+forecasting&terms-0-field=title&classification-computer_science=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=specific_year&date-year=2022&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first", "site": "arxiv"}
+{"t": 1311.817, "type": "context", "kind": "url_change", "target_id": "3EFCB5729DA7AD526D29A2AD062E365E", "url": "https://arxiv.org/abs/2211.03033", "site": "arxiv"}
+{"t": 1331.673, "type": "context", "kind": "url_change", "target_id": "0B883C9081D899C03B56C7CDD3507E29", "url": "https://www.1800flowers.com/searchterm/white+orchids", "site": "1800flowers"}
+{"t": 1338.74, "type": "context", "kind": "url_change", "target_id": "0B883C9081D899C03B56C7CDD3507E29", "url": "https://www.1800flowers.com/white-phalaenopsis-orchid-194767", "site": "1800flowers"}
+{"t": 1373.132, "type": "context", "kind": "tab_opened", "target_id": "AF832FB98E652FA2200246D45F643EE0", "url": "about:blank", "title": ""}
+{"t": 1373.148, "type": "context", "kind": "title_change", "target_id": "AF832FB98E652FA2200246D45F643EE0", "title": "about:blank"}
+{"t": 1373.377, "type": "context", "kind": "url_change", "target_id": "AF832FB98E652FA2200246D45F643EE0", "url": "https://www.semanticscholar.org/", "site": "semanticscholar"}
+{"t": 1386.467, "type": "context", "kind": "url_change", "target_id": "AF832FB98E652FA2200246D45F643EE0", "url": "https://www.semanticscholar.org/search?q=Efficient%20Traffic%20State%20Forecasting%20using%20Spatio-Temporal%20Network%20Dependencies%3A%20A%20Sparse%20Graph%20Neural%20Network%20Approach&sort=relevance", "site": "semanticscholar"}
+{"t": 1395.064, "type": "context", "kind": "url_change", "target_id": "AF832FB98E652FA2200246D45F643EE0", "url": "https://www.semanticscholar.org/paper/Efficient-Traffic-State-Forecasting-using-Network-A-Lei-Huang/98844f755d41303fa53227e054265c6dcd00ea92", "site": "semanticscholar"}
+{"t": 1404.904, "type": "context", "kind": "title_change", "target_id": "AF832FB98E652FA2200246D45F643EE0", "title": "[PDF] Efficient Traffic State Forecasting using Spatio-Temporal Network Dependencies: A Sparse Graph Neural Network Approach | Semantic Scholar"}
+{"t": 1404.904, "type": "context", "kind": "tab_closed", "target_id": "AF832FB98E652FA2200246D45F643EE0"}
+{"t": 1460.539, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/opinion/", "site": "courtlistener"}
+{"t": 1473.762, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/?type=o&q=Miranda%20v.%20Arizona&type=o&order_by=score%20desc&stat_Published=on", "site": "courtlistener"}
+{"t": 1488.678, "type": "context", "kind": "url_change", "target_id": "A8BFE76AEBF9E871E6240968815F5FF0", "url": "https://www.courtlistener.com/opinion/107252/miranda-v-arizona/?type=o&type=o&q=Miranda+v.+Arizona&order_by=score+desc&stat_Published=on", "site": "courtlistener"}
+{"t": 1496.394, "type": "context", "kind": "tab_opened", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA", "url": "about:blank", "title": ""}
+{"t": 1496.435, "type": "context", "kind": "title_change", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA", "title": "about:blank"}
+{"t": 1496.471, "type": "context", "kind": "url_change", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA", "url": "https://www.law.cornell.edu/", "site": "cornell"}
+{"t": 1506.387, "type": "context", "kind": "url_change", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA", "url": "https://www.law.cornell.edu/search/searchResultsForm.html", "site": "cornell"}
+{"t": 1511.594, "type": "context", "kind": "url_change", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA", "url": "https://www.law.cornell.edu/uscode/text/18/3501", "site": "cornell"}
+{"t": 1519.257, "type": "context", "kind": "title_change", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA", "title": "18 U.S. Code \u00a7 3501 - Admissibility of confessions | U.S. Code | US Law | LII / Legal Information Institute"}
+{"t": 1519.258, "type": "context", "kind": "tab_closed", "target_id": "C397EEC98C53E8287D2FF97D3253B6BA"}
+{"t": 1535.849, "type": "context", "kind": "tab_opened", "target_id": "16CF1AA2364EC44E4A9F18E3392DA883", "url": "about:blank", "title": ""}
+{"t": 1535.869, "type": "context", "kind": "title_change", "target_id": "16CF1AA2364EC44E4A9F18E3392DA883", "title": "about:blank"}
+{"t": 1535.992, "type": "context", "kind": "url_change", "target_id": "16CF1AA2364EC44E4A9F18E3392DA883", "url": "https://en.wikipedia.org/wiki/Main_Page", "site": "wikipedia"}
+{"t": 1555.584, "type": "context", "kind": "url_change", "target_id": "16CF1AA2364EC44E4A9F18E3392DA883", "url": "https://en.wikipedia.org/wiki/Hamp%27s_Boogie_Woogie", "site": "wikipedia"}
+{"t": 1564.395, "type": "context", "kind": "title_change", "target_id": "16CF1AA2364EC44E4A9F18E3392DA883", "title": "Hamp's Boogie Woogie - Wikipedia"}
+{"t": 1564.395, "type": "context", "kind": "tab_closed", "target_id": "16CF1AA2364EC44E4A9F18E3392DA883"}
+{"t": 1626.317, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

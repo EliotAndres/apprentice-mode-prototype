@@ -1,0 +1,494 @@
+{
+ "session_id": "agent13",
+ "action_t": [
+  82.896,
+  86.905,
+  95.59,
+  96.593,
+  106.23,
+  124.991,
+  126.039,
+  128.081,
+  128.082,
+  138.288,
+  152.171,
+  154.181,
+  154.181,
+  216.494,
+  220.503,
+  221.719,
+  314.944,
+  323.257,
+  342.248,
+  343.253,
+  345.266,
+  345.266,
+  355.734,
+  365.3,
+  367.31,
+  367.311,
+  380.406,
+  381.414,
+  383.423,
+  396.919,
+  398.955,
+  398.955,
+  409.285,
+  421.495,
+  436.12,
+  489.299,
+  491.318,
+  491.319,
+  497.373,
+  507.542,
+  510.653,
+  510.653,
+  517.542,
+  528.216,
+  530.236,
+  530.237,
+  538.4,
+  542.427,
+  542.427,
+  556.671,
+  561.69,
+  589.775,
+  589.776,
+  600.161,
+  610.248,
+  610.249,
+  632.658,
+  634.687,
+  634.687,
+  641.124,
+  653.067,
+  655.08,
+  655.08,
+  664.515,
+  666.611,
+  666.612,
+  675.257,
+  706.541,
+  714.602,
+  714.602,
+  731.781,
+  732.801,
+  734.825,
+  734.825,
+  740.664,
+  861.62,
+  867.248,
+  873.034,
+  880.851,
+  892.378,
+  894.396,
+  894.397,
+  906.374,
+  918.233,
+  920.272,
+  920.273,
+  942.277,
+  943.305,
+  945.33,
+  945.331,
+  952.697,
+  964.59,
+  975.117,
+  977.133,
+  977.133,
+  987.54,
+  989.554,
+  989.554,
+  995.614,
+  1006.742,
+  1008.75,
+  1008.75,
+  1062.241,
+  1063.341,
+  1065.372,
+  1065.373,
+  1074.15,
+  1090.058,
+  1095.806,
+  1102.169,
+  1109.028,
+  1130.72
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent13-op0",
+   "template_id": "agent13-op0",
+   "name": "Plan a literature unit: a public-domain novel on Gutenberg and its film adaptation on IMDb",
+   "use_case": "Education",
+   "description": "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter -> Open the matching book and note its author and its download count from the bibliographic record -> Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating -> Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter",
+   "site": "gutenberg.org, imdb.com, notes.localhost",
+   "parameters": [
+    "book"
+   ],
+   "steps": [
+    "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter",
+    "Open the matching book and note its author and its download count from the bibliographic record",
+    "Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating",
+    "Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+   ],
+   "observed_seconds": 213.0,
+   "instances": [
+    {
+     "task_id": "LIT.1",
+     "spans": [
+      [
+       67.0,
+       155.0
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "seconds": 88.0,
+     "values": {
+      "book": "Frankenstein"
+     }
+    },
+    {
+     "task_id": "LIT.2",
+     "spans": [
+      [
+       483.0,
+       531.0
+      ]
+     ],
+     "seqs": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+     ],
+     "seconds": 48.0,
+     "values": {
+      "book": "Pride and Prejudice"
+     }
+    },
+    {
+     "task_id": "LIT.3",
+     "spans": [
+      [
+       883.0,
+       909.0
+      ],
+      [
+       927.0,
+       978.0
+      ]
+     ],
+     "seqs": [
+      79,
+      80,
+      81,
+      82,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+     ],
+     "seconds": 77.0,
+     "values": {
+      "book": "Treasure Island"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent13-op1",
+   "template_id": "agent13-op1",
+   "name": "Prepare a geography fact card from Wikipedia and the capital's local time",
+   "use_case": "Education",
+   "description": "In the Wikipedia tab, click the search box, type {country} and open the country article -> From the infobox, note the population, official language(s) and currency -> Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time -> Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter",
+   "site": "wikipedia.org, timeanddate.com, notes.localhost",
+   "parameters": [
+    "country",
+    "capital"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type {country} and open the country article",
+    "From the infobox, note the population, official language(s) and currency",
+    "Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time",
+    "Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter"
+   ],
+   "observed_seconds": 237.0,
+   "instances": [
+    {
+     "task_id": "GEO.1",
+     "spans": [
+      [
+       207.0,
+       230.0
+      ],
+      [
+       330.0,
+       369.0
+      ]
+     ],
+     "seqs": [
+      13,
+      14,
+      15,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "seconds": 62.0,
+     "values": {
+      "country": "Peru",
+      "capital": "Lima"
+     }
+    },
+    {
+     "task_id": "GEO.2",
+     "spans": [
+      [
+       531.0,
+       656.0
+      ]
+     ],
+     "seqs": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+     ],
+     "seconds": 125.0,
+     "values": {
+      "country": "Vietnam",
+      "capital": "Hanoi"
+     }
+    },
+    {
+     "task_id": "GEO.3",
+     "spans": [
+      [
+       909.0,
+       927.0
+      ],
+      [
+       978.0,
+       1010.0
+      ]
+     ],
+     "seqs": [
+      83,
+      84,
+      85,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+     ],
+     "seconds": 50.0,
+     "values": {
+      "country": "Morocco",
+      "capital": "Rabat"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     155.0,
+     207.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 52.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     290.0,
+     330.0
+    ]
+   ],
+   "seqs": [
+    16,
+    17
+   ],
+   "seconds": 40.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to allrecipes.com, scroll the home page, open one recipe, skim it, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     656.0,
+     670.0
+    ]
+   ],
+   "seqs": [
+    63,
+    64,
+    65
+   ],
+   "seconds": 14.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the IMDb tab, search \"Dune\", scroll the results, then give up without opening any"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     841.0,
+     857.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 16.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and Project Gutenberg tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     1111.0,
+     1135.0
+    ]
+   ],
+   "seqs": [
+    111
+   ],
+   "seconds": 24.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "FIELDTRIP.1",
+   "spans": [
+    [
+     369.0,
+     483.0
+    ]
+   ],
+   "seqs": [
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "seconds": 114.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of FIELDTRIP.1"
+  },
+  {
+   "task_id": "FIELDTRIP.2",
+   "spans": [
+    [
+     670.0,
+     751.0
+    ],
+    [
+     857.0,
+     883.0
+    ]
+   ],
+   "seqs": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+   ],
+   "seconds": 107.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of FIELDTRIP.2"
+  },
+  {
+   "task_id": "FIELDTRIP.3",
+   "spans": [
+    [
+     1055.0,
+     1111.0
+    ]
+   ],
+   "seqs": [
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110
+   ],
+   "seconds": 56.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of FIELDTRIP.3"
+  }
+ ]
+}

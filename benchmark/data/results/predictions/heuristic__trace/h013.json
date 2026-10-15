@@ -1,0 +1,174 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 5-step flow on agoda",
+   "description": "Repeated sequence on agoda starting with CLICK path \"\"",
+   "site": "agoda",
+   "steps": [
+    "CLICK path \"\"",
+    "TYPE combobox \"Flying from\"",
+    "CLICK option \"Destination Belo Horizonte\"",
+    "TYPE combobox \"Flying to\"",
+    "CLICK option \"Destination Buenos Aires\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 171.52,
+     "end_t": 191.78,
+     "values": "Belo Horizonte, Buenos Aires"
+    },
+    {
+     "start_t": 746.87,
+     "end_t": 756.57,
+     "values": "MUMBAI, NEW DELHI"
+    },
+    {
+     "start_t": 998.8,
+     "end_t": 1028.63,
+     "values": "London, New York"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on yellowpages",
+   "description": "Repeated sequence on yellowpages starting with CLICK link \"CITY PAGES\"",
+   "site": "yellowpages",
+   "steps": [
+    "CLICK link \"CITY PAGES\"",
+    "CLICK link \"Columbus\"",
+    "CLICK link \"Search for more\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 264.09,
+     "end_t": 275.39,
+     "values": ""
+    },
+    {
+     "start_t": 313.07,
+     "end_t": 327.35,
+     "values": "new york"
+    },
+    {
+     "start_t": 979.31,
+     "end_t": 992.31,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on travelzoo",
+   "description": "Repeated sequence on travelzoo starting with TYPE textbox \"Where?\"",
+   "site": "travelzoo",
+   "steps": [
+    "TYPE textbox \"Where?\"",
+    "CLICK div \"Fiji\"",
+    "CLICK button \"Filter\"",
+    "CLICK button \"Highest Rated\"",
+    "CLICK button \"DONE\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 134.7,
+     "end_t": 149.88,
+     "values": "Fiji"
+    },
+    {
+     "start_t": 334.12,
+     "end_t": 358.68,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on exploretock",
+   "description": "Repeated sequence on exploretock starting with CLICK svg \"\"",
+   "site": "exploretock",
+   "steps": [
+    "CLICK svg \"\"",
+    "CLICK span \"Reservations\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 219.17,
+     "end_t": 224.05,
+     "values": ""
+    },
+    {
+     "start_t": 455.61,
+     "end_t": 461.33,
+     "values": ""
+    },
+    {
+     "start_t": 736.29,
+     "end_t": 741.37,
+     "values": ""
+    },
+    {
+     "start_t": 1031.92,
+     "end_t": 1037.9,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on agoda",
+   "description": "Repeated sequence on agoda starting with CLICK span \"24\"",
+   "site": "agoda",
+   "steps": [
+    "CLICK span \"24\"",
+    "CLICK button \"Plus Adults (12yrs and above)\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 210.1,
+     "end_t": 214.9,
+     "values": ""
+    },
+    {
+     "start_t": 1041.79,
+     "end_t": 1056.22,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on travelzoo",
+   "description": "Repeated sequence on travelzoo starting with CLICK div \"Luxury Trips\"",
+   "site": "travelzoo",
+   "steps": [
+    "CLICK div \"Luxury Trips\"",
+    "CLICK div \"Anywhere\"",
+    "CLICK textbox \"When?\"",
+    "CLICK li \"Spring\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 29.83,
+     "end_t": 41.58,
+     "values": ""
+    },
+    {
+     "start_t": 304.16,
+     "end_t": 311.17,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

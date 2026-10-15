@@ -1,0 +1,408 @@
+{
+ "opportunities": [
+  {
+   "name": "SpotHero monthly parking search by location",
+   "description": "Search SpotHero monthly parking for a given location and start date, optionally applying a filter or sort order.",
+   "site": "spothero",
+   "steps": [
+    "Open SpotHero and select the Monthly tab",
+    "Type the location into the search box",
+    "Pick the matching suggestion",
+    "Open the Monthly Start Date picker and choose a date",
+    "Click Update Search",
+    "Optionally open Filter, tick an option and click Show Results, or change the sort order",
+    "Optionally open View Details on a listing"
+   ],
+   "parameters": [
+    "location",
+    "start date",
+    "filter option",
+    "sort order"
+   ],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "actions": [
+      3,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      25,
+      26
+     ],
+     "values": "New York, start date changed to Jul 5",
+     "segments": [
+      {
+       "start_t": 14.75,
+       "end_t": 14.75
+      },
+      {
+       "start_t": 50.49,
+       "end_t": 86.24
+      },
+      {
+       "start_t": 141.85,
+       "end_t": 146.05
+      }
+     ]
+    },
+    {
+     "actions": [
+      27,
+      28,
+      29,
+      32,
+      33,
+      34
+     ],
+     "values": "florida keys, start date Apr 12",
+     "segments": [
+      {
+       "start_t": 149.54,
+       "end_t": 159.18
+      },
+      {
+       "start_t": 173.01,
+       "end_t": 179.79
+      }
+     ]
+    },
+    {
+     "actions": [
+      39,
+      40,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+     ],
+     "values": "street taco (Broadway, NYC), start date May 6, Self Park filter",
+     "segments": [
+      {
+       "start_t": 197.25,
+       "end_t": 202.12
+      },
+      {
+       "start_t": 220.89,
+       "end_t": 257.88
+      }
+     ]
+    },
+    {
+     "actions": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      86,
+      94
+     ],
+     "values": "Chicago, EV Charging filter, sort by price",
+     "segments": [
+      {
+       "start_t": 798.23,
+       "end_t": 822.31
+      },
+      {
+       "start_t": 1445.64,
+       "end_t": 1445.64
+      },
+      {
+       "start_t": 1491.92,
+       "end_t": 1491.92
+      }
+     ]
+    },
+    {
+     "actions": [
+      104,
+      105,
+      106,
+      107,
+      112,
+      113,
+      114
+     ],
+     "values": "Stripe 5th Avenue Seattle, Daytime Only Parking, sort by price",
+     "segments": [
+      {
+       "start_t": 1550.42,
+       "end_t": 1566.02
+      },
+      {
+       "start_t": 1594.25,
+       "end_t": 1603.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Parking.com daily parking search with filter",
+   "description": "Search Parking.com for a venue or address and apply a filter in the results panel.",
+   "site": "parking",
+   "steps": [
+    "Type the venue or address into the search box",
+    "Select the suggestion",
+    "Click Filters",
+    "Tick a filter checkbox"
+   ],
+   "parameters": [
+    "venue or address",
+    "filter option"
+   ],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "actions": [
+      68,
+      69,
+      70,
+      71
+     ],
+     "values": "Venice Beach, Accepts Mobile Coupons",
+     "segments": [
+      {
+       "start_t": 341.23,
+       "end_t": 355.25
+      }
+     ]
+    },
+    {
+     "actions": [
+      97,
+      98,
+      99,
+      100
+     ],
+     "values": "sofi stadium, Parking & Pay with Phone",
+     "segments": [
+      {
+       "start_t": 1508.35,
+       "end_t": 1524.29
+      }
+     ]
+    },
+    {
+     "actions": [
+      124,
+      125,
+      134,
+      135
+     ],
+     "values": "Thalia Hall, Pre-Purchased Available",
+     "segments": [
+      {
+       "start_t": 1660.59,
+       "end_t": 1665.36
+      },
+      {
+       "start_t": 1706.64,
+       "end_t": 1710.81
+      }
+     ]
+    },
+    {
+     "actions": [
+      147,
+      148,
+      149,
+      150
+     ],
+     "values": "stewart hotel, then Book Monthly Parking",
+     "segments": [
+      {
+       "start_t": 1777.31,
+       "end_t": 1799.11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Yelp search with extra features filter",
+   "description": "Search Yelp for a business category, open the All filters panel, see all features and tick feature checkboxes.",
+   "site": "yelp",
+   "steps": [
+    "Type a query into the Find box",
+    "Select the suggestion",
+    "Click All filters",
+    "Click See all under Features",
+    "Tick the feature checkboxes",
+    "Click Add"
+   ],
+   "parameters": [
+    "search term",
+    "feature checkboxes"
+   ],
+   "confidence": 0.6,
+   "instances": [
+    {
+     "actions": [
+      0,
+      1,
+      17,
+      18,
+      19,
+      30,
+      31
+     ],
+     "values": "barbershop, Private Lot",
+     "segments": [
+      {
+       "start_t": 4.21,
+       "end_t": 6.4
+      },
+      {
+       "start_t": 97.52,
+       "end_t": 106.55
+      },
+      {
+       "start_t": 163.96,
+       "end_t": 169.07
+      }
+     ]
+    },
+    {
+     "actions": [
+      35,
+      36,
+      37,
+      38,
+      41,
+      42,
+      43
+     ],
+     "values": "cafe, Outdoor Seating and Dogs Allowed",
+     "segments": [
+      {
+       "start_t": 183.5,
+       "end_t": 192.46
+      },
+      {
+       "start_t": 207.75,
+       "end_t": 217.54
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tripadvisor flight search with airport entry",
+   "description": "Enter origin and destination airports in Tripadvisor Flights, set dates and travelers, then search.",
+   "site": "tripadvisor",
+   "steps": [
+    "Open More then Flights",
+    "Choose trip type",
+    "Type the origin city in City or Airport and select it",
+    "Type the destination and select it",
+    "Set the date and travelers",
+    "Click Find flights"
+   ],
+   "parameters": [
+    "origin",
+    "destination",
+    "dates",
+    "travelers",
+    "trip type"
+   ],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "actions": [
+      102,
+      103,
+      111,
+      115,
+      116
+     ],
+     "values": "one-way, origin San Francisco",
+     "segments": [
+      {
+       "start_t": 1540.13,
+       "end_t": 1545.38
+      },
+      {
+       "start_t": 1588.36,
+       "end_t": 1588.36
+      },
+      {
+       "start_t": 1610.47,
+       "end_t": 1616.05
+      }
+     ]
+    },
+    {
+     "actions": [
+      121,
+      122,
+      123,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
+     ],
+     "values": "SFO to San Diego, Jul 1, 3 travelers",
+     "segments": [
+      {
+       "start_t": 1644.37,
+       "end_t": 1653.44
+      },
+      {
+       "start_t": 1670.69,
+       "end_t": 1703.7
+      }
+     ]
+    },
+    {
+     "actions": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      143
+     ],
+     "values": "Toronto to New York City",
+     "segments": [
+      {
+       "start_t": 1716.29,
+       "end_t": 1745.11
+      },
+      {
+       "start_t": 1754.44,
+       "end_t": 1754.44
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.2555456,
+  "seconds": 18.8,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

@@ -1,0 +1,271 @@
+{
+ "opportunities": [
+  {
+   "name": "Book unit note: Gutenberg + IMDb to notes",
+   "description": "For a given book title, get author and download count from Project Gutenberg, find the film adaptation's year and rating on IMDb, and save a 'Unit:' note.",
+   "site": "gutenberg",
+   "steps": [
+    "Search the book title on Project Gutenberg",
+    "Open the matching book result and read author and download count",
+    "Search the same title on IMDb",
+    "Open the matching film and read year and rating",
+    "Add a new note 'Unit: <title> by <author> (<downloads> downloads). Film: <year>, rated <rating>'"
+   ],
+   "parameters": [
+    "book title"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "values": "Frankenstein",
+     "segments": [
+      {
+       "start_t": 82.896,
+       "end_t": 154.181
+      }
+     ]
+    },
+    {
+     "actions": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+     ],
+     "values": "Pride and Prejudice",
+     "segments": [
+      {
+       "start_t": 489.299,
+       "end_t": 530.237
+      }
+     ]
+    },
+    {
+     "actions": [
+      79,
+      80,
+      81,
+      82,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+     ],
+     "values": "Treasure Island",
+     "segments": [
+      {
+       "start_t": 892.378,
+       "end_t": 906.374
+      },
+      {
+       "start_t": 942.277,
+       "end_t": 977.133
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Country geography note: Wikipedia + timeanddate to notes",
+   "description": "For a country, look up facts on Wikipedia, find the capital's current time on timeanddate, and save a 'Geography:' note.",
+   "site": "wikipedia",
+   "steps": [
+    "Search the country on Wikipedia and read capital, population, languages, currency",
+    "Search the capital on timeanddate and open the result to read current time",
+    "Add a new note 'Geography: <country>, capital <capital>, pop <pop>, <languages>, <currency>, time now <time>'"
+   ],
+   "parameters": [
+    "country",
+    "capital"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      13,
+      14,
+      15,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25
+     ],
+     "values": "Peru, Lima",
+     "segments": [
+      {
+       "start_t": 216.494,
+       "end_t": 221.719
+      },
+      {
+       "start_t": 343.253,
+       "end_t": 367.311
+      }
+     ]
+    },
+    {
+     "actions": [
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62
+     ],
+     "values": "Vietnam, Hanoi",
+     "segments": [
+      {
+       "start_t": 538.4,
+       "end_t": 655.08
+      }
+     ]
+    },
+    {
+     "actions": [
+      83,
+      84,
+      85,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+     ],
+     "values": "Morocco, Rabat",
+     "segments": [
+      {
+       "start_t": 918.233,
+       "end_t": 920.273
+      },
+      {
+       "start_t": 987.54,
+       "end_t": 1008.75
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Viator museum ticket search",
+   "description": "Search Viator for a museum's tickets and open a result listing.",
+   "site": "viator",
+   "steps": [
+    "Click the search box",
+    "Type '<museum> tickets' and press Enter",
+    "Open a result from the list"
+   ],
+   "parameters": [
+    "museum name"
+   ],
+   "confidence": 0.6,
+   "instances": [
+    {
+     "actions": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34
+     ],
+     "values": "Natural History Museum tickets",
+     "segments": [
+      {
+       "start_t": 396.919,
+       "end_t": 436.12
+      }
+     ]
+    },
+    {
+     "actions": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+     ],
+     "values": "Louvre tickets",
+     "segments": [
+      {
+       "start_t": 675.257,
+       "end_t": 740.664
+      }
+     ]
+    },
+    {
+     "actions": [
+      102,
+      103,
+      104,
+      105,
+      106
+     ],
+     "values": "Rijksmuseum tickets",
+     "segments": [
+      {
+       "start_t": 1062.241,
+       "end_t": 1074.15
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.042285100000000006,
+  "seconds": 7.3,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

@@ -1,0 +1,502 @@
+{
+ "session_id": "h002",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  3.96,
+  9.72,
+  16.22,
+  21.49,
+  27.68,
+  33.55,
+  36.69,
+  43.95,
+  49.84,
+  54.71,
+  59.81,
+  68.02,
+  74.48,
+  81.27,
+  85.71,
+  90.91,
+  345.28,
+  352.5,
+  359.21,
+  366.08,
+  370.2,
+  375.48,
+  379.48,
+  383.8,
+  388.04,
+  392.38,
+  397.7,
+  402.48,
+  408.58,
+  413.61,
+  418.91,
+  423.12,
+  427.56,
+  432.58,
+  437.92,
+  444.19,
+  452.27,
+  456.52,
+  460.66,
+  465.11,
+  469.76,
+  475.78,
+  479.45,
+  486.57,
+  493.74,
+  497.27,
+  500.87,
+  505.87,
+  510.54,
+  514.42,
+  522.68,
+  525.32,
+  532.15,
+  536.84,
+  541.67,
+  545.98,
+  551.51,
+  556.0,
+  562.38,
+  568.21,
+  572.16,
+  577.17,
+  582.23,
+  587.94,
+  592.86,
+  597.31,
+  603.76,
+  606.5,
+  613.74,
+  621.41,
+  629.51,
+  634.45,
+  637.54,
+  641.57,
+  645.52,
+  651.23,
+  657.08,
+  661.43,
+  664.48,
+  671.19,
+  678.81,
+  685.75,
+  692.15,
+  1077.3
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h002-op0",
+   "template_id": "flightaware:compare_products_plans",
+   "site": "flightaware",
+   "name": "Compare product plans/subscriptions",
+   "description": "Navigate Products menu to {product} and compare plans/tiers.",
+   "parameters": [
+    "product",
+    "final_action"
+   ],
+   "steps": [
+    "Open Products menu",
+    "Select product",
+    "Click compare button/link",
+    "Optionally click Upgrade"
+   ],
+   "observed_seconds": 39.5,
+   "instances": [
+    {
+     "task_id": "8a39a66d-cd0c-4741-b616-d2d7be631abf",
+     "task": "Compare available plans for the AeroAPI.",
+     "site": "flightaware",
+     "spans": [
+      [
+       456.52,
+       456.52
+      ],
+      [
+       486.57,
+       493.74
+      ]
+     ],
+     "seqs": [
+      37,
+      43,
+      44
+     ],
+     "seconds": 18.5,
+     "values": {
+      "product": "AeroAPI",
+      "final_action": "none"
+     }
+    },
+    {
+     "task_id": "e8603513-2740-485e-adf9-86361dd015f4",
+     "task": "Compare FlightAware subscriptions and signup for Enterprise plan.",
+     "site": "flightaware",
+     "spans": [
+      [
+       541.67,
+       551.51
+      ],
+      [
+       562.38,
+       562.38
+      ]
+     ],
+     "seqs": [
+      54,
+      55,
+      56,
+      58
+     ],
+     "seconds": 21.0,
+     "values": {
+      "product": "Premium Subscriptions",
+      "final_action": "Upgrade to Enterprise"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h002-op1",
+   "template_id": "aa:check_flight_status_by_number",
+   "site": "aa",
+   "name": "Check flight status by number",
+   "description": "Check status of flight {flight_number} on {date}.",
+   "parameters": [
+    "flight_number",
+    "date"
+   ],
+   "steps": [
+    "Open Flight status",
+    "Select Flight number tab",
+    "Enter flight number",
+    "Select date",
+    "Click Search"
+   ],
+   "observed_seconds": 61.3,
+   "instances": [
+    {
+     "task_id": "63529dc2-7b13-493e-9a0c-b1ce50256a16",
+     "task": "Search for the flight status for the flight 12345678 leaving on april 7",
+     "site": "aa",
+     "spans": [
+      [
+       3.96,
+       27.68
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "seconds": 27.7,
+     "values": {
+      "flight_number": "12345678",
+      "date": "April 7"
+     }
+    },
+    {
+     "task_id": "7b05f537-af7a-4fd7-972b-123ce5a34294",
+     "task": "Check status of flight 6944 on April 6",
+     "site": "aa",
+     "spans": [
+      [
+       359.21,
+       370.2
+      ],
+      [
+       402.48,
+       413.61
+      ]
+     ],
+     "seqs": [
+      18,
+      19,
+      20,
+      27,
+      28,
+      29
+     ],
+     "seconds": 33.6,
+     "values": {
+      "flight_number": "6944",
+      "date": "April 6"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h002-op2",
+   "template_id": "amtrak:deals_by_region",
+   "site": "amtrak",
+   "name": "Find deals by region",
+   "description": "Show deals and promotions for {region}.",
+   "parameters": [
+    "region"
+   ],
+   "steps": [
+    "Click DEALS",
+    "Open Deals & Promotions",
+    "Click All Regions",
+    "Select {region}"
+   ],
+   "observed_seconds": 41.2,
+   "instances": [
+    {
+     "task_id": "2089ee5c-1ccd-495e-9a80-f62e129554ed",
+     "task": "What are the deals in California",
+     "site": "amtrak",
+     "spans": [
+      [
+       33.55,
+       49.84
+      ]
+     ],
+     "seqs": [
+      5,
+      6,
+      7,
+      8
+     ],
+     "seconds": 22.2,
+     "values": {
+      "region": "California"
+     }
+    },
+    {
+     "task_id": "f355cfcf-a3f7-47e4-b0be-b1c595e0954e",
+     "task": "Show me current deals for California.",
+     "site": "amtrak",
+     "spans": [
+      [
+       418.91,
+       432.58
+      ]
+     ],
+     "seqs": [
+      30,
+      31,
+      32,
+      33
+     ],
+     "seconds": 19.0,
+     "values": {
+      "region": "California"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "4947d606-626e-4da3-a595-bfedacbed3ec",
+   "task": "Request ticket receipt for ticket no. 1234567890123 and last name Davis",
+   "site": "aa",
+   "spans": [
+    [
+     556.0,
+     556.0
+    ],
+    [
+     568.21,
+     587.94
+    ],
+    [
+     613.74,
+     613.74
+    ]
+   ],
+   "seqs": [
+    57,
+    59,
+    60,
+    61,
+    62,
+    63,
+    68
+   ],
+   "seconds": 37.3,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "fbefeb82-f3e6-4db4-acc6-a68b1d519ba7",
+   "task": "Add a parking button code for my company Boston Legal located near Boston Navy Yard, and the button should be 160x400 pixels, and the parking spot should be within 15 miles of my address.",
+   "site": "parking",
+   "spans": [
+    [
+     68.02,
+     90.91
+    ],
+    [
+     379.48,
+     379.48
+    ],
+    [
+     388.04,
+     397.7
+    ]
+   ],
+   "seqs": [
+    11,
+    12,
+    13,
+    14,
+    15,
+    22,
+    24,
+    25,
+    26
+   ],
+   "seconds": 49.0,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "f9c80513-c1c2-42ef-b768-9a6d0bb5a9a5",
+   "task": "Find discussions of community and open one with most replies.",
+   "site": "flightaware",
+   "spans": [
+    [
+     592.86,
+     606.5
+    ]
+   ],
+   "seqs": [
+    64,
+    65,
+    66,
+    67
+   ],
+   "seconds": 18.6,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "52a8bace-f14c-41ce-980f-50d95e5ac259",
+   "task": "Show the list of countries with the highest number of seen aircrafts.",
+   "site": "flightaware",
+   "spans": [
+    [
+     437.92,
+     452.27
+    ]
+   ],
+   "seqs": [
+    34,
+    35,
+    36
+   ],
+   "seconds": 19.7,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "f0f8088f-46dc-453a-b695-772b30421ece",
+   "task": "Find trip for 123456 last name Smith.",
+   "site": "amtrak",
+   "spans": [
+    [
+     54.71,
+     59.81
+    ],
+    [
+     345.28,
+     352.5
+    ],
+    [
+     375.48,
+     375.48
+    ],
+    [
+     383.8,
+     383.8
+    ]
+   ],
+   "seqs": [
+    9,
+    10,
+    16,
+    17,
+    21,
+    23
+   ],
+   "seconds": 281.2,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "274571ea-fc2f-4353-86ba-00ecb112d6d2",
+   "task": "Find multi-colored fillable eggs for easter eggs made from polypropylene priced between 5 to 10 dollars for pick-up from Barboursville, zip 25504.",
+   "site": "target",
+   "spans": [
+    [
+     460.66,
+     479.45
+    ],
+    [
+     497.27,
+     510.54
+    ],
+    [
+     536.84,
+     536.84
+    ],
+    [
+     621.41,
+     1077.3
+    ]
+   ],
+   "seqs": [
+    38,
+    39,
+    40,
+    41,
+    42,
+    45,
+    46,
+    47,
+    48,
+    53,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83
+   ],
+   "seconds": 508.0,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "01c6e863-be94-4c6b-b9c1-55c203332f50",
+   "task": "Find an editor's choice review with a score of 10 in the boardgame category.",
+   "site": "ign",
+   "spans": [
+    [
+     514.42,
+     532.15
+    ]
+   ],
+   "seqs": [
+    49,
+    50,
+    51,
+    52
+   ],
+   "seconds": 21.6,
+   "kind": "distractor"
+  }
+ ]
+}

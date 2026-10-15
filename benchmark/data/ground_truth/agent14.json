@@ -1,0 +1,626 @@
+{
+ "session_id": "agent14",
+ "action_t": [
+  73.948,
+  77.974,
+  86.502,
+  87.513,
+  92.553,
+  102.576,
+  120.361,
+  134.438,
+  145.744,
+  146.853,
+  150.866,
+  164.938,
+  179.576,
+  191.659,
+  195.666,
+  284.375,
+  291.053,
+  293.067,
+  293.068,
+  381.323,
+  396.922,
+  398.963,
+  411.55,
+  412.56,
+  416.581,
+  423.006,
+  424.037,
+  448.189,
+  455.203,
+  456.222,
+  457.246,
+  471.276,
+  479.38,
+  480.385,
+  482.396,
+  482.396,
+  493.935,
+  495.943,
+  495.943,
+  508.22,
+  533.106,
+  540.793,
+  543.727,
+  548.681,
+  550.705,
+  564.132,
+  566.142,
+  566.142,
+  570.146,
+  576.187,
+  578.194,
+  578.194,
+  588.923,
+  589.972,
+  592.0,
+  592.0,
+  604.948,
+  620.725,
+  628.47,
+  630.485,
+  646.395,
+  647.408,
+  649.427,
+  649.427,
+  669.98,
+  680.179,
+  682.186,
+  682.186,
+  687.555,
+  689.571,
+  689.571,
+  708.778,
+  709.795,
+  713.805,
+  718.298,
+  719.312,
+  726.481,
+  727.503,
+  728.529,
+  737.554,
+  747.951,
+  749.956,
+  749.956,
+  757.666,
+  758.688,
+  760.712,
+  760.713,
+  774.429,
+  776.439,
+  776.44,
+  783.946,
+  790.994,
+  792.023,
+  796.033,
+  799.853,
+  801.965,
+  915.198,
+  917.206,
+  917.206,
+  921.21,
+  926.038,
+  928.05,
+  928.051,
+  934.99,
+  936.061,
+  938.1,
+  938.1,
+  952.086,
+  961.075,
+  963.09,
+  963.09,
+  977.604,
+  978.613,
+  985.73,
+  987.744,
+  987.745,
+  1001.254,
+  1002.263,
+  1004.27,
+  1004.27,
+  1010.52,
+  1019.946,
+  1021.961,
+  1021.961,
+  1028.654,
+  1029.666,
+  1033.693,
+  1036.825,
+  1037.841,
+  1044.884,
+  1052.048,
+  1053.074,
+  1054.112,
+  1062.16,
+  1077.03,
+  1079.035,
+  1079.036,
+  1132.573,
+  1134.587,
+  1136.596,
+  1136.596,
+  1148.76,
+  1161.802,
+  1169.266,
+  1170.317,
+  1174.327,
+  1177.154,
+  1179.268,
+  1190.051,
+  1192.056,
+  1192.057,
+  1196.061,
+  1200.845,
+  1202.852,
+  1202.853,
+  1225.255,
+  1233.524
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent14-op0",
+   "template_id": "agent14-op0",
+   "name": "Plan a family dinner: a restaurant option on OpenTable and a cook-at-home backup on Allrecipes",
+   "use_case": "Food and cooking",
+   "description": "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter -> Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve -> Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time -> Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter",
+   "site": "opentable.co.uk, allrecipes.com, notes.localhost",
+   "parameters": [
+    "cuisine",
+    "area",
+    "dish"
+   ],
+   "steps": [
+    "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter",
+    "Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve",
+    "Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time",
+    "Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter"
+   ],
+   "observed_seconds": 181.0,
+   "instances": [
+    {
+     "task_id": "DINNER.2",
+     "spans": [
+      [
+       579.0,
+       683.0
+      ]
+     ],
+     "seqs": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ],
+     "seconds": 104.0,
+     "values": {
+      "cuisine": "Thai",
+      "area": "Soho",
+      "dish": "pad thai"
+     }
+    },
+    {
+     "task_id": "DINNER.3",
+     "spans": [
+      [
+       929.0,
+       954.0
+      ],
+      [
+       971.0,
+       1023.0
+      ]
+     ],
+     "seqs": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+     ],
+     "seconds": 77.0,
+     "values": {
+      "cuisine": "Indian",
+      "area": "Shoreditch",
+      "dish": "chicken tikka masala"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent14-op1",
+   "template_id": "agent14-op1",
+   "name": "Plan a one-night road-trip stopover: town facts on Wikipedia and a room on Booking.com",
+   "use_case": "Travel agency",
+   "description": "In the Wikipedia tab, click the search box, type {town} and open the town's article -> Note its population and one landmark mentioned in the introduction -> Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search -> Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve -> Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter",
+   "site": "wikipedia.org, booking.com, notes.localhost",
+   "parameters": [
+    "town",
+    "checkin",
+    "checkout"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type {town} and open the town's article",
+    "Note its population and one landmark mentioned in the introduction",
+    "Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search",
+    "Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve",
+    "Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter"
+   ],
+   "observed_seconds": 280.0,
+   "instances": [
+    {
+     "task_id": "STOPOVER.1",
+     "spans": [
+      [
+       267.0,
+       306.0
+      ],
+      [
+       384.0,
+       483.0
+      ]
+     ],
+     "seqs": [
+      15,
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "seconds": 138.0,
+     "values": {
+      "town": "Dijon",
+      "checkin": "Nov 21",
+      "checkout": "Nov 22"
+     }
+    },
+    {
+     "task_id": "STOPOVER.2",
+     "spans": [
+      [
+       683.0,
+       751.0
+      ]
+     ],
+     "seqs": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+     ],
+     "seconds": 68.0,
+     "values": {
+      "town": "Reims",
+      "checkin": "Dec 19",
+      "checkout": "Dec 20"
+     }
+    },
+    {
+     "task_id": "STOPOVER.3",
+     "spans": [
+      [
+       954.0,
+       971.0
+      ],
+      [
+       1023.0,
+       1080.0
+      ]
+     ],
+     "seqs": [
+      108,
+      109,
+      110,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136
+     ],
+     "seconds": 74.0,
+     "values": {
+      "town": "Annecy",
+      "checkin": "Feb 13",
+      "checkout": "Feb 14"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent14-op2",
+   "template_id": "agent14-op2",
+   "name": "Set up a call with a relative abroad: their local time and weather, then email the family",
+   "use_case": "Family logistics",
+   "description": "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference -> Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day} -> Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\" -> Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard",
+   "site": "timeanddate.com, weather.com, mail.localhost",
+   "parameters": [
+    "relative",
+    "city",
+    "day"
+   ],
+   "steps": [
+    "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference",
+    "Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day}",
+    "Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\"",
+    "Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 228.0,
+   "instances": [
+    {
+     "task_id": "FAMILYCALL.1",
+     "spans": [
+      [
+       483.0,
+       579.0
+      ]
+     ],
+     "seqs": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ],
+     "seconds": 96.0,
+     "values": {
+      "relative": "Grandma Rose",
+      "city": "Montreal",
+      "day": "Sunday"
+     }
+    },
+    {
+     "task_id": "FAMILYCALL.2",
+     "spans": [
+      [
+       764.0,
+       804.0
+      ],
+      [
+       909.0,
+       929.0
+      ]
+     ],
+     "seqs": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+     ],
+     "seconds": 60.0,
+     "values": {
+      "relative": "Uncle Ben",
+      "city": "Sydney",
+      "day": "Saturday"
+     }
+    },
+    {
+     "task_id": "FAMILYCALL.3",
+     "spans": [
+      [
+       1132.0,
+       1204.0
+      ]
+     ],
+     "seqs": [
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+     ],
+     "seconds": 72.0,
+     "values": {
+      "relative": "Aunt Mei",
+      "city": "Singapore",
+      "day": "Friday"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     194.0,
+     267.0
+    ]
+   ],
+   "seqs": [
+    14
+   ],
+   "seconds": 73.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     371.0,
+     384.0
+    ]
+   ],
+   "seqs": [
+    19
+   ],
+   "seconds": 13.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     751.0,
+     764.0
+    ]
+   ],
+   "seqs": [
+    83,
+    84,
+    85,
+    86
+   ],
+   "seconds": 13.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the Allrecipes tab, search \"banana bread\", scroll the results, then give up without opening any"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     904.0,
+     909.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 5.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and Wikipedia tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     1204.0,
+     1238.0
+    ]
+   ],
+   "seqs": [
+    155,
+    156
+   ],
+   "seconds": 34.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab"
+  },
+  {
+   "task_id": "DINNER.1",
+   "spans": [
+    [
+     69.0,
+     194.0
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "seconds": 125.0,
+   "kind": "one_off",
+   "task": "abandoned run of DINNER.1"
+  }
+ ]
+}

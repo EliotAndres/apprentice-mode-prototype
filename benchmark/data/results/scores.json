@@ -1,0 +1,4091 @@
+{
+ "table": [
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "p_at_5": 0.5270833333333333,
+   "r_at_10": 0.6583333333333333,
+   "grounding_iou": 0.5331584127813064,
+   "instance_f1": 0.611079014939309,
+   "fp_negative": 0.16279761904761905,
+   "time_recall": 0.658367243409674,
+   "param_recall": 0.1402691424073003,
+   "solved": 0.0,
+   "sessions": 8,
+   "reconstruction": 2.4285714285714284,
+   "feasibility": 1.6666666666666667,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.5041666666666667,
+    0.8041666666666667
+   ],
+   "p_at_5_ci": [
+    0.4083333333333333,
+    0.6541666666666667
+   ],
+   "solved_ci": [
+    0.0,
+    0.0
+   ],
+   "median_seconds": 0,
+   "mean_cost_usd": 0.0
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "p_at_5": 0.8541666666666666,
+   "r_at_10": 0.7729166666666667,
+   "grounding_iou": 0.8594585666139718,
+   "instance_f1": 0.8890205280830281,
+   "fp_negative": 0.11458333333333333,
+   "time_recall": 0.8789912933941247,
+   "param_recall": 0.596381958935171,
+   "solved": 0.375,
+   "sessions": 8,
+   "reconstruction": 4.166666666666667,
+   "feasibility": 3.4166666666666665,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.60625,
+    0.9166666666666666
+   ],
+   "p_at_5_ci": [
+    0.6666666666666666,
+    1.0
+   ],
+   "solved_ci": [
+    0.125,
+    0.75
+   ],
+   "median_seconds": 8.9,
+   "mean_cost_usd": 0.043296600000000005
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "p_at_5": 0.8354166666666667,
+   "r_at_10": 0.8541666666666666,
+   "grounding_iou": 0.8792659771401631,
+   "instance_f1": 0.9463744588744588,
+   "fp_negative": 0.16458333333333333,
+   "time_recall": 0.9325215960494572,
+   "param_recall": 0.5340478730291037,
+   "solved": 0.375,
+   "sessions": 8,
+   "reconstruction": 4.2592592592592595,
+   "feasibility": 3.6296296296296298,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.6875,
+    0.96875
+   ],
+   "p_at_5_ci": [
+    0.66875,
+    0.96875
+   ],
+   "solved_ci": [
+    0.125,
+    0.75
+   ],
+   "median_seconds": 18.8,
+   "mean_cost_usd": 0.218889975
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "p_at_5": 0.2777777777777778,
+   "r_at_10": 0.5185185185185186,
+   "grounding_iou": 0.4238045510770535,
+   "instance_f1": 0.06666666666666667,
+   "fp_negative": 0.05555555555555555,
+   "time_recall": 0.5247524752475248,
+   "param_recall": 0.6225925925925926,
+   "solved": 0.0,
+   "sessions": 9,
+   "reconstruction": 1.4545454545454546,
+   "feasibility": 1.0909090909090908,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.2222222222222222,
+    0.8148148148148148
+   ],
+   "p_at_5_ci": [
+    0.1111111111111111,
+    0.4444444444444444
+   ],
+   "solved_ci": [
+    0.0,
+    0.0
+   ],
+   "median_seconds": 0,
+   "mean_cost_usd": 0.0
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "p_at_5": 0.9444444444444444,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.906681400276416,
+   "instance_f1": 0.9444444444444444,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.9332892416225749,
+   "solved": 0.8888888888888888,
+   "sessions": 9,
+   "reconstruction": 4.0,
+   "feasibility": 3.1052631578947367,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    1.0,
+    1.0
+   ],
+   "p_at_5_ci": [
+    0.8333333333333334,
+    1.0
+   ],
+   "solved_ci": [
+    0.6666666666666666,
+    1.0
+   ],
+   "median_seconds": 10.3,
+   "mean_cost_usd": 0.053791422222222225
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "p_at_5": 0.8833333333333333,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8850991620663694,
+   "instance_f1": 0.9037037037037037,
+   "fp_negative": 0.027777777777777776,
+   "time_recall": 1.0,
+   "param_recall": 0.9319664902998236,
+   "solved": 0.7777777777777778,
+   "sessions": 9,
+   "reconstruction": 4.2105263157894735,
+   "feasibility": 3.1578947368421053,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    1.0,
+    1.0
+   ],
+   "p_at_5_ci": [
+    0.6833333333333333,
+    1.0
+   ],
+   "solved_ci": [
+    0.4444444444444444,
+    1.0
+   ],
+   "median_seconds": 17.4,
+   "mean_cost_usd": 0.2959429333333333
+  },
+  {
+   "tier": "all",
+   "model": "heuristic",
+   "condition": "trace",
+   "p_at_5": 0.39509803921568626,
+   "r_at_10": 0.5843137254901961,
+   "grounding_iou": 0.49109923520274756,
+   "instance_f1": 0.40168965021906194,
+   "fp_negative": 0.10602240896358542,
+   "time_recall": 0.5876300132061831,
+   "param_recall": 0.32577816170933577,
+   "solved": 0.0,
+   "sessions": 17,
+   "reconstruction": 2.09375,
+   "feasibility": 1.46875,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.39705882352941174,
+    0.7656862745098039
+   ],
+   "p_at_5_ci": [
+    0.2696078431372549,
+    0.5107843137254902
+   ],
+   "solved_ci": [
+    0.0,
+    0.0
+   ],
+   "median_seconds": 0,
+   "mean_cost_usd": 0.0
+  },
+  {
+   "tier": "all",
+   "model": "sonnet",
+   "condition": "trace",
+   "p_at_5": 0.9019607843137255,
+   "r_at_10": 0.8931372549019608,
+   "grounding_iou": 0.8844588903176187,
+   "instance_f1": 0.9183626014508368,
+   "fp_negative": 0.053921568627450976,
+   "time_recall": 0.9430547263031175,
+   "param_recall": 0.7747446380049731,
+   "solved": 0.6470588235294118,
+   "sessions": 17,
+   "reconstruction": 4.093023255813954,
+   "feasibility": 3.2790697674418605,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.7950980392156862,
+    0.9705882352941176
+   ],
+   "p_at_5_ci": [
+    0.7941176470588235,
+    0.9852941176470589
+   ],
+   "solved_ci": [
+    0.4117647058823529,
+    0.8823529411764706
+   ],
+   "median_seconds": 9.7,
+   "mean_cost_usd": 0.04885268235294118
+  },
+  {
+   "tier": "all",
+   "model": "sonnet",
+   "condition": "both",
+   "p_at_5": 0.8607843137254901,
+   "r_at_10": 0.9313725490196079,
+   "grounding_iou": 0.8823541338658017,
+   "instance_f1": 0.9237840590781767,
+   "fp_negative": 0.09215686274509804,
+   "time_recall": 0.9682454569644505,
+   "param_recall": 0.7447106704077201,
+   "solved": 0.5882352941176471,
+   "sessions": 17,
+   "reconstruction": 4.239130434782608,
+   "feasibility": 3.4347826086956523,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.8382352941176471,
+    1.0
+   ],
+   "p_at_5_ci": [
+    0.7352941176470589,
+    0.9617647058823531
+   ],
+   "solved_ci": [
+    0.35294117647058826,
+    0.8235294117647058
+   ],
+   "median_seconds": 17.4,
+   "mean_cost_usd": 0.2596827176470588
+  },
+  {
+   "tier": "test",
+   "model": "heuristic",
+   "condition": "trace",
+   "p_at_5": 0.39509803921568626,
+   "r_at_10": 0.5843137254901961,
+   "grounding_iou": 0.49109923520274756,
+   "instance_f1": 0.40168965021906194,
+   "fp_negative": 0.10602240896358542,
+   "time_recall": 0.5876300132061831,
+   "param_recall": 0.32577816170933577,
+   "solved": 0.0,
+   "sessions": 17,
+   "reconstruction": 2.09375,
+   "feasibility": 1.46875,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.39705882352941174,
+    0.7656862745098039
+   ],
+   "p_at_5_ci": [
+    0.2696078431372549,
+    0.5107843137254902
+   ],
+   "solved_ci": [
+    0.0,
+    0.0
+   ],
+   "median_seconds": 0,
+   "mean_cost_usd": 0.0
+  },
+  {
+   "tier": "test",
+   "model": "sonnet",
+   "condition": "trace",
+   "p_at_5": 0.9019607843137255,
+   "r_at_10": 0.8931372549019608,
+   "grounding_iou": 0.8844588903176187,
+   "instance_f1": 0.9183626014508368,
+   "fp_negative": 0.053921568627450976,
+   "time_recall": 0.9430547263031175,
+   "param_recall": 0.7747446380049731,
+   "solved": 0.6470588235294118,
+   "sessions": 17,
+   "reconstruction": 4.093023255813954,
+   "feasibility": 3.2790697674418605,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.7950980392156862,
+    0.9705882352941176
+   ],
+   "p_at_5_ci": [
+    0.7941176470588235,
+    0.9852941176470589
+   ],
+   "solved_ci": [
+    0.4117647058823529,
+    0.8823529411764706
+   ],
+   "median_seconds": 9.7,
+   "mean_cost_usd": 0.04885268235294118
+  },
+  {
+   "tier": "test",
+   "model": "sonnet",
+   "condition": "both",
+   "p_at_5": 0.8607843137254901,
+   "r_at_10": 0.9313725490196079,
+   "grounding_iou": 0.8823541338658017,
+   "instance_f1": 0.9237840590781767,
+   "fp_negative": 0.09215686274509804,
+   "time_recall": 0.9682454569644505,
+   "param_recall": 0.7447106704077201,
+   "solved": 0.5882352941176471,
+   "sessions": 17,
+   "reconstruction": 4.239130434782608,
+   "feasibility": 3.4347826086956523,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.8382352941176471,
+    1.0
+   ],
+   "p_at_5_ci": [
+    0.7352941176470589,
+    0.9617647058823531
+   ],
+   "solved_ci": [
+    0.35294117647058826,
+    0.8235294117647058
+   ],
+   "median_seconds": 17.4,
+   "mean_cost_usd": 0.2596827176470588
+  },
+  {
+   "tier": "test_human",
+   "model": "heuristic",
+   "condition": "trace",
+   "p_at_5": 0.5270833333333333,
+   "r_at_10": 0.6583333333333333,
+   "grounding_iou": 0.5331584127813064,
+   "instance_f1": 0.611079014939309,
+   "fp_negative": 0.16279761904761905,
+   "time_recall": 0.658367243409674,
+   "param_recall": 0.1402691424073003,
+   "solved": 0.0,
+   "sessions": 8,
+   "reconstruction": 2.4285714285714284,
+   "feasibility": 1.6666666666666667,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.5041666666666667,
+    0.8041666666666667
+   ],
+   "p_at_5_ci": [
+    0.4083333333333333,
+    0.6541666666666667
+   ],
+   "solved_ci": [
+    0.0,
+    0.0
+   ],
+   "median_seconds": 0,
+   "mean_cost_usd": 0.0
+  },
+  {
+   "tier": "test_human",
+   "model": "sonnet",
+   "condition": "trace",
+   "p_at_5": 0.8541666666666666,
+   "r_at_10": 0.7729166666666667,
+   "grounding_iou": 0.8594585666139718,
+   "instance_f1": 0.8890205280830281,
+   "fp_negative": 0.11458333333333333,
+   "time_recall": 0.8789912933941247,
+   "param_recall": 0.596381958935171,
+   "solved": 0.375,
+   "sessions": 8,
+   "reconstruction": 4.166666666666667,
+   "feasibility": 3.4166666666666665,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.60625,
+    0.9166666666666666
+   ],
+   "p_at_5_ci": [
+    0.6666666666666666,
+    1.0
+   ],
+   "solved_ci": [
+    0.125,
+    0.75
+   ],
+   "median_seconds": 8.9,
+   "mean_cost_usd": 0.043296600000000005
+  },
+  {
+   "tier": "test_human",
+   "model": "sonnet",
+   "condition": "both",
+   "p_at_5": 0.8354166666666667,
+   "r_at_10": 0.8541666666666666,
+   "grounding_iou": 0.8792659771401631,
+   "instance_f1": 0.9463744588744588,
+   "fp_negative": 0.16458333333333333,
+   "time_recall": 0.9325215960494572,
+   "param_recall": 0.5340478730291037,
+   "solved": 0.375,
+   "sessions": 8,
+   "reconstruction": 4.2592592592592595,
+   "feasibility": 3.6296296296296298,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.6875,
+    0.96875
+   ],
+   "p_at_5_ci": [
+    0.66875,
+    0.96875
+   ],
+   "solved_ci": [
+    0.125,
+    0.75
+   ],
+   "median_seconds": 18.8,
+   "mean_cost_usd": 0.218889975
+  },
+  {
+   "tier": "test_agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "p_at_5": 0.2777777777777778,
+   "r_at_10": 0.5185185185185186,
+   "grounding_iou": 0.4238045510770535,
+   "instance_f1": 0.06666666666666667,
+   "fp_negative": 0.05555555555555555,
+   "time_recall": 0.5247524752475248,
+   "param_recall": 0.6225925925925926,
+   "solved": 0.0,
+   "sessions": 9,
+   "reconstruction": 1.4545454545454546,
+   "feasibility": 1.0909090909090908,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    0.2222222222222222,
+    0.8148148148148148
+   ],
+   "p_at_5_ci": [
+    0.1111111111111111,
+    0.4444444444444444
+   ],
+   "solved_ci": [
+    0.0,
+    0.0
+   ],
+   "median_seconds": 0,
+   "mean_cost_usd": 0.0
+  },
+  {
+   "tier": "test_agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "p_at_5": 0.9444444444444444,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.906681400276416,
+   "instance_f1": 0.9444444444444444,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.9332892416225749,
+   "solved": 0.8888888888888888,
+   "sessions": 9,
+   "reconstruction": 4.0,
+   "feasibility": 3.1052631578947367,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    1.0,
+    1.0
+   ],
+   "p_at_5_ci": [
+    0.8333333333333334,
+    1.0
+   ],
+   "solved_ci": [
+    0.6666666666666666,
+    1.0
+   ],
+   "median_seconds": 10.3,
+   "mean_cost_usd": 0.053791422222222225
+  },
+  {
+   "tier": "test_agent",
+   "model": "sonnet",
+   "condition": "both",
+   "p_at_5": 0.8833333333333333,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8850991620663694,
+   "instance_f1": 0.9037037037037037,
+   "fp_negative": 0.027777777777777776,
+   "time_recall": 1.0,
+   "param_recall": 0.9319664902998236,
+   "solved": 0.7777777777777778,
+   "sessions": 9,
+   "reconstruction": 4.2105263157894735,
+   "feasibility": 3.1578947368421053,
+   "failed_runs": 0,
+   "r_at_10_ci": [
+    1.0,
+    1.0
+   ],
+   "p_at_5_ci": [
+    0.6833333333333333,
+    1.0
+   ],
+   "solved_ci": [
+    0.4444444444444444,
+    1.0
+   ],
+   "median_seconds": 17.4,
+   "mean_cost_usd": 0.2959429333333333
+  }
+ ],
+ "per_session": [
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent01",
+   "n_pred": 2,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 0.5,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.4444444444444444,
+   "instance_f1": 0.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.5,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent01-op0",
+     "iou": 0.444
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent05",
+   "n_pred": 6,
+   "n_gt": 2,
+   "n_matched": 0,
+   "p_at_5": 0.0,
+   "r_at_10": 0.0,
+   "grounding_iou": 0.0,
+   "instance_f1": 0.0,
+   "fp_negative": 0.3333333333333333,
+   "time_recall": 0.0,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent07",
+   "n_pred": 7,
+   "n_gt": 3,
+   "n_matched": 2,
+   "p_at_5": 0.4,
+   "r_at_10": 0.6666666666666666,
+   "grounding_iou": 0.5287990196078431,
+   "instance_f1": 0.1111111111111111,
+   "fp_negative": 0.0,
+   "time_recall": 0.7227722772277227,
+   "param_recall": 1.0,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent07-op1",
+     "iou": 0.646
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent07-op0",
+     "iou": 0.412
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent08",
+   "n_pred": 6,
+   "n_gt": 1,
+   "n_matched": 0,
+   "p_at_5": 0.0,
+   "r_at_10": 0.0,
+   "grounding_iou": 0.0,
+   "instance_f1": 0.0,
+   "fp_negative": 0.16666666666666666,
+   "time_recall": 0.0,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent09",
+   "n_pred": 8,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 0.6,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.34631506704677434,
+   "instance_f1": 0.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.2888888888888889,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 1,
+     "opportunity_id": "agent09-op0",
+     "iou": 0.321
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent09-op2",
+     "iou": 0.327
+    },
+    {
+     "rank": 4,
+     "opportunity_id": "agent09-op1",
+     "iou": 0.39
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent12",
+   "n_pred": 8,
+   "n_gt": 3,
+   "n_matched": 0,
+   "p_at_5": 0.0,
+   "r_at_10": 0.0,
+   "grounding_iou": 0.0,
+   "instance_f1": 0.0,
+   "fp_negative": 0.0,
+   "time_recall": 0.0,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent13",
+   "n_pred": 5,
+   "n_gt": 2,
+   "n_matched": 2,
+   "p_at_5": 0.4,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.3980263157894737,
+   "instance_f1": 0.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.75,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent13-op0",
+     "iou": 0.375
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent13-op1",
+     "iou": 0.421
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent14",
+   "n_pred": 8,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 0.6,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.40143790849673205,
+   "instance_f1": 0.2222222222222222,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.5740740740740741,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent14-op1",
+     "iou": 0.451
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent14-op0",
+     "iou": 0.333
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent14-op2",
+     "iou": 0.42
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent16",
+   "n_pred": 7,
+   "n_gt": 1,
+   "n_matched": 0,
+   "p_at_5": 0.0,
+   "r_at_10": 0.0,
+   "grounding_iou": 0.0,
+   "instance_f1": 0.0,
+   "fp_negative": 0.0,
+   "time_recall": 0.0,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h009",
+   "n_pred": 10,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.4,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.4935185185185185,
+   "instance_f1": 0.4444444444444444,
+   "fp_negative": 0.1,
+   "time_recall": 0.7802469135802469,
+   "param_recall": 0.25595238095238093,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 2,
+     "opportunity_id": "h009-op2",
+     "iou": 0.467
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h009-op0",
+     "iou": 0.625
+    },
+    {
+     "rank": 5,
+     "opportunity_id": "h009-op3",
+     "iou": 0.389
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h010",
+   "n_pred": 5,
+   "n_gt": 5,
+   "n_matched": 3,
+   "p_at_5": 0.6,
+   "r_at_10": 0.6,
+   "grounding_iou": 0.5687758478081059,
+   "instance_f1": 0.5555555555555555,
+   "fp_negative": 0.0,
+   "time_recall": 0.7226724293174861,
+   "param_recall": 0.09722222222222221,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h010-op3",
+     "iou": 0.519
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h010-op2",
+     "iou": 0.387
+    },
+    {
+     "rank": 4,
+     "opportunity_id": "h010-op1",
+     "iou": 0.8
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h011",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.75,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.6646464646464646,
+   "instance_f1": 1.0,
+   "fp_negative": 0.25,
+   "time_recall": 0.9406249999999999,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h011-op2",
+     "iou": 0.6
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h011-op3",
+     "iou": 0.727
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h011-op1",
+     "iou": 0.667
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h012",
+   "n_pred": 5,
+   "n_gt": 4,
+   "n_matched": 4,
+   "p_at_5": 0.8,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.5489202657807308,
+   "instance_f1": 0.5892857142857143,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.34203296703296704,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h012-op2",
+     "iou": 0.581
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h012-op3",
+     "iou": 0.457
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h012-op1",
+     "iou": 0.857
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h012-op0",
+     "iou": 0.3
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h013",
+   "n_pred": 6,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.6,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.46577380952380953,
+   "instance_f1": 0.7111111111111111,
+   "fp_negative": 0.0,
+   "time_recall": 0.6258627689809175,
+   "param_recall": 0.24273504273504276,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h013-op2",
+     "iou": 0.469
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h013-op0",
+     "iou": 0.429
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h013-op3",
+     "iou": 0.5
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h014",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 1,
+   "p_at_5": 0.3333333333333333,
+   "r_at_10": 0.3333333333333333,
+   "grounding_iou": 0.3888888888888889,
+   "instance_f1": 0.5,
+   "fp_negative": 0.3333333333333333,
+   "time_recall": 0.5476477683956574,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h014-op1",
+     "iou": 0.389
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h015",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 1,
+   "p_at_5": 0.3333333333333333,
+   "r_at_10": 0.3333333333333333,
+   "grounding_iou": 0.5454545454545454,
+   "instance_f1": 0.5882352941176471,
+   "fp_negative": 0.3333333333333333,
+   "time_recall": 0.3411830670030838,
+   "param_recall": 0.0,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h015-op0",
+     "iou": 0.545
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h016",
+   "n_pred": 7,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.4,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.5892889616293872,
+   "instance_f1": 0.5,
+   "fp_negative": 0.2857142857142857,
+   "time_recall": 0.3087,
+   "param_recall": 0.18421052631578946,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h016-op3",
+     "iou": 0.319
+    },
+    {
+     "rank": 4,
+     "opportunity_id": "h016-op0",
+     "iou": 0.615
+    },
+    {
+     "rank": 6,
+     "opportunity_id": "h016-op2",
+     "iou": 0.833
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent01",
+   "n_pred": 1,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 1.0,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent01-op0",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent05",
+   "n_pred": 2,
+   "n_gt": 2,
+   "n_matched": 2,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.7508906549739655,
+   "instance_f1": 0.9,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent05-op0",
+     "iou": 0.551
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent05-op1",
+     "iou": 0.951
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent07",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9772727272727272,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent07-op0",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent07-op1",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent07-op2",
+     "iou": 0.932
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent08",
+   "n_pred": 2,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 0.5,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.751412429378531,
+   "instance_f1": 0.8,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.7857142857142857,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent08-op0",
+     "iou": 0.751
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent09",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 1.0,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.9333333333333332,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent09-op0",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent09-op2",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent09-op1",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent12",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.7953447350256923,
+   "instance_f1": 0.8666666666666667,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent12-op0",
+     "iou": 0.746
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent12-op1",
+     "iou": 0.846
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent12-op2",
+     "iou": 0.794
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent13",
+   "n_pred": 2,
+   "n_gt": 2,
+   "n_matched": 2,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 1.0,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent13-op0",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent13-op1",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent14",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8914232359610511,
+   "instance_f1": 0.9333333333333332,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.8888888888888888,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent14-op0",
+     "iou": 0.694
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent14-op1",
+     "iou": 0.98
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent14-op2",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent16",
+   "n_pred": 1,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9937888198757764,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.7916666666666666,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent16-op0",
+     "iou": 0.994
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h009",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 4,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8100897736143637,
+   "instance_f1": 0.8541666666666666,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.43353174603174605,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h009-op1",
+     "iou": 0.721
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h009-op2",
+     "iou": 0.9
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h009-op3",
+     "iou": 1.0
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h009-op0",
+     "iou": 0.619
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h010",
+   "n_pred": 3,
+   "n_gt": 5,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 0.6,
+   "grounding_iou": 0.9564393939393939,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 0.8390059427336575,
+   "param_recall": 0.37592592592592594,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h010-op2",
+     "iou": 0.938
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h010-op4",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h010-op3",
+     "iou": 0.932
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h011",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.75,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.8119658119658121,
+   "instance_f1": 1.0,
+   "fp_negative": 0.25,
+   "time_recall": 0.9406249999999999,
+   "param_recall": 0.6083333333333333,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h011-op2",
+     "iou": 0.769
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h011-op1",
+     "iou": 0.667
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h011-op3",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h012",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.75,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.6811369509043926,
+   "instance_f1": 0.7857142857142857,
+   "fp_negative": 0.0,
+   "time_recall": 0.7327516360236834,
+   "param_recall": 0.7051282051282052,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h012-op2",
+     "iou": 0.977
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h012-op1",
+     "iou": 0.667
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h012-op0",
+     "iou": 0.4
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h013",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 4,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9131361166007905,
+   "instance_f1": 0.9142857142857143,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.6134615384615385,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h013-op2",
+     "iou": 0.969
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h013-op1",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h013-op3",
+     "iou": 0.957
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h013-op0",
+     "iou": 0.727
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h014",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 1,
+   "p_at_5": 0.3333333333333333,
+   "r_at_10": 0.3333333333333333,
+   "grounding_iou": 0.9473684210526315,
+   "instance_f1": 1.0,
+   "fp_negative": 0.6666666666666666,
+   "time_recall": 0.5476477683956574,
+   "param_recall": 1.0,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h014-op1",
+     "iou": 0.947
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h015",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8571428571428571,
+   "instance_f1": 0.7802197802197802,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.48333333333333334,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h015-op0",
+     "iou": 0.571
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h015-op1",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h015-op2",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h016",
+   "n_pred": 3,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.8983892076915332,
+   "instance_f1": 0.7777777777777778,
+   "fp_negative": 0.0,
+   "time_recall": 0.9719,
+   "param_recall": 0.5513415892672858,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h016-op3",
+     "iou": 0.93
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h016-op1",
+     "iou": 0.836
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h016-op0",
+     "iou": 0.929
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent01",
+   "n_pred": 1,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 1.0,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent01-op0",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent05",
+   "n_pred": 2,
+   "n_gt": 2,
+   "n_matched": 2,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.7508906549739655,
+   "instance_f1": 0.9,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent05-op0",
+     "iou": 0.551
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent05-op1",
+     "iou": 0.951
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent07",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9772727272727272,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent07-op1",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent07-op2",
+     "iou": 0.932
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent07-op0",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent08",
+   "n_pred": 7,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 0.2,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9338235294117647,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.8571428571428571,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent08-op0",
+     "iou": 0.934
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent09",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9957805907172995,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.9333333333333332,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent09-op0",
+     "iou": 0.987
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent09-op2",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent09-op1",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent12",
+   "n_pred": 4,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 0.75,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.4229129003847402,
+   "instance_f1": 0.3,
+   "fp_negative": 0.25,
+   "time_recall": 1.0,
+   "param_recall": 0.8333333333333334,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent12-op0",
+     "iou": 0.468
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent12-op1",
+     "iou": 0.389
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent12-op2",
+     "iou": 0.412
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent13",
+   "n_pred": 2,
+   "n_gt": 2,
+   "n_matched": 2,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 1.0,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 1.0,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent13-op0",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent13-op1",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent14",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8914232359610511,
+   "instance_f1": 0.9333333333333332,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.8888888888888888,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent14-op0",
+     "iou": 0.694
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "agent14-op1",
+     "iou": 0.98
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "agent14-op2",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "agent",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent16",
+   "n_pred": 1,
+   "n_gt": 1,
+   "n_matched": 1,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.9937888198757764,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.875,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "agent16-op0",
+     "iou": 0.994
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h009",
+   "n_pred": 5,
+   "n_gt": 4,
+   "n_matched": 4,
+   "p_at_5": 0.8,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8797619047619047,
+   "instance_f1": 0.95,
+   "fp_negative": 0.2,
+   "time_recall": 1.0,
+   "param_recall": 0.40575396825396826,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h009-op1",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h009-op2",
+     "iou": 0.9
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h009-op3",
+     "iou": 1.0
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h009-op0",
+     "iou": 0.619
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "n_pred": 5,
+   "n_gt": 5,
+   "n_matched": 5,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.915871212121212,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.4616666666666666,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h010-op2",
+     "iou": 0.969
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h010-op3",
+     "iou": 0.977
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h010-op4",
+     "iou": 1.0
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h010-op0",
+     "iou": 0.833
+    },
+    {
+     "rank": 4,
+     "opportunity_id": "h010-op1",
+     "iou": 0.8
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h011",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 0.75,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.923076923076923,
+   "instance_f1": 0.9333333333333332,
+   "fp_negative": 0.25,
+   "time_recall": 0.9406249999999999,
+   "param_recall": 0.6083333333333333,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h011-op2",
+     "iou": 0.769
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h011-op3",
+     "iou": 1.0
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h011-op1",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h012",
+   "n_pred": 4,
+   "n_gt": 4,
+   "n_matched": 4,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8405402131782945,
+   "instance_f1": 0.8142857142857143,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.657967032967033,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h012-op2",
+     "iou": 0.977
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h012-op1",
+     "iou": 0.667
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h012-op0",
+     "iou": 1.0
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h012-op3",
+     "iou": 0.719
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h013",
+   "n_pred": 5,
+   "n_gt": 4,
+   "n_matched": 4,
+   "p_at_5": 0.8,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8009819664031621,
+   "instance_f1": 0.9642857142857143,
+   "fp_negative": 0.2,
+   "time_recall": 1.0,
+   "param_recall": 0.6519230769230769,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h013-op2",
+     "iou": 0.969
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h013-op1",
+     "iou": 0.909
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h013-op3",
+     "iou": 0.826
+    },
+    {
+     "rank": 3,
+     "opportunity_id": "h013-op0",
+     "iou": 0.5
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h014",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 1,
+   "p_at_5": 0.3333333333333333,
+   "r_at_10": 0.3333333333333333,
+   "grounding_iou": 0.9473684210526315,
+   "instance_f1": 1.0,
+   "fp_negative": 0.6666666666666666,
+   "time_recall": 0.5476477683956574,
+   "param_recall": 0.5,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h014-op1",
+     "iou": 0.947
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h015",
+   "n_pred": 3,
+   "n_gt": 3,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 1.0,
+   "grounding_iou": 0.8518518518518517,
+   "instance_f1": 0.9090909090909091,
+   "fp_negative": 0.0,
+   "time_recall": 1.0,
+   "param_recall": 0.43333333333333335,
+   "solved": 1.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h015-op1",
+     "iou": 1.0
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h015-op0",
+     "iou": 0.556
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h015-op2",
+     "iou": 1.0
+    }
+   ],
+   "error": null
+  },
+  {
+   "tier": "hard",
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h016",
+   "n_pred": 3,
+   "n_gt": 4,
+   "n_matched": 3,
+   "p_at_5": 1.0,
+   "r_at_10": 0.75,
+   "grounding_iou": 0.8746753246753247,
+   "instance_f1": 1.0,
+   "fp_negative": 0.0,
+   "time_recall": 0.9719,
+   "param_recall": 0.553405572755418,
+   "solved": 0.0,
+   "matches": [
+    {
+     "rank": 0,
+     "opportunity_id": "h016-op1",
+     "iou": 0.745
+    },
+    {
+     "rank": 1,
+     "opportunity_id": "h016-op3",
+     "iou": 0.95
+    },
+    {
+     "rank": 2,
+     "opportunity_id": "h016-op0",
+     "iou": 0.929
+    }
+   ],
+   "error": null
+  }
+ ],
+ "judgements": [
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent01",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent01-op0",
+   "iou": 0.444,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the cookie dismissal, opening the Time Zone Converter and clicking and typing in the city search box. It omits the holidays lookup, the Mail compose steps and the Discard step, and it names no parameters, so it is too partial and vague to automate the real workflow.",
+   "pred_name": "Repeated 6-step flow on timeanddate",
+   "gt_description": "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter -> Add {hq_city} and {remote_city} and note the time difference -> Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month} -> Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\" -> Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\" -> Do not click Send. Click Discard"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent07-op1",
+   "iou": 0.646,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal captures only the first search-and-open step on npm, with a hardcoded package option and no parameters. It omits the GitHub stars, issues and releases steps and the Notes entry, so it can't be automated as the full workflow.",
+   "pred_name": "Repeated 4-step flow on npmjs",
+   "gt_description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent07-op0",
+   "iou": 0.412,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the final mail-composition segment (To, Subject, Body, Discard). It leaves out the IMDb and Rotten Tomatoes lookups and the data extraction, and it names no parameters (film, friend, day), so the typed values are unspecified and it can't be automated.",
+   "pred_name": "Repeated 7-step flow on mail",
+   "gt_description": "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title -> Note the IMDb rating, the runtime and the director -> Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score -> Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\" -> Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent09-op0",
+   "iou": 0.321,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal captures only the first Booking.com search step (dismiss popups, enter destination, pick dates, Search) and omits hotel selection, the xe.com conversion, and the mail draft. It also hardcodes the dates and leaves the city, dates and other parameters unparameterized, so it is too incomplete to automate the full workflow.",
+   "pred_name": "Repeated 8-step flow on booking",
+   "gt_description": "In the Booking.com tab, click the destination box, type {city}, set the dates {checkin} to {checkout} and click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve or I'll reserve -> Switch to the xe.com tab, set Amount to that total price, From to EUR and To to {currency}, click Convert and read the result -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Hotel for {city}, {checkin}-{checkout}\" -> Click Body and type \"Hi {traveler}, proposed hotel: <name>, <total> EUR (about <converted> {currency}). OK to book?\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent09-op2",
+   "iou": 0.327,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the BBC search fragment, with a hard-coded article link and no parameters. It omits the weather.com lookup, the mail drafting and discard, and the city, date and traveler parameters, so it can't reproduce or automate the true workflow.",
+   "pred_name": "Repeated 5-step flow on bbc",
+   "gt_description": "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast -> Note the high, low and conditions for {date} -> Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\" -> Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 4,
+   "opportunity_id": "agent09-op1",
+   "iou": 0.39,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal only captures the Wikipedia search-box click/type/enter and omits the visa-table lookup, the timeanddate holidays step, and the Notes entry, and it names no parameters (nationality, country, month), so it can't be automated.",
+   "pred_name": "Repeated 4-step flow on wikipedia",
+   "gt_description": "In the Wikipedia tab, click the search box, type \"Visa requirements for {nationality} citizens\" and open that article -> Find the row for {country} in the table and note the visa requirement and the allowed stay -> Switch to the timeanddate tab, open the Holidays menu, pick {country}, and note the public holidays in {month} -> Switch to Notes, click \"New note\", type \"{nationality} traveler to {country}: <requirement>, <allowed stay>. Holidays in {month}: <dates>\" and press Enter"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent13",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent13-op0",
+   "iou": 0.375,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the IMDb search fragment, with a cookie-decline click and a hardcoded \"Frankenstein\" link. It omits the Gutenberg lookup, the author and download count, and the Notes entry, and it names no book parameter, so it can't be automated into the true cross-site workflow.",
+   "pred_name": "Repeated 5-step flow on imdb",
+   "gt_description": "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter -> Open the matching book and note its author and its download count from the bibliographic record -> Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating -> Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent13",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent13-op1",
+   "iou": 0.421,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal only captures the Wikipedia search click/type/enter and omits the infobox reading, the timeanddate lookup, the Notes entry, and both parameters (country, capital), so it can't be used to automate the real workflow.",
+   "pred_name": "Repeated 3-step flow on wikipedia",
+   "gt_description": "In the Wikipedia tab, click the search box, type {country} and open the country article -> From the infobox, note the population, official language(s) and currency -> Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time -> Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent14-op1",
+   "iou": 0.451,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal captures only the date-picking and Search clicks on Booking.com, with hardcoded dates and no parameters. It omits the Wikipedia lookup, the town entry, the property selection and the Notes entry, so it doesn't match the cross-site workflow and couldn't be automated into it.",
+   "pred_name": "Repeated 4-step flow on booking",
+   "gt_description": "In the Wikipedia tab, click the search box, type {town} and open the town's article -> Note its population and one landmark mentioned in the introduction -> Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search -> Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve -> Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent14-op0",
+   "iou": 0.333,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal covers only a fragment of the Allrecipes search step (a consent click, then a click and type in the search box). It leaves out the OpenTable and Notes steps and the cross-tab synthesis, and it has no parameters, no Enter keypress, no recipe selection, and a vague \"div\" click, so it can't be automated into the true workflow.",
+   "pred_name": "Repeated 4-step flow on allrecipes",
+   "gt_description": "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter -> Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve -> Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time -> Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent14-op2",
+   "iou": 0.42,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the mail-compose tail of the workflow and omits the timeanddate and weather.com lookups, and it names no parameters (relative, city, day) or typed values such as the recipient, subject and body text, so it can't be automated as written.",
+   "pred_name": "Repeated 7-step flow on mail",
+   "gt_description": "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference -> Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day} -> Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\" -> Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h009-op2",
+   "iou": 0.467,
+   "reconstruction": 3,
+   "feasibility": 2,
+   "rationale": "The proposal captures the correct tail of the trip-planning flow (To, date/time, Get trip suggestions, show map) in order, but it omits opening the planner and entering the From location. It also has no parameters, because the destination, date and time are hardcoded (\"Plymouth\", April 28, the typed hour and minute values are not given), so it couldn't be automated or generalized from the spec alone.",
+   "pred_name": "Repeated 10-step flow on mbta",
+   "gt_description": "Plan a trip from {origin} to {destination} optionally at a specific date/time and view fare/map details"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h009-op0",
+   "iou": 0.625,
+   "reconstruction": 3,
+   "feasibility": 2,
+   "rationale": "The proposal gets the core sequence right (Permits tab, search, select Katmai, enter date, Check Availability), but it has no parameters and hardcodes the location, date and search text. It also omits the group-size/guests step and the typed values, so it can't be generalized to other locations or dates without more information.",
+   "pred_name": "Repeated 5-step flow on recreation.gov",
+   "gt_description": "Check permit availability for {location} via the Permits tab, optionally with date {date} and group size {group_size}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 5,
+   "opportunity_id": "h009-op3",
+   "iou": 0.389,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the last two clicks (an unnamed icon and the 5:00 PM slot). It omits the search, venue selection, experience choice and date pick, and it names no parameters (restaurant, date, time, party size), so it can't be automated as written.",
+   "pred_name": "Repeated 2-step flow on exploretock",
+   "gt_description": "Search for the venue {restaurant}, choose date {date}, time {time} and party size {party_size}, and check availability"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h010-op3",
+   "iou": 0.519,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal captures only the first segment of the multi-city search (hardcoded JFK\u2192LHR, with the typed values unspecified), so it omits the later segments, Add another flight, passengers, Search, sort, and every parameter, and it ends with a stray From click, which makes it too incomplete and hardcoded to automate.",
+   "pred_name": "Repeated 9-step flow on aa",
+   "gt_description": "Use Plan Travel flights search (one way or multi-city) for segments {segments} sorted by {sort}."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h010-op2",
+   "iou": 0.387,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal captures only the first three steps (Hotels, search, select Jaipur) and omits the dates, guests, Update and sort/filter steps. It also has no parameters and hardcodes \"Jaipur\", so it is only a partial, non-parameterized fragment that would not run the full hotel search for varying inputs.",
+   "pred_name": "Repeated 3-step flow on tripadvisor",
+   "gt_description": "Search hotels in {location} for {dates} and {guests}, with optional sort/filters"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 4,
+   "opportunity_id": "h010-op1",
+   "iou": 0.8,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposed steps match the true actions in order (click Redeem Points, then Learn More), but it hardcodes the menu item and lists no parameters for the varying menu and topic, so it is less general and only partly automatable.",
+   "pred_name": "Repeated 2-step flow on marriott",
+   "gt_description": "Open the {menu} Bonvoy menu and click Learn More to read about {topic}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "h010-op3",
+   "iou": 0.519,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal only captures one piece of the multi-city flight search: it covers entering the first segment's From/To/Depart but leaves out navigating to Plan Travel > Flights, the other segments, Add another flight, Search and sort, it hardcodes the JFK/LHR airport picks, and it names no parameters, so it couldn't be turned into an automation as written.",
+   "pred_name": "Repeated 9-step flow on aa",
+   "gt_description": "Use Plan Travel flights search (one way or multi-city) for segments {segments} sorted by {sort}."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h011-op2",
+   "iou": 0.6,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal covers only the tail of the true workflow (date click through the review actions) and omits typing the destination, the Next clicks, and the search submission; it has no parameters and hardcodes the date and review count, so it is too specific and incomplete to generalize or automate reliably.",
+   "pred_name": "Repeated 7-step flow on viator",
+   "gt_description": "Search {destination} for {date}, optionally filter/sort by {sort}, and open or act on a resulting activity."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h011-op3",
+   "iou": 0.727,
+   "reconstruction": 3,
+   "feasibility": 2,
+   "rationale": "The proposal captures the core steps (type location, pick suggestion, show filters, select a filter, hide filters) but omits the initial category-heading click, hardcodes \", Tennessee\" and leaves the typed text and filter choice unspecified, and names no parameters, so automation couldn't vary category, location, or filters.",
+   "pred_name": "Repeated 5-step flow on recreation.gov",
+   "gt_description": "Open {category} section and apply amenity/activity filters {filters}, optionally near {location}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h011-op1",
+   "iou": 0.667,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal hardcodes \"NEW YORK CITY\" and \"Museums\" with no parameters and omits the initial CITIES click, so it captures only one instance of the city-and-category navigation rather than the parameterized workflow, and it would only reproduce that one path.",
+   "pred_name": "Repeated 2-step flow on parking",
+   "gt_description": "Navigate Cities to {city} and open the {category} list or venue."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "h011-op2",
+   "iou": 0.6,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal only captures the tail of the workflow: it starts at the date click, skips the destination entry and search submission, hardcodes the date, sort, and activity values, and names no parameters, so it replays a single instance instead of the general procedure.",
+   "pred_name": "Repeated 7-step flow on viator",
+   "gt_description": "Search {destination} for {date}, optionally filter/sort by {sort}, and open or act on a resulting activity."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "opus",
+   "rank": 2,
+   "opportunity_id": "h011-op1",
+   "iou": 0.667,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal leaves out the first CITIES click and has no parameters: city and category are hardcoded to NEW YORK CITY and Museums, and the optional venue step is missing, so it only replays one specific occurrence rather than the general workflow.",
+   "pred_name": "Repeated 2-step flow on parking",
+   "gt_description": "Navigate Cities to {city} and open the {category} list or venue."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h012-op2",
+   "iou": 0.581,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal has the right pieces (Monthly tab, search text, date gridcell, Update Search) but in a wrong, rotated order (date and update before the tab and typing). It also hardcodes the date and a \"Florida Keys\" suggestion, names no parameters, and leaves out the date-picker open step, so it can't be automated as written.",
+   "pred_name": "Repeated 5-step flow on spothero",
+   "gt_description": "Search monthly parking near {location} with optional start date, filters and sorting"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h012-op3",
+   "iou": 0.457,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposal mixes the origin/destination typing with unrelated restaurant-booking steps (See all, Reserve, TheFork, Book) and omits trip type, dates, travelers, Find flights, filters and View Deal. It also names no parameters, so it is a different procedure and can't be automated as written.",
+   "pred_name": "Repeated 9-step flow on tripadvisor",
+   "gt_description": "Search flights from {origin} to {destination} with trip options and sorting/filters"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h012-op1",
+   "iou": 0.857,
+   "reconstruction": 4,
+   "feasibility": 2,
+   "rationale": "The proposed steps match the true action sequence in order (type, select suggestion, Filters, tick checkbox), but the spec lists no parameters and hardcodes the typed text, \"Venice\" and \"Accepts Mobile Coupons\", so it can't be reused for other locations or filters.",
+   "pred_name": "Repeated 4-step flow on parking",
+   "gt_description": "Search parking near {location} and apply the {filter} option in Filters."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h012-op0",
+   "iou": 0.3,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal captures only the first two steps (type in Find, click the Barbershop suggestion), then adds an unrelated \"Home Services\" link click. It omits the filter panel, the attribute checkbox and the Add/apply click, and it names no parameters (keyword, filters), so it can't be automated as specified.",
+   "pred_name": "Repeated 3-step flow on yelp",
+   "gt_description": "Search {keyword}, open See all filters, select {filters}, and apply."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "opus",
+   "rank": 3,
+   "opportunity_id": "h012-op0",
+   "iou": 0.3,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal only matches the first two steps (typing a search and picking a suggestion), then goes off into a \"Home Services\" link instead of opening the filter panel, checking attribute filters, and applying them; it also defines no parameters, with \"Barbershop\" hard-coded.",
+   "pred_name": "Repeated 3-step flow on yelp",
+   "gt_description": "Search {keyword}, open See all filters, select {filters}, and apply."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h013-op2",
+   "iou": 0.469,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal covers only the first part of the flight-search flow (origin/destination entry) and omits dates, passengers, the SEARCH FLIGHTS click and sort/filter. It also hardcodes Belo Horizonte and Buenos Aires instead of naming parameters, and it has an empty parameter list and a vague \"path\" first step, so it can't be automated as a reusable workflow.",
+   "pred_name": "Repeated 5-step flow on agoda",
+   "gt_description": "Search flights from {origin} to {destination} on {depart_date} (optional return {return_date}) with {passengers} and sort/filter such as {filter}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h013-op0",
+   "iou": 0.429,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposed steps match the true sequence (City Pages, a city, Search for more), but the city is hardcoded as \"Columbus\" and the section is fixed rather than parameterized, so a generic automation couldn't be built from the spec alone, though the goal is largely right.",
+   "pred_name": "Repeated 3-step flow on yellowpages",
+   "gt_description": "Open city page for {city} and view {section} (popular businesses, trending searches, deals, map of a category)"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h013-op3",
+   "iou": 0.5,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal covers only part of the true workflow (typing a destination, then the Filter, sort and DONE step) and skips the deal type, When and SEARCH DEALS steps. It hardcodes \"Fiji\" and \"Highest Rated\" and lists no parameters, so it can't be automated as a general workflow.",
+   "pred_name": "Repeated 5-step flow on travelzoo",
+   "gt_description": "Use the Travelzoo search form to find {deal_type} deals in {destination} during {when} (optionally guests), then apply filters/sort such as {filters}."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "h013-op2",
+   "iou": 0.469,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal only captures the first part of the flight search (entering origin and destination) and leaves out date selection, passengers, SEARCH FLIGHTS, and sorting/filtering; it also has no parameters, hardcodes the city options, and gives no description of the goal.",
+   "pred_name": "Repeated 5-step flow on agoda",
+   "gt_description": "Search flights from {origin} to {destination} on {depart_date} (optional return {return_date}) with {passengers} and sort/filter such as {filter}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "opus",
+   "rank": 2,
+   "opportunity_id": "h013-op3",
+   "iou": 0.5,
+   "reconstruction": 2,
+   "feasibility": 2,
+   "rationale": "The proposal only partly covers the true workflow: it has the destination entry and the filter/sort steps, but it leaves out choosing the deal type, choosing when, and clicking SEARCH DEALS, and it hardcodes \"Fiji\" and \"Highest Rated\" instead of naming any parameters.",
+   "pred_name": "Repeated 5-step flow on travelzoo",
+   "gt_description": "Use the Travelzoo search form to find {deal_type} deals in {destination} during {when} (optionally guests), then apply filters/sort such as {filters}."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h014",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h014-op1",
+   "iou": 0.389,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal captures only two middle steps (click To:, select Anywhere) of the Fare Finder flow, omitting opening Plan > Fare Finder, entering the origin, setting max price and clicking Let's go, and it names no parameters, so it cannot be automated to find flights under a price.",
+   "pred_name": "Repeated 2-step flow on ryanair",
+   "gt_description": "Use Fare Finder to find flights from {origin} to anywhere under {max_price}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h015-op0",
+   "iou": 0.545,
+   "reconstruction": 4,
+   "feasibility": 2,
+   "rationale": "The proposal reproduces the first five steps in the right order but adds an extra \"Jobs\" click, and it hardcodes Six Flags Fiesta Texas and the Events section instead of naming park and section as parameters, so it cannot be reused for other parks or sections.",
+   "pred_name": "Repeated 6-step flow on sixflags",
+   "gt_description": "Navigate to the {section} page of {park}."
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h016-op3",
+   "iou": 0.319,
+   "reconstruction": 1,
+   "feasibility": 1,
+   "rationale": "The proposed workflow is a two-click navigation through \"Car Sales\" and a \"Shop Vehicles Under $20,000\" link, which has nothing to do with the true rental search and booking flow, and it names no parameters.",
+   "pred_name": "Repeated 2-step flow on enterprise",
+   "gt_description": "Search a rental location, set pick-up/return dates and times, browse vehicles, apply filters/sort, select a vehicle and continue to review"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 4,
+   "opportunity_id": "h016-op0",
+   "iou": 0.615,
+   "reconstruction": 3,
+   "feasibility": 2,
+   "rationale": "The proposal captures the first four steps of the search (open activities, type city, select suggestion, click SEARCH) in the right order, but it omits the optional sort/filter steps (rating, sort, apply Filter). It also lists no parameters, so the city is not named as an input and the typed text is not specified, which leaves too little to automate generically.",
+   "pred_name": "Repeated 4-step flow on agoda",
+   "gt_description": "Search activities in {city} and optionally filter by {rating} and sort by {sort}"
+  },
+  {
+   "model": "heuristic",
+   "condition": "trace",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 6,
+   "opportunity_id": "h016-op2",
+   "iou": 0.833,
+   "reconstruction": 2,
+   "feasibility": 1,
+   "rationale": "The proposal captures only the Plan menu click (the true workflow hovers) plus an unnamed \"use\" click, and it omits the help/FAQ goal, the topic parameter and the final topic selection, so it is too vague to automate.",
+   "pred_name": "Repeated 2-step flow on carnival",
+   "gt_description": "Use the Plan menu to open the help/FAQ page about {topic}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent01",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent01-op0",
+   "iou": 1.0,
+   "reconstruction": 1,
+   "feasibility": 2,
+   "rationale": "The proposal is a different procedure (SEC EDGAR 10-K lookup, Wikipedia, email brief) from the true timeanddate time-zone and holiday lookup followed by a draft mail that is discarded; it shares only the \"compose email\" idea, and its parameters (ticker, company name, recipient) don't match, so it wouldn't automate the real task.",
+   "pred_name": "Company account brief: SEC 10-K lookup, Wikipedia, email",
+   "gt_description": "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter -> Add {hq_city} and {remote_city} and note the time difference -> Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month} -> Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\" -> Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\" -> Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent05",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent05-op0",
+   "iou": 0.551,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the true procedure in the right order (World Bank, then Wikipedia, then a mail draft that is discarded) and names country and recipient as parameters, but it leaves the body template vague and derives the recipient address and greeting name from the client parameter only loosely.",
+   "pred_name": "Country macro snapshot email draft",
+   "gt_description": "In the World Bank Data tab, click the search box, type {country} and press Enter; open the {country} country page -> Note the latest GDP (current US$) and population figures with their year -> Scroll down to GDP growth (annual %) and note the latest value -> Switch to the Wikipedia tab, search \"{country}\" and open the article; note the capital and the currency from the infobox -> Switch to the Mail tab, click To and type {client}@example.com, click Subject and type \"{country} macro snapshot\" -> Click Body and type \"Hi {client}, {country}: GDP <gdp> (<year>), growth <growth>%, population <population>; capital <capital>, currency <currency>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent05",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent05-op1",
+   "iou": 0.951,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the right sequence (Gutenberg search, then Wikipedia author lookup, then a Notes entry with the correct format), but it treats author as something noted from the book page instead of an input, omits the release date capture and the \"do not download\" constraint, and leaves out the tab switches and the \"open the article\" step. That leaves a builder to guess how to find the right book and article, though the note template is clear.",
+   "pred_name": "Gutenberg book to reading note",
+   "gt_description": "In the Project Gutenberg tab, click the search box, type \"{title}\" and press Enter -> Open the matching book by {author}; on its page note the release date and the downloads count. Do not download it -> Switch to the Wikipedia tab, search \"{author}\" and open the article; note the birth and death years -> Switch to Notes, click \"New note\", type \"Read: {title} by {author} (<birth>-<death>), Gutenberg since <release date>, <downloads> downloads\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent07-op0",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the true procedure in the right order (IMDb, then Rotten Tomatoes, then a mail draft that is discarded), but it has two problems: it lists director, runtime, rating and score as input parameters when they are values read from the sites, and it has a single \"recipient email\" parameter instead of a friend name that is used in both the address and the \"Hi {friend}\" greeting; it also gives no exact body template and leaves out the tab switching and the \"do not send\" detail, so an automation built from it would need guesses.",
+   "pred_name": "Movie night invite from IMDb and Rotten Tomatoes",
+   "gt_description": "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title -> Note the IMDb rating, the runtime and the director -> Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score -> Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\" -> Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent07-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same sequence (search, package page, note stats, GitHub repo, releases, note in the notes app) with the right parameter, but it wrongly says stars and issues are noted on the Releases page. It also leaves out closing the tab or going Back, the \"New note\" click, and the exact note format, so an automation would have to guess those details.",
+   "pred_name": "npm package stats note",
+   "gt_description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent07-op2",
+   "iou": 0.932,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal has the right goal, the right sequence (Allrecipes, then Wikipedia, then Notes) and the right two parameters, but it leaves out concrete details: setting the servings on the recipe page, \"first three\" ingredients, the \"New note\" click, the exact note format, and which tab to use. That makes it only partly automatable.",
+   "pred_name": "Recipe research note",
+   "gt_description": "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter -> Open the first recipe with a rating; note its name, star rating and total time -> Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients -> Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin -> Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent08",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent08-op0",
+   "iou": 0.751,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same sequence (Wikipedia, timeanddate, Booking, Viator \u00d72, OpenTable, note, mail, discard) and names most of the same parameters, but it leaves out several details: the review score \u22658 filter, the \"do not click Reserve/Book\" constraints, the exact note and email templates, and the specific activity1/activity2 and companion@example.com parameters, so an automation built from it alone would have to guess at those.",
+   "pred_name": "City weekend trip planning and share with friend",
+   "gt_description": "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox -> Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature -> Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search -> Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation -> Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter -> Switch to the Mail tab, click To and type {companion}@example.com -> Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\" -> Do not click Send. Click Discard to clear the draft"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent08",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "agent08-op0",
+   "iou": 0.751,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the overall procedure, step order, and nearly all parameters right, but it leaves out key details: the rule to pick the first hotel scored 8 or more, the \"first result\" rule on Viator, the first evening time on OpenTable, the exact note and email text templates, the companion@example.com email pattern, and the guardrails against reserving or booking, so an automation built from it alone would be underspecified.",
+   "pred_name": "City weekend trip planning and share with friend",
+   "gt_description": "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox -> Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature -> Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search -> Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation -> Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter -> Switch to the Mail tab, click To and type {companion}@example.com -> Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\" -> Do not click Send. Click Discard to clear the draft"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent09-op0",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same procedure in the right order (Booking search, xe.com EUR conversion, mail draft, discard) and gets most parameters right, but it leaves out the traveler parameter, which sets the recipient address and the greeting, and the review-score \u22658 selection rule. It also lists \"hotel\" as a parameter even though that value is discovered during the run, and it never says the Reserve and Send buttons must not be clicked. Because of those gaps, an automation built from the spec alone would have to guess at several details.",
+   "pred_name": "Hotel search, currency conversion, and email proposal",
+   "gt_description": "In the Booking.com tab, click the destination box, type {city}, set the dates {checkin} to {checkout} and click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve or I'll reserve -> Switch to the xe.com tab, set Amount to that total price, From to EUR and To to {currency}, click Convert and read the result -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Hotel for {city}, {checkin}-{checkout}\" -> Click Body and type \"Hi {traveler}, proposed hotel: <name>, <total> EUR (about <converted> {currency}). OK to book?\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent09-op2",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the right procedure in the right order: weather forecast, then BBC \"<city> strike\", then a Discard of the email draft. It is weaker on detail. It makes the recipient a parameter without saying the address is {traveler}@example.com. It adds a redundant \"search query\" parameter. It never mentions the Mail tab, the To, Subject and Body fields, or the exact body template. It also omits the greeting, which uses the traveler's name.",
+   "pred_name": "City weather and news heads-up email",
+   "gt_description": "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast -> Note the high, low and conditions for {date} -> Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\" -> Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent09-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true procedure and parameters in the right order, but it doesn't name the Notes app, the \"New note\" click, the note's text format or the Enter keypress, so an automation couldn't be built from it without guessing those details.",
+   "pred_name": "Visa requirements and holidays note",
+   "gt_description": "In the Wikipedia tab, click the search box, type \"Visa requirements for {nationality} citizens\" and open that article -> Find the row for {country} in the table and note the visa requirement and the allowed stay -> Switch to the timeanddate tab, open the Holidays menu, pick {country}, and note the public holidays in {month} -> Switch to Notes, click \"New note\", type \"{nationality} traveler to {country}: <requirement>, <allowed stay>. Holidays in {month}: <dates>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent09",
+   "judge": "opus",
+   "rank": 1,
+   "opportunity_id": "agent09-op2",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal has the right steps in the right order (weather 10-day lookup, BBC '<city> strike' search, a heads-up email with the correct subject, then discard) and the right core parameters (city, recipient, day), but it falls short in four places: it adds an unneeded 'search query' parameter that is really derived from city, it leaves out the {traveler}@example.com address format, it doesn't give the exact body template ('Hi {traveler}, ...: high/low, conditions. Latest news: headline (date).'), and it doesn't say 'do not send'.",
+   "pred_name": "City weather and news heads-up email",
+   "gt_description": "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast -> Note the high, low and conditions for {date} -> Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\" -> Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent12",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent12-op0",
+   "iou": 0.746,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same procedure in the same order with the right parameters (film, friend, day), but it is slightly vague: the recipient is listed as both an email and a first name, it never says the address is {friend}@example.com, and it doesn't say \"do not send\" or to click Discard.",
+   "pred_name": "Movie night email from IMDb and Rotten Tomatoes",
+   "gt_description": "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title -> Note the IMDb rating, the runtime and the director -> Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score -> Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\" -> Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent12",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent12-op1",
+   "iou": 0.846,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the same goal, order and parameter (package), but it misplaces stars and issues under the Releases step, omits closing the GitHub tab or going back, and leaves out the exact note format and the \"New note\" click, so an automation would need guesswork.",
+   "pred_name": "npm package stats to note",
+   "gt_description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent12",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent12-op2",
+   "iou": 0.794,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the right goal, sites, order and parameters (dish, servings), but it omits setting the servings on the recipe page, the \"first recipe with a rating\" criterion, the first-three-ingredients detail, the \"New note\" click and the note format, so an automation would have to guess at several details.",
+   "pred_name": "Recipe research note",
+   "gt_description": "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter -> Open the first recipe with a rating; note its name, star rating and total time -> Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients -> Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin -> Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent13",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent13-op0",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps, order, parameter (book title) and note template, but it leaves out UI details such as clicking the search box, pressing Enter, switching tabs, clicking \"New note\" and choosing the first film adaptation, so an automation would need to infer a few of those.",
+   "pred_name": "Book unit note: Gutenberg + IMDb to notes",
+   "gt_description": "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter -> Open the matching book and note its author and its download count from the bibliographic record -> Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating -> Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent13",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent13-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the same three-stage procedure, the right order and both parameters (country, capital), but it omits tab switching, the explicit click/Enter actions and the final Enter. It also treats the capital as read from Wikipedia while listing it as a parameter, and its steps are less concrete than an automation needs.",
+   "pred_name": "Country geography note: Wikipedia + timeanddate to notes",
+   "gt_description": "In the Wikipedia tab, click the search box, type {country} and open the country article -> From the infobox, note the population, official language(s) and currency -> Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time -> Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent13",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "agent13-op0",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the true procedure step by step (Gutenberg search, then author and downloads, then IMDb search, then film year and rating, then a 'Unit:' note in the exact format) with the right single parameter, but it leaves out a few details an automation would need: picking the *first* film adaptation, clicking \"New note\", and pressing Enter.",
+   "pred_name": "Book unit note: Gutenberg + IMDb to notes",
+   "gt_description": "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter -> Open the matching book and note its author and its download count from the bibliographic record -> Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating -> Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent14-op0",
+   "iou": 0.694,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same five-stage procedure in the right order and uses the correct note template, but it drops the \"4 or more stars\" filter, the \"don't click a time slot or Reserve\" constraint, and the explicit search-box, Enter and \"New note\" interactions. It also lists the parameters as \"cuisine and area\" rather than separate cuisine, area and dish, and it names no sites or tabs, so an automation could not be built from it alone without guessing.",
+   "pred_name": "Dinner plan: restaurant vs recipe note",
+   "gt_description": "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter -> Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve -> Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time -> Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent14-op1",
+   "iou": 0.98,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the right overall procedure and order (Wikipedia, then Booking, then a note), but it omits the review-score \u2265 8 filter and the \"do not reserve\" constraint, says \"first hotel\" instead, and adds an unstated one-night assumption. It also does not name the Booking and Notes tab switches or the \"New note\" click, and it merges check-in and check-out into vague \"date\" parameters, so an automation could not be built from it directly.",
+   "pred_name": "Stopover city: Wikipedia + Booking hotel note",
+   "gt_description": "In the Wikipedia tab, click the search box, type {town} and open the town's article -> Note its population and one landmark mentioned in the introduction -> Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search -> Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve -> Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent14-op2",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the true procedure in the right order with the correct parameters (city, person for relative, day), but it hardcodes \"Lille\" as the offset base, leaves out the tab switching, and gives only vague UI steps (no search-box clicks, no selecting from the list, no day-specific forecast, no explicit Body or Discard actions), so an automation would need to fill gaps.",
+   "pred_name": "Family call email: time and weather",
+   "gt_description": "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference -> Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day} -> Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\" -> Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent16",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent16-op0",
+   "iou": 0.994,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same sequence of sites and the same goal, but it leaves out the 8+ review-score filter, the \"do not click Reserve/Book/Send\" constraints, the exact note and email formats, and the exact recipient address pattern. It also lists \"dates\" as one parameter instead of checkin and checkout, so an automation built from it would need guesswork.",
+   "pred_name": "City weekend trip planning and emailing",
+   "gt_description": "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox -> Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature -> Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search -> Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation -> Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter -> Switch to the Mail tab, click To and type {companion}@example.com -> Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\" -> Do not click Send. Click Discard to clear the draft"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "agent16",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "agent16-op0",
+   "iou": 0.994,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the overall procedure, site order and most parameters right, but misses key details: picking the first hotel with a review score of 8 or more, noting prices and the evening time, the 'do not reserve/book' limits, and the exact note, subject and body templates; it also uses vague or duplicated parameters ('dates', and separate travelers and party size), so an automation built from it would be underspecified.",
+   "pred_name": "City weekend trip planning and emailing",
+   "gt_description": "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox -> Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature -> Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search -> Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation -> Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter -> Switch to the Mail tab, click To and type {companion}@example.com -> Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\" -> Do not click Send. Click Discard to clear the draft"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h009-op1",
+   "iou": 0.721,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (one-way, origin and destination with suggestions, date, search, sort by Quickest), but it hard-codes one-way instead of parameterizing trip type, omits a filters parameter, and adds an extra \"View Deal\" step, though it is concrete enough to automate.",
+   "pred_name": "Kayak one-way flight search",
+   "gt_description": "Search flights from {origin} to {destination} on {dates} with trip type, travelers and filters/sort like {filters}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h009-op2",
+   "iou": 0.9,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the core procedure (open planner, From, To, date, time, Get trip suggestions, view details) with sensible parameters. It leaves out the optional nature of the date/time and the extra_view choice, and it doesn't capture that the actual occurrence began from a station page, so it is slightly vague but still automatable.",
+   "pred_name": "MBTA trip planner",
+   "gt_description": "Plan a trip from {origin} to {destination} optionally at a specific date/time and view fare/map details"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h009-op3",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same procedure in the same order (search, type venue, select venue, open booking, pick date, select time) and names venue, date and time as parameters, but it leaves out party_size and the optional experience choice and describes the booking/search dialog step vaguely, so an automation built from it would have gaps.",
+   "pred_name": "Tock restaurant/winery reservation search",
+   "gt_description": "Search for the venue {restaurant}, choose date {date}, time {time} and party size {party_size}, and check availability"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h009-op0",
+   "iou": 0.619,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the right procedure (Permits tab, type location, select suggestion, enter date and guests, check availability) with matching parameters, but it hedges with \"if needed\" and \"or view details\" and mentions campgrounds and rules, and it gives no concrete UI element names, so an automation would need some guesswork.",
+   "pred_name": "Recreation.gov permit/campground search",
+   "gt_description": "Check permit availability for {location} via the Permits tab, optionally with date {date} and group size {group_size}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h010-op2",
+   "iou": 0.938,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same step order as the true workflow (Hotels, search, suggestion, dates, guests, Update, sort). It fixes the sort to price low-to-high instead of making sort or filters a parameter, and it leaves out the filters parameter, but a browser automation could still be built from it.",
+   "pred_name": "TripAdvisor hotel search with dates and sort by price",
+   "gt_description": "Search hotels in {location} for {dates} and {guests}, with optional sort/filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h010-op4",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same procedure in the right order (open hotel search, type city and pick suggestion, pick dates, search, apply filters), but it leaves out the rooms/guests step and hard-codes the filter options (shuttle was never used). It is concrete enough to automate roughly, though the filter parameter is vague and the missing rooms/guests input weakens it.",
+   "pred_name": "Kayak hotel search with filters",
+   "gt_description": "Search hotels in {location} for {dates} with {rooms_guests} and filters/sort {filters}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h010-op3",
+   "iou": 0.932,
+   "reconstruction": 3,
+   "feasibility": 2,
+   "rationale": "The proposal matches the overall goal (aa.com flight search from Plan Travel > Flights, then search and sort), but it treats the search as a single from/to/date segment. It leaves out the multi-city flow with multiple segments and \"Add another flight\". It also doesn't name the sort option or the segments list as parameters, so an automation couldn't be built from it for the multi-city case.",
+   "pred_name": "American Airlines flight search",
+   "gt_description": "Use Plan Travel flights search (one way or multi-city) for segments {segments} sorted by {sort}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h011-op2",
+   "iou": 0.769,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the core flow right (type destination, select suggestion, calendar date, sort/filter, open a result) with the right parameters, but it is vague on the submit step and the sort choice, puts \"Click Next\" before the date pick, and omits the final action parameter, so it is only moderately automatable.",
+   "pred_name": "Viator destination activity search",
+   "gt_description": "Search {destination} for {date}, optionally filter/sort by {sort}, and open or act on a resulting activity."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h011-op1",
+   "iou": 0.667,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true flow (CITIES, then city, then category, then optional venue) and uses the same parameters, but it makes venue and \"See Options\" mandatory when the true workflow treats them as optional, and its steps are vague (for example \"Select venue category\" doesn't say how to pick the category), so an automation would need some guesswork.",
+   "pred_name": "Parking city venue lookup",
+   "gt_description": "Navigate Cities to {city} and open the {category} list or venue."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h011-op3",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the core sequence (click section heading, show filters, select a filter, hide filters) but leaves out the optional location search and suggestion selection, and it names a single \"filter\" instead of a set of filters, so it is only partly complete and somewhat vague for automation.",
+   "pred_name": "Recreation.gov filter browse",
+   "gt_description": "Open {category} section and apply amenity/activity filters {filters}, optionally near {location}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h012-op2",
+   "iou": 0.977,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's core steps in order (Monthly tab, location typed with a suggestion selected, optional start date then Update Search, filters, sort, view details), but it leaves the date-picker interaction vague and doesn't name the filter or option choice as clear parameters, so an automation would need a few guesses.",
+   "pred_name": "SpotHero monthly parking search",
+   "gt_description": "Search monthly parking near {location} with optional start date, filters and sorting"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h012-op1",
+   "iou": 0.667,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's four steps in order and names both parameters (venue/address and filter option), though it's a bit generic: it doesn't say which filter checkbox, and it leaves out the optional View Details step.",
+   "pred_name": "Parking venue search with filters",
+   "gt_description": "Search parking near {location} and apply the {filter} option in Filters."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h012-op0",
+   "iou": 0.4,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true procedure (type in Find, pick a suggestion, open All/See all, tick filter checkboxes, click Add) and names the filters parameter, but it adds an unobserved location/Near input and a sort element, calls the keyword \"query\", and doesn't give concrete selectors or say how filter values are chosen, so it would need some guessing to automate.",
+   "pred_name": "Yelp search with filters and sort",
+   "gt_description": "Search {keyword}, open See all filters, select {filters}, and apply."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h013-op2",
+   "iou": 0.969,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same procedure in the same order: open Flights, enter origin and destination, pick dates, set passengers, search, then sort/filter. It is slightly off because it assumes round-trip, lumps the dates into one \"dates\" parameter instead of separate depart and return dates, and leaves out trip type and a filter parameter, but a automation could still be built from it.",
+   "pred_name": "Agoda flight search",
+   "gt_description": "Search flights from {origin} to {destination} on {depart_date} (optional return {return_date}) with {passengers} and sort/filter such as {filter}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h013-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the true flow (open Reservations, change location, pick date, set size and time, update search, apply filters), but it omits the reservation type parameter, merges the time and size steps, lists \"wine tasting\" as a filter, and gives no concrete selectors or filter handling, so automating it would need guesswork.",
+   "pred_name": "Exploretock reservation search",
+   "gt_description": "Search Tock listings for {reservation_type} in {location} on {date} at {time} for {party_size} guests, applying optional {cuisine} and other filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h013-op3",
+   "iou": 0.957,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same flow (deal type, destination, when, search, then filter/sort and DONE) and names matching parameters, but it uses \"month\" where the true workflow allows season, month or dates, omits guests and filters as parameters, and gives vague steps like \"Search/Filter\" and \"Pick when\" with no concrete element names or clicks.",
+   "pred_name": "Travelzoo deal search",
+   "gt_description": "Use the Travelzoo search form to find {deal_type} deals in {destination} during {when} (optionally guests), then apply filters/sort such as {filters}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h013-op0",
+   "iou": 0.727,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the right step order (City Pages, then city, then Search for more or Coupons) and the city parameter, but it leaves out the section parameter and the final click is an ambiguous \"or\", so an automation would have to guess which link to follow.",
+   "pred_name": "Yellowpages city page browse",
+   "gt_description": "Open city page for {city} and view {section} (popular businesses, trending searches, deals, map of a category)"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h014",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h014-op1",
+   "iou": 0.947,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposed steps match the true workflow in order and cover the right parameters (origin, max price), though it lists destination as a parameter even though it is fixed to Anywhere, and \"set the max price\" doesn't say how the price dropdown is operated, which makes it slightly vague to automate.",
+   "pred_name": "Ryanair Fare Finder search",
+   "gt_description": "Use Fare Finder to find flights from {origin} to anywhere under {max_price}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h015-op0",
+   "iou": 0.571,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (open Browse the Parks, pick park, click Go!, open a section link) with the right parameters of park and section, but it omits the nav-menu-open step and the final subpage click (e.g., \"See all events\") and leaves the section list somewhat loose.",
+   "pred_name": "Six Flags park selection and section lookup",
+   "gt_description": "Navigate to the {section} page of {park}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h015-op1",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same procedure in the same order with matching parameters (location, dates, times, car category, sort), but it merges the filter and sort steps and gives no specifics on how to interact with the calendar or filters, so it is slightly less concrete than ideal for automation.",
+   "pred_name": "Rental car search",
+   "gt_description": "Search for rental cars at {location} for {pickup_date}/{dropoff_date} (times optional) and apply filters such as {car_type}, supplier, sorting, then optionally view the deal."
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h015-op2",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps in order (Explore, Bus stops, city, stop) with the same city and stop parameters. The city/state and stop steps are a little generic, but they are still automatable with the parameters named.",
+   "pred_name": "Megabus bus stops lookup",
+   "gt_description": "Look up bus stops in {city} and view a stop's details"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h016-op3",
+   "iou": 0.93,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps and order (location with optional different return, dates, times, Browse Vehicles, sort, filter, select vehicle, Continue to Review) and names nearly all the parameters. It is slightly vague on the filter details and omits explicit sort and extras parameters, but a browser automation could still be built from it.",
+   "pred_name": "Enterprise car rental search and select",
+   "gt_description": "Search a rental location, set pick-up/return dates and times, browse vehicles, apply filters/sort, select a vehicle and continue to review"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h016-op1",
+   "iou": 0.836,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true goal and nearly all of its steps (open Meetings & Events, choose event type, destination, rooms/space, dates, purpose, Find, filters or result), but the order differs slightly, \"event type\" and \"purpose\" are listed as separate parameters, and it names no concrete UI selectors or values, so building an automation from it would take some guesswork.",
+   "pred_name": "Marriott meetings and events venue search",
+   "gt_description": "Use Meetings & Events to find venues in {destination} on {dates} for {purpose} with {guest_rooms} rooms and {event_space} attendees, with optional filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "trace",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h016-op0",
+   "iou": 0.929,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the core sequence (type city, select suggestion, SEARCH, open sort and filter), but it blurs activities with hotels, treats country as a separate parameter, and doesn't say how to apply the rating and sort or click the final Filter button, so an automation would have to guess at those parts.",
+   "pred_name": "Agoda destination search",
+   "gt_description": "Search activities in {city} and optionally filter by {rating} and sort by {sort}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent01",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent01-op0",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same procedure in the same order (converter, holidays, mail draft with offset and dates). It gets the recipient wrong as a parameter (the true one is fixed at ops@example.com). It also ties the holiday country to city B, and it ends with \"Send or discard\" instead of the required Discard. The spec is mostly concrete, but the ambiguous final step (sending is explicitly forbidden), the vague parameter names, and unspecified details like selecting the month and reading the dates would make an automation risky.",
+   "pred_name": "Time zone comparison and holiday check, then sync email draft",
+   "gt_description": "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter -> Add {hq_city} and {remote_city} and note the time difference -> Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month} -> Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\" -> Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\" -> Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent05",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent05-op0",
+   "iou": 0.551,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the true procedure in the right order (World Bank, then Wikipedia, then a mail draft that is discarded) and has the right country and client parameters. It is vague about GDP with its year and the growth value (it only says \"read population and other indicators\", with no scroll to GDP growth), and it gives no concrete recipient format ({client}@example.com). It also lists the extracted values as parameters, so an automation would need guesswork to build it.",
+   "pred_name": "Country macro snapshot email",
+   "gt_description": "In the World Bank Data tab, click the search box, type {country} and press Enter; open the {country} country page -> Note the latest GDP (current US$) and population figures with their year -> Scroll down to GDP growth (annual %) and note the latest value -> Switch to the Wikipedia tab, search \"{country}\" and open the article; note the capital and the currency from the infobox -> Switch to the Mail tab, click To and type {client}@example.com, click Subject and type \"{country} macro snapshot\" -> Click Body and type \"Hi {client}, {country}: GDP <gdp> (<year>), growth <growth>%, population <population>; capital <capital>, currency <currency>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent05",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent05-op1",
+   "iou": 0.951,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same sequence (Gutenberg search, book page, Wikipedia author, Notes new note with the same template, Enter), but it lists derived values like life dates, release date and download count as parameters instead of just title and author. It also leaves out the \"don't download\" constraint and the \"matching book by {author}\" check (it opens the \"top result\"), and it doesn't say to switch tabs or exactly how to search Wikipedia, which makes it a bit under-specified to automate.",
+   "pred_name": "Book reading note from Gutenberg and Wikipedia",
+   "gt_description": "In the Project Gutenberg tab, click the search box, type \"{title}\" and press Enter -> Open the matching book by {author}; on its page note the release date and the downloads count. Do not download it -> Switch to the Wikipedia tab, search \"{author}\" and open the article; note the birth and death years -> Switch to Notes, click \"New note\", type \"Read: {title} by {author} (<birth>-<death>), Gutenberg since <release date>, <downloads> downloads\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent07-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same procedure in the same order with the correct single parameter (package), but it merges the Releases step so it wrongly says stars and issues are read on Releases, leaves out closing the GitHub tab or going Back, and does not give the exact note format, which makes it a little less buildable.",
+   "pred_name": "Package research to notes",
+   "gt_description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent07-op2",
+   "iou": 0.932,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal gets the right sequence (Allrecipes, then Wikipedia, then Notes) and the right two parameters, but it drops the step to set servings on the recipe page, the \"first recipe with a rating\" detail, the first-three-ingredients detail, and the note's exact text format, so an automation would have to guess at those.",
+   "pred_name": "Recipe research to notes",
+   "gt_description": "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter -> Open the first recipe with a rating; note its name, star rating and total time -> Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients -> Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin -> Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent07",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent07-op0",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the right procedure and order (IMDb, then Rotten Tomatoes, then compose mail and discard), but it lists director, runtime, rating and Tomatometer as input parameters when they are values read from the sites, it has no friend parameter (only a recipient email), and it leaves out the exact subject and body templates, so an automation would have to guess them.",
+   "pred_name": "Movie lookup and invite email",
+   "gt_description": "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title -> Note the IMDb rating, the runtime and the director -> Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score -> Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\" -> Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent07",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "agent07-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same npm, GitHub repo, Releases and Notes procedure with the right single parameter and the same data fields, but it leaves out two things: closing the GitHub tab or going Back, and the exact format of the note text. It also collects stars and open issues on the Releases page instead of the repo page, which is minor because those counts show in the repo header on both pages.",
+   "pred_name": "Package research to notes",
+   "gt_description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent08",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent08-op0",
+   "iou": 0.934,
+   "reconstruction": 4,
+   "feasibility": 2,
+   "rationale": "The proposal follows the right sequence of sites and the right overall goal, but it leaves out the guests parameter naming, the activity1/activity2 split, the companion parameter, and the \"review score \u2265 8\" hotel rule. It also omits the \"do not click Reserve/Book\" constraints, treats the note and email text as free-form parameters instead of templates, and says \"discard or send\" where the true workflow requires Discard, so an automation could not be built from it without guessing.",
+   "pred_name": "City weekend trip planning and email draft",
+   "gt_description": "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox -> Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature -> Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search -> Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation -> Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter -> Switch to the Mail tab, click To and type {companion}@example.com -> Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\" -> Do not click Send. Click Discard to clear the draft"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent09-op0",
+   "iou": 0.987,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same Booking \u2192 Xe \u2192 Mail sequence and gets the subject and body templates right. It misses the review-score \u2265 8 criterion, the \"do not Reserve\" constraint, and the fixed recipient form {traveler}@example.com. It also lists hotel name, price and converted amount as parameters when they are outputs. Its \"top or chosen hotel\", \"receiving amount\" and \"Discard or send\" wording is ambiguous or risky, since the true workflow never sends, so an automation would need guesswork.",
+   "pred_name": "Hotel search, currency conversion, and email draft to colleague",
+   "gt_description": "In the Booking.com tab, click the destination box, type {city}, set the dates {checkin} to {checkout} and click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve or I'll reserve -> Switch to the xe.com tab, set Amount to that total price, From to EUR and To to {currency}, click Convert and read the result -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Hotel for {city}, {checkin}-{checkout}\" -> Click Body and type \"Hi {traveler}, proposed hotel: <name>, <total> EUR (about <converted> {currency}). OK to book?\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent09-op2",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true procedure step for step (weather 10 Day, BBC \"<city> strike\", mail with the same subject and body), but the parameters are muddled and the steps are vague. It lists derived values like forecast and headline as parameters, uses \"weekday\" and a separate recipient email and name instead of a single traveler, and says \"Discard or send\" when the true workflow requires Discard and never Send. It also skips the To field and the specific clicks, which makes automation less reliable.",
+   "pred_name": "City weather forecast and news headline email",
+   "gt_description": "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast -> Note the high, low and conditions for {date} -> Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\" -> Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent09",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent09-op1",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps, order and three parameters (nationality, country, month), but it leaves out the \"New note\" click and the search-box click, and it doesn't mention switching tabs, so an automation would have to fill in a few small details.",
+   "pred_name": "Visa requirements and holidays research note",
+   "gt_description": "In the Wikipedia tab, click the search box, type \"Visa requirements for {nationality} citizens\" and open that article -> Find the row for {country} in the table and note the visa requirement and the allowed stay -> Switch to the timeanddate tab, open the Holidays menu, pick {country}, and note the public holidays in {month} -> Switch to Notes, click \"New note\", type \"{nationality} traveler to {country}: <requirement>, <allowed stay>. Holidays in {month}: <dates>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent09",
+   "judge": "opus",
+   "rank": 1,
+   "opportunity_id": "agent09-op2",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the true procedure in the right order (weather 10-day lookup, BBC '<city> strike' search with the top article, then a mail draft with the matching subject and body template), but it loses detail in three places: it ends with 'Discard or send' when the draft must be discarded and never sent; it lists derived values (forecast, headline) as input parameters; and it splits the recipient into separate email and name parameters instead of building the address as {traveler}@example.com.",
+   "pred_name": "City weather forecast and news headline email",
+   "gt_description": "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast -> Note the high, low and conditions for {date} -> Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\" -> Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent12",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent12-op0",
+   "iou": 0.468,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true procedure (IMDb, then Rotten Tomatoes, then a mail draft with the gathered facts, then discard) and the main parameters. It lists director, runtime, rating and score as input parameters when they are scraped values, it drops the friend-name greeting and the \"{friend}@example.com\" construction, it says \"Discard (or Send)\" when the draft must not be sent, and it omits the exact body template and the UI clicks, so it is only partly automatable.",
+   "pred_name": "Movie research (IMDb + Rotten Tomatoes) and draft movie-night email",
+   "gt_description": "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title -> Note the IMDb rating, the runtime and the director -> Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score -> Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\" -> Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent12",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent12-op1",
+   "iou": 0.389,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal covers the right goal, order and parameter (package), but it is vague on the note's exact format, on where to find each value (Repository link, \"New note\", Enter), and on closing the GitHub tab or going back, so an automation would have to guess at several details.",
+   "pred_name": "npm package stats note",
+   "gt_description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent12",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent12-op2",
+   "iou": 0.412,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the right sequence (Allrecipes, then Wikipedia, then Notes) and captures the goal. It leaves out setting the servings on the recipe page and the exact \"first three ingredients\" and \"first recipe with a rating\" details. It also wrongly lists rating, time, ingredients and origin as input parameters when they are values read from the pages, and the note format is vague, so an automation would need guesswork.",
+   "pred_name": "Recipe research and note with origin",
+   "gt_description": "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter -> Open the first recipe with a rating; note its name, star rating and total time -> Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients -> Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin -> Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent13",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent13-op0",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's order, the single \"book\" parameter and the exact note template. It is slightly less concrete on tab switching, on clicking \"New note\" and pressing Enter, and on opening the first film adaptation, but an automation could still be built from it.",
+   "pred_name": "Book + film + note research (Gutenberg & IMDb)",
+   "gt_description": "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter -> Open the matching book and note its author and its download count from the bibliographic record -> Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating -> Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent13",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent13-op1",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps, order, parameters (country, capital) and note format; it is slightly less concrete on UI details (click the search box, press Enter, \"New note\", switching tabs, submitting the note), but an automation could still be built from it.",
+   "pred_name": "Country geography note (Wikipedia & timeanddate)",
+   "gt_description": "In the Wikipedia tab, click the search box, type {country} and open the country article -> From the infobox, note the population, official language(s) and currency -> Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time -> Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent14-op0",
+   "iou": 0.694,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the overall procedure and order (OpenTable, then Allrecipes, then Notes, with the same note template), but it leaves out the 4+ star filter for the recipe, the \"don't click time slot/Reserve\" constraint, and the \"New note\" click. It also lists the derived values \"restaurant\" and \"recipe name\" as parameters and gives no separate \"area\" parameter, since area is folded into the OpenTable query, which makes the note's area and the parameter set ambiguous.",
+   "pred_name": "Dinner plan: restaurant lookup + recipe lookup + note",
+   "gt_description": "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter -> Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve -> Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time -> Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "agent14-op1",
+   "iou": 0.98,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal follows the same Wikipedia \u2192 Booking \u2192 Notes procedure and has the right parameters, but it omits the review score of 8 or more filter, the \"do not reserve\" constraint, and the landmark and \"New note\" steps, and it wrongly lists hotel and price as input parameters (they are outputs), so an automation built from it alone would be underspecified.",
+   "pred_name": "Stopover city: Wikipedia + Booking hotel + note",
+   "gt_description": "In the Wikipedia tab, click the search box, type {town} and open the town's article -> Note its population and one landmark mentioned in the introduction -> Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search -> Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve -> Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent14",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "agent14-op2",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true procedure (timeanddate, then weather.com 10-day, then a mail draft to family@example.com that is discarded) with the right city, day and person/relative parameters, but \"Lille\" is hardcoded, \"local time\" and \"forecast\" are listed as parameters when they are read from the pages, the forecast is never tied to the specific day, and the body wording and the clicks and tab switches are vague.",
+   "pred_name": "Call planning: timezone + weather + draft email",
+   "gt_description": "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference -> Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day} -> Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\" -> Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "agent16",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "agent16-op0",
+   "iou": 0.994,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the right sequence of sites and goal, but it is vague on key constraints (first hotel with review score of 8 or more, two separate Viator searches, noting the first evening time, and the don't-click rules) and it misnames or merges parameters (activity queries, dinner date and party size duplicating check-in and guests, and no companion name for the \"Hi {companion}\" greeting), so an automation would need guesswork.",
+   "pred_name": "City weekend trip planning and emailing",
+   "gt_description": "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox -> Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature -> Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book -> Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search -> Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation -> Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter -> Switch to the Mail tab, click To and type {companion}@example.com -> Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\" -> Do not click Send. Click Discard to clear the draft"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h009-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (trip type, origin and destination, date, search, sort by quickest or cheapest) with parameters mostly right; it adds bags and an \"open deal\" step, omits filters as a parameter, and puts travelers before origin, but it is still concrete enough to automate.",
+   "pred_name": "Kayak flight search",
+   "gt_description": "Search flights from {origin} to {destination} on {dates} with trip type, travelers and filters/sort like {filters}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h009-op2",
+   "iou": 0.9,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal captures the true goal and step order (open planner, enter From/To, set depart date and time, get suggestions, expand details) with sensible parameters, though the actual occurrence began from a station page and the extra_view option (fare calculator or map) is only loosely covered as \"expand trip details/fare\", so it's concrete enough to automate with minor gaps.",
+   "pred_name": "MBTA trip planner",
+   "gt_description": "Plan a trip from {origin} to {destination} optionally at a specific date/time and view fare/map details"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h009-op3",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true flow (search, type venue, select it, open the reservation, set party size, pick date and time) with the right core parameters, but it omits the experience parameter and describes the party-size and calendar steps vaguely (\"increase party size\"), so an automation would need to guess some details.",
+   "pred_name": "Tock restaurant/winery reservation search",
+   "gt_description": "Search for the venue {restaurant}, choose date {date}, time {time} and party size {party_size}, and check availability"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h009",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h009-op0",
+   "iou": 0.619,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true procedure (Permits tab, type the facility, select the suggestion, enter the date, check availability, set group size) with the right parameters, but its last step merges date, check availability and group size and doesn't say they're optional, and it gives no concrete element details, so an automation would need guesses.",
+   "pred_name": "Recreation.gov permit search and availability",
+   "gt_description": "Check permit availability for {location} via the Permits tab, optionally with date {date} and group size {group_size}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h010-op2",
+   "iou": 0.969,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the true procedure in the same order (Hotels, destination and suggestion, dates, guests with Update, filters, sort) and names all the parameters; its only additions are an extra \"open top result\" step and some vagueness about which filters and which sort option, so it is a little less concrete than ideal for automation.",
+   "pred_name": "Tripadvisor hotel search by city with dates, guests, filters and sort",
+   "gt_description": "Search hotels in {location} for {dates} and {guests}, with optional sort/filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h010-op3",
+   "iou": 0.977,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the same procedure (Plan Travel > Flights, choose search type, enter From/To/Depart per leg with suggestion picks, add another flight, search, sort), but it is generic: it leaves the segments as separate origin/destination/date parameters rather than a list, and it puts sort after Search without naming the sort value, so an automation would need to guess some details.",
+   "pred_name": "American Airlines flight search form",
+   "gt_description": "Use Plan Travel flights search (one way or multi-city) for segments {segments} sorted by {sort}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h010-op4",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (open hotels, type destination and pick a suggestion, pick dates, search, apply sort and amenity filters) in the right order with the right main parameters, but it omits the rooms/guests step and parameter and is somewhat vague on the filter specifics.",
+   "pred_name": "Kayak hotel search with filters",
+   "gt_description": "Search hotels in {location} for {dates} with {rooms_guests} and filters/sort {filters}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h010-op0",
+   "iou": 0.833,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal captures the core procedure in the right order (type category and pick suggestion, type location and pick suggestion, click Find) with the right category and location parameters, but it omits the optional filters parameter and the filter-application step (coupons, BBB rating), though it is still concrete enough to automate the basic search.",
+   "pred_name": "Yellow Pages business search by category and city",
+   "gt_description": "Search for {category} businesses in {location} using the home search form, optionally applying filters {filters}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "judge": "sonnet",
+   "rank": 4,
+   "opportunity_id": "h010-op1",
+   "iou": 0.8,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal has the same two-step sequence (click a Bonvoy link such as Redeem Points, then Learn More) and the right varying parameter, but it calls the link a \"footer\" link, which may be wrong, and it omits the topic parameter and gives no concrete selectors, so an automation would be somewhat under-specified.",
+   "pred_name": "Marriott footer Bonvoy points link lookup",
+   "gt_description": "Open the {menu} Bonvoy menu and click Learn More to read about {topic}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h010",
+   "judge": "opus",
+   "rank": 0,
+   "opportunity_id": "h010-op2",
+   "iou": 0.969,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the true procedure in the same order with matching parameters (Hotels, destination plus suggestion, dates, guests and Update, filters, sort), but it adds an extra \"open top result\" step, and the filter and sort choices are only described loosely, so building it would need some interpretation.",
+   "pred_name": "Tripadvisor hotel search by city with dates, guests, filters and sort",
+   "gt_description": "Search hotels in {location} for {dates} and {guests}, with optional sort/filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h011-op2",
+   "iou": 0.769,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (type destination, pick date via Next and a calendar click, sort by traveler rating, open a tour), but it adds a category filter and an \"Apply\" step that the trace doesn't show, and it leaves the final action (e.g. reviews/Helpful) vague, so it is concrete enough to automate yet not exact.",
+   "pred_name": "Viator destination and date tour search",
+   "gt_description": "Search {destination} for {date}, optionally filter/sort by {sort}, and open or act on a resulting activity."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h011-op3",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true sequence (category click, location, show filters, select filters, hide filters) with the right parameters, but it hard-codes \"accessible campsites\" and \"More Filters\", names the categories loosely, and leaves the filter-toggling step vague, so an automation would need guesswork.",
+   "pred_name": "Recreation.gov search with filters",
+   "gt_description": "Open {category} section and apply amenity/activity filters {filters}, optionally near {location}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h011",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h011-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the core sequence (CITIES, city, category, venue) with the right parameters, but it adds steps beyond the true workflow (SEE OPTIONS, selecting a garage) and uses vague wording (\"CITIES or the city tile list\", \"such as Museums or Theaters\"), so an automation would need some guesswork about where to stop.",
+   "pred_name": "Parking.com city destination to parking options",
+   "gt_description": "Navigate Cities to {city} and open the {category} list or venue."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h011",
+   "judge": "opus",
+   "rank": 1,
+   "opportunity_id": "h011-op3",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same steps in the same order with matching parameters (category, location, filters), but its description mixes \"More Filters\" with \"Show filters\" and calls categories \"tiles\" when they are headings, and it doesn't say that location is optional at the step level.",
+   "pred_name": "Recreation.gov search with filters",
+   "gt_description": "Open {category} section and apply amenity/activity filters {filters}, optionally near {location}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h012-op2",
+   "iou": 0.977,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same procedure in the same order (Monthly tab, type location, pick suggestion, start date picker, Update Search, optional filter or sort, view details) and names the right parameters; it loses a point on feasibility because the date-picker navigation is vague and the amenity filter isn't separated from the option filter.",
+   "pred_name": "SpotHero monthly parking search by location",
+   "gt_description": "Search monthly parking near {location} with optional start date, filters and sorting"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h012-op1",
+   "iou": 0.667,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps in order (type location, select suggestion, click Filters, tick a filter checkbox) and names both parameters, but it is slightly generic: it doesn't specify which filter options exist, and the \"daily\" in the name isn't supported by the true workflow.",
+   "pred_name": "Parking.com daily parking search with filter",
+   "gt_description": "Search parking near {location} and apply the {filter} option in Filters."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h012-op0",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (type in Find, select suggestion, open All, See all, tick checkboxes, Add) with parameters search term and feature checkboxes. It is slightly over-specific about \"Features\" and skips the extra span click, but a browser automation could still be built from it.",
+   "pred_name": "Yelp search with extra features filter",
+   "gt_description": "Search {keyword}, open See all filters, select {filters}, and apply."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h012",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h012-op3",
+   "iou": 0.719,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal captures the core flow (open Flights, choose trip type, enter and select origin and destination, set date and travelers, click Find flights) in the right order with the right main parameters, but it omits the post-search filter/sort and View Deal steps and the airline and sort parameters, and the date and traveler steps are vague, so an automation would need guesswork.",
+   "pred_name": "Tripadvisor flight search with airport entry",
+   "gt_description": "Search flights from {origin} to {destination} with trip options and sorting/filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h013-op2",
+   "iou": 0.969,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (open Flights, trip type, origin, destination, dates, passengers, search, sort/filter) and names nearly the same parameters, but it adds an unobserved \"select a flight\" step and leaves out a generic filter parameter, so it is a little too specific and slightly incomplete.",
+   "pred_name": "Agoda flight search",
+   "gt_description": "Search flights from {origin} to {destination} on {depart_date} (optional return {return_date}) with {passengers} and sort/filter such as {filter}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h013-op1",
+   "iou": 0.909,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal covers the same goal and nearly the same steps in a similar order (location, type, date/time/size, update, filters, update), with the right parameters. It is vague on specifics such as the selectors, the cuisine versus additional filters, and an added time-slot pick, so it is only partly automatable from the spec alone.",
+   "pred_name": "Tock reservation search",
+   "gt_description": "Search Tock listings for {reservation_type} in {location} on {date} at {time} for {party_size} guests, applying optional {cuisine} and other filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h013-op3",
+   "iou": 0.826,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (deal type, destination, When season/month, search, then Filter/sort and Done) in the right order with the main parameters. It omits the optional guests parameter and a general filters parameter, and its step descriptions are slightly vague, such as not naming the 'Where?' selection.",
+   "pred_name": "Travelzoo deal search with filters",
+   "gt_description": "Use the Travelzoo search form to find {deal_type} deals in {destination} during {when} (optionally guests), then apply filters/sort such as {filters}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h013",
+   "judge": "sonnet",
+   "rank": 3,
+   "opportunity_id": "h013-op0",
+   "iou": 0.5,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the true flow of City Pages, then a city, then a section link, and it names the right parameters (city, section). It is vague, though: the last step lists \"Search for more or Coupons or filter category\" without saying how to pick one, and \"Choose a city\" doesn't tie to the {city} parameter, so an automation would need guesswork.",
+   "pred_name": "Yellow Pages city page browse",
+   "gt_description": "Open city page for {city} and view {section} (popular businesses, trending searches, deals, map of a category)"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h013",
+   "judge": "opus",
+   "rank": 3,
+   "opportunity_id": "h013-op0",
+   "iou": 0.5,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same three-step procedure (City Pages \u2192 city \u2192 section link) and uses the correct city and section parameters, though the wording of the section step (\"Search for more or Coupons or filter category\") is a little loose and leaves out the map view.",
+   "pred_name": "Yellow Pages city page browse",
+   "gt_description": "Open city page for {city} and view {section} (popular businesses, trending searches, deals, map of a category)"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h014",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h014-op1",
+   "iou": 0.947,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal has the same procedure in the same order (Plan, Fare Finder, From, To Anywhere, budget, Let's go) and names origin and budget as parameters. It also lists destination as a parameter even though it is fixed to Anywhere, and the budget step says only \"pick a value\", so an automation would work but the spec is slightly loose.",
+   "pred_name": "Ryanair Fare Finder budget search",
+   "gt_description": "Use Fare Finder to find flights from {origin} to anywhere under {max_price}"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h015-op1",
+   "iou": 1.0,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal follows the same procedure in the same order: location, suggestion, dates, times, Search, category, sort, View deal. It leaves out the generic \"other filters\" parameter and treats the times as required rather than optional. Its steps are concrete enough to automate, though the category-tab and sort steps are a little vague.",
+   "pred_name": "Rentalcars car search by location, dates and times",
+   "gt_description": "Search for rental cars at {location} for {pickup_date}/{dropoff_date} (times optional) and apply filters such as {car_type}, supplier, sorting, then optionally view the deal."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h015-op0",
+   "iou": 0.556,
+   "reconstruction": 4,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure (select park from Browse the Parks, click Go, open a nav menu and click a subpage) and names park and section as parameters. It is slightly vague on the final step, \"then explore its menus\", and it adds a separate submenu parameter, but an automation could still be built from it.",
+   "pred_name": "Six Flags select park and go to park site",
+   "gt_description": "Navigate to the {section} page of {park}."
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h015",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h015-op2",
+   "iou": 1.0,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure step for step (Explore, Bus stops, city, stop) and names the same city and stop parameters, but \"a city entry\" and \"a stop under it\" are slightly generic, so an automation would need to read those from the parameters.",
+   "pred_name": "Megabus bus stops browse",
+   "gt_description": "Look up bus stops in {city} and view a stop's details"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 0,
+   "opportunity_id": "h016-op1",
+   "iou": 0.745,
+   "reconstruction": 4,
+   "feasibility": 3,
+   "rationale": "The proposal matches the core procedure and parameters (destination, dates, event type, rooms, attendees, Find), but it leaves out the booking-flow choice (Weddings) and the final filter/venue selection, and it describes the entry point and event-type dropdown loosely, so an automation would need guesswork.",
+   "pred_name": "Marriott Meetings & Events venue search",
+   "gt_description": "Use Meetings & Events to find venues in {destination} on {dates} for {purpose} with {guest_rooms} rooms and {event_space} attendees, with optional filters"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 1,
+   "opportunity_id": "h016-op3",
+   "iou": 0.95,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true procedure step for step, including the optional different return location, dates and times, Browse Vehicles, sort and filters, and Continue to Review. It is slightly vague on date-picker mechanics and leaves out sort and extras as named parameters, but a browser automation could still be built from it.",
+   "pred_name": "Enterprise car rental search and vehicle selection",
+   "gt_description": "Search a rental location, set pick-up/return dates and times, browse vehicles, apply filters/sort, select a vehicle and continue to review"
+  },
+  {
+   "model": "sonnet",
+   "condition": "both",
+   "session": "h016",
+   "judge": "sonnet",
+   "rank": 2,
+   "opportunity_id": "h016-op0",
+   "iou": 0.929,
+   "reconstruction": 5,
+   "feasibility": 4,
+   "rationale": "The proposal matches the true workflow's steps, order and parameters (city, sort, rating). It is slightly less concrete on how to set the rating and sort options, but a browser automation could still be built from it.",
+   "pred_name": "Agoda activities search by city",
+   "gt_description": "Search activities in {city} and optionally filter by {rating} and sort by {sort}"
+  }
+ ]
+}

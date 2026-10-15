@@ -1,0 +1,1230 @@
+{
+ "session_id": "h008",
+ "seed": 8,
+ "tier": "hard",
+ "started_at": "2026-09-09T09:00:00+00:00",
+ "duration_s": 432.16,
+ "events": [
+  {
+   "seq": 0,
+   "t": 6.52,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 0
+  },
+  {
+   "seq": 1,
+   "t": 15.97,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 1
+  },
+  {
+   "seq": 2,
+   "t": 20.77,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 2
+  },
+  {
+   "seq": 3,
+   "t": 26.43,
+   "task_id": "82094208-02a3-46de-a55f-4c48924cb16c",
+   "action_index": 0
+  },
+  {
+   "seq": 4,
+   "t": 30.87,
+   "task_id": "82094208-02a3-46de-a55f-4c48924cb16c",
+   "action_index": 1
+  },
+  {
+   "seq": 5,
+   "t": 35.82,
+   "task_id": "82094208-02a3-46de-a55f-4c48924cb16c",
+   "action_index": 2
+  },
+  {
+   "seq": 6,
+   "t": 40.84,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 3
+  },
+  {
+   "seq": 7,
+   "t": 47.41,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 4
+  },
+  {
+   "seq": 8,
+   "t": 52.45,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 5
+  },
+  {
+   "seq": 9,
+   "t": 58.51,
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "action_index": 6
+  },
+  {
+   "seq": 10,
+   "t": 61.68,
+   "task_id": "aa835369-48e5-4e8f-8f36-49dcdaf5dcb1",
+   "action_index": 0
+  },
+  {
+   "seq": 11,
+   "t": 67.42,
+   "task_id": "aa835369-48e5-4e8f-8f36-49dcdaf5dcb1",
+   "action_index": 1
+  },
+  {
+   "seq": 12,
+   "t": 72.73,
+   "task_id": "070e63b9-e341-485d-ad10-82bf9ea45715",
+   "action_index": 0
+  },
+  {
+   "seq": 13,
+   "t": 78.06,
+   "task_id": "070e63b9-e341-485d-ad10-82bf9ea45715",
+   "action_index": 1
+  },
+  {
+   "seq": 14,
+   "t": 83.62,
+   "task_id": "070e63b9-e341-485d-ad10-82bf9ea45715",
+   "action_index": 2
+  },
+  {
+   "seq": 15,
+   "t": 89.39,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 0
+  },
+  {
+   "seq": 16,
+   "t": 96.88,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 1
+  },
+  {
+   "seq": 17,
+   "t": 100.49,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 2
+  },
+  {
+   "seq": 18,
+   "t": 105.42,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 3
+  },
+  {
+   "seq": 19,
+   "t": 111.71,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 4
+  },
+  {
+   "seq": 20,
+   "t": 117.28,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 5
+  },
+  {
+   "seq": 21,
+   "t": 123.8,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 6
+  },
+  {
+   "seq": 22,
+   "t": 131.18,
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "action_index": 7
+  },
+  {
+   "seq": 23,
+   "t": 139.39,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 0
+  },
+  {
+   "seq": 24,
+   "t": 145.64,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 1
+  },
+  {
+   "seq": 25,
+   "t": 152.79,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 2
+  },
+  {
+   "seq": 26,
+   "t": 157.99,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 3
+  },
+  {
+   "seq": 27,
+   "t": 164.61,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 4
+  },
+  {
+   "seq": 28,
+   "t": 168.58,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 5
+  },
+  {
+   "seq": 29,
+   "t": 172.6,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 6
+  },
+  {
+   "seq": 30,
+   "t": 175.86,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 7
+  },
+  {
+   "seq": 31,
+   "t": 186.12,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 0
+  },
+  {
+   "seq": 32,
+   "t": 192.8,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 8
+  },
+  {
+   "seq": 33,
+   "t": 196.55,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 9
+  },
+  {
+   "seq": 34,
+   "t": 200.92,
+   "task_id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+   "action_index": 0
+  },
+  {
+   "seq": 35,
+   "t": 206.32,
+   "task_id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+   "action_index": 1
+  },
+  {
+   "seq": 36,
+   "t": 212.32,
+   "task_id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+   "action_index": 2
+  },
+  {
+   "seq": 37,
+   "t": 221.85,
+   "task_id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+   "action_index": 3
+  },
+  {
+   "seq": 38,
+   "t": 226.25,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 10
+  },
+  {
+   "seq": 39,
+   "t": 232.02,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 11
+  },
+  {
+   "seq": 40,
+   "t": 239.68,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 1
+  },
+  {
+   "seq": 41,
+   "t": 243.57,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 2
+  },
+  {
+   "seq": 42,
+   "t": 250.57,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 3
+  },
+  {
+   "seq": 43,
+   "t": 256.63,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 4
+  },
+  {
+   "seq": 44,
+   "t": 263.51,
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "action_index": 12
+  },
+  {
+   "seq": 45,
+   "t": 268.22,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 5
+  },
+  {
+   "seq": 46,
+   "t": 273.44,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 6
+  },
+  {
+   "seq": 47,
+   "t": 277.86,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 7
+  },
+  {
+   "seq": 48,
+   "t": 284.08,
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "action_index": 8
+  },
+  {
+   "seq": 49,
+   "t": 292.59,
+   "task_id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+   "action_index": 0
+  },
+  {
+   "seq": 50,
+   "t": 298.3,
+   "task_id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+   "action_index": 1
+  },
+  {
+   "seq": 51,
+   "t": 301.49,
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "action_index": 0
+  },
+  {
+   "seq": 52,
+   "t": 308.74,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 0
+  },
+  {
+   "seq": 53,
+   "t": 319.84,
+   "task_id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+   "action_index": 2
+  },
+  {
+   "seq": 54,
+   "t": 324.3,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 1
+  },
+  {
+   "seq": 55,
+   "t": 328.66,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 2
+  },
+  {
+   "seq": 56,
+   "t": 332.53,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 3
+  },
+  {
+   "seq": 57,
+   "t": 341.3,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 4
+  },
+  {
+   "seq": 58,
+   "t": 345.53,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 5
+  },
+  {
+   "seq": 59,
+   "t": 349.68,
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "action_index": 1
+  },
+  {
+   "seq": 60,
+   "t": 353.56,
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "action_index": 2
+  },
+  {
+   "seq": 61,
+   "t": 357.09,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 0
+  },
+  {
+   "seq": 62,
+   "t": 361.84,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 6
+  },
+  {
+   "seq": 63,
+   "t": 367.94,
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "action_index": 7
+  },
+  {
+   "seq": 64,
+   "t": 372.16,
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "action_index": 3
+  },
+  {
+   "seq": 65,
+   "t": 376.73,
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "action_index": 4
+  },
+  {
+   "seq": 66,
+   "t": 387.03,
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "action_index": 5
+  },
+  {
+   "seq": 67,
+   "t": 390.68,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 1
+  },
+  {
+   "seq": 68,
+   "t": 398.77,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 2
+  },
+  {
+   "seq": 69,
+   "t": 402.99,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 3
+  },
+  {
+   "seq": 70,
+   "t": 407.76,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 4
+  },
+  {
+   "seq": 71,
+   "t": 414.7,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 5
+  },
+  {
+   "seq": 72,
+   "t": 423.12,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 6
+  },
+  {
+   "seq": 73,
+   "t": 428.89,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 7
+  },
+  {
+   "seq": 74,
+   "t": 432.16,
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "action_index": 8
+  }
+ ],
+ "segments": [
+  {
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "role": "one_off",
+   "start": 0.0,
+   "end": 20.77,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "82094208-02a3-46de-a55f-4c48924cb16c",
+   "role": "workflow",
+   "start": 20.77,
+   "end": 35.82,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+   "role": "one_off",
+   "start": 35.82,
+   "end": 58.51,
+   "actions": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "aa835369-48e5-4e8f-8f36-49dcdaf5dcb1",
+   "role": "one_off",
+   "start": 58.51,
+   "end": 67.42,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "070e63b9-e341-485d-ad10-82bf9ea45715",
+   "role": "one_off",
+   "start": 67.42,
+   "end": 83.62,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+   "role": "workflow",
+   "start": 83.62,
+   "end": 131.18,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "role": "distractor",
+   "start": 131.18,
+   "end": 175.86,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "role": "distractor",
+   "start": 175.86,
+   "end": 186.12,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "role": "distractor",
+   "start": 186.12,
+   "end": 196.55,
+   "actions": [
+    8,
+    9
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+   "role": "workflow",
+   "start": 196.55,
+   "end": 221.85,
+   "actions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "role": "distractor",
+   "start": 221.85,
+   "end": 232.02,
+   "actions": [
+    10,
+    11
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "role": "distractor",
+   "start": 232.02,
+   "end": 256.63,
+   "actions": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+   "role": "distractor",
+   "start": 256.63,
+   "end": 263.51,
+   "actions": [
+    12
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+   "role": "distractor",
+   "start": 263.51,
+   "end": 284.08,
+   "actions": [
+    5,
+    6,
+    7,
+    8
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+   "role": "workflow",
+   "start": 284.08,
+   "end": 298.3,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "role": "one_off",
+   "start": 298.3,
+   "end": 301.49,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "role": "workflow",
+   "start": 301.49,
+   "end": 308.74,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+   "role": "workflow",
+   "start": 308.74,
+   "end": 319.84,
+   "actions": [
+    2
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "role": "workflow",
+   "start": 319.84,
+   "end": 345.53,
+   "actions": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "role": "one_off",
+   "start": 345.53,
+   "end": 353.56,
+   "actions": [
+    1,
+    2
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "role": "workflow",
+   "start": 353.56,
+   "end": 357.09,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+   "role": "workflow",
+   "start": 357.09,
+   "end": 367.94,
+   "actions": [
+    6,
+    7
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+   "role": "one_off",
+   "start": 367.94,
+   "end": 387.03,
+   "actions": [
+    3,
+    4,
+    5
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+   "role": "workflow",
+   "start": 387.03,
+   "end": 432.16,
+   "actions": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "resumed": true
+  }
+ ],
+ "ground_truth": {
+  "session_id": "h008",
+  "tier": "hard",
+  "dontcare_inside_instances": false,
+  "action_t": [
+   6.52,
+   15.97,
+   20.77,
+   26.43,
+   30.87,
+   35.82,
+   40.84,
+   47.41,
+   52.45,
+   58.51,
+   61.68,
+   67.42,
+   72.73,
+   78.06,
+   83.62,
+   89.39,
+   96.88,
+   100.49,
+   105.42,
+   111.71,
+   117.28,
+   123.8,
+   131.18,
+   139.39,
+   145.64,
+   152.79,
+   157.99,
+   164.61,
+   168.58,
+   172.6,
+   175.86,
+   186.12,
+   192.8,
+   196.55,
+   200.92,
+   206.32,
+   212.32,
+   221.85,
+   226.25,
+   232.02,
+   239.68,
+   243.57,
+   250.57,
+   256.63,
+   263.51,
+   268.22,
+   273.44,
+   277.86,
+   284.08,
+   292.59,
+   298.3,
+   301.49,
+   308.74,
+   319.84,
+   324.3,
+   328.66,
+   332.53,
+   341.3,
+   345.53,
+   349.68,
+   353.56,
+   357.09,
+   361.84,
+   367.94,
+   372.16,
+   376.73,
+   387.03,
+   390.68,
+   398.77,
+   402.99,
+   407.76,
+   414.7,
+   423.12,
+   428.89,
+   432.16
+  ],
+  "opportunities": [
+   {
+    "opportunity_id": "h008-op0",
+    "template_id": "koa:search_koa_with_filters_and_dates",
+    "site": "koa",
+    "name": "Search KOA by destination with dates/amenity filters",
+    "description": "Search for a KOA near {destination} with optional {check_in}, {check_out} dates and amenity {filter}",
+    "parameters": [
+     "destination",
+     "check_in",
+     "check_out",
+     "filter"
+    ],
+    "steps": [
+     "Type destination in 'Where do you want to go'",
+     "Optionally pick check-in and check-out dates",
+     "Optionally open Filters and tick an amenity",
+     "Click FIND A KOA"
+    ],
+    "observed_seconds": 74.0,
+    "instances": [
+     {
+      "task_id": "b7e501a4-5dee-406e-b6ba-00eed783df0c",
+      "task": "Find a KOA campground in California that has RV sites.",
+      "site": "koa",
+      "spans": [
+       [
+        200.92,
+        221.85
+       ]
+      ],
+      "seqs": [
+       34,
+       35,
+       36,
+       37
+      ],
+      "seconds": 25.3,
+      "values": {
+       "destination": "California",
+       "check_in": "none",
+       "check_out": "none",
+       "filter": "RV Site"
+      }
+     },
+     {
+      "task_id": "c7b0d1bc-2a0c-4060-92dd-cd4b8721b625",
+      "task": "Search for KOA near Lansing, Michigan for June 7, 2023 to June 12, 2023.",
+      "site": "koa",
+      "spans": [
+       [
+        357.09,
+        357.09
+       ],
+       [
+        390.68,
+        432.16
+       ]
+      ],
+      "seqs": [
+       61,
+       67,
+       68,
+       69,
+       70,
+       71,
+       72,
+       73,
+       74
+      ],
+      "seconds": 48.7,
+      "values": {
+       "destination": "Lansing",
+       "check_in": "June 7, 2023",
+       "check_out": "June 12, 2023",
+       "filter": "none"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "h008-op1",
+    "template_id": "trip:search_attractions_sorted",
+    "site": "trip",
+    "name": "Search attractions and act on top result",
+    "description": "Search attractions in {city} with keyword {keyword}, sort by {sort}, open result and then {action}",
+    "parameters": [
+     "city",
+     "keyword",
+     "sort",
+     "action"
+    ],
+    "steps": [
+     "Open Attractions & Tickets",
+     "Enter city",
+     "Enter keyword",
+     "Search",
+     "Sort results",
+     "Open the top result",
+     "Perform action (view nearby or add to favorites)"
+    ],
+    "observed_seconds": 91.4,
+    "instances": [
+     {
+      "task_id": "5b5d29e1-547a-46da-8a35-6c7886695d9d",
+      "task": "What are the Nearby Attractions from the top rated park attraction in hong kong?",
+      "site": "trip",
+      "spans": [
+       [
+        89.39,
+        131.18
+       ]
+      ],
+      "seqs": [
+       15,
+       16,
+       17,
+       18,
+       19,
+       20,
+       21,
+       22
+      ],
+      "seconds": 47.6,
+      "values": {
+       "city": "Hong Kong",
+       "keyword": "Park",
+       "sort": "Top Rated",
+       "action": "view Nearby attractions"
+      }
+     },
+     {
+      "task_id": "6bd5466e-3bff-4f6a-b94a-ef4bd1b079e2",
+      "task": "Add the lowest in price Amusement park attraction in Seoul to my favorites",
+      "site": "trip",
+      "spans": [
+       [
+        308.74,
+        308.74
+       ],
+       [
+        324.3,
+        345.53
+       ],
+       [
+        361.84,
+        367.94
+       ]
+      ],
+      "seqs": [
+       52,
+       54,
+       55,
+       56,
+       57,
+       58,
+       62,
+       63
+      ],
+      "seconds": 43.8,
+      "values": {
+       "city": "Seoul",
+       "keyword": "amusement park",
+       "sort": "Lowest Price",
+       "action": "add to favorites"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "h008-op2",
+    "template_id": "qatarairways:baggage_allowance_by_class",
+    "site": "qatarairways",
+    "name": "Baggage allowance by class",
+    "description": "Look up baggage allowance for {cabin_class}",
+    "parameters": [
+     "cabin_class"
+    ],
+    "steps": [
+     "Open Experience menu",
+     "Click Baggage allowance",
+     "Select cabin class"
+    ],
+    "observed_seconds": 40.4,
+    "instances": [
+     {
+      "task_id": "82094208-02a3-46de-a55f-4c48924cb16c",
+      "task": "Find the weight of baggage allowance for economy class on a flight from Japan to Iran.",
+      "site": "qatarairways",
+      "spans": [
+       [
+        26.43,
+        35.82
+       ]
+      ],
+      "seqs": [
+       3,
+       4,
+       5
+      ],
+      "seconds": 15.1,
+      "values": {
+       "cabin_class": "Economy"
+      }
+     },
+     {
+      "task_id": "7f1f085b-5765-40f8-86c7-8df6e8b68053",
+      "task": "Find information about baggage allowance for business class.",
+      "site": "qatarairways",
+      "spans": [
+       [
+        292.59,
+        298.3
+       ],
+       [
+        319.84,
+        319.84
+       ]
+      ],
+      "seqs": [
+       49,
+       50,
+       53
+      ],
+      "seconds": 25.3,
+      "values": {
+       "cabin_class": "Business"
+      }
+     }
+    ]
+   }
+  ],
+  "negatives": [
+   {
+    "task_id": "aa835369-48e5-4e8f-8f36-49dcdaf5dcb1",
+    "task": "Show me Today's Top Deals on Hotels",
+    "site": "trip",
+    "spans": [
+     [
+      61.68,
+      67.42
+     ]
+    ],
+    "seqs": [
+     10,
+     11
+    ],
+    "seconds": 8.9,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "117b1d5c-1e54-4588-ba84-aa173887b067",
+    "task": "Renew a existing KOA rewards account with the rewards number 1000000001 e postal code 10023",
+    "site": "koa",
+    "spans": [
+     [
+      301.49,
+      301.49
+     ],
+     [
+      349.68,
+      353.56
+     ],
+     [
+      372.16,
+      387.03
+     ]
+    ],
+    "seqs": [
+     51,
+     59,
+     60,
+     64,
+     65,
+     66
+    ],
+    "seconds": 30.3,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "070e63b9-e341-485d-ad10-82bf9ea45715",
+    "task": "Contact the support service.",
+    "site": "spothero",
+    "spans": [
+     [
+      72.73,
+      83.62
+     ]
+    ],
+    "seqs": [
+     12,
+     13,
+     14
+    ],
+    "seconds": 16.2,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "6807ef3b-90d9-4592-b97f-8db60398985a",
+    "task": "Discover the trade-in value of my intel 7th generation i3 windows 10, hp laptop in fair condition,  which has 8 GB memory and can be powered on, proceed for the in-store trade-in.",
+    "site": "bestbuy",
+    "spans": [
+     [
+      139.39,
+      175.86
+     ],
+     [
+      192.8,
+      196.55
+     ],
+     [
+      226.25,
+      232.02
+     ],
+     [
+      263.51,
+      263.51
+     ]
+    ],
+    "seqs": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     32,
+     33,
+     38,
+     39,
+     44
+    ],
+    "seconds": 72.2,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "270c18c6-b3cf-4409-ba6b-18160525692f",
+    "task": "Find the cheapest used and working  Nintendo Switch for under $400 that can be bought right now.",
+    "site": "ebay",
+    "spans": [
+     [
+      186.12,
+      186.12
+     ],
+     [
+      239.68,
+      256.63
+     ],
+     [
+      268.22,
+      284.08
+     ]
+    ],
+    "seqs": [
+     31,
+     40,
+     41,
+     42,
+     43,
+     45,
+     46,
+     47,
+     48
+    ],
+    "seconds": 55.4,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "c13d245a-4f01-4b5c-b721-b1dd989f5f13",
+    "task": "Check travel requirements for trips between Tokyo and Guangzhou.",
+    "site": "qatarairways",
+    "spans": [
+     [
+      6.52,
+      20.77
+     ],
+     [
+      40.84,
+      58.51
+     ]
+    ],
+    "seqs": [
+     0,
+     1,
+     2,
+     6,
+     7,
+     8,
+     9
+    ],
+    "seconds": 43.5,
+    "kind": "one_off"
+   }
+  ]
+ }
+}

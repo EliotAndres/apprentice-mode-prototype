@@ -1,0 +1,283 @@
+{
+ "workflows": [
+  {
+   "name": "Triage a Python error with Stack Overflow and the official Python docs",
+   "use_case": "Software development",
+   "apps": [
+    "stackoverflow.com",
+    "docs.python.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "error",
+    "module"
+   ],
+   "steps": [
+    "In the Stack Overflow tab, click the search box, type \"{error}\" and press Enter",
+    "Open the top question; note its title and the vote count of the accepted (or highest-voted) answer",
+    "Switch to the Python docs tab, type \"{module}\" in the Quick search box and press Enter; open the {module} page from the results",
+    "Note the first sentence of the page, then click the Python logo to return to the docs home",
+    "Switch to Notes, click \"New note\", type \"{error}: see SO '<title>' (<votes> votes). Docs {module}: <first sentence>\" and press Enter"
+   ],
+   "runs": []
+  },
+  {
+   "name": "Pull a country's GDP and population from the World Bank and email a client brief",
+   "use_case": "Finance",
+   "apps": [
+    "data.worldbank.org",
+    "wikipedia.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "country",
+    "client"
+   ],
+   "steps": [
+    "In the World Bank Data tab, click the search box, type {country} and press Enter; open the {country} country page",
+    "Note the latest GDP (current US$) and population figures with their year",
+    "Scroll down to GDP growth (annual %) and note the latest value",
+    "Switch to the Wikipedia tab, search \"{country}\" and open the article; note the capital and the currency from the infobox",
+    "Switch to the Mail tab, click To and type {client}@example.com, click Subject and type \"{country} macro snapshot\"",
+    "Click Body and type \"Hi {client}, {country}: GDP <gdp> (<year>), growth <growth>%, population <population>; capital <capital>, currency <currency>.\" Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "MACRO.1",
+     "start": "2026-10-13T16:13:08+00:00",
+     "end": "2026-10-13T16:18:45+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:13:08+00:00",
+       "2026-10-13T16:14:20+00:00"
+      ],
+      [
+       "2026-10-13T16:16:49+00:00",
+       "2026-10-13T16:18:45+00:00"
+      ]
+     ],
+     "values": {
+      "country": "Kenya",
+      "client": "olivia"
+     }
+    },
+    {
+     "id": "MACRO.3",
+     "start": "2026-10-13T16:31:37+00:00",
+     "end": "2026-10-13T16:40:30+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:31:37+00:00",
+       "2026-10-13T16:34:28+00:00"
+      ],
+      [
+       "2026-10-13T16:36:50+00:00",
+       "2026-10-13T16:40:30+00:00"
+      ]
+     ],
+     "values": {
+      "country": "Chile",
+      "client": "sofia"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Add a public-domain classic to a reading list from Project Gutenberg and the author's Wikipedia page",
+   "use_case": "Education",
+   "apps": [
+    "gutenberg.org",
+    "wikipedia.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "title",
+    "author"
+   ],
+   "steps": [
+    "In the Project Gutenberg tab, click the search box, type \"{title}\" and press Enter",
+    "Open the matching book by {author}; on its page note the release date and the downloads count. Do not download it",
+    "Switch to the Wikipedia tab, search \"{author}\" and open the article; note the birth and death years",
+    "Switch to Notes, click \"New note\", type \"Read: {title} by {author} (<birth>-<death>), Gutenberg since <release date>, <downloads> downloads\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "CLASSIC.1",
+     "start": "2026-10-13T16:18:45+00:00",
+     "end": "2026-10-13T16:20:36+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:18:45+00:00",
+       "2026-10-13T16:20:36+00:00"
+      ]
+     ],
+     "values": {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen"
+     }
+    },
+    {
+     "id": "CLASSIC.2",
+     "start": "2026-10-13T16:25:55+00:00",
+     "end": "2026-10-13T16:31:36+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:25:55+00:00",
+       "2026-10-13T16:27:31+00:00"
+      ],
+      [
+       "2026-10-13T16:29:20+00:00",
+       "2026-10-13T16:31:36+00:00"
+      ]
+     ],
+     "values": {
+      "title": "Moby Dick",
+      "author": "Herman Melville"
+     }
+    },
+    {
+     "id": "CLASSIC.3",
+     "start": "2026-10-13T16:41:37+00:00",
+     "end": "2026-10-13T16:45:34+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:41:37+00:00",
+       "2026-10-13T16:45:34+00:00"
+      ]
+     ],
+     "values": {
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T16:12:26+00:00",
+   "end": "2026-10-13T16:13:08+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:12:26+00:00",
+     "2026-10-13T16:13:08+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T16:15:33+00:00",
+   "end": "2026-10-13T16:16:49+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:15:33+00:00",
+     "2026-10-13T16:16:49+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T16:25:23+00:00",
+   "end": "2026-10-13T16:25:55+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:25:23+00:00",
+     "2026-10-13T16:25:55+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the Project Gutenberg tab, search \"Ulysses\", scroll the results, then give up without opening any"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T16:29:17+00:00",
+   "end": "2026-10-13T16:29:20+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:29:17+00:00",
+     "2026-10-13T16:29:20+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and Stack Overflow tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T16:45:34+00:00",
+   "end": "2026-10-13T16:47:32+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:45:34+00:00",
+     "2026-10-13T16:47:32+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to en.wikipedia.org, click Random article in the menu, skim it, close the tab"
+  },
+  {
+   "id": "DEBUG.1",
+   "start": "2026-10-13T16:11:53+00:00",
+   "end": "2026-10-13T16:12:26+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:11:53+00:00",
+     "2026-10-13T16:12:26+00:00"
+    ]
+   ],
+   "description": "abandoned run of DEBUG.1"
+  },
+  {
+   "id": "DEBUG.2",
+   "start": "2026-10-13T16:20:36+00:00",
+   "end": "2026-10-13T16:20:46+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:20:36+00:00",
+     "2026-10-13T16:20:46+00:00"
+    ]
+   ],
+   "description": "abandoned run of DEBUG.2"
+  },
+  {
+   "id": "DEBUG.3",
+   "start": "2026-10-13T16:31:36+00:00",
+   "end": "2026-10-13T16:36:50+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:31:36+00:00",
+     "2026-10-13T16:31:37+00:00"
+    ],
+    [
+     "2026-10-13T16:34:28+00:00",
+     "2026-10-13T16:36:50+00:00"
+    ]
+   ],
+   "description": "abandoned run of DEBUG.3"
+  },
+  {
+   "id": "MACRO.2",
+   "start": "2026-10-13T16:20:46+00:00",
+   "end": "2026-10-13T16:25:23+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:20:46+00:00",
+     "2026-10-13T16:25:23+00:00"
+    ]
+   ],
+   "description": "abandoned run of MACRO.2"
+  }
+ ],
+ "failed": [
+  "DEBUG.1",
+  "DEBUG.2",
+  "DEBUG.3",
+  "MACRO.2"
+ ],
+ "log_reasons": {
+  "1": "Stack_Overflow_bot_check",
+  "8": "Stack_Overflow_bot_check",
+  "9": "country_page_not_loaded_used_comparison_data",
+  "15": "Stack_Overflow_bot_check",
+  "17": "missing_SO_title_and_votes_from_chunk_15"
+ }
+}

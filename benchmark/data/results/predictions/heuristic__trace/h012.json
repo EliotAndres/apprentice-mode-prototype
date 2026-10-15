@@ -1,0 +1,165 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 5-step flow on spothero",
+   "description": "Repeated sequence on spothero starting with CLICK gridcell \"Wed Jul 05 2023\"",
+   "site": "spothero",
+   "steps": [
+    "CLICK gridcell \"Wed Jul 05 2023\"",
+    "CLICK button \"Update Search\"",
+    "CLICK tab \"Monthly\"",
+    "TYPE textbox \"Search for parking\"",
+    "CLICK li \"Florida Keys, Florida, USA\""
+   ],
+   "parameters": [],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "start_t": 141.85,
+     "end_t": 159.18,
+     "values": "florida keys"
+    },
+    {
+     "start_t": 173.01,
+     "end_t": 179.79,
+     "values": ""
+    },
+    {
+     "start_t": 197.25,
+     "end_t": 202.12,
+     "values": "street taco"
+    },
+    {
+     "start_t": 220.89,
+     "end_t": 257.88,
+     "values": ""
+    },
+    {
+     "start_t": 798.23,
+     "end_t": 822.31,
+     "values": "Chicago"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 9-step flow on tripadvisor",
+   "description": "Repeated sequence on tripadvisor starting with TYPE textbox \"City or Airport\"",
+   "site": "tripadvisor",
+   "steps": [
+    "TYPE textbox \"City or Airport\"",
+    "CLICK span \"San Francisco, CA\"",
+    "CLICK link \"See all\"",
+    "CLICK button \"Reserve\"",
+    "CLICK button \"Find Available Times on TheFork\"",
+    "CLICK link \"Book\"",
+    "TYPE textbox \"City or Airport\"",
+    "CLICK span \"San Diego, CA\"",
+    "CLICK button \"Explore Tripadvisor: More\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 1610.47,
+     "end_t": 1653.44,
+     "values": "SAN FRANSISCO, SAN DIEGO"
+    },
+    {
+     "start_t": 1716.29,
+     "end_t": 1770.12,
+     "values": "Toronto, Canada, New York City"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on parking",
+   "description": "Repeated sequence on parking starting with TYPE combobox \"\uf002\u00a0 Enter an Address or Venue to find par\"",
+   "site": "parking",
+   "steps": [
+    "TYPE combobox \"\uf002\u00a0 Enter an Address or Venue to find par\"",
+    "CLICK em \"Venice\"",
+    "CLICK strong \"Filters\"",
+    "CLICK checkbox \"\uf145Accepts Mobile Coupons\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 341.23,
+     "end_t": 355.25,
+     "values": "Venice Beach"
+    },
+    {
+     "start_t": 1508.35,
+     "end_t": 1524.29,
+     "values": "sofi stadium"
+    },
+    {
+     "start_t": 1660.59,
+     "end_t": 1665.36,
+     "values": "Thalia Hall"
+    },
+    {
+     "start_t": 1706.64,
+     "end_t": 1710.81,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on yelp",
+   "description": "Repeated sequence on yelp starting with TYPE textbox \"Find\"",
+   "site": "yelp",
+   "steps": [
+    "TYPE textbox \"Find\"",
+    "CLICK span \"Barbershop\"",
+    "CLICK link \"Home Services\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 4.21,
+     "end_t": 10.71,
+     "values": "barbershop"
+    },
+    {
+     "start_t": 20.6,
+     "end_t": 44.77,
+     "values": "WESTMINSTER"
+    },
+    {
+     "start_t": 183.5,
+     "end_t": 192.46,
+     "values": "cafe"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on yelp",
+   "description": "Repeated sequence on yelp starting with CLICK checkbox \"Private Lot\"",
+   "site": "yelp",
+   "steps": [
+    "CLICK checkbox \"Private Lot\"",
+    "CLICK button \"Add\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 163.96,
+     "end_t": 169.07,
+     "values": ""
+    },
+    {
+     "start_t": 207.75,
+     "end_t": 217.54,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

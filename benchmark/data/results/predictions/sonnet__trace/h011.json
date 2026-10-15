@@ -1,0 +1,274 @@
+{
+ "opportunities": [
+  {
+   "name": "Viator destination activity search",
+   "description": "Search Viator for tours in a destination, pick dates, sort/filter results, and open a tour.",
+   "site": "viator",
+   "steps": [
+    "Type destination in 'Where to?'",
+    "Select destination suggestion",
+    "Click Next",
+    "Pick date in calendar",
+    "Apply filters/sort (e.g. Price low to high)",
+    "Open a tour result"
+   ],
+   "parameters": [
+    "destination",
+    "date",
+    "sort/filter"
+   ],
+   "confidence": 0.6,
+   "instances": [
+    {
+     "actions": [
+      1,
+      9,
+      10,
+      17,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+     ],
+     "values": "Paris, date May 12 2023, traveler rating sort, reviews",
+     "segments": [
+      {
+       "start_t": 7.81,
+       "end_t": 7.81
+      },
+      {
+       "start_t": 43.38,
+       "end_t": 49.18
+      },
+      {
+       "start_t": 86.84,
+       "end_t": 86.84
+      },
+      {
+       "start_t": 107.02,
+       "end_t": 133.16
+      }
+     ]
+    },
+    {
+     "actions": [
+      99,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+     ],
+     "values": "Los Angeles, Apr 2 2023 / Mar 30 2023, price low to high, Hollywood Sign tour",
+     "segments": [
+      {
+       "start_t": 1028.11,
+       "end_t": 1028.11
+      },
+      {
+       "start_t": 1038.3,
+       "end_t": 1105.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Add product to cart with quantity",
+   "description": "Open a product, choose option/quantity of 2, and add it to the cart/bag.",
+   "site": "amazon / marriott",
+   "steps": [
+    "Search or browse to product",
+    "Open product",
+    "Select size/option if any",
+    "Set quantity",
+    "Click Add to Cart/Bag"
+   ],
+   "parameters": [
+    "product",
+    "quantity",
+    "size"
+   ],
+   "confidence": 0.35,
+   "instances": [
+    {
+     "actions": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80
+     ],
+     "values": "Amazon surge protector, qty 2",
+     "segments": [
+      {
+       "start_t": 512.77,
+       "end_t": 542.04
+      },
+      {
+       "start_t": 560.55,
+       "end_t": 592.38
+      }
+     ]
+    },
+    {
+     "actions": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+     ],
+     "values": "Marriott pillow protector, Queen, qty 2",
+     "segments": [
+      {
+       "start_t": 638.0,
+       "end_t": 664.55
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Parking city venue lookup",
+   "description": "On the parking site, choose a city, a venue category, and a venue to view parking options.",
+   "site": "parking",
+   "steps": [
+    "Click city in CITIES",
+    "Select venue category",
+    "Open venue",
+    "Click See Options"
+   ],
+   "parameters": [
+    "city",
+    "category",
+    "venue"
+   ],
+   "confidence": 0.35,
+   "instances": [
+    {
+     "actions": [
+      73,
+      74
+     ],
+     "values": "New York City, Museums",
+     "segments": [
+      {
+       "start_t": 550.2,
+       "end_t": 554.91
+      }
+     ]
+    },
+    {
+     "actions": [
+      94,
+      95,
+      96,
+      97
+     ],
+     "values": "Washington DC, Theaters, Warner Theatre",
+     "segments": [
+      {
+       "start_t": 998.21,
+       "end_t": 1018.83
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Recreation.gov filter browse",
+   "description": "Open a recreation.gov section and toggle filters.",
+   "site": "recreation.gov",
+   "steps": [
+    "Click section heading",
+    "Show filters",
+    "Toggle a filter",
+    "Hide filters"
+   ],
+   "parameters": [
+    "section",
+    "filter"
+   ],
+   "confidence": 0.3,
+   "instances": [
+    {
+     "actions": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "values": "Day Use, Nashville",
+     "segments": [
+      {
+       "start_t": 3.29,
+       "end_t": 3.29
+      },
+      {
+       "start_t": 12.55,
+       "end_t": 33.72
+      }
+     ]
+    },
+    {
+     "actions": [
+      81,
+      82,
+      83,
+      86,
+      93
+     ],
+     "values": "Camping & Lodging",
+     "segments": [
+      {
+       "start_t": 601.25,
+       "end_t": 617.46
+      },
+      {
+       "start_t": 632.84,
+       "end_t": 632.84
+      },
+      {
+       "start_t": 991.83,
+       "end_t": 991.83
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.0375871,
+  "seconds": 8.0,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

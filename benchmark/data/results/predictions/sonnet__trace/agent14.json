@@ -1,0 +1,333 @@
+{
+ "opportunities": [
+  {
+   "name": "Dinner plan: restaurant vs recipe note",
+   "description": "For a cuisine+area, find a top restaurant on the restaurant-listing site, find a matching recipe on Allrecipes, and save a combined 'Dinner: out at ... or cook ...' note.",
+   "site": "co (restaurant search) / allrecipes / notes",
+   "steps": [
+    "Search restaurant site for cuisine + area",
+    "Open the top restaurant's details (rating, price, area)",
+    "Search Allrecipes for the matching dish",
+    "Open the top recipe and note its time",
+    "Create a new note 'Dinner: out at <restaurant> (<rating>, <price>, <area>) or cook <recipe> (<time>)'"
+   ],
+   "parameters": [
+    "cuisine and area",
+    "dish name"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+     ],
+     "values": "Italian Islington / lasagna",
+     "segments": [
+      {
+       "start_t": 73.948,
+       "end_t": 195.666
+      }
+     ]
+    },
+    {
+     "actions": [
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ],
+     "values": "Thai Soho / pad thai",
+     "segments": [
+      {
+       "start_t": 588.923,
+       "end_t": 682.186
+      }
+     ]
+    },
+    {
+     "actions": [
+      103,
+      104,
+      105,
+      106,
+      107,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+     ],
+     "values": "Indian Shoreditch / chicken tikka masala",
+     "segments": [
+      {
+       "start_t": 934.99,
+       "end_t": 952.086
+      },
+      {
+       "start_t": 977.604,
+       "end_t": 1021.961
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Stopover city: Wikipedia + Booking hotel note",
+   "description": "For a stopover city and date, look up the city on Wikipedia, search Booking.com for a one-night stay, and save a stopover note with hotel, price, sight and population.",
+   "site": "wikipedia / booking / notes",
+   "steps": [
+    "Search Wikipedia for the city and note population/sight",
+    "On Booking enter the city as destination",
+    "Select the check-in and check-out dates",
+    "Search and open the first hotel",
+    "Create a note 'Stopover <city> <date>: <hotel> <price>. See <sight> (pop N)'"
+   ],
+   "parameters": [
+    "city",
+    "check-in/out dates"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      16,
+      17,
+      18,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "values": "Dijon, Nov 21-22",
+     "segments": [
+      {
+       "start_t": 291.053,
+       "end_t": 293.068
+      },
+      {
+       "start_t": 396.922,
+       "end_t": 482.396
+      }
+     ]
+    },
+    {
+     "actions": [
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+     ],
+     "values": "Reims, Dec 19-20",
+     "segments": [
+      {
+       "start_t": 687.555,
+       "end_t": 749.956
+      }
+     ]
+    },
+    {
+     "actions": [
+      108,
+      109,
+      110,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136
+     ],
+     "values": "Annecy, Feb 13-14",
+     "segments": [
+      {
+       "start_t": 961.075,
+       "end_t": 963.09
+      },
+      {
+       "start_t": 1028.654,
+       "end_t": 1079.036
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Family call email: time and weather",
+   "description": "For a city, get the local time on timeanddate and the 10-day weather forecast, then draft an email to family about a call with a relative.",
+   "site": "timeanddate / weather / mail",
+   "steps": [
+    "Search the city on timeanddate and open its page for current time and offset",
+    "Search the city on the weather site and open the 10 Day forecast",
+    "Compose email to family@example.com with subject 'Call with <person> on <day>'",
+    "Write the body with local time, offset from Lille, and forecast",
+    "Discard/close the draft"
+   ],
+   "parameters": [
+    "city",
+    "person",
+    "day"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51
+     ],
+     "values": "Montreal / Grandma Rose / Sunday",
+     "segments": [
+      {
+       "start_t": 493.935,
+       "end_t": 578.194
+      }
+     ]
+    },
+    {
+     "actions": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+     ],
+     "values": "Sydney / Uncle Ben / Saturday",
+     "segments": [
+      {
+       "start_t": 774.429,
+       "end_t": 928.051
+      }
+     ]
+    },
+    {
+     "actions": [
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+     ],
+     "values": "Singapore / Aunt Mei / Friday",
+     "segments": [
+      {
+       "start_t": 1132.573,
+       "end_t": 1202.853
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.0523151,
+  "seconds": 10.3,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

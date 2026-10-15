@@ -1,0 +1,63 @@
+{"t": 0.003, "type": "context", "kind": "tab_opened", "target_id": "0BE207514686C0F13B31D904A0F9BF40", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "1C262219297E20AA8CAD601C0235AFDC", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/", "title": "npm | Home"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/", "title": "Rotten Tomatoes: Movies | TV Shows | Movie Trailers | Reviews | Rotten Tomatoes"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "6171495E94F0B1B29765A187D79D0182", "url": "https://www.allrecipes.com/", "title": "Allrecipes | Recipes, How-Tos, Videos and More"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "86CE453A892B97AC6604668E6BF80012", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "DEE480C611E640B6C468E418053B9309", "url": "https://github.com/", "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub"}
+{"t": 0.004, "type": "context", "kind": "tab_opened", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/", "title": "IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows"}
+{"t": 125.495, "type": "context", "kind": "url_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/find/?q=Arrival&ref_=hm_nv_srb_sm", "site": "imdb"}
+{"t": 125.979, "type": "context", "kind": "title_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "title": "Find - IMDb"}
+{"t": 133.06, "type": "context", "kind": "url_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/title/tt2543164/?ref_=fn_t_1", "site": "imdb"}
+{"t": 133.554, "type": "context", "kind": "title_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "title": "Arrival (2016) - IMDb"}
+{"t": 202.278, "type": "context", "kind": "url_change", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/search?search=Arrival", "site": "rottentomatoes"}
+{"t": 211.339, "type": "context", "kind": "url_change", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/m/arrival_2016", "site": "rottentomatoes"}
+{"t": 272.565, "type": "context", "kind": "tab_opened", "target_id": "874C657A31C0D8C4884784F3B4C4B800", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 396.7, "type": "context", "kind": "tab_closed", "target_id": "874C657A31C0D8C4884784F3B4C4B800"}
+{"t": 434.314, "type": "context", "kind": "url_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/search?q=axios", "site": "npmjs"}
+{"t": 440.948, "type": "context", "kind": "url_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/package/axios", "site": "npmjs"}
+{"t": 441.422, "type": "context", "kind": "title_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "title": "axios - npm"}
+{"t": 517.638, "type": "context", "kind": "tab_opened", "target_id": "F16049C4C4BC3D234F5BA9126C2CE8BB", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 540.223, "type": "context", "kind": "url_change", "target_id": "F16049C4C4BC3D234F5BA9126C2CE8BB", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 556.21, "type": "context", "kind": "url_change", "target_id": "F16049C4C4BC3D234F5BA9126C2CE8BB", "url": "https://news.ycombinator.com/item?id=50061791", "site": "ycombinator"}
+{"t": 565.746, "type": "context", "kind": "title_change", "target_id": "F16049C4C4BC3D234F5BA9126C2CE8BB", "title": "Making big downloads resumable in Firefox | Hacker News"}
+{"t": 565.746, "type": "context", "kind": "tab_closed", "target_id": "F16049C4C4BC3D234F5BA9126C2CE8BB"}
+{"t": 573.727, "type": "context", "kind": "tab_opened", "target_id": "61D0B9DE021405AC700EED29EDA14DC5", "url": "", "title": ""}
+{"t": 574.297, "type": "context", "kind": "url_change", "target_id": "61D0B9DE021405AC700EED29EDA14DC5", "url": "https://github.com/axios/axios", "site": "github"}
+{"t": 574.76, "type": "context", "kind": "title_change", "target_id": "61D0B9DE021405AC700EED29EDA14DC5", "title": "GitHub - axios/axios: Promise based HTTP client for the browser and node.js \u00b7 GitHub"}
+{"t": 678.997, "type": "context", "kind": "url_change", "target_id": "61D0B9DE021405AC700EED29EDA14DC5", "url": "https://github.com/axios/axios/releases", "site": "github"}
+{"t": 688.951, "type": "context", "kind": "title_change", "target_id": "61D0B9DE021405AC700EED29EDA14DC5", "title": "Releases \u00b7 axios/axios \u00b7 GitHub"}
+{"t": 688.951, "type": "context", "kind": "tab_closed", "target_id": "61D0B9DE021405AC700EED29EDA14DC5"}
+{"t": 753.907, "type": "context", "kind": "url_change", "target_id": "6171495E94F0B1B29765A187D79D0182", "url": "https://www.allrecipes.com/search?q=shakshuka", "site": "allrecipes"}
+{"t": 771.832, "type": "context", "kind": "url_change", "target_id": "6171495E94F0B1B29765A187D79D0182", "url": "https://www.allrecipes.com/recipe/245362/chef-johns-shakshuka/", "site": "allrecipes"}
+{"t": 894.73, "type": "context", "kind": "url_change", "target_id": "0BE207514686C0F13B31D904A0F9BF40", "url": "https://en.wikipedia.org/wiki/Shakshuka", "site": "wikipedia"}
+{"t": 895.297, "type": "context", "kind": "url_change", "target_id": "0BE207514686C0F13B31D904A0F9BF40", "url": "https://en.wikipedia.org/wiki/Shakshouka", "site": "wikipedia"}
+{"t": 1073.545, "type": "context", "kind": "url_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/find/?q=Spirited%20Away&ref_=tt_nv_srb_sm", "site": "imdb"}
+{"t": 1074.045, "type": "context", "kind": "title_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "title": "Find - IMDb"}
+{"t": 1104.362, "type": "context", "kind": "url_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/title/tt0245429/?ref_=fn_t_1", "site": "imdb"}
+{"t": 1105.285, "type": "context", "kind": "title_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "title": "Spirited Away (2001) - IMDb"}
+{"t": 1172.1, "type": "context", "kind": "url_change", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/search?search=Spirited%20Away", "site": "rottentomatoes"}
+{"t": 1221.652, "type": "context", "kind": "url_change", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/m/spirited_away", "site": "rottentomatoes"}
+{"t": 1767.48, "type": "context", "kind": "url_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/search?q=lodash", "site": "npmjs"}
+{"t": 1794.419, "type": "context", "kind": "url_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/package/lodash", "site": "npmjs"}
+{"t": 1794.776, "type": "context", "kind": "title_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "title": "lodash - npm"}
+{"t": 1844.214, "type": "context", "kind": "tab_opened", "target_id": "A1A3114A78319BE4711F360BCB6C0652", "url": "", "title": ""}
+{"t": 1844.718, "type": "context", "kind": "url_change", "target_id": "A1A3114A78319BE4711F360BCB6C0652", "url": "https://github.com/lodash/lodash", "site": "github"}
+{"t": 1845.023, "type": "context", "kind": "title_change", "target_id": "A1A3114A78319BE4711F360BCB6C0652", "title": "GitHub - lodash/lodash: A modern JavaScript utility library delivering modularity, performance, & extras. \u00b7 GitHub"}
+{"t": 1872.41, "type": "context", "kind": "url_change", "target_id": "A1A3114A78319BE4711F360BCB6C0652", "url": "https://github.com/lodash/lodash/releases", "site": "github"}
+{"t": 1907.127, "type": "context", "kind": "title_change", "target_id": "A1A3114A78319BE4711F360BCB6C0652", "title": "Releases \u00b7 lodash/lodash \u00b7 GitHub"}
+{"t": 1907.127, "type": "context", "kind": "tab_closed", "target_id": "A1A3114A78319BE4711F360BCB6C0652"}
+{"t": 2220.996, "type": "context", "kind": "url_change", "target_id": "6171495E94F0B1B29765A187D79D0182", "url": "https://www.allrecipes.com/search?q=lemon+tart", "site": "allrecipes"}
+{"t": 2428.658, "type": "context", "kind": "url_change", "target_id": "6171495E94F0B1B29765A187D79D0182", "url": "https://www.allrecipes.com/search?q=pad+thai", "site": "allrecipes"}
+{"t": 2477.129, "type": "context", "kind": "url_change", "target_id": "6171495E94F0B1B29765A187D79D0182", "url": "https://www.allrecipes.com/recipe/42968/pad-thai/", "site": "allrecipes"}
+{"t": 2891.035, "type": "context", "kind": "url_change", "target_id": "0BE207514686C0F13B31D904A0F9BF40", "url": "https://en.wikipedia.org/wiki/Pad_thai", "site": "wikipedia"}
+{"t": 3185.41, "type": "context", "kind": "url_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/find/?q=The%20Grand%20Budapest%20Hotel&ref_=tt_nv_srb_sm", "site": "imdb"}
+{"t": 3186.325, "type": "context", "kind": "title_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "title": "Find - IMDb"}
+{"t": 3244.912, "type": "context", "kind": "url_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "url": "https://www.imdb.com/title/tt2278388/?ref_=fn_t_1", "site": "imdb"}
+{"t": 3245.671, "type": "context", "kind": "title_change", "target_id": "FFE50444FC08334538DE144EAA420F01", "title": "The Grand Budapest Hotel (2014) - IMDb"}
+{"t": 3405.29, "type": "context", "kind": "url_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/search?q=express", "site": "npmjs"}
+{"t": 3449.368, "type": "context", "kind": "url_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "url": "https://www.npmjs.com/package/express", "site": "npmjs"}
+{"t": 3449.824, "type": "context", "kind": "title_change", "target_id": "2FB0815CC2EA4C91193CC43E03783C1B", "title": "express - npm"}
+{"t": 3691.869, "type": "context", "kind": "url_change", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/search?search=The%20Grand%20Budapest%20Hotel", "site": "rottentomatoes"}
+{"t": 3733.014, "type": "context", "kind": "url_change", "target_id": "2FB7C84DC729904002BA068FC8675076", "url": "https://www.rottentomatoes.com/m/the_grand_budapest_hotel", "site": "rottentomatoes"}
+{"t": 5765.897, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

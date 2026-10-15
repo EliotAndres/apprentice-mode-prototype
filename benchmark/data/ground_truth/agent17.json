@@ -1,0 +1,621 @@
+{
+ "session_id": "agent17",
+ "action_t": [
+  111.466,
+  113.476,
+  113.477,
+  117.482,
+  126.683,
+  129.691,
+  175.477,
+  177.516,
+  177.516,
+  181.541,
+  194.913,
+  199.937,
+  207.485,
+  208.5,
+  212.507,
+  221.741,
+  222.762,
+  235.292,
+  236.3,
+  240.305,
+  244.176,
+  245.19,
+  248.199,
+  248.199,
+  249.215,
+  259.841,
+  260.86,
+  263.874,
+  263.874,
+  264.887,
+  314.553,
+  334.787,
+  346.802,
+  367.647,
+  374.601,
+  381.718,
+  385.726,
+  391.318,
+  392.325,
+  393.33,
+  395.347,
+  395.348,
+  406.208,
+  417.975,
+  514.352,
+  522.378,
+  527.007,
+  531.653,
+  574.238,
+  575.288,
+  577.31,
+  577.31,
+  589.692,
+  611.038,
+  613.049,
+  613.05,
+  625.179,
+  627.196,
+  627.197,
+  687.53,
+  753.483,
+  754.494,
+  770.137,
+  772.146,
+  772.146,
+  780.659,
+  781.667,
+  783.684,
+  783.684,
+  784.71,
+  788.717,
+  792.291,
+  793.308,
+  804.619,
+  805.624,
+  809.632,
+  815.383,
+  822.919,
+  831.916,
+  843.366,
+  850.681,
+  852.69,
+  854.702,
+  858.707,
+  865.226,
+  866.231,
+  867.236,
+  869.251,
+  869.251,
+  877.325,
+  893.859,
+  893.86,
+  901.151,
+  912.04,
+  924.621,
+  926.63,
+  926.63,
+  941.883,
+  942.896,
+  944.95,
+  944.953,
+  977.0,
+  983.371,
+  990.718,
+  992.733,
+  992.734,
+  1066.012,
+  1214.622,
+  1216.645,
+  1216.646,
+  1222.611,
+  1236.477,
+  1238.485,
+  1238.485,
+  1245.249,
+  1246.258,
+  1248.274,
+  1248.274,
+  1249.288,
+  1253.3,
+  1257.255,
+  1258.272,
+  1264.75,
+  1272.321,
+  1280.534,
+  1289.774,
+  1290.783,
+  1292.797,
+  1296.815,
+  1300.267,
+  1301.273,
+  1302.277,
+  1304.288,
+  1304.289,
+  1311.695,
+  1328.551,
+  1329.624,
+  1331.658,
+  1331.659,
+  1338.725,
+  1352.826,
+  1354.835,
+  1354.835,
+  1358.84,
+  1365.389,
+  1367.397,
+  1367.397,
+  1384.418,
+  1386.44,
+  1386.44,
+  1394.995,
+  1405.895,
+  1407.902,
+  1407.902,
+  1459.107,
+  1460.118,
+  1467.172,
+  1469.182,
+  1469.182,
+  1488.642,
+  1503.348,
+  1505.366,
+  1505.367,
+  1511.449,
+  1527.475,
+  1529.485,
+  1529.486,
+  1547.273,
+  1548.284,
+  1555.199
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent17-op0",
+   "template_id": "agent17-op0",
+   "name": "Find a recent arXiv paper on a topic and check its citations on Semantic Scholar",
+   "use_case": "Research",
+   "description": "In the arXiv tab, click Advanced Search, type \"{topic}\" in the search term field -> Under Subject tick {category}, under Date choose Specific year and type {year}, then click Search -> Open the first result and note its title and first author -> Open a new tab, go to semanticscholar.org, search for that title and open the matching paper; read its citation count -> Close the Semantic Scholar tab, switch to Notes, click \"New note\", type \"{topic} ({year}): <title> by <first author>, <N> citations\" and press Enter",
+   "site": "arxiv.org, semanticscholar.org, notes.localhost",
+   "parameters": [
+    "topic",
+    "category",
+    "year"
+   ],
+   "steps": [
+    "In the arXiv tab, click Advanced Search, type \"{topic}\" in the search term field",
+    "Under Subject tick {category}, under Date choose Specific year and type {year}, then click Search",
+    "Open the first result and note its title and first author",
+    "Open a new tab, go to semanticscholar.org, search for that title and open the matching paper; read its citation count",
+    "Close the Semantic Scholar tab, switch to Notes, click \"New note\", type \"{topic} ({year}): <title> by <first author>, <N> citations\" and press Enter"
+   ],
+   "observed_seconds": 304.0,
+   "instances": [
+    {
+     "task_id": "PAPER.1",
+     "spans": [
+      [
+       357.0,
+       425.0
+      ],
+      [
+       542.0,
+       614.0
+      ]
+     ],
+     "seqs": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+     ],
+     "seconds": 140.0,
+     "values": {
+      "topic": "retrieval augmented generation",
+      "category": "Computer Science",
+      "year": "2023"
+     }
+    },
+    {
+     "task_id": "PAPER.2",
+     "spans": [
+      [
+       835.0,
+       927.0
+      ]
+     ],
+     "seqs": [
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96
+     ],
+     "seconds": 92.0,
+     "values": {
+      "topic": "protein structure diffusion",
+      "category": "Quantitative Biology",
+      "year": "2024"
+     }
+    },
+    {
+     "task_id": "PAPER.3",
+     "spans": [
+      [
+       1283.0,
+       1314.0
+      ],
+      [
+       1368.0,
+       1409.0
+      ]
+     ],
+     "seqs": [
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153
+     ],
+     "seconds": 72.0,
+     "values": {
+      "topic": "graph neural networks traffic forecasting",
+      "category": "Computer Science",
+      "year": "2022"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent17-op1",
+   "template_id": "agent17-op1",
+   "name": "Look up a Supreme Court case on CourtListener and the related statute on Cornell LII",
+   "use_case": "Legal",
+   "description": "In the CourtListener tab, click the search box, type \"{case}\" and press Enter -> Open the matching Supreme Court opinion and note its citation (like 585 U.S. 296) and date filed -> Open a new tab, go to law.cornell.edu, search \"{statute}\" with the site's search and open the statute page -> Note the section heading, then close the tab -> Switch to Notes, click \"New note\", type \"{case}: <citation>, decided <date>. See {statute} (<heading>)\" and press Enter",
+   "site": "courtlistener.com, law.cornell.edu, notes.localhost",
+   "parameters": [
+    "case",
+    "statute"
+   ],
+   "steps": [
+    "In the CourtListener tab, click the search box, type \"{case}\" and press Enter",
+    "Open the matching Supreme Court opinion and note its citation (like 585 U.S. 296) and date filed",
+    "Open a new tab, go to law.cornell.edu, search \"{statute}\" with the site's search and open the statute page",
+    "Note the section heading, then close the tab",
+    "Switch to Notes, click \"New note\", type \"{case}: <citation>, decided <date>. See {statute} (<heading>)\" and press Enter"
+   ],
+   "observed_seconds": 388.0,
+   "instances": [
+    {
+     "task_id": "CASE.1",
+     "spans": [
+      [
+       614.0,
+       773.0
+      ]
+     ],
+     "seqs": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+     ],
+     "seconds": 159.0,
+     "values": {
+      "case": "Carpenter v. United States",
+      "statute": "18 U.S.C. 2703"
+     }
+    },
+    {
+     "task_id": "CASE.2",
+     "spans": [
+      [
+       963.0,
+       1072.0
+      ],
+      [
+       1195.0,
+       1239.0
+      ]
+     ],
+     "seqs": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+     ],
+     "seconds": 153.0,
+     "values": {
+      "case": "Bostock v. Clayton County",
+      "statute": "42 U.S.C. 2000e-2"
+     }
+    },
+    {
+     "task_id": "CASE.3",
+     "spans": [
+      [
+       1454.0,
+       1530.0
+      ]
+     ],
+     "seqs": [
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166
+     ],
+     "seconds": 76.0,
+     "values": {
+      "case": "Miranda v. Arizona",
+      "statute": "18 U.S.C. 3501"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     273.0,
+     357.0
+    ]
+   ],
+   "seqs": [
+    30,
+    31,
+    32
+   ],
+   "seconds": 84.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to theguardian.com, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     485.0,
+     542.0
+    ]
+   ],
+   "seqs": [
+    44,
+    45,
+    46,
+    47
+   ],
+   "seconds": 57.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to weather.com, search the forecast for Chicago, look at it, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     927.0,
+     963.0
+    ]
+   ],
+   "seqs": [
+    97,
+    98,
+    99,
+    100
+   ],
+   "seconds": 36.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the 1-800-Flowers tab, search \"tulips\", scroll the results, then give up without opening any"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     1162.0,
+     1195.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 33.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and arXiv tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     1530.0,
+     1565.0
+    ]
+   ],
+   "seqs": [
+    167,
+    168,
+    169
+   ],
+   "seconds": 35.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to en.wikipedia.org, click Random article in the menu, skim it, close the tab"
+  },
+  {
+   "task_id": "EVENT.1",
+   "spans": [
+    [
+     71.0,
+     273.0
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "seconds": 202.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of EVENT.1"
+  },
+  {
+   "task_id": "EVENT.2",
+   "spans": [
+    [
+     773.0,
+     835.0
+    ]
+   ],
+   "seqs": [
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78
+   ],
+   "seconds": 62.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of EVENT.2"
+  },
+  {
+   "task_id": "EVENT.3",
+   "spans": [
+    [
+     1239.0,
+     1283.0
+    ],
+    [
+     1314.0,
+     1368.0
+    ]
+   ],
+   "seqs": [
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146
+   ],
+   "seconds": 98.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of EVENT.3"
+  }
+ ]
+}

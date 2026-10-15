@@ -1,0 +1,122 @@
+{
+ "heuristic__trace": {
+  "r_at_10": [
+   0.52,
+   0.86
+  ],
+  "p_at_5": [
+   0.55,
+   0.9
+  ],
+  "median_s": 0.0,
+  "mean_cost": 0
+ },
+ "haiku__trace": {
+  "r_at_10": [
+   0.83,
+   1.0
+  ],
+  "p_at_5": [
+   0.83,
+   1.0
+  ],
+  "median_s": 25.9,
+  "mean_cost": 0.061
+ },
+ "haiku__screenshots": {
+  "r_at_10": [
+   0.74,
+   0.96
+  ],
+  "p_at_5": [
+   0.72,
+   0.92
+  ],
+  "median_s": 47.0,
+  "mean_cost": 0.089
+ },
+ "haiku__both": {
+  "r_at_10": [
+   0.77,
+   0.96
+  ],
+  "p_at_5": [
+   0.77,
+   0.96
+  ],
+  "median_s": 27.1,
+  "mean_cost": 0.073
+ },
+ "sonnet__trace": {
+  "r_at_10": [
+   0.73,
+   0.96
+  ],
+  "p_at_5": [
+   0.74,
+   1.0
+  ],
+  "median_s": 12.9,
+  "mean_cost": 0.111
+ },
+ "sonnet__screenshots": {
+  "r_at_10": [
+   0.64,
+   0.96
+  ],
+  "p_at_5": [
+   0.53,
+   0.85
+  ],
+  "median_s": 20.6,
+  "mean_cost": 0.419
+ },
+ "sonnet__both": {
+  "r_at_10": [
+   0.84,
+   1.0
+  ],
+  "p_at_5": [
+   0.71,
+   0.9
+  ],
+  "median_s": 21.2,
+  "mean_cost": 0.384
+ },
+ "opus__trace": {
+  "r_at_10": [
+   1.0,
+   1.0
+  ],
+  "p_at_5": [
+   0.93,
+   1.0
+  ],
+  "median_s": 17.8,
+  "mean_cost": 0.32
+ },
+ "opus__screenshots": {
+  "r_at_10": [
+   1.0,
+   1.0
+  ],
+  "p_at_5": [
+   0.93,
+   1.0
+  ],
+  "median_s": 27.2,
+  "mean_cost": 0.648
+ },
+ "opus__both": {
+  "r_at_10": [
+   1.0,
+   1.0
+  ],
+  "p_at_5": [
+   1.0,
+   1.0
+  ],
+  "median_s": 27.3,
+  "mean_cost": 0.677
+ }
+}

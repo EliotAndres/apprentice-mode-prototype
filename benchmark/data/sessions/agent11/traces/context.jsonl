@@ -1,0 +1,72 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/", "title": "Xe: Currency Exchange Rates and International Money Transfers"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "1BBADF3E1C720A8FDCA9AB3B43E66566", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "34EED47E680E72ABCC24477D5AE849F6", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/", "title": "timeanddate.com"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "8C2C9F45678E923C423486810156CF36", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/", "title": "SEC.gov | EDGAR Full Text Search"}
+{"t": 55.033, "type": "context", "kind": "url_change", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/#/ciks=0001640147&entityName=Snowflake%2520Inc.%2520(SNOW)%2520(CIK%25200001640147)", "site": "sec"}
+{"t": 74.552, "type": "context", "kind": "url_change", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/#/ciks=0001640147&entityName=Snowflake%2520Inc.%2520(SNOW)%2520(CIK%25200001640147)&filter_forms=10-K", "site": "sec"}
+{"t": 118.797, "type": "context", "kind": "url_change", "target_id": "1BBADF3E1C720A8FDCA9AB3B43E66566", "url": "https://en.wikipedia.org/wiki/Snowflake_Inc.", "site": "wikipedia"}
+{"t": 217.383, "type": "context", "kind": "tab_opened", "target_id": "F3FF1C3799372A0347960156D7CB7EFD", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 319.533, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/", "site": "xe"}
+{"t": 352.212, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=112500&From=USD&To=EUR", "site": "xe"}
+{"t": 376.195, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=USD&To=EUR", "site": "xe"}
+{"t": 381.485, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=112500&From=USD&To=EUR", "site": "xe"}
+{"t": 402.005, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=12500&From=USD&To=EUR", "site": "xe"}
+{"t": 414.068, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=12500&From=EUR&To=EUR", "site": "xe"}
+{"t": 428.831, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=12500&From=EUR&To=USD", "site": "xe"}
+{"t": 436.314, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/", "site": "xe"}
+{"t": 469.933, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=EUR&To=USD", "site": "xe"}
+{"t": 476.533, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=11950000&From=EUR&To=USD", "site": "xe"}
+{"t": 497.233, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1950000&From=EUR&To=USD", "site": "xe"}
+{"t": 523.015, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1950000&From=JPY&To=USD", "site": "xe"}
+{"t": 556.726, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/japan/osaka", "site": "timeanddate"}
+{"t": 652.249, "type": "context", "kind": "url_change", "target_id": "1BBADF3E1C720A8FDCA9AB3B43E66566", "url": "https://en.wikipedia.org/wiki/Posht-e_Zard", "site": "wikipedia"}
+{"t": 729.053, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/time/", "site": "timeanddate"}
+{"t": 735.085, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/converter.html", "site": "timeanddate"}
+{"t": 754.778, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T160000&p1=224", "site": "timeanddate"}
+{"t": 776.314, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T160000&p1=224&p2=438", "site": "timeanddate"}
+{"t": 781.604, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/calendar/", "site": "timeanddate"}
+{"t": 787.173, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/", "site": "timeanddate"}
+{"t": 799.965, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/jamaica/", "site": "timeanddate"}
+{"t": 800.036, "type": "context", "kind": "title_change", "target_id": "581B9D7A23036B67A851080219E8572D", "title": "Holidays Today and Upcoming Holidays in Jamaica"}
+{"t": 807.254, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/", "site": "timeanddate"}
+{"t": 814.514, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/india/dussehra", "site": "timeanddate"}
+{"t": 823.105, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/india/2026", "site": "timeanddate"}
+{"t": 823.173, "type": "context", "kind": "title_change", "target_id": "581B9D7A23036B67A851080219E8572D", "title": "Holidays and Observances in India in 2026"}
+{"t": 947.553, "type": "context", "kind": "url_change", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/#/ciks=0001561550&entityName=Datadog%252C%2520Inc.%2520(DDOG)%2520(CIK%25200001561550)", "site": "sec"}
+{"t": 973.559, "type": "context", "kind": "url_change", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/#/ciks=0001561550&entityName=Datadog%252C%2520Inc.%2520(DDOG)%2520(CIK%25200001561550)&filter_forms=10-K", "site": "sec"}
+{"t": 1032.163, "type": "context", "kind": "url_change", "target_id": "1BBADF3E1C720A8FDCA9AB3B43E66566", "url": "https://en.wikipedia.org/wiki/Datadog", "site": "wikipedia"}
+{"t": 1294.614, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=JPY&To=USD", "site": "xe"}
+{"t": 1340.488, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=8020&From=JPY&To=USD", "site": "xe"}
+{"t": 1390.171, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=JPY&To=USD", "site": "xe"}
+{"t": 1432.733, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=82001&From=JPY&To=USD", "site": "xe"}
+{"t": 1481.76, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=8200&From=JPY&To=USD", "site": "xe"}
+{"t": 1544.132, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=8200&From=GBP&To=USD", "site": "xe"}
+{"t": 1559.794, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/", "site": "xe"}
+{"t": 1607.119, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=GBP&To=USD", "site": "xe"}
+{"t": 1651.857, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=7800001&From=GBP&To=USD", "site": "xe"}
+{"t": 1673.14, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=780000&From=GBP&To=USD", "site": "xe"}
+{"t": 1751.475, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=780000&From=INR&To=USD", "site": "xe"}
+{"t": 1838.522, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/", "site": "timeanddate"}
+{"t": 1900.609, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/india/pune", "site": "timeanddate"}
+{"t": 2083.882, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=INR&To=USD", "site": "xe"}
+{"t": 2103.36, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=50&From=INR&To=USD", "site": "xe"}
+{"t": 2246.289, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/time/", "site": "timeanddate"}
+{"t": 2262.957, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/converter.html", "site": "timeanddate"}
+{"t": 2406.033, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T160000&p1=179", "site": "timeanddate"}
+{"t": 2461.56, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T160000&p1=179&p2=37", "site": "timeanddate"}
+{"t": 2489.564, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/calendar/", "site": "timeanddate"}
+{"t": 2506.114, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/", "site": "timeanddate"}
+{"t": 2620.939, "type": "context", "kind": "url_change", "target_id": "581B9D7A23036B67A851080219E8572D", "url": "https://www.timeanddate.com/holidays/germany/", "site": "timeanddate"}
+{"t": 2621.026, "type": "context", "kind": "title_change", "target_id": "581B9D7A23036B67A851080219E8572D", "title": "Holidays Today and Upcoming Holidays in Germany"}
+{"t": 3128.048, "type": "context", "kind": "url_change", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/#/ciks=0001404655&entityName=HUBSPOT%2520INC%2520(HUBS)%2520(CIK%25200001404655)", "site": "sec"}
+{"t": 3219.192, "type": "context", "kind": "url_change", "target_id": "B1045FAAD0F693553083B724B5AB5FB5", "url": "https://www.sec.gov/edgar/search/#/ciks=0001404655&entityName=HUBSPOT%2520INC%2520(HUBS)%2520(CIK%25200001404655)&filter_forms=10-K", "site": "sec"}
+{"t": 3336.564, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=INR&To=USD", "site": "xe"}
+{"t": 3355.415, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=64000&From=INR&To=USD", "site": "xe"}
+{"t": 3483.393, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=64000&From=CNY&To=USD", "site": "xe"}
+{"t": 3500.035, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/", "site": "xe"}
+{"t": 3561.961, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=1&From=CNY&To=USD", "site": "xe"}
+{"t": 3656.743, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=145001&From=CNY&To=USD", "site": "xe"}
+{"t": 3687.729, "type": "context", "kind": "url_change", "target_id": "0C483EA8AF1861554E40F1B7A62264CE", "url": "https://www.xe.com/en-us/currencyconverter/convert/?Amount=14500&From=CNY&To=USD", "site": "xe"}
+{"t": 5756.919, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

@@ -1,0 +1,267 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 7-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\"",
+    "TYPE textbox \"Subject\"",
+    "CLICK textbox \"Body\"",
+    "TYPE textbox \"Body\"",
+    "CLICK button \"Discard\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 218.753,
+     "end_t": 231.353,
+     "values": "maria@example.com, Hotel for Frankfurt, Nov 17-Nov 20, Hi maria, proposed hotel: Vienna House by Wyndham Frankfurt South, 818 EUR (about 915.34 USD). OK to book?"
+    },
+    {
+     "start_t": 563.511,
+     "end_t": 574.989,
+     "values": "raj@example.com, Heads-up: Berlin on Saturday, Hi raj, Berlin on Saturday: 58\u00b0/44\u00b0, Partly Cloudy. Latest news: Students strike across Germany in protest against military service (25 September 2026)."
+    },
+    {
+     "start_t": 686.732,
+     "end_t": 699.442,
+     "values": "kenji@example.com, Hotel for Milan, Dec 1-Dec 4, Hi kenji, proposed hotel: BB Hotels Aparthotel Visconti, 264 EUR (about 46,794 JPY). OK to book?"
+    },
+    {
+     "start_t": 966.778,
+     "end_t": 979.572,
+     "values": "sofia@example.com, Heads-up: Madrid on Monday, Hi sofia, Madrid on Monday: 64\u00b0/50\u00b0, Partly Cloudy. Latest news: Villa eye Endrick loan deal - Wednesday's gossip (6 October 2026)."
+    },
+    {
+     "start_t": 1095.387,
+     "end_t": 1110.035,
+     "values": "aisha@example.com, Hotel for Amsterdam, Jan 12-Jan 15, Hi aisha, proposed hotel: Jan Luyken Amsterdam, 577 EUR (about 487.44 GBP). OK to book?"
+    },
+    {
+     "start_t": 1285.416,
+     "end_t": 1298.736,
+     "values": "tom@example.com, Heads-up: London on Thursday, Hi tom, London on Thursday: 70\u00b0/56\u00b0, Cloudy. Latest news: School support staff strike over pay (9 October 2026)."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 8-step flow on booking",
+   "description": "Repeated sequence on booking starting with CLICK button \"Decline\"",
+   "site": "booking",
+   "steps": [
+    "CLICK button \"Decline\"",
+    "CLICK button \"Dismiss sign-in info.\"",
+    "CLICK combobox \"Enter destination\"",
+    "TYPE combobox \"Enter destination\"",
+    "CLICK button \"Select dates Check-in date \u2014 Check-out d\"",
+    "CLICK checkbox \"Tuesday, November 17, 2026\"",
+    "CLICK checkbox \"Friday, November 20, 2026\"",
+    "CLICK button \"Search\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 58.402,
+     "end_t": 74.165,
+     "values": "Frankfurt"
+    },
+    {
+     "start_t": 584.757,
+     "end_t": 605.171,
+     "values": "ctrl+home, ctrl+a, Milan"
+    },
+    {
+     "start_t": 792.409,
+     "end_t": 796.482,
+     "values": "ctrl+home, ctrl+a, Zurich"
+    },
+    {
+     "start_t": 988.342,
+     "end_t": 1019.874,
+     "values": "ctrl+a, ctrl+a, Amsterdam"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on bbc",
+   "description": "Repeated sequence on bbc starting with CLICK button \"Open menu\"",
+   "site": "bbc",
+   "steps": [
+    "CLICK button \"Open menu\"",
+    "CLICK textbox \"Search news, topics and more\"",
+    "TYPE textbox \"Search news, topics and more\"",
+    "ENTER textbox \"Search news, topics and more\"",
+    "CLICK link \"Students strike across Germany in protes\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 536.635,
+     "end_t": 556.72,
+     "values": "Berlin strike"
+    },
+    {
+     "start_t": 933.675,
+     "end_t": 958.569,
+     "values": "Madrid strike"
+    },
+    {
+     "start_t": 1227.379,
+     "end_t": 1248.658,
+     "values": "ctrl+home, ctrl+a, London strike"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on xe",
+   "description": "Repeated sequence on xe starting with CLICK textbox \"Receiving amount\"",
+   "site": "xe",
+   "steps": [
+    "CLICK textbox \"Receiving amount\"",
+    "KEY textbox \"Receiving amount\"",
+    "TYPE textbox \"Receiving amount\"",
+    "CLICK link \"Charts\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 184.644,
+     "end_t": 187.677,
+     "values": "ctrl+a, 818"
+    },
+    {
+     "start_t": 640.268,
+     "end_t": 660.775,
+     "values": "ctrl+a, 264, JPY"
+    },
+    {
+     "start_t": 1062.802,
+     "end_t": 1087.417,
+     "values": "ctrl+a, 577, GBP"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK searchbox \"Search Wikipedia\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "ENTER searchbox \"Search Wikipedia\"",
+    "KEY body \"Jump to content Main menu Search Donate \""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 277.182,
+     "end_t": 287.309,
+     "values": "Visa requirements for Indian citizens, ctrl+f"
+    },
+    {
+     "start_t": 706.492,
+     "end_t": 717.934,
+     "values": "ctrl+home, ctrl+a, Visa requirements for Brazilian citizens, ctrl+f"
+    },
+    {
+     "start_t": 1035.933,
+     "end_t": 1047.031,
+     "values": "ctrl+home, ctrl+a, Visa requirements for Nigerian citizens, ctrl+f"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on weather",
+   "description": "Repeated sequence on weather starting with CLICK button \"Search for a location\"",
+   "site": "weather",
+   "steps": [
+    "CLICK button \"Search for a location\"",
+    "CLICK textbox \"Search for a location\"",
+    "TYPE textbox \"Search for a location\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 485.47,
+     "end_t": 495.935,
+     "values": "Berlin"
+    },
+    {
+     "start_t": 805.436,
+     "end_t": 814.937,
+     "values": "Madrid"
+    },
+    {
+     "start_t": 1210.037,
+     "end_t": 1214.255,
+     "values": "London"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on xe",
+   "description": "Repeated sequence on xe starting with CLICK button \"Accept\"",
+   "site": "xe",
+   "steps": [
+    "CLICK button \"Accept\"",
+    "KEY body \"Personal Business Platform EN-US Login R\"",
+    "CLICK link \"Currency Converter\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 141.01,
+     "end_t": 153.841,
+     "values": "ctrl+end"
+    },
+    {
+     "start_t": 165.865,
+     "end_t": 167.933,
+     "values": "ctrl+a"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 455.805,
+     "end_t": 457.82,
+     "values": "Indian traveler to Japan: eVisa, allowed stay not specified. Holidays in December: no national public holidays; December 31 bank holiday"
+    },
+    {
+     "start_t": 778.829,
+     "end_t": 780.838,
+     "values": "Brazilian traveler to Canada: Visa required (eTA possible for qualifying travelers arriving by air), allowed stay not specified. Holidays in November: November 11, Remembrance Day"
+    },
+    {
+     "start_t": 1153.116,
+     "end_t": 1155.124,
+     "values": "Nigerian traveler to United Kingdom: Visa required, allowed stay not specified. Holidays in May: May 4, Early May Bank Holiday; May 25, Spring Bank Holiday"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

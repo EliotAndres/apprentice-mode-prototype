@@ -1,0 +1,246 @@
+{
+ "tabs": [
+  "https://stackoverflow.com/",
+  "https://docs.python.org/3/",
+  "https://data.worldbank.org/",
+  "https://www.gutenberg.org/",
+  "https://en.wikipedia.org/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "DEBUG",
+   "name": "Triage a Python error with Stack Overflow and the official Python docs",
+   "use_case": "Software development",
+   "apps": [
+    "stackoverflow.com",
+    "docs.python.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "error",
+    "module"
+   ],
+   "steps": [
+    "In the Stack Overflow tab, click the search box, type \"{error}\" and press Enter",
+    "Open the top question; note its title and the vote count of the accepted (or highest-voted) answer",
+    "Switch to the Python docs tab, type \"{module}\" in the Quick search box and press Enter; open the {module} page from the results",
+    "Note the first sentence of the page, then click the Python logo to return to the docs home",
+    "Switch to Notes, click \"New note\", type \"{error}: see SO '<title>' (<votes> votes). Docs {module}: <first sentence>\" and press Enter"
+   ]
+  },
+  {
+   "id": "MACRO",
+   "name": "Pull a country's GDP and population from the World Bank and email a client brief",
+   "use_case": "Finance",
+   "apps": [
+    "data.worldbank.org",
+    "wikipedia.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "country",
+    "client"
+   ],
+   "steps": [
+    "In the World Bank Data tab, click the search box, type {country} and press Enter; open the {country} country page",
+    "Note the latest GDP (current US$) and population figures with their year",
+    "Scroll down to GDP growth (annual %) and note the latest value",
+    "Switch to the Wikipedia tab, search \"{country}\" and open the article; note the capital and the currency from the infobox",
+    "Switch to the Mail tab, click To and type {client}@example.com, click Subject and type \"{country} macro snapshot\"",
+    "Click Body and type \"Hi {client}, {country}: GDP <gdp> (<year>), growth <growth>%, population <population>; capital <capital>, currency <currency>.\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "CLASSIC",
+   "name": "Add a public-domain classic to a reading list from Project Gutenberg and the author's Wikipedia page",
+   "use_case": "Education",
+   "apps": [
+    "gutenberg.org",
+    "wikipedia.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "title",
+    "author"
+   ],
+   "steps": [
+    "In the Project Gutenberg tab, click the search box, type \"{title}\" and press Enter",
+    "Open the matching book by {author}; on its page note the release date and the downloads count. Do not download it",
+    "Switch to the Wikipedia tab, search \"{author}\" and open the article; note the birth and death years",
+    "Switch to Notes, click \"New note\", type \"Read: {title} by {author} (<birth>-<death>), Gutenberg since <release date>, <downloads> downloads\" and press Enter"
+   ]
+  }
+ ],
+ "runs": {
+  "DEBUG.1": {
+   "workflow": "DEBUG",
+   "values": {
+    "error": "UnicodeDecodeError utf-8 codec can't decode byte",
+    "module": "codecs"
+   }
+  },
+  "DEBUG.2": {
+   "workflow": "DEBUG",
+   "values": {
+    "error": "RecursionError maximum recursion depth exceeded",
+    "module": "sys"
+   }
+  },
+  "DEBUG.3": {
+   "workflow": "DEBUG",
+   "values": {
+    "error": "ModuleNotFoundError No module named",
+    "module": "importlib"
+   }
+  },
+  "MACRO.1": {
+   "workflow": "MACRO",
+   "values": {
+    "country": "Kenya",
+    "client": "olivia"
+   }
+  },
+  "MACRO.2": {
+   "workflow": "MACRO",
+   "values": {
+    "country": "Vietnam",
+    "client": "raj"
+   },
+   "note": "In step 1, first type \"Vietman\", notice the typo and fix it to \"Vietnam\""
+  },
+  "MACRO.3": {
+   "workflow": "MACRO",
+   "values": {
+    "country": "Chile",
+    "client": "sofia"
+   }
+  },
+  "CLASSIC.1": {
+   "workflow": "CLASSIC",
+   "values": {
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen"
+   }
+  },
+  "CLASSIC.2": {
+   "workflow": "CLASSIC",
+   "values": {
+    "title": "Moby Dick",
+    "author": "Herman Melville"
+   }
+  },
+  "CLASSIC.3": {
+   "workflow": "CLASSIC",
+   "values": {
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab",
+  "N2": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N3": "Abandoned attempt: in the Project Gutenberg tab, search \"Ulysses\", scroll the results, then give up without opening any",
+  "N4": "Wander: click through the Notes, Mail and Stack Overflow tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to en.wikipedia.org, click Random article in the menu, skim it, close the tab"
+ },
+ "script": [
+  {
+   "run": "DEBUG.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "MACRO.1",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "MACRO.1",
+   "steps": [
+    4,
+    6
+   ]
+  },
+  {
+   "run": "CLASSIC.1"
+  },
+  {
+   "run": "DEBUG.2"
+  },
+  {
+   "run": "MACRO.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "CLASSIC.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "CLASSIC.2",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "DEBUG.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "MACRO.3",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "run": "DEBUG.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "MACRO.3",
+   "steps": [
+    4,
+    6
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "CLASSIC.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

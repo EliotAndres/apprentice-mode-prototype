@@ -1,0 +1,291 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 11-step flow on kayak",
+   "description": "Repeated sequence on kayak starting with CLICK svg \"\"",
+   "site": "kayak",
+   "steps": [
+    "CLICK svg \"\"",
+    "CLICK tab \"One-way\"",
+    "CLICK svg \"\"",
+    "CLICK button \"Increment\"",
+    "CLICK path \"\"",
+    "TYPE textbox \"Flight origin input\"",
+    "CLICK link \"Find out where you can travel\"",
+    "TYPE button \"United States\"",
+    "CLICK button \"Anywhere\"",
+    "TYPE input \"\"",
+    "CLICK tab \"Cambodia\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 120.44,
+     "end_t": 172.28,
+     "values": "NEW YORK, United States, Cambodia"
+    },
+    {
+     "start_t": 881.97,
+     "end_t": 940.81,
+     "values": "new york, london"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 9-step flow on kayak",
+   "description": "Repeated sequence on kayak starting with CLICK span \"Round-trip\"",
+   "site": "kayak",
+   "steps": [
+    "CLICK span \"Round-trip\"",
+    "CLICK tab \"One-way\"",
+    "TYPE textbox \"Flight origin input\"",
+    "CLICK div \"John F Kennedy Intl\"",
+    "TYPE textbox \"Flight destination input\"",
+    "CLICK span \"Mal\u00e9, Maldives\"",
+    "CLICK button \"Start date calendar input\"",
+    "CLICK div \"13\"",
+    "CLICK button \"Search\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 22.23,
+     "end_t": 67.94,
+     "values": "new york, male"
+    },
+    {
+     "start_t": 234.05,
+     "end_t": 263.68,
+     "values": "PARIS"
+    },
+    {
+     "start_t": 750.11,
+     "end_t": 754.29,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 10-step flow on mbta",
+   "description": "Repeated sequence on mbta starting with TYPE combobox \"To\"",
+   "site": "mbta",
+   "steps": [
+    "TYPE combobox \"To\"",
+    "CLICK em \"Plymouth\"",
+    "CLICK button \"Depart at 8:20 AM, 4/10/23 \uf107\"",
+    "CLICK LabelText \"Monday, April 10, 2023, click or press t\"",
+    "CLICK gridcell \"Friday, April 28, 2023\"",
+    "TYPE combobox \"Hour\"",
+    "TYPE combobox \"Minute\"",
+    "SELECT combobox \"AM or PM\"",
+    "CLICK button \"Get trip suggestions\"",
+    "CLICK button \"Show map and trip details \uf107\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 270.23,
+     "end_t": 318.05,
+     "values": "NORTH PLYMOUTH, 2, 30, PM"
+    },
+    {
+     "start_t": 1340.07,
+     "end_t": 1354.38,
+     "values": "12, 00, PM"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on recreation.gov",
+   "description": "Repeated sequence on recreation.gov starting with CLICK tab \"Permits\"",
+   "site": "recreation.gov",
+   "steps": [
+    "CLICK tab \"Permits\"",
+    "TYPE textbox \"Enter text to search for campgrounds, to\"",
+    "CLICK div \"Katmai National Park & Preserve\"",
+    "TYPE textbox \"Entry Date\"",
+    "CLICK button \"Check Availability of the selected Entry\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 760.26,
+     "end_t": 779.66,
+     "values": "Brooks Camp, 05/22/2023"
+    },
+    {
+     "start_t": 795.91,
+     "end_t": 804.81,
+     "values": "4"
+    },
+    {
+     "start_t": 846.65,
+     "end_t": 855.57,
+     "values": "Alley Spring"
+    },
+    {
+     "start_t": 1656.54,
+     "end_t": 1665.69,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on kayak",
+   "description": "Repeated sequence on kayak starting with CLICK div \"\"",
+   "site": "kayak",
+   "steps": [
+    "CLICK div \"\"",
+    "CLICK div \"Quickest\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 86.07,
+     "end_t": 91.47,
+     "values": ""
+    },
+    {
+     "start_t": 784.75,
+     "end_t": 790.03,
+     "values": ""
+    },
+    {
+     "start_t": 809.57,
+     "end_t": 840.38,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on exploretock",
+   "description": "Repeated sequence on exploretock starting with CLICK i \"\"",
+   "site": "exploretock",
+   "steps": [
+    "CLICK i \"\"",
+    "CLICK button \"5:00 PM\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 738.35,
+     "end_t": 743.8,
+     "values": ""
+    },
+    {
+     "start_t": 1370.9,
+     "end_t": 1391.55,
+     "values": "5 00 PM"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on recreation.gov",
+   "description": "Repeated sequence on recreation.gov starting with CLICK span \"Arizona\"",
+   "site": "recreation.gov",
+   "steps": [
+    "CLICK span \"Arizona\"",
+    "CLICK span \"Canyon\"",
+    "CLICK button \"Check Availability on detailed availabil\"",
+    "CLICK button \"Show filters\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 1721.23,
+     "end_t": 1736.37,
+     "values": ""
+    },
+    {
+     "start_t": 1747.27,
+     "end_t": 1753.9,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on exploretock",
+   "description": "Repeated sequence on exploretock starting with CLICK button \"Search\"",
+   "site": "exploretock",
+   "steps": [
+    "CLICK button \"Search\"",
+    "TYPE textbox \"Search\"",
+    "CLICK span \"Matthews Winery\"",
+    "CLICK link \"Book now Indoor Reservation, Two-hour in\"",
+    "CLICK button \"2023-03-31\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 197.5,
+     "end_t": 214.18,
+     "values": "Matthews winery"
+    },
+    {
+     "start_t": 1331.5,
+     "end_t": 1334.84,
+     "values": "Alinea"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on mbta",
+   "description": "Repeated sequence on mbta starting with CLICK span \"Boston\"",
+   "site": "mbta",
+   "steps": [
+    "CLICK span \"Boston\"",
+    "CLICK button \"Get trip suggestions\"",
+    "CLICK button \"Depart at 8:40 AM, 4/10/23 \uf107\"",
+    "CLICK LabelText \"Monday, April 10, 2023, click or press t\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 1294.32,
+     "end_t": 1310.6,
+     "values": ""
+    },
+    {
+     "start_t": 1418.57,
+     "end_t": 1421.98,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on mbta",
+   "description": "Repeated sequence on mbta starting with CLICK button \"Transit \uf0d7\"",
+   "site": "mbta",
+   "steps": [
+    "CLICK button \"Transit \uf0d7\"",
+    "CLICK link \"Parking\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 177.23,
+     "end_t": 182.75,
+     "values": ""
+    },
+    {
+     "start_t": 218.0,
+     "end_t": 229.09,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

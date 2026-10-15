@@ -1,0 +1,246 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 4-step flow on npmjs",
+   "description": "Repeated sequence on npmjs starting with CLICK searchbox \"Search packages\"",
+   "site": "npmjs",
+   "steps": [
+    "CLICK searchbox \"Search packages\"",
+    "TYPE searchbox \"Search packages\"",
+    "ENTER searchbox \"Search packages\"",
+    "CLICK option \"@nestjs/axios, version 12.0.1, Nest - mo\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 220.909,
+     "end_t": 232.323,
+     "values": "axios"
+    },
+    {
+     "start_t": 255.826,
+     "end_t": 257.834,
+     "values": "axios"
+    },
+    {
+     "start_t": 282.444,
+     "end_t": 297.701,
+     "values": "ctrl+a, axios"
+    },
+    {
+     "start_t": 591.39,
+     "end_t": 596.419,
+     "values": "ctrl+a, ctrl+a, lodash"
+    },
+    {
+     "start_t": 628.686,
+     "end_t": 639.72,
+     "values": "ctrl+a, lodash"
+    },
+    {
+     "start_t": 916.266,
+     "end_t": 939.984,
+     "values": "ctrl+a, express, ctrl+a, express"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 7-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\"",
+    "TYPE textbox \"Subject\"",
+    "CLICK textbox \"Body\"",
+    "TYPE textbox \"Body\"",
+    "CLICK button \"Discard\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 135.205,
+     "end_t": 147.304,
+     "values": "lena@example.com, Movie night Friday: Arrival, Hi lena, Friday we watch Arrival (Denis Villeneuve, 1h 56m): IMDb 7.9, Tomatometer 94%."
+    },
+    {
+     "start_t": 567.477,
+     "end_t": 583.24,
+     "values": "tom@example.com, Movie night Saturday: Spirited Away, Hi tom, Saturday we watch Spirited Away (Hayao Miyazaki, 2h 4m): IMDb 8.6, Tomatometer 96%."
+    },
+    {
+     "start_t": 999.05,
+     "end_t": 1011.153,
+     "values": "aisha@example.com, Movie night Sunday: The Grand Budapest Hotel, Hi aisha, Sunday we watch The Grand Budapest Hotel (Wes Anderson, 1h 39m): IMDb 8.1, Tomatometer 92%."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on imdb",
+   "description": "Repeated sequence on imdb starting with CLICK textbox \"Search IMDb\"",
+   "site": "imdb",
+   "steps": [
+    "CLICK textbox \"Search IMDb\"",
+    "TYPE textbox \"Search IMDb\"",
+    "CLICK button \"Decline\"",
+    "CLICK textbox \"Search IMDb\"",
+    "TYPE textbox \"Search IMDb\"",
+    "CLICK link \"Arrival 2016 Amy Adams, Jeremy Renner\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 55.108,
+     "end_t": 74.137,
+     "values": "Arrival, ArrivalArrival"
+    },
+    {
+     "start_t": 514.574,
+     "end_t": 525.725,
+     "values": "ctrl+a, Spirited Away"
+    },
+    {
+     "start_t": 892.48,
+     "end_t": 902.214,
+     "values": "ctrl+a, The Grand Budapest Hotel"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 425.29,
+     "end_t": 427.302,
+     "values": "axios: v1.20.0, 96,527,621/week, MIT, 109k stars, 57 open issues, last release September 13, 2026"
+    },
+    {
+     "start_t": 504.045,
+     "end_t": 506.052,
+     "values": "shakshuka for 4: Chef John's Shakshuka (4.8 stars, 50 mins), needs 2 tablespoons olive oil, 1 large onion diced, \u00bd cup sliced fresh mushrooms. Origin: Ottoman North Africa"
+    },
+    {
+     "start_t": 678.833,
+     "end_t": 680.839,
+     "values": "lodash: v4.18.1, 131,289,453/week, MIT, 61.4k stars, 56 open issues, last release April 1, 2026"
+    },
+    {
+     "start_t": 881.533,
+     "end_t": 883.54,
+     "values": "pad thai for 2: Pad Thai (4.0 stars, 45 mins), needs 1 (12 ounce) package rice noodles, 2 tablespoons butter, 1 pound boneless skinless chicken breast halves cut into bite-sized pieces. Origin: Thailand"
+    },
+    {
+     "start_t": 1049.846,
+     "end_t": 1051.853,
+     "values": "express: v5.3.0, 117,734,595/week, MIT, 69.6k stars, 108 open issues, last release October 9, 2026"
+    },
+    {
+     "start_t": 1177.069,
+     "end_t": 1179.075,
+     "values": "beef bourguignon for 6: Classic Beef Bourguignon (4.6 stars, 2 days 3 hrs 30 mins), needs 3 cups Burgundy wine, 2 onions thinly sliced, 2 carrots chopped. Origin: France"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on rottentomatoes",
+   "description": "Repeated sequence on rottentomatoes starting with CLICK textbox \"Search\"",
+   "site": "rottentomatoes",
+   "steps": [
+    "CLICK textbox \"Search\"",
+    "TYPE textbox \"Search\"",
+    "CLICK navigation \"Main\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 109.373,
+     "end_t": 124.048,
+     "values": "Arrival"
+    },
+    {
+     "start_t": 543.259,
+     "end_t": 545.27,
+     "values": "Spirited Away"
+    },
+    {
+     "start_t": 977.935,
+     "end_t": 987.916,
+     "values": "ctrl+a, The Grand Budapest Hotel"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on allrecipes",
+   "description": "Repeated sequence on allrecipes starting with CLICK button \"Consent\"",
+   "site": "allrecipes",
+   "steps": [
+    "CLICK button \"Consent\"",
+    "CLICK textbox \"Find a recipe or ingredient\"",
+    "TYPE textbox \"Find a recipe or ingredient\"",
+    "ENTER textbox \"Find a recipe or ingredient\"",
+    "CLICK link \"Chef John's Shakshuka 295 Ratings\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 443.423,
+     "end_t": 457.878,
+     "values": "shakshuka"
+    },
+    {
+     "start_t": 1111.409,
+     "end_t": 1123.217,
+     "values": "ctrl+home, ctrl+a, beef bourguignon"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK searchbox \"Search Wikipedia\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "ENTER searchbox \"Search Wikipedia\"",
+    "CLICK button \"CLOSE\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 483.536,
+     "end_t": 495.422,
+     "values": "shakshuka"
+    },
+    {
+     "start_t": 868.297,
+     "end_t": 871.313,
+     "values": "ctrl+a, pad thai"
+    },
+    {
+     "start_t": 1163.614,
+     "end_t": 1166.632,
+     "values": "ctrl+a, beef bourguignon"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

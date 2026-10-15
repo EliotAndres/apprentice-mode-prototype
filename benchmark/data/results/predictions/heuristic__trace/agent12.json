@@ -1,0 +1,247 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 4-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 700.434,
+     "end_t": 722.53,
+     "values": "axios: v1.20.0, 96,527,621/week, MIT, 109.4k stars, 57 open issues, last release September 13, 2026"
+    },
+    {
+     "start_t": 920.823,
+     "end_t": 936.722,
+     "values": "shakshuka for 4: Chef John's Shakshuka (4.8 stars, 50 mins), needs 2 tablespoons olive oil, 1 large onion diced, 1/2 cup sliced fresh mushrooms. Origin: Ottoman North Africa"
+    },
+    {
+     "start_t": 1999.605,
+     "end_t": 2015.674,
+     "values": "lodash: v4.18.1, 131,289,453/week, MIT, 61.4k stars, 56 open issues, last release April 1, 2026"
+    },
+    {
+     "start_t": 2980.851,
+     "end_t": 2986.302,
+     "values": "pad thai for 2: Pad Thai (4.0 stars, 45 mins), needs 1 (12 ounce) package rice noodles, 2 tablespoons butter, 1 pound boneless skinless chicken breast halves cut into bite-sized pieces. Origin: Thailand"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on npmjs",
+   "description": "Repeated sequence on npmjs starting with CLICK searchbox \"Search packages\"",
+   "site": "npmjs",
+   "steps": [
+    "CLICK searchbox \"Search packages\"",
+    "CLICK searchbox \"Search packages\"",
+    "TYPE searchbox \"Search packages\"",
+    "ENTER searchbox \"Search packages\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 408.25,
+     "end_t": 420.949,
+     "values": "axios"
+    },
+    {
+     "start_t": 1567.606,
+     "end_t": 1570.987,
+     "values": "lodahs"
+    },
+    {
+     "start_t": 1707.948,
+     "end_t": 1722.984,
+     "values": "lodash"
+    },
+    {
+     "start_t": 3368.948,
+     "end_t": 3372.387,
+     "values": "express"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on imdb",
+   "description": "Repeated sequence on imdb starting with CLICK textbox \"Search IMDb\"",
+   "site": "imdb",
+   "steps": [
+    "CLICK textbox \"Search IMDb\"",
+    "TYPE textbox \"Search IMDb\"",
+    "ENTER textbox \"Search IMDb\"",
+    "CLICK link \"Arrival\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 116.552,
+     "end_t": 132.02,
+     "values": "Arrival"
+    },
+    {
+     "start_t": 1058.179,
+     "end_t": 1072.61,
+     "values": "Spirited Away"
+    },
+    {
+     "start_t": 3158.514,
+     "end_t": 3162.203,
+     "values": "The Grand Budapest Hotel"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 1287.712,
+     "end_t": 1300.236,
+     "values": "tom@example.com"
+    },
+    {
+     "start_t": 1339.737,
+     "end_t": 1350.402,
+     "values": "Movie night Saturday: Spirited Away"
+    },
+    {
+     "start_t": 1406.134,
+     "end_t": 1410.388,
+     "values": "Hi tom, Saturday we watch Spirited Away (Hayao Miyazaki, 2h 4m): IMDb 8.6, Tomatometer 96%."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK searchbox \"Search Wikipedia\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK searchbox \"Search Wikipedia\"",
+    "CLICK button \"Close\"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "ENTER searchbox \"Search Wikipedia\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 865.366,
+     "end_t": 894.216,
+     "values": "shakshuka"
+    },
+    {
+     "start_t": 2874.417,
+     "end_t": 2877.871,
+     "values": "pad thai"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on allrecipes",
+   "description": "Repeated sequence on allrecipes starting with CLICK textbox \"Find a recipe or ingredient\"",
+   "site": "allrecipes",
+   "steps": [
+    "CLICK textbox \"Find a recipe or ingredient\"",
+    "CLICK textbox \"Find a recipe or ingredient\"",
+    "TYPE textbox \"Find a recipe or ingredient\"",
+    "ENTER textbox \"Find a recipe or ingredient\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 738.859,
+     "end_t": 753.371,
+     "values": "shakshuka"
+    },
+    {
+     "start_t": 2167.38,
+     "end_t": 2170.874,
+     "values": "lemon tart"
+    },
+    {
+     "start_t": 2410.481,
+     "end_t": 2413.93,
+     "values": "pad thai"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on rottentomatoes",
+   "description": "Repeated sequence on rottentomatoes starting with CLICK textbox \"Search\"",
+   "site": "rottentomatoes",
+   "steps": [
+    "CLICK textbox \"Search\"",
+    "TYPE textbox \"Search\"",
+    "ENTER textbox \"Search\"",
+    "CLICK link \"Arrival\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 196.957,
+     "end_t": 211.002,
+     "values": "Arrival"
+    },
+    {
+     "start_t": 1154.837,
+     "end_t": 1158.35,
+     "values": "Spirited Away"
+    },
+    {
+     "start_t": 3653.704,
+     "end_t": 3657.27,
+     "values": "The Grand Budapest Hotel"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on rottentomatoes",
+   "description": "Repeated sequence on rottentomatoes starting with CLICK button \"Reject All\"",
+   "site": "rottentomatoes",
+   "steps": [
+    "CLICK button \"Reject All\"",
+    "CLICK textbox \"Search\"",
+    "CLICK textbox \"Search\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 145.737,
+     "end_t": 155.18,
+     "values": ""
+    },
+    {
+     "start_t": 170.352,
+     "end_t": 184.609,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

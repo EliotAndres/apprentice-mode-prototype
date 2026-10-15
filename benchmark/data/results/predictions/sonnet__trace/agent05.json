@@ -1,0 +1,259 @@
+{
+ "opportunities": [
+  {
+   "name": "Country macro snapshot email draft",
+   "description": "For a given country, look up GDP/growth/population on World Bank and capital/currency on Wikipedia, then compose an email to a recipient with the summary.",
+   "site": "worldbank",
+   "steps": [
+    "Search the country in World Bank data search and open its page",
+    "Read GDP, growth, and population",
+    "Search the country on Wikipedia and read capital and currency",
+    "Open mail compose, enter recipient",
+    "Enter subject '<Country> macro snapshot'",
+    "Type body summarizing the figures",
+    "Discard/finish the draft"
+   ],
+   "parameters": [
+    "country",
+    "recipient email"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+     ],
+     "values": "Kenya, olivia@example.com",
+     "segments": [
+      {
+       "start_t": 131.859,
+       "end_t": 166.747
+      },
+      {
+       "start_t": 340.368,
+       "end_t": 448.402
+      }
+     ]
+    },
+    {
+     "actions": [
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+     ],
+     "values": "Vietnam, raj@example.com",
+     "segments": [
+      {
+       "start_t": 581.563,
+       "end_t": 845.959
+      }
+     ]
+    },
+    {
+     "actions": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135
+     ],
+     "values": "Chile, sofia@example.com",
+     "segments": [
+      {
+       "start_t": 1236.07,
+       "end_t": 1337.311
+      },
+      {
+       "start_t": 1534.089,
+       "end_t": 1753.58
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Gutenberg book to reading note",
+   "description": "Search a book on Project Gutenberg, open it, look up the author on Wikipedia, and save a 'Read:' note with author dates, Gutenberg date, and downloads.",
+   "site": "gutenberg",
+   "steps": [
+    "Search the book title on Gutenberg",
+    "Open the book result and note author and downloads",
+    "Search the author on Wikipedia for life dates",
+    "Open notes app and click New note",
+    "Type 'Read: <title> by <author> (<dates>), Gutenberg since <date>, <downloads> downloads'",
+    "Press Enter to save"
+   ],
+   "parameters": [
+    "book title",
+    "author",
+    "downloads count"
+   ],
+   "confidence": 0.88,
+   "instances": [
+    {
+     "actions": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+     ],
+     "values": "Pride and Prejudice, Jane Austen",
+     "segments": [
+      {
+       "start_t": 455.987,
+       "end_t": 558.942
+      }
+     ]
+    },
+    {
+     "actions": [
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+     ],
+     "values": "Moby Dick, Herman Melville",
+     "segments": [
+      {
+       "start_t": 878.633,
+       "end_t": 1219.305
+      }
+     ]
+    },
+    {
+     "actions": [
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+     ],
+     "values": "The Count of Monte Cristo, Alexandre Dumas",
+     "segments": [
+      {
+       "start_t": 1820.697,
+       "end_t": 2056.832
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.0469511,
+  "seconds": 9.7,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

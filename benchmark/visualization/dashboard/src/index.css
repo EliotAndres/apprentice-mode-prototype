@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+/* Design language: see visualization/design/README.md ("Design language"). */
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Newsreader", Georgia, Cambria, serif;
+  --color-band: #f1f2f4;
+  --color-nav: #e4e5e8;
+  --color-chip: #f5f5f5;
+  --color-strip: #fafafa;
+  --color-tab: #e7e7e7;
+  --color-line: #e7e7e7;
+  --color-line-strong: #d9d9d9;
+  --color-grid: #c2c2c2;
+  --color-secondary: #4d4d4d;
+  --color-muted: #787878;
+  --color-faint: #949494;
+  --color-neg: #d9d9d9;
+  --color-good: #34a853;
+  --color-bad: #dc3333;
+  --color-s1: #0089f4;
+  --color-s2: #ff7018;
+  --color-s3: #736cd3;
+  --color-s4: #34a853;
+  --color-s5: #cc785c;
+}
+
+@layer base {
+  :root { color-scheme: light; }
+  body { @apply bg-white font-sans text-sm text-black antialiased; }
+  summary::-webkit-details-marker { display: none; }
+}
+
+/* Reference-only bars: the reference's "Not publicly available" checkerboard. */
+@utility checker {
+  background: #999 repeating-conic-gradient(#6b6b6b 0 25%, transparent 0 50%) 0 0 / 14px 14px;
+}
+@utility checker-sm {
+  background: var(--color-neg) repeating-conic-gradient(var(--color-faint) 0 25%, transparent 0 50%) 0 0 / 5px 5px;
+}
+
+/* Two native range inputs stacked on one track; only the thumbs take the pointer. */
+@utility range-thumb {
+  @apply pointer-events-none absolute inset-0 w-full appearance-none bg-transparent;
+  &::-webkit-slider-thumb { @apply pointer-events-auto size-4 cursor-pointer appearance-none rounded-full border-[1.5px] border-black bg-white; }
+  &::-moz-range-thumb { @apply pointer-events-auto size-4 cursor-pointer rounded-full border-[1.5px] border-black bg-white; }
+}

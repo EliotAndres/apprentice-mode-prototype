@@ -1,0 +1,249 @@
+{
+ "tabs": [
+  "https://en.wikipedia.org/",
+  "https://www.xe.com/",
+  "https://openlibrary.org/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "W1",
+   "name": "Look up a city on Wikipedia and add its key facts to Notes",
+   "use_case": "Research",
+   "apps": [
+    "wikipedia.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "city"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type \"{city}\" and press Enter",
+    "On the article, find the population and country in the infobox (scroll if needed)",
+    "Switch to the Notes tab",
+    "Click the \"New note\" field, type \"{city}: population <the number you saw>, <country>\" and press Enter"
+   ]
+  },
+  {
+   "id": "W2",
+   "name": "Convert an amount on xe.com and log the rate in Notes",
+   "use_case": "Finance",
+   "apps": [
+    "xe.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "amount",
+    "from",
+    "to"
+   ],
+   "steps": [
+    "In the xe.com tab, click the Amount field, clear it and type {amount}",
+    "Click the From currency field, type {from} and pick it from the list",
+    "Click the To currency field, type {to} and pick it from the list",
+    "Click Convert and read the result",
+    "Switch to the Notes tab, click \"New note\", type \"{amount} {from} = <the result> {to}\" and press Enter"
+   ]
+  },
+  {
+   "id": "W3",
+   "name": "Find a book on Open Library and draft an email recommending it",
+   "use_case": "Education",
+   "apps": [
+    "openlibrary.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "title",
+    "friend",
+    "email"
+   ],
+   "steps": [
+    "In the Open Library tab, click the search box, type \"{title}\" and press Enter",
+    "Open the first matching result and note the author and first publish year",
+    "Switch to the Mail tab, click To and type {email}",
+    "Click Subject and type \"Book idea: {title}\"",
+    "Click Body and type \"Hi {friend}, you might like {title} by <author> (<year>).\"",
+    "Do not click Send. Click Discard to clear the draft"
+   ]
+  }
+ ],
+ "runs": {
+  "W1.1": {
+   "workflow": "W1",
+   "values": {
+    "city": "Lisbon"
+   }
+  },
+  "W1.2": {
+   "workflow": "W1",
+   "values": {
+    "city": "Kraków"
+   },
+   "note": "In step 1, first type \"Krakw\", notice the typo, fix it to \"Kraków\", then press Enter"
+  },
+  "W1.3": {
+   "workflow": "W1",
+   "values": {
+    "city": "Montreal"
+   }
+  },
+  "W2.1": {
+   "workflow": "W2",
+   "values": {
+    "amount": "250",
+    "from": "USD",
+    "to": "EUR"
+   }
+  },
+  "W2.2": {
+   "workflow": "W2",
+   "values": {
+    "amount": "1200",
+    "from": "GBP",
+    "to": "JPY"
+   }
+  },
+  "W2.3": {
+   "workflow": "W2",
+   "values": {
+    "amount": "80",
+    "from": "CAD",
+    "to": "MXN"
+   }
+  },
+  "W3.1": {
+   "workflow": "W3",
+   "values": {
+    "title": "Piranesi",
+    "friend": "Maya",
+    "email": "maya@example.com"
+   }
+  },
+  "W3.2": {
+   "workflow": "W3",
+   "values": {
+    "title": "Middlemarch",
+    "friend": "Tom",
+    "email": "tom@example.com"
+   }
+  },
+  "W3.3": {
+   "workflow": "W3",
+   "values": {
+    "title": "The Left Hand of Darkness",
+    "friend": "Priya",
+    "email": "priya@example.com"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to weather.com, search the forecast for Paris, look at it, close the tab",
+  "N3": "Abandoned attempt: in the xe.com tab, type 50 in Amount and start setting From to CHF, then give up halfway and switch to the Wikipedia tab",
+  "N4": "Wander: click through the Notes, Mail and Wikipedia tabs without doing anything, scroll the Notes list",
+  "N5": "In the Wikipedia tab, click \"Random article\" in the menu, skim it and scroll a bit",
+  "N6": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+ },
+ "script": [
+  {
+   "run": "W1.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "W2.1",
+   "steps": [
+    1,
+    4
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "W2.1",
+   "steps": [
+    5,
+    5
+   ]
+  },
+  {
+   "run": "W3.1"
+  },
+  {
+   "run": "W1.2"
+  },
+  {
+   "run": "W2.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "W3.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "W3.2",
+   "steps": [
+    3,
+    6
+   ]
+  },
+  {
+   "noise": "N5"
+  },
+  {
+   "run": "W1.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "W2.3",
+   "steps": [
+    1,
+    4
+   ]
+  },
+  {
+   "run": "W1.3",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "W2.3",
+   "steps": [
+    5,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "W3.3"
+  },
+  {
+   "noise": "N6"
+  }
+ ]
+}

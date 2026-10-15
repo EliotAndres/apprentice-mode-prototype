@@ -1,0 +1,268 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 4-step flow on booking",
+   "description": "Repeated sequence on booking starting with CLICK button \"Select dates Check-in date \u2014 Check-out d\"",
+   "site": "booking",
+   "steps": [
+    "CLICK button \"Select dates Check-in date \u2014 Check-out d\"",
+    "CLICK checkbox \"Saturday, November 21, 2026\"",
+    "CLICK checkbox \"Sunday, November 22, 2026\"",
+    "CLICK button \"Search\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 448.189,
+     "end_t": 457.246,
+     "values": ""
+    },
+    {
+     "start_t": 708.778,
+     "end_t": 737.554,
+     "values": "ctrl+a, Reims"
+    },
+    {
+     "start_t": 1028.654,
+     "end_t": 1062.16,
+     "values": "ctrl+a, Annecy"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on allrecipes",
+   "description": "Repeated sequence on allrecipes starting with CLICK div \"\"",
+   "site": "allrecipes",
+   "steps": [
+    "CLICK div \"\"",
+    "CLICK button \"Consent\"",
+    "CLICK textbox \"Find a recipe or ingredient\"",
+    "TYPE textbox \"Find a recipe or ingredient\""
+   ],
+   "parameters": [],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "start_t": 134.438,
+     "end_t": 150.866,
+     "values": "lasagna"
+    },
+    {
+     "start_t": 646.395,
+     "end_t": 649.427,
+     "values": "pad thai"
+    },
+    {
+     "start_t": 757.666,
+     "end_t": 760.713,
+     "values": "banana bread"
+    },
+    {
+     "start_t": 977.604,
+     "end_t": 987.745,
+     "values": "ctrl+home, banana breadchicken tikka masala"
+    },
+    {
+     "start_t": 1001.254,
+     "end_t": 1010.52,
+     "values": "ctrl+a, chicken tikka masala"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 7-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\"",
+    "TYPE textbox \"Subject\"",
+    "CLICK textbox \"Body\"",
+    "TYPE textbox \"Body\"",
+    "CLICK button \"Discard\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 564.132,
+     "end_t": 578.194,
+     "values": "family@example.com, Call with Grandma Rose on Sunday, Calling Grandma Rose on Sunday. It is 13:58 EDT in Montreal now (6 hours behind Lille), forecast there: partly cloudy Sunday, high 49\u00b0F, low 39\u00b0F, 4% chance of rain."
+    },
+    {
+     "start_t": 915.198,
+     "end_t": 928.051,
+     "values": "family@example.com, Call with Uncle Ben on Saturday, Calling Uncle Ben on Saturday. It is 05:02 AEDT in Sydney now (9 hours ahead of Lille), forecast there: partly cloudy Saturday, high 68\u00b0F, low 58\u00b0F, 24% chance of rain."
+    },
+    {
+     "start_t": 1190.051,
+     "end_t": 1202.853,
+     "values": "family@example.com, Call with Aunt Mei on Friday, Calling Aunt Mei on Friday. It is 02:09 SGT in Singapore now (6 hours ahead of Lille), forecast there: PM showers Friday, high 91\u00b0F, low 79\u00b0F, 44% chance of rain."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on weather",
+   "description": "Repeated sequence on weather starting with CLICK button \"Search for a location\"",
+   "site": "weather",
+   "steps": [
+    "CLICK button \"Search for a location\"",
+    "CLICK textbox \"Search for a location\"",
+    "TYPE textbox \"Search for a location\"",
+    "CLICK button \"Montreal Quebec, Canada\"",
+    "CLICK link \"10 Day\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 533.106,
+     "end_t": 550.705,
+     "values": "Montreal"
+    },
+    {
+     "start_t": 790.994,
+     "end_t": 801.965,
+     "values": "Sydney"
+    },
+    {
+     "start_t": 1169.266,
+     "end_t": 1179.268,
+     "values": "Singapore"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 191.659,
+     "end_t": 195.666,
+     "values": "Dinner: out at Terra Rossa - Angel (4.7, \u00a326 to \u00a340, Islington) or cook Creamy Chicken Lasagna (1 hr 30 mins)"
+    },
+    {
+     "start_t": 479.38,
+     "end_t": 482.396,
+     "values": "ctrl+a, Stopover Dijon Nov 21: Aparthotel Adagio Access Dijon R\u00e9publique \u20ac69. See historical centre (pop 161,830)"
+    },
+    {
+     "start_t": 680.179,
+     "end_t": 682.186,
+     "values": "Dinner: out at Thai Tho - Soho (4.3, \u00a326 to \u00a340, Soho) or cook Pad Thai (45 mins)"
+    },
+    {
+     "start_t": 747.951,
+     "end_t": 749.956,
+     "values": "Stopover Reims Dec 19: Best Western Premier Hotel de la Paix \u20ac204. See Reims Cathedral (pop 177,674)"
+    },
+    {
+     "start_t": 1019.946,
+     "end_t": 1021.961,
+     "values": "Dinner: out at SPICE SLICE Shoreditch (1.3, \u00a325 and under, Shoreditch) or cook Chicken Tikka Masala (2 hrs 20 mins)"
+    },
+    {
+     "start_t": 1077.03,
+     "end_t": 1079.036,
+     "values": "Stopover Annecy Feb 13: Moxy Annecy \u20ac120. See Lake Annecy (pop 132,117)"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on timeanddate",
+   "description": "Repeated sequence on timeanddate starting with CLICK searchbox \"Search for city or place\u2026\"",
+   "site": "timeanddate",
+   "steps": [
+    "CLICK searchbox \"Search for city or place\u2026\"",
+    "TYPE searchbox \"Search for city or place\u2026\"",
+    "ENTER searchbox \"Search for city or place\u2026\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 493.935,
+     "end_t": 495.943,
+     "values": "Montreal"
+    },
+    {
+     "start_t": 774.429,
+     "end_t": 783.946,
+     "values": "Sydney"
+    },
+    {
+     "start_t": 1132.573,
+     "end_t": 1136.596,
+     "values": "ctrl+a, Singapore"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with KEY body \"Jump to content Main menu Search Donate \"",
+   "site": "wikipedia",
+   "steps": [
+    "KEY body \"Jump to content Main menu Search Donate \"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "ENTER searchbox \"Search Wikipedia\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 284.375,
+     "end_t": 293.068,
+     "values": "ctrl+r, Dijon"
+    },
+    {
+     "start_t": 687.555,
+     "end_t": 689.571,
+     "values": "Reims"
+    },
+    {
+     "start_t": 961.075,
+     "end_t": 963.09,
+     "values": "Annecy"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on co",
+   "description": "Repeated sequence on co starting with CLICK textbox \"Please input a Location, Restaurant or C\"",
+   "site": "co",
+   "steps": [
+    "CLICK textbox \"Please input a Location, Restaurant or C\"",
+    "KEY textbox \"Please input a Location, Restaurant or C\"",
+    "TYPE textbox \"Please input a Location, Restaurant or C\"",
+    "ENTER textbox \"Please input a Location, Restaurant or C\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 588.923,
+     "end_t": 592.0,
+     "values": "ctrl+a, Thai Soho"
+    },
+    {
+     "start_t": 934.99,
+     "end_t": 938.1,
+     "values": "ctrl+a, Indian Shoreditch"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

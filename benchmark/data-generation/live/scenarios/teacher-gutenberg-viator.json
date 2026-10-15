@@ -1,0 +1,245 @@
+{
+ "tabs": [
+  "https://www.gutenberg.org/",
+  "https://www.imdb.com/",
+  "https://en.wikipedia.org/",
+  "https://www.timeanddate.com/",
+  "https://www.viator.com/",
+  "https://www.openstreetmap.org/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "LIT",
+   "name": "Plan a literature unit: a public-domain novel on Gutenberg and its film adaptation on IMDb",
+   "use_case": "Education",
+   "apps": [
+    "gutenberg.org",
+    "imdb.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "book"
+   ],
+   "steps": [
+    "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter",
+    "Open the matching book and note its author and its download count from the bibliographic record",
+    "Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating",
+    "Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+   ]
+  },
+  {
+   "id": "GEO",
+   "name": "Prepare a geography fact card from Wikipedia and the capital's local time",
+   "use_case": "Education",
+   "apps": [
+    "wikipedia.org",
+    "timeanddate.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "country",
+    "capital"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type {country} and open the country article",
+    "From the infobox, note the population, official language(s) and currency",
+    "Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time",
+    "Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter"
+   ]
+  },
+  {
+   "id": "FIELDTRIP",
+   "name": "Plan a class museum trip: ticket on Viator, address on OpenStreetMap, then email parents",
+   "use_case": "Education",
+   "apps": [
+    "viator.com",
+    "openstreetmap.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "museum",
+    "city",
+    "date"
+   ],
+   "steps": [
+    "In the Viator tab, click the search box, type \"{museum} tickets\" and press Enter",
+    "Open the first result and note its name, price and duration. Do not click Check availability, Reserve or Book",
+    "Switch to the OpenStreetMap tab, click the search box, type \"{museum}, {city}\", press Enter and click the first result; note the address in the side panel",
+    "Switch to the Mail tab, click To and type parents@example.com, click Subject and type \"Class trip: {museum} on {date}\"",
+    "Click Body and type \"Dear parents, on {date} we visit {museum} (<address>). Ticket <price> per student, about <duration>.\" Do not click Send. Click Discard"
+   ]
+  }
+ ],
+ "runs": {
+  "LIT.1": {
+   "workflow": "LIT",
+   "values": {
+    "book": "Frankenstein"
+   }
+  },
+  "LIT.2": {
+   "workflow": "LIT",
+   "values": {
+    "book": "Pride and Prejudice"
+   }
+  },
+  "LIT.3": {
+   "workflow": "LIT",
+   "values": {
+    "book": "Treasure Island"
+   }
+  },
+  "GEO.1": {
+   "workflow": "GEO",
+   "values": {
+    "country": "Peru",
+    "capital": "Lima"
+   }
+  },
+  "GEO.2": {
+   "workflow": "GEO",
+   "values": {
+    "country": "Vietnam",
+    "capital": "Hanoi"
+   },
+   "note": "In step 1, first type \"Veitnam\", notice the typo, fix it to \"Vietnam\", then continue"
+  },
+  "GEO.3": {
+   "workflow": "GEO",
+   "values": {
+    "country": "Morocco",
+    "capital": "Rabat"
+   }
+  },
+  "FIELDTRIP.1": {
+   "workflow": "FIELDTRIP",
+   "values": {
+    "museum": "Natural History Museum",
+    "city": "London",
+    "date": "Nov 26"
+   }
+  },
+  "FIELDTRIP.2": {
+   "workflow": "FIELDTRIP",
+   "values": {
+    "museum": "Louvre",
+    "city": "Paris",
+    "date": "Dec 10"
+   }
+  },
+  "FIELDTRIP.3": {
+   "workflow": "FIELDTRIP",
+   "values": {
+    "museum": "Rijksmuseum",
+    "city": "Amsterdam",
+    "date": "Jan 21"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to allrecipes.com, scroll the home page, open one recipe, skim it, close the tab",
+  "N3": "Abandoned attempt: in the IMDb tab, search \"Dune\", scroll the results, then give up without opening any",
+  "N4": "Wander: click through the Notes, Mail and Project Gutenberg tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+ },
+ "script": [
+  {
+   "run": "LIT.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "GEO.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "GEO.1",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "FIELDTRIP.1"
+  },
+  {
+   "run": "LIT.2"
+  },
+  {
+   "run": "GEO.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "FIELDTRIP.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "FIELDTRIP.2",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "LIT.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "GEO.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "LIT.3",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "GEO.3",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "FIELDTRIP.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

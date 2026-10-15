@@ -1,0 +1,914 @@
+{
+ "session_id": "h016",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  4.98,
+  10.79,
+  13.82,
+  19.59,
+  23.78,
+  29.94,
+  35.05,
+  38.22,
+  43.97,
+  51.24,
+  55.4,
+  61.37,
+  68.32,
+  73.03,
+  80.8,
+  87.81,
+  91.08,
+  95.84,
+  101.24,
+  108.07,
+  112.67,
+  117.46,
+  123.48,
+  127.32,
+  132.13,
+  137.54,
+  141.43,
+  146.77,
+  152.83,
+  158.97,
+  163.68,
+  168.65,
+  178.61,
+  183.77,
+  189.01,
+  192.43,
+  195.7,
+  202.36,
+  205.24,
+  209.75,
+  218.37,
+  221.23,
+  225.6,
+  232.13,
+  238.48,
+  242.95,
+  255.58,
+  260.09,
+  266.99,
+  270.36,
+  277.34,
+  284.11,
+  291.56,
+  296.22,
+  304.26,
+  307.31,
+  312.34,
+  317.32,
+  322.62,
+  326.93,
+  329.71,
+  333.52,
+  339.3,
+  342.73,
+  348.25,
+  352.22,
+  355.9,
+  361.04,
+  366.31,
+  370.92,
+  375.05,
+  380.93,
+  384.96,
+  394.92,
+  402.96,
+  407.25,
+  415.49,
+  420.3,
+  423.18,
+  427.17,
+  431.93,
+  437.02,
+  441.12,
+  443.74,
+  451.52,
+  455.82,
+  459.09,
+  464.22,
+  470.14,
+  475.4,
+  481.72,
+  485.76,
+  489.67,
+  494.56,
+  901.71,
+  905.82,
+  909.51,
+  912.78,
+  916.07,
+  922.05,
+  928.28,
+  931.6,
+  935.12,
+  943.94,
+  946.89,
+  951.83,
+  958.4,
+  964.3,
+  970.61,
+  975.01,
+  980.61,
+  985.0,
+  990.42,
+  999.75,
+  1003.39,
+  1009.43,
+  1015.82,
+  1020.47,
+  1023.55,
+  1031.1,
+  1036.65,
+  1041.66,
+  1045.78,
+  1053.3,
+  1058.61,
+  1062.62,
+  1065.92,
+  1070.74,
+  1075.49,
+  1080.01,
+  1088.49,
+  1094.87,
+  1101.6,
+  1106.39,
+  1109.28,
+  1119.78,
+  1125.91,
+  1132.48,
+  1134.87,
+  1137.52,
+  1142.44,
+  1149.44,
+  1155.3,
+  1158.6,
+  1162.31,
+  1165.41,
+  1168.14,
+  1173.64,
+  1178.87,
+  1187.61,
+  1193.56,
+  1197.52,
+  1202.39,
+  1219.42,
+  1225.59,
+  1238.02,
+  1243.2,
+  1248.91,
+  1471.45,
+  1476.05,
+  1480.26,
+  1484.88,
+  1492.05,
+  1495.15,
+  1501.26,
+  1506.6,
+  1513.12,
+  1516.43,
+  1521.07
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h016-op0",
+   "template_id": "agoda:search_activities",
+   "site": "agoda",
+   "name": "Search activities",
+   "description": "Search activities in {city} and optionally filter by {rating} and sort by {sort}",
+   "parameters": [
+    "city",
+    "rating",
+    "sort"
+   ],
+   "steps": [
+    "Open Activities",
+    "Type city in search box and select suggestion",
+    "Click SEARCH",
+    "Optionally open Sort and filter and apply rating/sort",
+    "Apply filter"
+   ],
+   "observed_seconds": 61.2,
+   "instances": [
+    {
+     "task_id": "04d45cb8-136b-419a-a324-dfbc5e93b7a2",
+     "task": "Show activities in Miami with lowest price and minimum 4 star rated.",
+     "site": "agoda",
+     "spans": [
+      [
+       342.73,
+       355.9
+      ],
+      [
+       407.25,
+       420.3
+      ],
+      [
+       431.93,
+       437.02
+      ]
+     ],
+     "seqs": [
+      63,
+      64,
+      65,
+      66,
+      75,
+      76,
+      77,
+      80,
+      81
+     ],
+     "seconds": 43.8,
+     "values": {
+      "city": "Miami",
+      "rating": "4 stars",
+      "sort": "lowest price first"
+     }
+    },
+    {
+     "task_id": "1fefdb27-882b-481b-97e2-720f4d2338a3",
+     "task": "Look for activities in Phuket, Thailand.",
+     "site": "agoda",
+     "spans": [
+      [
+       1058.61,
+       1070.74
+      ]
+     ],
+     "seqs": [
+      124,
+      125,
+      126,
+      127
+     ],
+     "seconds": 17.4,
+     "values": {
+      "city": "Phuket"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h016-op1",
+   "template_id": "marriott:find_meeting_event_venue",
+   "site": "marriott",
+   "name": "Find meetings/events venue",
+   "description": "Use Meetings & Events to find venues in {destination} on {dates} for {purpose} with {guest_rooms} rooms and {event_space} attendees, with optional filters",
+   "parameters": [
+    "destination",
+    "dates",
+    "purpose",
+    "guest_rooms",
+    "event_space",
+    "filters"
+   ],
+   "steps": [
+    "Open Meetings & Events section",
+    "Choose event type/booking flow",
+    "Enter destination",
+    "Select dates",
+    "Select purpose of event",
+    "Enter guest rooms and event space size",
+    "Click Find",
+    "Apply filters/select venue"
+   ],
+   "observed_seconds": 691.3,
+   "instances": [
+    {
+     "task_id": "8e4dbb21-de6c-4b9a-8bd1-97fc6b1fe3c0",
+     "task": "Find a wedding venue in Venice Beach California  in June for 100 guests.",
+     "site": "marriott",
+     "spans": [
+      [
+       205.24,
+       205.24
+      ],
+      [
+       225.6,
+       238.48
+      ],
+      [
+       277.34,
+       291.56
+      ],
+      [
+       307.31,
+       322.62
+      ],
+      [
+       375.05,
+       384.96
+      ],
+      [
+       441.12,
+       443.74
+      ]
+     ],
+     "seqs": [
+      38,
+      42,
+      43,
+      44,
+      50,
+      51,
+      52,
+      55,
+      56,
+      57,
+      58,
+      70,
+      71,
+      72,
+      82,
+      83
+     ],
+     "seconds": 80.4,
+     "values": {
+      "destination": "Venice Beach",
+      "dates": "Jun 4",
+      "purpose": "Wedding",
+      "guest_rooms": "",
+      "event_space": "100",
+      "filters": "none"
+     }
+    },
+    {
+     "task_id": "4d311ce8-c660-43dc-bde9-d06e85f6a12c",
+     "task": "Book a room for a business meeting from Apr 30 to May 1 with 7 people within 5 miles of New Delhi. The hotel must have a business center and offer high-speed internet, select the nearest hotel.",
+     "site": "marriott",
+     "spans": [
+      [
+       464.22,
+       470.14
+      ],
+      [
+       489.67,
+       909.51
+      ],
+      [
+       980.61,
+       985.0
+      ],
+      [
+       1020.47,
+       1023.55
+      ],
+      [
+       1075.49,
+       1125.91
+      ],
+      [
+       1178.87,
+       1187.61
+      ]
+     ],
+     "seqs": [
+      87,
+      88,
+      92,
+      93,
+      94,
+      95,
+      96,
+      110,
+      111,
+      117,
+      118,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      148,
+      149
+     ],
+     "seconds": 521.7,
+     "values": {
+      "destination": "New Delhi",
+      "dates": "Apr 30 - May 1",
+      "purpose": "Business",
+      "guest_rooms": "1",
+      "event_space": "7",
+      "filters": "business center, high-speed internet, within 5 miles; add to RFP"
+     }
+    },
+    {
+     "task_id": "b49f0d3e-7047-41df-9b4f-c2c15b1d3f70",
+     "task": "Find The Ritz-Carlton hotels in Washington DC that can hold a student social event from May 9 to May 12 and will require 7 guest rooms and an event space for 50",
+     "site": "marriott",
+     "spans": [
+      [
+       951.83,
+       975.01
+      ],
+      [
+       1031.1,
+       1053.3
+      ],
+      [
+       1132.48,
+       1142.44
+      ],
+      [
+       1193.56,
+       1202.39
+      ]
+     ],
+     "seqs": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      119,
+      120,
+      121,
+      122,
+      123,
+      137,
+      138,
+      139,
+      140,
+      150,
+      151,
+      152
+     ],
+     "seconds": 89.2,
+     "values": {
+      "destination": "Washington D.C.",
+      "dates": "May 9 - May 12",
+      "purpose": "Social",
+      "guest_rooms": "7",
+      "event_space": "50",
+      "filters": "Brand Ritz-Carlton"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h016-op2",
+   "template_id": "carnival:view_faq_help_topic",
+   "site": "carnival",
+   "name": "Open Plan menu help/FAQ page",
+   "description": "Use the Plan menu to open the help/FAQ page about {topic}.",
+   "parameters": [
+    "topic"
+   ],
+   "steps": [
+    "Hover over Plan menu",
+    "Click the help/FAQ entry",
+    "Click the link or section for the topic"
+   ],
+   "observed_seconds": 28.1,
+   "instances": [
+    {
+     "task_id": "453da07e-cb2b-4f05-80c5-5b3bc6413086",
+     "task": "Show me FAQs related to eating and drinks",
+     "site": "carnival",
+     "spans": [
+      [
+       189.01,
+       192.43
+      ],
+      [
+       333.52,
+       333.52
+      ]
+     ],
+     "seqs": [
+      34,
+      35,
+      61
+     ],
+     "seconds": 12.5,
+     "values": {
+      "topic": "eating and drinks FAQs"
+     }
+    },
+    {
+     "task_id": "6a326478-2a1b-4e47-b298-53f3ac12ed51",
+     "task": "Go to the page with information about luggage and what to bring.",
+     "site": "carnival",
+     "spans": [
+      [
+       475.4,
+       485.76
+      ]
+     ],
+     "seqs": [
+      89,
+      90,
+      91
+     ],
+     "seconds": 15.6,
+     "values": {
+      "topic": "What to Pack & Bring"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h016-op3",
+   "template_id": "enterprise:reserve_vehicle_with_filters",
+   "site": "enterprise",
+   "name": "Reserve a rental vehicle with dates, times and filters",
+   "description": "Search a rental location, set pick-up/return dates and times, browse vehicles, apply filters/sort, select a vehicle and continue to review",
+   "parameters": [
+    "pickup_location",
+    "return_location",
+    "pickup_date",
+    "pickup_time",
+    "return_date",
+    "return_time",
+    "vehicle_type",
+    "passengers",
+    "sort",
+    "extras"
+   ],
+   "steps": [
+    "Enter or choose the pick-up location (and optional different return location)",
+    "Select pick-up date and time",
+    "Select return date and time",
+    "Click Browse Vehicles",
+    "Apply vehicle type, passenger count and sort filters",
+    "Select a vehicle",
+    "Continue to Review"
+   ],
+   "observed_seconds": 219.4,
+   "instances": [
+    {
+     "task_id": "9572e7bd-0365-4339-899d-1d1dc8504543",
+     "task": "Reserve a lowest priced car for pickup from Birmingham Airport, Alabama, at 11 am on March 22, 2023, and the return location is Montogomery Airport, Alabama, at 5 pm on March 25, 2023.",
+     "site": "enterprise",
+     "spans": [
+      [
+       19.59,
+       38.22
+      ],
+      [
+       73.03,
+       101.24
+      ],
+      [
+       123.48,
+       127.32
+      ],
+      [
+       178.61,
+       183.77
+      ]
+     ],
+     "seqs": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      23,
+      32,
+      33
+     ],
+     "seconds": 82.3,
+     "values": {
+      "pickup_location": "Birmingham Airport",
+      "return_location": "Montgomery Airport",
+      "pickup_date": "03/22/2023",
+      "pickup_time": "11:00 AM",
+      "return_date": "03/25/2023",
+      "return_time": "5:00 PM",
+      "sort": "Price: Low to High"
+     }
+    },
+    {
+     "task_id": "22e33a38-902c-4f62-9e9a-822b2370b6d1",
+     "task": "Select the cheapest exotic car for two from Beverly Hills at 11 am on March 31 and return on the same day at 5 pm.",
+     "site": "enterprise",
+     "spans": [
+      [
+       218.37,
+       221.23
+      ],
+      [
+       242.95,
+       270.36
+      ],
+      [
+       296.22,
+       304.26
+      ],
+      [
+       326.93,
+       329.71
+      ],
+      [
+       339.3,
+       339.3
+      ]
+     ],
+     "seqs": [
+      40,
+      41,
+      45,
+      46,
+      47,
+      48,
+      49,
+      53,
+      54,
+      59,
+      60,
+      62
+     ],
+     "seconds": 68.9,
+     "values": {
+      "pickup_location": "Beverly Hills",
+      "pickup_date": "03/31/2023",
+      "pickup_time": "11:00 AM",
+      "return_date": "03/31/2023",
+      "return_time": "5:00 PM",
+      "vehicle_type": "Exotic",
+      "passengers": "2+",
+      "sort": "Price: Low to High"
+     }
+    },
+    {
+     "task_id": "7180c4d1-971b-418d-8a64-87ab0d29c20e",
+     "task": "Find the lowest rent truck for 4  people,  pick up from  JFK airport at 11 am on March 27 and return at noon on March 30.",
+     "site": "enterprise",
+     "spans": [
+      [
+       912.78,
+       946.89
+      ],
+      [
+       990.42,
+       1015.82
+      ]
+     ],
+     "seqs": [
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      112,
+      113,
+      114,
+      115,
+      116
+     ],
+     "seconds": 68.2,
+     "values": {
+      "pickup_location": "JFK",
+      "pickup_date": "03/27/2023",
+      "pickup_time": "11:00 AM",
+      "return_date": "03/30/2023",
+      "vehicle_type": "Trucks",
+      "passengers": "4+",
+      "sort": "Low to High"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "8c5ccffa-b88e-4928-9394-6d46cfd36e59",
+   "task": "What are today's Limited Time Offers deals?",
+   "site": "agoda",
+   "spans": [
+    [
+     1219.42,
+     1225.59
+    ]
+   ],
+   "seqs": [
+    153,
+    154
+   ],
+   "seconds": 23.2,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "813e47ec-6304-42c5-82d4-1fc461247965",
+   "task": "Find the cheapest set of stainless steel spoons, which are available in stock in San Diego, California.",
+   "site": "ikea",
+   "spans": [
+    [
+     13.82,
+     13.82
+    ],
+    [
+     43.97,
+     68.32
+    ],
+    [
+     108.07,
+     117.46
+    ],
+    [
+     132.13,
+     137.54
+    ],
+    [
+     152.83,
+     168.65
+    ],
+    [
+     195.7,
+     202.36
+    ],
+    [
+     209.75,
+     209.75
+    ]
+   ],
+   "seqs": [
+    2,
+    8,
+    9,
+    10,
+    11,
+    12,
+    19,
+    20,
+    21,
+    24,
+    25,
+    28,
+    29,
+    30,
+    31,
+    36,
+    37,
+    39
+   ],
+   "seconds": 95.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "4f395aad-6f10-4055-932a-d2af443e6bfa",
+   "task": "Find Star Wars The Mandalorian statue and add to cart.",
+   "site": "ign",
+   "spans": [
+    [
+     451.52,
+     459.09
+    ]
+   ],
+   "seqs": [
+    84,
+    85,
+    86
+   ],
+   "seconds": 15.3,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "2cb6558b-3dd7-4acd-a495-a4d3b96369ad",
+   "task": "Browse a list of convertible cars for sale under 20000.",
+   "site": "enterprise",
+   "spans": [
+    [
+     4.98,
+     10.79
+    ],
+    [
+     141.43,
+     146.77
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    26,
+    27
+   ],
+   "seconds": 20.0,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "c0eeead1-f8ea-4819-a6da-ef0108b40c89",
+   "task": "Sign Allan Smith for email offers with the email allan.smith@gmail.com and zip code 10001",
+   "site": "enterprise",
+   "spans": [
+    [
+     361.04,
+     370.92
+    ],
+    [
+     394.92,
+     402.96
+    ],
+    [
+     423.18,
+     427.17
+    ]
+   ],
+   "seqs": [
+    67,
+    68,
+    69,
+    73,
+    74,
+    78,
+    79
+   ],
+   "seconds": 39.9,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "49c60777-2500-4cea-8200-a95d3be2c9a1",
+   "task": "Find rental for an economy car in Houston from Mar 10 to Mar 13.",
+   "site": "agoda",
+   "spans": [
+    [
+     1149.44,
+     1173.64
+    ],
+    [
+     1238.02,
+     1238.02
+    ]
+   ],
+   "seqs": [
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    155
+   ],
+   "seconds": 43.6,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "3e0d115f-9da7-4211-9d99-122912890b40",
+   "task": "Delete the history of what i heard recently.",
+   "site": "soundcloud",
+   "spans": [
+    [
+     1471.45,
+     1484.88
+    ]
+   ],
+   "seqs": [
+    158,
+    159,
+    160,
+    161
+   ],
+   "seconds": 236.0,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "e8637690-bb8c-4596-a608-5b40a29d77c9",
+   "task": "Locate a large store in Washington that has kids' and maternity products, also check if they have a parking lot, and see the directions of the nearest store.",
+   "site": "uniqlo",
+   "spans": [
+    [
+     1243.2,
+     1248.91
+    ],
+    [
+     1492.05,
+     1521.07
+    ]
+   ],
+   "seqs": [
+    156,
+    157,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168
+   ],
+   "seconds": 47.1,
+   "kind": "distractor"
+  }
+ ]
+}

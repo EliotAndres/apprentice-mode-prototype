@@ -1,0 +1,693 @@
+{
+ "session_id": "agent03",
+ "action_t": [
+  39.179,
+  54.243,
+  65.476,
+  78.858,
+  82.227,
+  84.463,
+  84.596,
+  93.241,
+  97.706,
+  104.956,
+  119.629,
+  123.012,
+  126.623,
+  132.09,
+  138.946,
+  145.111,
+  151.557,
+  157.732,
+  162.922,
+  203.603,
+  230.139,
+  235.642,
+  239.048,
+  242.474,
+  292.929,
+  297.911,
+  309.756,
+  313.125,
+  315.724,
+  332.932,
+  333.067,
+  341.627,
+  345.328,
+  351.801,
+  358.364,
+  378.917,
+  384.994,
+  388.506,
+  391.426,
+  428.907,
+  436.283,
+  439.796,
+  443.394,
+  460.056,
+  477.607,
+  483.784,
+  487.286,
+  491.688,
+  497.483,
+  501.152,
+  505.632,
+  511.545,
+  516.434,
+  519.69,
+  539.937,
+  547.137,
+  547.269,
+  559.237,
+  562.599,
+  566.725,
+  566.855,
+  579.849,
+  583.869,
+  590.559,
+  595.915,
+  602.218,
+  608.505,
+  615.051,
+  622.148,
+  643.078,
+  649.384,
+  658.316,
+  665.729,
+  669.085,
+  678.688,
+  686.434,
+  694.074,
+  699.91,
+  706.626,
+  718.687,
+  737.715,
+  744.654,
+  753.583,
+  757.095,
+  760.86,
+  768.107,
+  782.354,
+  803.085,
+  810.384,
+  815.321,
+  820.175,
+  846.101,
+  853.656,
+  857.036,
+  860.228,
+  867.479,
+  873.465,
+  896.161,
+  905.105,
+  908.489,
+  912.325,
+  955.467,
+  982.318,
+  1023.849,
+  1038.355,
+  1042.648,
+  1054.195,
+  1092.701,
+  1092.836,
+  1110.741,
+  1122.367,
+  1162.516,
+  1162.651,
+  1177.208,
+  1186.895,
+  1244.015,
+  1258.661,
+  1262.186,
+  1273.838,
+  1303.305,
+  1523.414,
+  1539.479,
+  1542.97,
+  1553.382,
+  1570.588,
+  1574.255,
+  1587.422,
+  1604.147,
+  1608.985,
+  1624.135,
+  1676.083,
+  1692.203,
+  1703.265,
+  1720.437,
+  1730.943,
+  1742.141,
+  1758.67,
+  1774.547,
+  1826.565,
+  1842.96,
+  1846.329,
+  1857.267,
+  1895.034,
+  1912.365,
+  1962.548,
+  1962.682,
+  1983.423,
+  1999.003,
+  1999.135,
+  2033.198,
+  2033.327,
+  2049.045,
+  2060.479,
+  2080.437,
+  2101.663,
+  2119.107,
+  2134.485,
+  2174.962,
+  2233.812,
+  2251.794,
+  2251.928,
+  2333.363,
+  2411.539,
+  2574.455,
+  2651.816,
+  2677.052,
+  2695.668,
+  2701.05,
+  2716.5,
+  2781.516,
+  2802.671,
+  2806.064,
+  2833.084,
+  2856.847,
+  2870.067,
+  2924.736,
+  2941.089,
+  2945.412,
+  2968.462,
+  3053.818,
+  3053.94,
+  3097.475,
+  3097.607,
+  3114.702,
+  3135.755,
+  3169.102,
+  3186.959,
+  3204.172,
+  3204.301,
+  3221.342,
+  3221.473
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent03-op0",
+   "template_id": "agent03-op0",
+   "name": "Plan a trip: pick a flight, a hotel and an activity, then note the plan",
+   "use_case": "Travel agency",
+   "description": "In the Google Flights tab (if a Google consent page shows, click \"Reject all\"), set Where from to Paris and Where to to {destination} -> Set the dates to {depart} and {return}, click Done, then click Search -> Read the airline and price of the first (best) flight. Do not click Select or Book -> Switch to the Booking.com tab, type {destination} in the destination box, set the dates {depart} to {return}, click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve -> Switch to the Viator tab, search \"{activity} {destination}\", open the first result and note its name and price. Do not click Check availability, Reserve or Book -> Switch to Notes, click \"New note\", type \"Trip {destination} {depart}-{return}: flight <airline> <price>, hotel <name> <price>, {activity} <name> <price>\" and press Enter",
+   "site": "google.com/travel/flights, booking.com, viator.com, notes.localhost",
+   "parameters": [
+    "destination",
+    "depart",
+    "return",
+    "activity"
+   ],
+   "steps": [
+    "In the Google Flights tab (if a Google consent page shows, click \"Reject all\"), set Where from to Paris and Where to to {destination}",
+    "Set the dates to {depart} and {return}, click Done, then click Search",
+    "Read the airline and price of the first (best) flight. Do not click Select or Book",
+    "Switch to the Booking.com tab, type {destination} in the destination box, set the dates {depart} to {return}, click Search",
+    "Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve",
+    "Switch to the Viator tab, search \"{activity} {destination}\", open the first result and note its name and price. Do not click Check availability, Reserve or Book",
+    "Switch to Notes, click \"New note\", type \"Trip {destination} {depart}-{return}: flight <airline> <price>, hotel <name> <price>, {activity} <name> <price>\" and press Enter"
+   ],
+   "observed_seconds": 1213.0,
+   "instances": [
+    {
+     "task_id": "TRIP.2",
+     "spans": [
+      [
+       528.0,
+       821.0
+      ]
+     ],
+     "seqs": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90
+     ],
+     "seconds": 293.0,
+     "values": {
+      "destination": "Rome",
+      "depart": "Dec 3",
+      "return": "Dec 7",
+      "activity": "Colosseum tour"
+     }
+    },
+    {
+     "task_id": "TRIP.3",
+     "spans": [
+      [
+       1645.0,
+       1792.0
+      ],
+      [
+       1944.0,
+       2717.0
+      ]
+     ],
+     "seqs": [
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168
+     ],
+     "seconds": 920.0,
+     "values": {
+      "destination": "Barcelona",
+      "depart": "Jan 20",
+      "return": "Jan 24",
+      "activity": "Sagrada Familia tour"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent03-op1",
+   "template_id": "agent03-op1",
+   "name": "Compare two Python libraries on PyPI and GitHub",
+   "use_case": "Software development",
+   "description": "In the PyPI tab, click the search box, type {package_a}, press Enter and open the exact {package_a} result. Note the latest version and its release date -> In the left sidebar click its Source / Repository / Homepage link to GitHub and read the star count and license -> Go back to PyPI, search {package_b}, open the exact result and note the latest version and release date -> Click its Source / Repository link to GitHub and read the star count and license -> Switch to Notes, click \"New note\", type \"{package_a} <version> <date> <stars> stars <license> vs {package_b} <version> <date> <stars> stars <license>\" and press Enter",
+   "site": "pypi.org, github.com, notes.localhost",
+   "parameters": [
+    "package_a",
+    "package_b"
+   ],
+   "steps": [
+    "In the PyPI tab, click the search box, type {package_a}, press Enter and open the exact {package_a} result. Note the latest version and its release date",
+    "In the left sidebar click its Source / Repository / Homepage link to GitHub and read the star count and license",
+    "Go back to PyPI, search {package_b}, open the exact result and note the latest version and release date",
+    "Click its Source / Repository link to GitHub and read the star count and license",
+    "Switch to Notes, click \"New note\", type \"{package_a} <version> <date> <stars> stars <license> vs {package_b} <version> <date> <stars> stars <license>\" and press Enter"
+   ],
+   "observed_seconds": 638.0,
+   "instances": [
+    {
+     "task_id": "PYLIB.2",
+     "spans": [
+      [
+       821.0,
+       1055.0
+      ]
+     ],
+     "seqs": [
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+     ],
+     "seconds": 234.0,
+     "values": {
+      "package_a": "pandas",
+      "package_b": "polars"
+     }
+    },
+    {
+     "task_id": "PYLIB.3",
+     "spans": [
+      [
+       1792.0,
+       1944.0
+      ],
+      [
+       2717.0,
+       2969.0
+      ]
+     ],
+     "seqs": [
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178
+     ],
+     "seconds": 404.0,
+     "values": {
+      "package_a": "flask",
+      "package_b": "fastapi"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent03-op2",
+   "template_id": "agent03-op2",
+   "name": "Answer a browser-support ticket with caniuse and MDN",
+   "use_case": "Customer service",
+   "description": "In the caniuse tab, click the search box and type \"{feature}\" -> In the support table, find {browser} and note the first version that supports it (or that it is unsupported) -> Open a new tab, go to developer.mozilla.org, search \"{feature}\" with the site's search and open the reference page; note its URL -> Switch to the Mail tab, click To and type {customer}@example.com, then click Subject and type \"Re: {feature} in {browser}\" -> Click Body and type \"Hi {customer}, {feature} is supported in {browser} from version <version> (or: not supported yet). Docs: <MDN URL>\" -> Do not click Send. Click Discard to clear the draft, then close the MDN tab",
+   "site": "caniuse.com, developer.mozilla.org, mail.localhost",
+   "parameters": [
+    "feature",
+    "browser",
+    "customer"
+   ],
+   "steps": [
+    "In the caniuse tab, click the search box and type \"{feature}\"",
+    "In the support table, find {browser} and note the first version that supports it (or that it is unsupported)",
+    "Open a new tab, go to developer.mozilla.org, search \"{feature}\" with the site's search and open the reference page; note its URL",
+    "Switch to the Mail tab, click To and type {customer}@example.com, then click Subject and type \"Re: {feature} in {browser}\"",
+    "Click Body and type \"Hi {customer}, {feature} is supported in {browser} from version <version> (or: not supported yet). Docs: <MDN URL>\"",
+    "Do not click Send. Click Discard to clear the draft, then close the MDN tab"
+   ],
+   "observed_seconds": 505.0,
+   "instances": [
+    {
+     "task_id": "CANIUSE.1",
+     "spans": [
+      [
+       373.0,
+       528.0
+      ]
+     ],
+     "seqs": [
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ],
+     "seconds": 155.0,
+     "values": {
+      "feature": "CSS :has() selector",
+      "browser": "Firefox",
+      "customer": "jordan"
+     }
+    },
+    {
+     "task_id": "CANIUSE.2",
+     "spans": [
+      [
+       1137.0,
+       1336.0
+      ],
+      [
+       1494.0,
+       1645.0
+      ]
+     ],
+     "seqs": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+     ],
+     "seconds": 350.0,
+     "values": {
+      "feature": "View Transitions API",
+      "browser": "Safari",
+      "customer": "priya"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     171.0,
+     219.0
+    ]
+   ],
+   "seqs": [
+    19
+   ],
+   "seconds": 48.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     262.0,
+     328.0
+    ]
+   ],
+   "seqs": [
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "seconds": 66.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to weather.com, search the forecast for Paris, look at it, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     1055.0,
+     1137.0
+    ]
+   ],
+   "seqs": [
+    107,
+    108,
+    109,
+    110
+   ],
+   "seconds": 82.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the Booking.com tab, type Vienna in the destination box, open the date picker, then give up and press Escape"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     1439.0,
+     1494.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 55.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and PyPI tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     3204.0,
+     3239.0
+    ]
+   ],
+   "seqs": [
+    187,
+    188,
+    189,
+    190
+   ],
+   "seconds": 35.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "TRIP.1",
+   "spans": [
+    [
+     25.0,
+     171.0
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18
+   ],
+   "seconds": 146.0,
+   "kind": "one_off",
+   "task": "abandoned run of TRIP.1"
+  },
+  {
+   "task_id": "PYLIB.1",
+   "spans": [
+    [
+     219.0,
+     248.0
+    ],
+    [
+     328.0,
+     373.0
+    ]
+   ],
+   "seqs": [
+    20,
+    21,
+    22,
+    23,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+   ],
+   "seconds": 74.0,
+   "kind": "one_off",
+   "task": "abandoned run of PYLIB.1"
+  },
+  {
+   "task_id": "CANIUSE.3",
+   "spans": [
+    [
+     3033.0,
+     3204.0
+    ]
+   ],
+   "seqs": [
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186
+   ],
+   "seconds": 171.0,
+   "kind": "one_off",
+   "task": "abandoned run of CANIUSE.3"
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 7-step flow on viator",
+   "description": "Repeated sequence on viator starting with CLICK gridcell \"Fri May 12 2023\"",
+   "site": "viator",
+   "steps": [
+    "CLICK gridcell \"Fri May 12 2023\"",
+    "CLICK circle \"\"",
+    "CLICK svg \"\"",
+    "CLICK span \"Traveler Rating\"",
+    "CLICK img \"4.5\"",
+    "CLICK button \"2,693 Reviews\"",
+    "CLICK button \"Helpful\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 107.02,
+     "end_t": 133.16,
+     "values": ""
+    },
+    {
+     "start_t": 1038.3,
+     "end_t": 1105.4,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on recreation.gov",
+   "description": "Repeated sequence on recreation.gov starting with TYPE textbox \"Search location and press arrow keys to \"",
+   "site": "recreation.gov",
+   "steps": [
+    "TYPE textbox \"Search location and press arrow keys to \"",
+    "CLICK span \", Tennessee\"",
+    "CLICK button \"Show filters\"",
+    "CLICK span \"\"",
+    "CLICK button \"Hide filters\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 12.55,
+     "end_t": 33.72,
+     "values": "nashville"
+    },
+    {
+     "start_t": 601.25,
+     "end_t": 617.46,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on parking",
+   "description": "Repeated sequence on parking starting with CLICK link \"NEW YORK CITY\"",
+   "site": "parking",
+   "steps": [
+    "CLICK link \"NEW YORK CITY\"",
+    "CLICK link \"Museums\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 550.2,
+     "end_t": 554.91,
+     "values": ""
+    },
+    {
+     "start_t": 998.21,
+     "end_t": 1018.83,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on eventbrite",
+   "description": "Repeated sequence on eventbrite starting with CLICK svg \"\"",
+   "site": "eventbrite",
+   "steps": [
+    "CLICK svg \"\"",
+    "CLICK div \"Canada\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 219.98,
+     "end_t": 227.63,
+     "values": ""
+    },
+    {
+     "start_t": 264.83,
+     "end_t": 270.48,
+     "values": ""
+    },
+    {
+     "start_t": 454.94,
+     "end_t": 459.07,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

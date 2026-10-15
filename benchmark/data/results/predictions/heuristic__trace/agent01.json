@@ -1,0 +1,144 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 6-step flow on timeanddate",
+   "description": "Repeated sequence on timeanddate starting with CLICK button \"Deny all\"",
+   "site": "timeanddate",
+   "steps": [
+    "CLICK button \"Deny all\"",
+    "CLICK link \"Time Zones\"",
+    "CLICK link \"Time Zone Converter Calculate the time d\"",
+    "CLICK searchbox \"Search for city or time zone...\"",
+    "TYPE searchbox \"Search for city or time zone...\"",
+    "CLICK searchbox \"Search for city or time zone...\""
+   ],
+   "parameters": [],
+   "confidence": 1.0,
+   "instances": [
+    {
+     "start_t": 394.028,
+     "end_t": 433.447,
+     "values": "San Francisco"
+    },
+    {
+     "start_t": 526.482,
+     "end_t": 578.259,
+     "values": "New York, Berlin"
+    },
+    {
+     "start_t": 634.665,
+     "end_t": 644.715,
+     "values": ""
+    },
+    {
+     "start_t": 1496.118,
+     "end_t": 1496.692,
+     "values": ""
+    },
+    {
+     "start_t": 1514.318,
+     "end_t": 1514.319,
+     "values": "London"
+    },
+    {
+     "start_t": 1532.836,
+     "end_t": 1536.622,
+     "values": "Sydney"
+    },
+    {
+     "start_t": 1550.844,
+     "end_t": 1551.404,
+     "values": ""
+    },
+    {
+     "start_t": 1567.677,
+     "end_t": 1568.213,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on mail",
+   "description": "Repeated sequence on mail starting with TYPE textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\""
+   ],
+   "parameters": [],
+   "confidence": 1.0,
+   "instances": [
+    {
+     "start_t": 879.86,
+     "end_t": 879.86,
+     "values": "ops@example.com"
+    },
+    {
+     "start_t": 894.587,
+     "end_t": 894.588,
+     "values": "Sync: New York / Berlin, December"
+    },
+    {
+     "start_t": 911.986,
+     "end_t": 911.987,
+     "values": "Berlin is 6 hours ahead from New York. Avoid: December 25 and 26."
+    },
+    {
+     "start_t": 1196.256,
+     "end_t": 1200.121,
+     "values": "marc@example.com"
+    },
+    {
+     "start_t": 1212.434,
+     "end_t": 1232.865,
+     "values": "Account brief: HubSpot (HUBS), HubSpot: HQ Cambridge, 8,246 employees, CEO Yamini Rangan. Latest 10-K filed 2026-02-11."
+    },
+    {
+     "start_t": 1641.243,
+     "end_t": 1645.255,
+     "values": "Sync: London / Sydney, January"
+    },
+    {
+     "start_t": 1659.967,
+     "end_t": 1664.317,
+     "values": "Sydney is 10 hours ahead from London. Avoid: January 1 and 26."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on sec",
+   "description": "Repeated sequence on sec starting with CLICK textbox \"Company name, ticker, CIK number or indi\"",
+   "site": "sec",
+   "steps": [
+    "CLICK textbox \"Company name, ticker, CIK number or indi\"",
+    "KEY textbox \"Company name, ticker, CIK number or indi\"",
+    "TYPE textbox \"Company name, ticker, CIK number or indi\"",
+    "CLICK b \"DDOG\"",
+    "CLICK div \"We'd welcome your feedback! Would you ta\"",
+    "CLICK button \"SEARCH\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 450.817,
+     "end_t": 478.695,
+     "values": "ctrl+a, DDOG"
+    },
+    {
+     "start_t": 930.266,
+     "end_t": 930.403,
+     "values": "ctrl+a"
+    },
+    {
+     "start_t": 960.084,
+     "end_t": 960.084,
+     "values": "HUBS"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

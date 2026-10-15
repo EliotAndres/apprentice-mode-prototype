@@ -1,0 +1,89 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "5676859B9EE4772F8E47CED73ABBEFBD", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "6F90A748E42AA517B6EE29398FD7ED23", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/", "title": "Wayback Machine"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/", "title": "429 Unknown Error"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "B9A0E86AFD186492A44DF6003CB09530", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/", "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub"}
+{"t": 22.682, "type": "context", "kind": "title_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "title": "openstreetmap.org"}
+{"t": 22.799, "type": "context", "kind": "title_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "title": "OpenStreetMap"}
+{"t": 22.854, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/#map=6/46.45/2.21", "site": "openstreetmap"}
+{"t": 28.227, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/#map=6/46.45/2.22", "site": "openstreetmap"}
+{"t": 97.464, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=library+near+350+5th+Ave%2C+New+York&zoom=6&minlon=-18.874511718750004&minlat=40.07807142745009&maxlon=23.312988281250004&maxlat=52.16045455774706#map=6/46.45/2.22", "site": "openstreetmap"}
+{"t": 97.499, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=library+near+350+5th+Ave%2C+New+York&zoom=6&minlon=-18.874511718750004&minlat=40.07807142745009&maxlon=23.312988281250004&maxlat=52.16045455774706#map=6/46.45/9.91", "site": "openstreetmap"}
+{"t": 97.506, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=library+near+350+5th+Ave%2C+New+York&zoom=6&minlon=-18.874511718750004&minlat=40.07807142745009&maxlon=23.312988281250004&maxlat=52.16045455774706#map=6/46.45/6.06", "site": "openstreetmap"}
+{"t": 99.4, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=library+near+350+5th+Ave%2C+New+York&zoom=6&minlon=-18.874511718750004&minlat=40.07807142745009&maxlon=23.312988281250004&maxlat=52.16045455774706#map=19/40.785958/-73.951808", "site": "openstreetmap"}
+{"t": 108.763, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/way/266924969", "site": "openstreetmap"}
+{"t": 114.341, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?to=library+near+350+5th+Ave%2C+New+York#map=19/40.785958/-73.951808", "site": "openstreetmap"}
+{"t": 114.368, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?to=library+near+350+5th+Ave%2C+New+York#map=19/40.785958/-73.951338", "site": "openstreetmap"}
+{"t": 114.378, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?to=library+near+350+5th+Ave%2C+New+York#map=19/40.785958/-73.952276", "site": "openstreetmap"}
+{"t": 185.517, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=40.7484421%2C-73.9856589%3B40.7859845%2C-73.9517887", "site": "openstreetmap"}
+{"t": 185.519, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=40.7484421%2C-73.9856589%3B40.7859845%2C-73.9517887#map=19/40.785958/-73.951338", "site": "openstreetmap"}
+{"t": 185.521, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=40.7484421%2C-73.9856589%3B40.7859845%2C-73.9517887#map=19/40.785958/-73.951807", "site": "openstreetmap"}
+{"t": 185.616, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/directions?engine=fossgis_osrm_foot&route=40.7484421%2C-73.9856589%3B40.7859845%2C-73.9517887#map=14/40.76713/-73.96878", "site": "openstreetmap"}
+{"t": 218.91, "type": "context", "kind": "url_change", "target_id": "5676859B9EE4772F8E47CED73ABBEFBD", "url": "https://en.wikipedia.org/wiki/Midtown_Manhattan", "site": "wikipedia"}
+{"t": 253.878, "type": "context", "kind": "tab_opened", "target_id": "154784BA38E07FB638F7CF798C4F0548", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 267.791, "type": "context", "kind": "url_change", "target_id": "154784BA38E07FB638F7CF798C4F0548", "url": "https://www.bbc.com/news", "site": "bbc"}
+{"t": 268.165, "type": "context", "kind": "title_change", "target_id": "154784BA38E07FB638F7CF798C4F0548", "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world"}
+{"t": 287.57, "type": "context", "kind": "url_change", "target_id": "154784BA38E07FB638F7CF798C4F0548", "url": "https://www.bbc.com/news/articles/cmn045en7d88o", "site": "bbc"}
+{"t": 287.731, "type": "context", "kind": "title_change", "target_id": "154784BA38E07FB638F7CF798C4F0548", "title": "RJ Mitte: Breaking Bad actor dies aged 34"}
+{"t": 301.062, "type": "context", "kind": "tab_closed", "target_id": "154784BA38E07FB638F7CF798C4F0548"}
+{"t": 350.298, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/search?q=karpathy&type=repositories", "site": "github"}
+{"t": 350.554, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "Repository search results \u00b7 GitHub"}
+{"t": 361.604, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/search?q=karpathy&type=users", "site": "github"}
+{"t": 367.635, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/karpathy", "site": "github"}
+{"t": 367.861, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "karpathy (Andrej) \u00b7 GitHub"}
+{"t": 381.102, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/karpathy/nanoGPT", "site": "github"}
+{"t": 381.365, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "GitHub - karpathy/nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs. \u00b7 GitHub"}
+{"t": 469.189, "type": "context", "kind": "tab_opened", "target_id": "0FE093DF088986B61E82922B588D6EEA", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 483.172, "type": "context", "kind": "url_change", "target_id": "0FE093DF088986B61E82922B588D6EEA", "url": "https://weather.com/?Goto=Redirected", "site": "weather"}
+{"t": 483.952, "type": "context", "kind": "title_change", "target_id": "0FE093DF088986B61E82922B588D6EEA", "title": "National and Local Weather Radar, Daily Forecast, Hurricane and information from The Weather Channel and weather.com"}
+{"t": 503.915, "type": "context", "kind": "url_change", "target_id": "0FE093DF088986B61E82922B588D6EEA", "url": "https://weather.com/fr/seine-saint-denis/city/la-courneuve/today", "site": "weather"}
+{"t": 504.401, "type": "context", "kind": "title_change", "target_id": "0FE093DF088986B61E82922B588D6EEA", "title": "Weather Forecast and Conditions for La Courneuve, Seine-Saint-Denis, France - The Weather Channel | Weather.com"}
+{"t": 538.176, "type": "context", "kind": "tab_closed", "target_id": "0FE093DF088986B61E82922B588D6EEA"}
+{"t": 538.676, "type": "context", "kind": "tab_opened", "target_id": "C59061050A4174CAFF818C3F3D5EC835", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 552.691, "type": "context", "kind": "url_change", "target_id": "C59061050A4174CAFF818C3F3D5EC835", "url": "https://karpathy.github.io/", "site": "github"}
+{"t": 560.646, "type": "context", "kind": "title_change", "target_id": "C59061050A4174CAFF818C3F3D5EC835", "title": "Andrej Karpathy blog"}
+{"t": 560.646, "type": "context", "kind": "tab_closed", "target_id": "C59061050A4174CAFF818C3F3D5EC835"}
+{"t": 632.88, "type": "context", "kind": "url_change", "target_id": "5676859B9EE4772F8E47CED73ABBEFBD", "url": "https://en.wikipedia.org/wiki/Satya_Nadella", "site": "wikipedia"}
+{"t": 670.518, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20260000000000*/microsoft.com", "site": "archive"}
+{"t": 683.751, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20140101000000*/microsoft.com", "site": "archive"}
+{"t": 705.035, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20140104000219/http://www.microsoft.com/", "site": "archive"}
+{"t": 718.488, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20140104000250/http://www.microsoft.com/en-us/default.aspx", "site": "archive"}
+{"t": 743.746, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20140104000219/http://www.microsoft.com/", "site": "archive"}
+{"t": 751.629, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20140101000000*/microsoft.com", "site": "archive"}
+{"t": 761.162, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/web/20260000000000*/microsoft.com", "site": "archive"}
+{"t": 761.714, "type": "context", "kind": "url_change", "target_id": "A5A64CE977211488405D521BB8C75C37", "url": "https://web.archive.org/", "site": "archive"}
+{"t": 802.042, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/#map=14/40.76713/-73.96878", "site": "openstreetmap"}
+{"t": 802.05, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/#map=14/40.76715/-73.95378", "site": "openstreetmap"}
+{"t": 802.058, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/#map=14/40.76715/-73.98382", "site": "openstreetmap"}
+{"t": 999.396, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/search?q=gaearon&type=repositories", "site": "github"}
+{"t": 999.909, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "Repository search results \u00b7 GitHub"}
+{"t": 1034.537, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/search?q=gaearon&type=users", "site": "github"}
+{"t": 1070.028, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/gaearon", "site": "github"}
+{"t": 1070.337, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "gaearon (dan) \u00b7 GitHub"}
+{"t": 1108.527, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/react/react", "site": "github"}
+{"t": 1109.055, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "GitHub - react/react: The library for web and native user interfaces. \u00b7 GitHub"}
+{"t": 1188.038, "type": "context", "kind": "tab_opened", "target_id": "C735C60B8BCF9E5B2B1AE099E86DA61A", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 1189.644, "type": "context", "kind": "url_change", "target_id": "C735C60B8BCF9E5B2B1AE099E86DA61A", "url": "https://overreacted.io/", "site": "overreacted"}
+{"t": 1189.755, "type": "context", "kind": "title_change", "target_id": "C735C60B8BCF9E5B2B1AE099E86DA61A", "title": "overreacted \u2014 A blog by Dan Abramov"}
+{"t": 1217.88, "type": "context", "kind": "tab_closed", "target_id": "C735C60B8BCF9E5B2B1AE099E86DA61A"}
+{"t": 1345.011, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=coffee+near+Union+Square&zoom=14&minlon=-74.066219329834&minlat=40.741209362255695&maxlon=-73.901424407959&maxlat=40.793083790294745#map=14/40.76715/-73.98382", "site": "openstreetmap"}
+{"t": 1345.014, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=coffee+near+Union+Square&zoom=14&minlon=-74.066219329834&minlat=40.741209362255695&maxlon=-73.901424407959&maxlat=40.793083790294745#map=14/40.76715/-73.95378", "site": "openstreetmap"}
+{"t": 1345.018, "type": "context", "kind": "url_change", "target_id": "A9ABE8617FFBE6508A0B066236C004AB", "url": "https://www.openstreetmap.org/search?query=coffee+near+Union+Square&zoom=14&minlon=-74.066219329834&minlat=40.741209362255695&maxlon=-73.901424407959&maxlat=40.793083790294745#map=14/40.76715/-73.96880", "site": "openstreetmap"}
+{"t": 1779.065, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/search?q=simonw&type=repositories", "site": "github"}
+{"t": 1779.337, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "Repository search results \u00b7 GitHub"}
+{"t": 1827.007, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/search?q=simonw&type=users", "site": "github"}
+{"t": 1857.994, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/simonw", "site": "github"}
+{"t": 1858.217, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "simonw (Simon Willison) \u00b7 GitHub"}
+{"t": 1938.992, "type": "context", "kind": "url_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "url": "https://github.com/simonw/llm", "site": "github"}
+{"t": 1939.316, "type": "context", "kind": "title_change", "target_id": "DBF933E658E060CD30DF39C5BE57EAEF", "title": "GitHub - simonw/llm: Access large language models from the command-line \u00b7 GitHub"}
+{"t": 2054.48, "type": "context", "kind": "url_change", "target_id": "5676859B9EE4772F8E47CED73ABBEFBD", "url": "https://en.wikipedia.org/wiki/Chicago_Loop", "site": "wikipedia"}
+{"t": 2088.743, "type": "context", "kind": "tab_opened", "target_id": "CF59BA7D4E5B34E26EC32F04C9ED976B", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 2144.058, "type": "context", "kind": "tab_closed", "target_id": "CF59BA7D4E5B34E26EC32F04C9ED976B"}
+{"t": 2232.209, "type": "context", "kind": "url_change", "target_id": "5676859B9EE4772F8E47CED73ABBEFBD", "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee", "site": "wikipedia"}
+{"t": 2303.208, "type": "context", "kind": "tab_opened", "target_id": "98FBFFC086B220F67F405DEE753BC018", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 2350.117, "type": "context", "kind": "url_change", "target_id": "98FBFFC086B220F67F405DEE753BC018", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 2459.537, "type": "context", "kind": "url_change", "target_id": "98FBFFC086B220F67F405DEE753BC018", "url": "https://news.ycombinator.com/item?id=50058528", "site": "ycombinator"}
+{"t": 2499.949, "type": "context", "kind": "title_change", "target_id": "98FBFFC086B220F67F405DEE753BC018", "title": "A Modern Web App in C | Hacker News"}
+{"t": 2499.949, "type": "context", "kind": "tab_closed", "target_id": "98FBFFC086B220F67F405DEE753BC018"}
+{"t": 3128.362, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

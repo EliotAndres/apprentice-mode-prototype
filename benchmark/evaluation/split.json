@@ -1,0 +1,40 @@
+{
+ "_comment": "Fixed 2026-10-14 before any test scoring; see evaluation/PROTOCOL.md. Agent split: random.Random(0).sample(agents, 9).",
+ "dev": [
+  "h001",
+  "h002",
+  "h003",
+  "h004",
+  "h005",
+  "h006",
+  "h007",
+  "h008",
+  "agent02",
+  "agent03",
+  "agent04",
+  "agent06",
+  "agent10",
+  "agent11",
+  "agent15",
+  "agent17"
+ ],
+ "test": [
+  "h009",
+  "h010",
+  "h011",
+  "h012",
+  "h013",
+  "h014",
+  "h015",
+  "h016",
+  "agent01",
+  "agent05",
+  "agent07",
+  "agent08",
+  "agent09",
+  "agent12",
+  "agent13",
+  "agent14",
+  "agent16"
+ ]
+}

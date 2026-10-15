@@ -1,0 +1,241 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 11-step flow on booking",
+   "description": "Repeated sequence on booking starting with CLICK button \"Dismiss sign-in info.\"",
+   "site": "booking",
+   "steps": [
+    "CLICK button \"Dismiss sign-in info.\"",
+    "CLICK button \"Decline\"",
+    "CLICK combobox \"Enter destination\"",
+    "TYPE combobox \"Enter destination\"",
+    "CLICK option \"London Greater London, United Kingdom\"",
+    "CLICK button \"Select dates Check-in date \u2014 Check-out d\"",
+    "CLICK button \"Select dates Check-in date \u2014 Check-out d\"",
+    "CLICK checkbox \"Friday, November 13, 2026\"",
+    "CLICK checkbox \"Sunday, November 15, 2026\"",
+    "CLICK button \"Search\"",
+    "CLICK link \"Club Quarters Hotel London City, London \""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 188.437,
+     "end_t": 219.973,
+     "values": "London"
+    },
+    {
+     "start_t": 532.113,
+     "end_t": 572.256,
+     "values": "ctrl+a, ctrl+a, Dubiln, Dublin"
+    },
+    {
+     "start_t": 950.56,
+     "end_t": 988.355,
+     "values": "ctrl+a, Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on viator",
+   "description": "Repeated sequence on viator starting with CLICK combobox \"Search for a place or activity\"",
+   "site": "viator",
+   "steps": [
+    "CLICK combobox \"Search for a place or activity\"",
+    "KEY combobox \"Search for a place or activity\"",
+    "TYPE combobox \"Search for a place or activity\"",
+    "CLICK option \"Tower of London England\"",
+    "CLICK link \"Best Seller Secure your entry to the Tow\""
+   ],
+   "parameters": [],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "start_t": 312.056,
+     "end_t": 324.924,
+     "values": "ctrl+a, Tower of London London"
+    },
+    {
+     "start_t": 584.175,
+     "end_t": 601.184,
+     "values": "ctrl+a, Guinness Storehouse Dublin"
+    },
+    {
+     "start_t": 614.98,
+     "end_t": 635.287,
+     "values": "ctrl+a, Cliffs of Moher Dublin"
+    },
+    {
+     "start_t": 1000.541,
+     "end_t": 1015.605,
+     "values": "ctrl+a, whisky tasting Edinburgh"
+    },
+    {
+     "start_t": 1031.909,
+     "end_t": 1048.851,
+     "values": "ctrl+a, Highlands day trip Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 7-step flow on co",
+   "description": "Repeated sequence on co starting with CLICK button \"Reject All Non-Essential Cookies\"",
+   "site": "co",
+   "steps": [
+    "CLICK button \"Reject All Non-Essential Cookies\"",
+    "CLICK textbox \"Please input a Location, Restaurant or C\"",
+    "TYPE textbox \"Please input a Location, Restaurant or C\"",
+    "CLICK button \"Date selector\"",
+    "CLICK button \"Next month\"",
+    "CLICK button \"Friday 13 November\"",
+    "CLICK button \"Let\u2019s go\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 357.072,
+     "end_t": 372.595,
+     "values": "London Indian"
+    },
+    {
+     "start_t": 770.365,
+     "end_t": 815.346,
+     "values": "ctrl+a, Dublin seafood, 3 people"
+    },
+    {
+     "start_t": 1068.544,
+     "end_t": 1084.717,
+     "values": "ctrl+a, Edinburgh Scottish, 2 people"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 7-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\"",
+    "CLICK textbox \"Subject\"",
+    "TYPE textbox \"Subject\"",
+    "CLICK textbox \"Body\"",
+    "TYPE textbox \"Body\"",
+    "CLICK button \"Discard\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 418.731,
+     "end_t": 434.817,
+     "values": "maya@example.com, London weekend Nov 13-Nov 15, Hi maya, plan: hotel Club Quarters Hotel London City, London (\u20ac445), Thames boat and Tower of London, dinner at Benares (Indian) on Nov 13."
+    },
+    {
+     "start_t": 835.356,
+     "end_t": 851.564,
+     "values": "tom@example.com, Dublin weekend Dec 4-Dec 6, Hi tom, plan: hotel Ashling Hotel Dublin (\u20ac453), Guinness Storehouse and Cliffs of Moher, dinner at SOLE Seafood & Grill (seafood) on Dec 4."
+    },
+    {
+     "start_t": 1127.68,
+     "end_t": 1144.356,
+     "values": "priya@example.com, Edinburgh weekend Jan 15-Jan 17, Hi priya, plan: hotel The Haymarket Hotel (\u20ac180), whisky tasting and Highlands day trip, dinner at Evergreen Bar & Kitchen (Scottish) on Jan 15."
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on timeanddate",
+   "description": "Repeated sequence on timeanddate starting with CLICK button \"Deny all\"",
+   "site": "timeanddate",
+   "steps": [
+    "CLICK button \"Deny all\"",
+    "CLICK link \"World Clock Current local time around th\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 129.093,
+     "end_t": 130.099,
+     "values": ""
+    },
+    {
+     "start_t": 144.6,
+     "end_t": 149.088,
+     "values": ""
+    },
+    {
+     "start_t": 502.282,
+     "end_t": 519.638,
+     "values": "Dublin"
+    },
+    {
+     "start_t": 935.433,
+     "end_t": 943.903,
+     "values": "Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK searchbox \"Search Wikipedia\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 76.636,
+     "end_t": 80.649,
+     "values": "London"
+    },
+    {
+     "start_t": 486.269,
+     "end_t": 495.718,
+     "values": "Dublin"
+    },
+    {
+     "start_t": 926.484,
+     "end_t": 928.511,
+     "values": "Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 407.014,
+     "end_t": 409.025,
+     "values": "London Nov 13-Nov 15: pop 9,122,909, 17 \u00b0C, hotel Club Quarters Hotel London City, London \u20ac445, Westminster to Greenwich Sightseeing Thames Cruise in London, Tower of London and Crown Jewels Exhibition Day Ticket, dinner Benares 19:30"
+    },
+    {
+     "start_t": 827.96,
+     "end_t": 829.969,
+     "values": "Dublin Dec 4-Dec 6: pop 592,713, 13 \u00b0C, hotel Ashling Hotel Dublin \u20ac453, Guinness Storehouse Experience, Dublin to Cliffs of Moher, including Wild Atlantic Way and Galway, dinner SOLE Seafood & Grill 19:30"
+    },
+    {
+     "start_t": 1119.72,
+     "end_t": 1121.727,
+     "values": "Edinburgh Jan 15-Jan 17: pop 531,370, 10 \u00b0C, hotel The Haymarket Hotel \u20ac180, 90min Underground Whisky Tasting in Edinburgh's Old Town, Scottish Highlands, Loch Ness and Glencoe Day Trip from Edinburgh, dinner Evergreen Bar & Kitchen 19:30"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

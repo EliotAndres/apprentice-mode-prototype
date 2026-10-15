@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "replicate/prediction.schema.json",
+  "title": "A model's ranked automation opportunities for one session",
+  "type": "object",
+  "required": [
+    "opportunities"
+  ],
+  "properties": {
+    "opportunities": {
+      "type": "array",
+      "description": "ranked, most valuable first",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "description",
+          "steps",
+          "parameters",
+          "instances",
+          "confidence"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "confidence": {
+            "type": "number"
+          },
+          "instances": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "start_t": {
+                  "type": "number"
+                },
+                "end_t": {
+                  "type": "number"
+                },
+                "values": {
+                  "type": "string"
+                },
+                "segments": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "start_t",
+                      "end_t"
+                    ],
+                    "properties": {
+                      "start_t": {
+                        "type": "number"
+                      },
+                      "end_t": {
+                        "type": "number"
+                      }
+                    }
+                  }
+                }
+              },
+              "description": "one span (start_t/end_t) or, in the hard tier, a list of segments"
+            }
+          }
+        }
+      }
+    }
+  }
+}

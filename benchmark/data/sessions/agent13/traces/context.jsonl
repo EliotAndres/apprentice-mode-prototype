@@ -1,0 +1,75 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/", "title": "Free eBooks | Project Gutenberg"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/", "title": "IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "422125DDB77393C5E66CB05F2AF7E3EB", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/", "title": "timeanddate.com"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "587AEFB99EAE24155BFF47A5C7511D29", "url": "https://www.openstreetmap.org/", "title": "429 Unknown Error"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/", "title": "Viator: Travel Tours, Activities, and Things to Do | 2026"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "E5A67B7BC09E400F44AD79E8C74DBC47", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 96.928, "type": "context", "kind": "url_change", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/ebooks/search/?query=Frankenstein", "site": "gutenberg"}
+{"t": 106.471, "type": "context", "kind": "url_change", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/ebooks/84", "site": "gutenberg"}
+{"t": 129.04, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/find/?q=Frankenstein&ref_=hm_nv_srb_sm", "site": "imdb"}
+{"t": 129.554, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Find - IMDb"}
+{"t": 139.159, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/title/tt1312221/?ref_=fn_t_1", "site": "imdb"}
+{"t": 139.649, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Frankenstein (2025) - IMDb"}
+{"t": 159.083, "type": "context", "kind": "tab_opened", "target_id": "64E55133112025D0722FE71DCB7BAD78", "url": "about:blank", "title": ""}
+{"t": 159.096, "type": "context", "kind": "title_change", "target_id": "64E55133112025D0722FE71DCB7BAD78", "title": "about:blank"}
+{"t": 159.177, "type": "context", "kind": "url_change", "target_id": "64E55133112025D0722FE71DCB7BAD78", "url": "https://www.bbc.com/news", "site": "bbc"}
+{"t": 159.865, "type": "context", "kind": "title_change", "target_id": "64E55133112025D0722FE71DCB7BAD78", "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world"}
+{"t": 206.32, "type": "context", "kind": "tab_closed", "target_id": "64E55133112025D0722FE71DCB7BAD78"}
+{"t": 222.116, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/wiki/Peru", "site": "wikipedia"}
+{"t": 293.082, "type": "context", "kind": "tab_opened", "target_id": "102AC64F5AE94D146F1385BD11EE64C4", "url": "about:blank", "title": ""}
+{"t": 293.107, "type": "context", "kind": "title_change", "target_id": "102AC64F5AE94D146F1385BD11EE64C4", "title": "about:blank"}
+{"t": 295.284, "type": "context", "kind": "url_change", "target_id": "102AC64F5AE94D146F1385BD11EE64C4", "url": "https://www.allrecipes.com/", "site": "allrecipes"}
+{"t": 328.325, "type": "context", "kind": "title_change", "target_id": "102AC64F5AE94D146F1385BD11EE64C4", "title": "Allrecipes | Recipes, How-Tos, Videos and More"}
+{"t": 328.325, "type": "context", "kind": "tab_closed", "target_id": "102AC64F5AE94D146F1385BD11EE64C4"}
+{"t": 345.422, "type": "context", "kind": "url_change", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/worldclock/?query=Lima", "site": "timeanddate"}
+{"t": 355.897, "type": "context", "kind": "url_change", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/worldclock/peru/lima", "site": "timeanddate"}
+{"t": 411.027, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Natural%20History%20Museum%20tickets", "site": "viator"}
+{"t": 411.584, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Natural+History+Museum+tickets", "site": "viator"}
+{"t": 421.502, "type": "context", "kind": "tab_opened", "target_id": "2DF6BE72C185D48C262C261DB31A1721", "url": "", "title": ""}
+{"t": 422.415, "type": "context", "kind": "url_change", "target_id": "2DF6BE72C185D48C262C261DB31A1721", "url": "https://www.viator.com/tours/Chicago/The-Field-Museum-Chicago/d673-38510FIELD", "site": "viator"}
+{"t": 436.129, "type": "context", "kind": "tab_opened", "target_id": "9A2AB42E3CE9300B61FE30D9BA48CF54", "url": "", "title": ""}
+{"t": 436.657, "type": "context", "kind": "url_change", "target_id": "9A2AB42E3CE9300B61FE30D9BA48CF54", "url": "https://www.viator.com/tours/Chicago/The-Field-Museum-Chicago/d673-38510FIELD", "site": "viator"}
+{"t": 491.673, "type": "context", "kind": "url_change", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/ebooks/search/?query=Pride+and+Prejudice", "site": "gutenberg"}
+{"t": 497.695, "type": "context", "kind": "url_change", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/ebooks/1342", "site": "gutenberg"}
+{"t": 511.664, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/find/?q=Pride%20and%20Prejudice&ref_=tt_nv_srb_sm", "site": "imdb"}
+{"t": 512.08, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Find - IMDb"}
+{"t": 518.401, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/title/tt0414387/?ref_=fn_t_1", "site": "imdb"}
+{"t": 519.025, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Pride & Prejudice (2005) - IMDb"}
+{"t": 543.01, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/w/index.php?search=VeitnamVietnam&title=Special%3ASearch&wprov=acrw1_-1", "site": "wikipedia"}
+{"t": 543.402, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/w/index.php?search=VeitnamVietnam&title=Special%3ASearch", "site": "wikipedia"}
+{"t": 543.485, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/w/index.php?search=VeitnamVietnam&title=Special:Search&ns0=1", "site": "wikipedia"}
+{"t": 590.543, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/w/index.php?search=VVietnam&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&wprov=acrw1_-1", "site": "wikipedia"}
+{"t": 590.982, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/w/index.php?search=VVietnam&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1", "site": "wikipedia"}
+{"t": 610.508, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/wiki/Vietnam", "site": "wikipedia"}
+{"t": 634.828, "type": "context", "kind": "url_change", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/worldclock/?query=Hanoi", "site": "timeanddate"}
+{"t": 641.353, "type": "context", "kind": "url_change", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/worldclock/vietnam/hanoi", "site": "timeanddate"}
+{"t": 668.015, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/find/?q=Dune&ref_=tt_nv_srb_sm", "site": "imdb"}
+{"t": 668.432, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Find - IMDb"}
+{"t": 716.173, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Louvre%20ticketsum%20tickets", "site": "viator"}
+{"t": 716.893, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Louvre+ticketsum+tickets", "site": "viator"}
+{"t": 736.052, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Louvre%20tickets", "site": "viator"}
+{"t": 736.623, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Louvre+tickets", "site": "viator"}
+{"t": 740.687, "type": "context", "kind": "tab_opened", "target_id": "FDE5FE14E12FD20B33AF10F3613A20AB", "url": "", "title": ""}
+{"t": 741.444, "type": "context", "kind": "url_change", "target_id": "FDE5FE14E12FD20B33AF10F3613A20AB", "url": "https://www.viator.com/tours/Paris/Paris-Masterpieces-of-the-Louvre-Tour-with-Tickets/d479-51192P126", "site": "viator"}
+{"t": 896.871, "type": "context", "kind": "url_change", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/ebooks/search/?query=Treasure+Island", "site": "gutenberg"}
+{"t": 906.744, "type": "context", "kind": "url_change", "target_id": "310B87E00612F475D765EC322B05F0A0", "url": "https://www.gutenberg.org/ebooks/120", "site": "gutenberg"}
+{"t": 920.548, "type": "context", "kind": "url_change", "target_id": "1A6FA01025356599FFB34CEB72D2FAA1", "url": "https://en.wikipedia.org/wiki/Morocco", "site": "wikipedia"}
+{"t": 946.81, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/find/?q=Treasure%20Island&ref_=fn_nv_srb_sm", "site": "imdb"}
+{"t": 947.528, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Find - IMDb"}
+{"t": 965.443, "type": "context", "kind": "url_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "url": "https://www.imdb.com/title/tt0100813/?ref_=fn_t_3", "site": "imdb"}
+{"t": 965.916, "type": "context", "kind": "title_change", "target_id": "3862C863F19D94BF7C953F5062CF166B", "title": "Treasure Island (TV Movie 1990) - IMDb"}
+{"t": 989.703, "type": "context", "kind": "url_change", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/worldclock/?query=Rabat", "site": "timeanddate"}
+{"t": 995.754, "type": "context", "kind": "url_change", "target_id": "4314883EB4A82C273C2EC3D38C1C9780", "url": "https://www.timeanddate.com/worldclock/morocco/rabat", "site": "timeanddate"}
+{"t": 1066.817, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Rijksmuseum%20tickets", "site": "viator"}
+{"t": 1067.52, "type": "context", "kind": "url_change", "target_id": "AF36ACEE2B09E749442F6482E995DE62", "url": "https://www.viator.com/searchResults/all?text=Rijksmuseum+tickets", "site": "viator"}
+{"t": 1074.158, "type": "context", "kind": "tab_opened", "target_id": "AA6253DA1EED0EC464CFF46171F6CD7C", "url": "", "title": ""}
+{"t": 1074.862, "type": "context", "kind": "url_change", "target_id": "AA6253DA1EED0EC464CFF46171F6CD7C", "url": "https://www.viator.com/tours/Amsterdam/Skip-the-Line-Rijksmuseum-Amsterdam-and-1-Hour-Canal-Cruise/d525-2550P115", "site": "viator"}
+{"t": 1115.219, "type": "context", "kind": "tab_opened", "target_id": "FDCB867A4B3A17099A2F03EA9652ECA0", "url": "about:blank", "title": ""}
+{"t": 1115.236, "type": "context", "kind": "title_change", "target_id": "FDCB867A4B3A17099A2F03EA9652ECA0", "title": "about:blank"}
+{"t": 1115.723, "type": "context", "kind": "url_change", "target_id": "FDCB867A4B3A17099A2F03EA9652ECA0", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 1130.896, "type": "context", "kind": "url_change", "target_id": "FDCB867A4B3A17099A2F03EA9652ECA0", "url": "https://news.ycombinator.com/item?id=50073471", "site": "ycombinator"}
+{"t": 1133.735, "type": "context", "kind": "title_change", "target_id": "FDCB867A4B3A17099A2F03EA9652ECA0", "title": "Launch HN: Consus (YC F24) \u2013 LLM gateway for companies handling sensitive data | Hacker News"}
+{"t": 1133.735, "type": "context", "kind": "tab_closed", "target_id": "FDCB867A4B3A17099A2F03EA9652ECA0"}
+{"t": 1253.607, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

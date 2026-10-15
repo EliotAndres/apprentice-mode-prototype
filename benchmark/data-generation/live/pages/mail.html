@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Mail – New message</title>
+<style>body{font:16px system-ui;max-width:640px;margin:40px auto}input,textarea{width:100%;font:inherit;padding:8px;margin:4px 0 12px;box-sizing:border-box}textarea{height:160px}</style>
+<h1>New message</h1>
+<label>To <input id="to" aria-label="To"></label>
+<label>Subject <input id="subject" aria-label="Subject"></label>
+<label>Body <textarea id="body" aria-label="Body"></textarea></label>
+<button id="send">Send</button> <button id="discard">Discard</button>
+<p id="status"></p>
+<script>
+  // Nothing is ever sent: this page only exists to be filled in.
+  document.getElementById("send").onclick = () => document.getElementById("status").textContent = "Sending is disabled.";
+  document.getElementById("discard").onclick = () => {
+    for (const id of ["to", "subject", "body"]) document.getElementById(id).value = "";
+    document.getElementById("status").textContent = "Draft discarded.";
+  };
+</script>

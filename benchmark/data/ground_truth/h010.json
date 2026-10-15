@@ -1,0 +1,877 @@
+{
+ "session_id": "h010",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  6.08,
+  12.12,
+  17.7,
+  24.83,
+  31.08,
+  37.27,
+  42.83,
+  47.78,
+  53.38,
+  60.74,
+  66.4,
+  72.63,
+  79.77,
+  82.65,
+  87.9,
+  93.53,
+  96.75,
+  101.41,
+  107.27,
+  117.72,
+  122.92,
+  128.37,
+  134.91,
+  139.09,
+  144.07,
+  151.26,
+  156.96,
+  160.91,
+  166.02,
+  170.6,
+  176.87,
+  182.47,
+  187.17,
+  192.83,
+  200.24,
+  205.83,
+  211.34,
+  215.76,
+  219.51,
+  224.43,
+  228.29,
+  232.94,
+  238.61,
+  244.32,
+  248.99,
+  255.54,
+  262.83,
+  266.71,
+  270.22,
+  274.77,
+  282.56,
+  286.55,
+  292.72,
+  297.12,
+  305.69,
+  309.71,
+  318.71,
+  327.97,
+  333.25,
+  336.99,
+  344.05,
+  347.08,
+  352.63,
+  357.26,
+  363.93,
+  372.0,
+  375.65,
+  380.4,
+  388.1,
+  397.22,
+  404.49,
+  409.27,
+  415.21,
+  420.85,
+  425.2,
+  430.77,
+  434.47,
+  437.52,
+  444.83,
+  451.02,
+  457.41,
+  459.7,
+  462.92,
+  469.01,
+  472.17,
+  476.79,
+  483.6,
+  488.07,
+  490.81,
+  495.25,
+  500.38,
+  506.35,
+  510.3,
+  516.08,
+  522.68,
+  528.03,
+  533.75,
+  539.02,
+  545.58,
+  552.07,
+  558.31,
+  562.48,
+  566.5,
+  572.32,
+  578.19,
+  581.77,
+  585.86,
+  589.84,
+  594.95,
+  600.12,
+  606.25,
+  611.78,
+  614.2,
+  619.71,
+  623.29,
+  628.57,
+  635.57,
+  640.66,
+  643.71,
+  649.44,
+  652.05,
+  655.46,
+  661.54,
+  665.6,
+  671.61,
+  676.7,
+  684.86,
+  690.53,
+  695.05,
+  699.48,
+  705.54,
+  709.37,
+  713.49,
+  719.78,
+  725.36,
+  728.11,
+  731.55,
+  736.21,
+  741.92,
+  746.91,
+  752.62,
+  757.04,
+  765.08,
+  770.05,
+  774.07,
+  777.06,
+  781.44,
+  785.22,
+  794.08,
+  800.05,
+  803.47,
+  806.95
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h010-op0",
+   "template_id": "yellowpages:search_businesses_by_keyword_and_city",
+   "site": "yellowpages",
+   "name": "Search businesses by keyword and city",
+   "description": "Search for {category} businesses in {location} using the home search form, optionally applying filters {filters}",
+   "parameters": [
+    "category",
+    "location",
+    "filters"
+   ],
+   "steps": [
+    "Type the business category/keyword in the search field",
+    "Type the city/location in the location field",
+    "Select the matching location suggestion",
+    "Click Find",
+    "Optionally apply filters (sort, rating, coupons, features)",
+    "Open a result if required"
+   ],
+   "observed_seconds": 72.5,
+   "instances": [
+    {
+     "task_id": "8b4e49e9-9802-4c1f-acb3-de06e38445e7",
+     "task": "Find beauty salons that are rated A and accept coupons in Seattle, WA.",
+     "site": "yellowpages",
+     "spans": [
+      [
+       37.27,
+       37.27
+      ],
+      [
+       47.78,
+       47.78
+      ],
+      [
+       60.74,
+       72.63
+      ],
+      [
+       117.72,
+       117.72
+      ],
+      [
+       156.96,
+       160.91
+      ]
+     ],
+     "seqs": [
+      5,
+      7,
+      9,
+      10,
+      11,
+      19,
+      26,
+      27
+     ],
+     "seconds": 50.5,
+     "values": {
+      "category": "beauty salons",
+      "location": "Seattle, WA",
+      "filters": "Coupons, BBB Rated A+/A"
+     }
+    },
+    {
+     "task_id": "34c474ef-389c-421d-acbf-de5531437083",
+     "task": "Look for hair salon coupons in San Diego.",
+     "site": "yellowpages",
+     "spans": [
+      [
+       42.83,
+       42.83
+      ],
+      [
+       53.38,
+       53.38
+      ],
+      [
+       93.53,
+       93.53
+      ],
+      [
+       122.92,
+       122.92
+      ]
+     ],
+     "seqs": [
+      6,
+      8,
+      15,
+      20
+     ],
+     "seconds": 22.0,
+     "values": {
+      "category": "hair salon",
+      "location": "San Diego",
+      "filters": "coupons"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h010-op1",
+   "template_id": "marriott:browse_bonvoy_info_pages",
+   "site": "marriott",
+   "name": "Browse Bonvoy program info",
+   "description": "Open the {menu} Bonvoy menu and click Learn More to read about {topic}",
+   "parameters": [
+    "menu",
+    "topic"
+   ],
+   "steps": [
+    "Open the Bonvoy menu item",
+    "Click Learn More"
+   ],
+   "observed_seconds": 16.9,
+   "instances": [
+    {
+     "task_id": "69065697-a426-4e4c-80f7-82bf592b268c",
+     "task": "Find details on converting points to miles.",
+     "site": "marriott",
+     "spans": [
+      [
+       585.86,
+       589.84
+      ]
+     ],
+     "seqs": [
+      106,
+      107
+     ],
+     "seconds": 8.1,
+     "values": {
+      "menu": "Redeem Points",
+      "topic": "converting points to miles"
+     }
+    },
+    {
+     "task_id": "9ba4e237-43dc-4c22-b334-0ebea2afb326",
+     "task": "Browse Marriott Bonvoy credit cards.",
+     "site": "marriott",
+     "spans": [
+      [
+       643.71,
+       649.44
+      ]
+     ],
+     "seqs": [
+      118,
+      119
+     ],
+     "seconds": 8.8,
+     "values": {
+      "menu": "Earn Points",
+      "topic": "Bonvoy credit cards"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h010-op2",
+   "template_id": "tripadvisor:hotel_search",
+   "site": "tripadvisor",
+   "name": "Search hotels",
+   "description": "Search hotels in {location} for {dates} and {guests}, with optional sort/filters",
+   "parameters": [
+    "location",
+    "check_in",
+    "check_out",
+    "guests",
+    "filters",
+    "sort"
+   ],
+   "steps": [
+    "Click Hotels",
+    "Search location",
+    "Select suggestion",
+    "Set dates",
+    "Set guests/rooms",
+    "Update",
+    "Sort or filter"
+   ],
+   "observed_seconds": 161.9,
+   "instances": [
+    {
+     "task_id": "a4ddf1b0-515c-4def-9cad-be2378f755e9",
+     "task": "Find the cheapest 2 rooms in a five-star hotel with a pool in Jaipur for 4 people with a check-in time of June 2, and check-out of 5.",
+     "site": "tripadvisor",
+     "spans": [
+      [
+       128.37,
+       139.09
+      ],
+      [
+       166.02,
+       187.17
+      ],
+      [
+       200.24,
+       219.51
+      ],
+      [
+       232.94,
+       238.61
+      ]
+     ],
+     "seqs": [
+      21,
+      22,
+      23,
+      28,
+      29,
+      30,
+      31,
+      32,
+      34,
+      35,
+      36,
+      37,
+      38,
+      41,
+      42
+     ],
+     "seconds": 79.4,
+     "values": {
+      "location": "Jaipur",
+      "check_in": "June 2",
+      "check_out": "June 5",
+      "guests": "4 people, 2 rooms",
+      "filters": "five-star, pool",
+      "sort": "Price low to high"
+     }
+    },
+    {
+     "task_id": "34293a39-d3f8-4931-8a20-5359bb2e26ff",
+     "task": "Find a Hotel in New York City with lowest price possible for 2 adults this weekend (April 1st and 2nd).",
+     "site": "tripadvisor",
+     "spans": [
+      [
+       270.22,
+       292.72
+      ],
+      [
+       357.26,
+       372.0
+      ]
+     ],
+     "seqs": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      63,
+      64,
+      65
+     ],
+     "seconds": 45.4,
+     "values": {
+      "location": "New York City",
+      "check_in": "April 1",
+      "check_out": "April 2",
+      "guests": "2 adults, 1 room",
+      "filters": "none",
+      "sort": "Price low to high"
+     }
+    },
+    {
+     "task_id": "8b1560da-984d-48b8-8910-54747c8f1118",
+     "task": "Find a 4 star Hotel at April 09 for 2 days in Toronto, Canada.",
+     "site": "tripadvisor",
+     "spans": [
+      [
+       623.29,
+       640.66
+      ],
+      [
+       652.05,
+       665.6
+      ]
+     ],
+     "seqs": [
+      114,
+      115,
+      116,
+      117,
+      120,
+      121,
+      122,
+      123
+     ],
+     "seconds": 37.1,
+     "values": {
+      "location": "Toronto",
+      "check_in": "April 9",
+      "check_out": "April 10",
+      "guests": "default",
+      "filters": "4 star",
+      "sort": "none"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h010-op3",
+   "template_id": "aa:advanced_flight_search_plan_travel",
+   "site": "aa",
+   "name": "Plan travel flight search",
+   "description": "Use Plan Travel flights search (one way or multi-city) for segments {segments} sorted by {sort}.",
+   "parameters": [
+    "search_type",
+    "segments",
+    "passengers",
+    "sort"
+   ],
+   "steps": [
+    "Click Plan Travel > Flights",
+    "Choose search type (one way / multiple cities)",
+    "Enter From, To, Depart for each segment",
+    "Set passengers and sort option",
+    "Click Search"
+   ],
+   "observed_seconds": 222.5,
+   "instances": [
+    {
+     "task_id": "6c28458c-ba2a-41a5-b5c2-948f2954c25b",
+     "task": "Find the lowest travel time flight for 1 traveler from JFK, NYC to Heathrow, London on April 19, then from Heathrow, London to CDG, Paris on April 21 and then from CDG, Paris to JFK, NYC on April 23",
+     "site": "aa",
+     "spans": [
+      [
+       255.54,
+       255.54
+      ],
+      [
+       266.71,
+       266.71
+      ],
+      [
+       297.12,
+       347.08
+      ],
+      [
+       380.4,
+       397.22
+      ],
+      [
+       437.52,
+       437.52
+      ],
+      [
+       462.92,
+       469.01
+      ],
+      [
+       488.07,
+       510.3
+      ],
+      [
+       566.5,
+       581.77
+      ]
+     ],
+     "seqs": [
+      45,
+      47,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      67,
+      68,
+      69,
+      77,
+      82,
+      83,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      102,
+      103,
+      104,
+      105
+     ],
+     "seconds": 144.7,
+     "values": {
+      "search_type": "multiple cities",
+      "segments": "JFK-LHR Apr 19; LHR-CDG Apr 21; CDG-JFK Apr 23",
+      "passengers": "1",
+      "sort": "Total travel time"
+     }
+    },
+    {
+     "task_id": "8888ebb8-c2b3-4173-9718-51d752b9e5ab",
+     "task": "Find the lowest fare for JFK, NY to Heathrow, London and nearby airports for 1 adult on April 22, one way",
+     "site": "aa",
+     "spans": [
+      [
+       594.95,
+       619.71
+      ],
+      [
+       713.49,
+       719.78
+      ],
+      [
+       731.55,
+       736.21
+      ],
+      [
+       777.06,
+       803.47
+      ]
+     ],
+     "seqs": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      132,
+      133,
+      136,
+      137,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150
+     ],
+     "seconds": 77.8,
+     "values": {
+      "search_type": "one way",
+      "segments": "JFK-LHR Apr 22",
+      "passengers": "1 adult",
+      "sort": "Lowest fare"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h010-op4",
+   "template_id": "kayak:search_hotels_with_filters",
+   "site": "kayak",
+   "name": "Search hotels with filters",
+   "description": "Search hotels in {location} for {dates} with {rooms_guests} and filters/sort {filters}",
+   "parameters": [
+    "location",
+    "dates",
+    "rooms_guests",
+    "filters"
+   ],
+   "steps": [
+    "Open Search for hotels",
+    "Enter destination and select suggestion",
+    "Select dates",
+    "Set rooms and guests",
+    "Search",
+    "Apply filters and sort"
+   ],
+   "observed_seconds": 81.5,
+   "instances": [
+    {
+     "task_id": "8dc49f67-4803-416a-8d05-d6e891e3efc0",
+     "task": "Get the hotel with highest review score having free internet and free cancelation in Chennai for 20/03/23",
+     "site": "kayak",
+     "spans": [
+      [
+       516.08,
+       562.48
+      ]
+     ],
+     "seqs": [
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101
+     ],
+     "seconds": 52.2,
+     "values": {
+      "location": "Chennai",
+      "dates": "20/03/23",
+      "filters": "review score, free internet, free cancellation"
+     }
+    },
+    {
+     "task_id": "f8027aa8-c193-47c8-a97b-432836093939",
+     "task": "Find hotels in Las Vegas, NV that offer free airport shuttle service.",
+     "site": "kayak",
+     "spans": [
+      [
+       671.61,
+       676.7
+      ],
+      [
+       705.54,
+       709.37
+      ],
+      [
+       725.36,
+       728.11
+      ]
+     ],
+     "seqs": [
+      124,
+      125,
+      130,
+      131,
+      134,
+      135
+     ],
+     "seconds": 29.3,
+     "values": {
+      "location": "Las Vegas",
+      "filters": "free airport shuttle"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "e677b812-78b3-4687-9e2e-149a323a425e",
+   "task": "Open the most helpful 5 star reviews of Alpine Ridge.",
+   "site": "recreation.gov",
+   "spans": [
+    [
+     6.08,
+     31.08
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "seconds": 31.1,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "9334211a-8ae8-43fc-9581-a0427950e82f",
+   "task": "show the Life Vests priced between $100 and $200.",
+   "site": "cabelas",
+   "spans": [
+    [
+     144.07,
+     151.26
+    ],
+    [
+     224.43,
+     228.29
+    ]
+   ],
+   "seqs": [
+    24,
+    25,
+    39,
+    40
+   ],
+   "seconds": 20.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "10de6ac5-a69e-4d09-87fd-5737ca6f4b99",
+   "task": "check ticket listing on floor B row 17 seat listing to Beyonc\u00e9 music concert on Mon Aug 14 at 7:00pm.",
+   "site": "seatgeek",
+   "spans": [
+    [
+     192.83,
+     192.83
+    ],
+    [
+     244.32,
+     248.99
+    ],
+    [
+     262.83,
+     262.83
+    ],
+    [
+     352.63,
+     352.63
+    ],
+    [
+     375.65,
+     375.65
+    ],
+    [
+     444.83,
+     459.7
+    ],
+    [
+     472.17,
+     472.17
+    ]
+   ],
+   "seqs": [
+    33,
+    43,
+    44,
+    46,
+    62,
+    66,
+    78,
+    79,
+    80,
+    81,
+    84
+   ],
+   "seconds": 57.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "b50ce7bf-50ee-4228-9510-efd60b867ab1",
+   "task": "Find a person by address Nice st - 1234, Good, FL.",
+   "site": "yellowpages",
+   "spans": [
+    [
+     79.77,
+     87.9
+    ],
+    [
+     96.75,
+     107.27
+    ]
+   ],
+   "seqs": [
+    12,
+    13,
+    14,
+    16,
+    17,
+    18
+   ],
+   "seconds": 29.0,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "0f63c624-6097-473e-ad19-59bc139836d1",
+   "task": "Search for developer jobs in Dallas, Texas, and review details of the latest job then create an 8-day alert after signing in.",
+   "site": "aa",
+   "spans": [
+    [
+     404.49,
+     434.47
+    ],
+    [
+     476.79,
+     483.6
+    ]
+   ],
+   "seqs": [
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    85,
+    86
+   ],
+   "seconds": 48.7,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "aaade1d2-3a7b-4373-be01-ef98ed86288e",
+   "task": "Find the cheapest new  trash can with automated lid that is under $60 and available for Buy It Now.",
+   "site": "ebay",
+   "spans": [
+    [
+     684.86,
+     699.48
+    ],
+    [
+     741.92,
+     774.07
+    ],
+    [
+     806.95,
+     806.95
+    ]
+   ],
+   "seqs": [
+    126,
+    127,
+    128,
+    129,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    151
+   ],
+   "seconds": 64.1,
+   "kind": "distractor"
+  }
+ ]
+}

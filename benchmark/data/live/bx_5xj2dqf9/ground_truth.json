@@ -1,0 +1,292 @@
+{
+ "workflows": [
+  {
+   "name": "Walkability snapshot for a listing: nearest amenity on OpenStreetMap plus the area on Wikipedia",
+   "use_case": "Real estate",
+   "apps": [
+    "openstreetmap.org",
+    "wikipedia.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "address",
+    "amenity",
+    "neighborhood"
+   ],
+   "steps": [
+    "In the OpenStreetMap tab, click the search box, type \"{amenity} near {address}\" and press Enter; pick the first result and note its name",
+    "Click the directions icon, choose walking (Foot), set From to {address} and To to that {amenity}, and read the walking distance and time",
+    "Switch to the Wikipedia tab, search \"{neighborhood}\" and open the article; read its first sentence",
+    "Switch to Notes, click \"New note\", type \"{address}: nearest {amenity} <name>, <distance>, <minutes> walk. {neighborhood}: <short description>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "WALK.1",
+     "start": "2026-10-13T15:37:43+00:00",
+     "end": "2026-10-13T15:41:28+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:37:43+00:00",
+       "2026-10-13T15:41:28+00:00"
+      ]
+     ],
+     "values": {
+      "address": "350 5th Ave, New York",
+      "amenity": "library",
+      "neighborhood": "Midtown Manhattan"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Source a candidate from GitHub and their blog, then email the hiring manager",
+   "use_case": "Recruiting",
+   "apps": [
+    "github.com",
+    "personal blog",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "username",
+    "blog",
+    "role"
+   ],
+   "steps": [
+    "In the GitHub tab, click the search box, type {username}, and open the user profile {username}",
+    "Note the follower count and the most-starred pinned repository; open it and note its stars and main language",
+    "Open a new tab, go to {blog} and note the title of the most recent post, then close the tab",
+    "Switch to the Mail tab, click To and type hiring@example.com, click Subject and type \"Lead for {role}: {username}\"",
+    "Click Body and type \"{username}: <followers> followers, top repo <repo> (<stars> stars, <language>), latest post: <title>.\" Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "SOURCE.1",
+     "start": "2026-10-13T15:42:30+00:00",
+     "end": "2026-10-13T15:47:37+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:42:30+00:00",
+       "2026-10-13T15:44:03+00:00"
+      ],
+      [
+       "2026-10-13T15:46:19+00:00",
+       "2026-10-13T15:47:37+00:00"
+      ]
+     ],
+     "values": {
+      "username": "karpathy",
+      "blog": "karpathy.github.io",
+      "role": "ML Research Engineer"
+     }
+    },
+    {
+     "id": "SOURCE.2",
+     "start": "2026-10-13T15:52:30+00:00",
+     "end": "2026-10-13T15:59:04+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:52:30+00:00",
+       "2026-10-13T15:59:04+00:00"
+      ]
+     ],
+     "values": {
+      "username": "gaearon",
+      "blog": "overreacted.io",
+      "role": "Staff Frontend Engineer"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Fact-check a person on Wikipedia and an old page on the Wayback Machine",
+   "use_case": "Journalism",
+   "apps": [
+    "wikipedia.org",
+    "web.archive.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "person",
+    "site",
+    "year"
+   ],
+   "steps": [
+    "In the Wikipedia tab, search \"{person}\" and open the article; note the birth date and current or last position",
+    "Switch to the Wayback Machine tab, type {site} in the search box and press Enter",
+    "Pick the year {year} in the timeline, click a highlighted day in the calendar and open the snapshot",
+    "Note the page title and one headline on the snapshot, then click Back to return to the Wayback Machine home",
+    "Switch to Notes, click \"New note\", type \"{person}: born <date>, <position>. {site} in {year}: <headline>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "FACT.1",
+     "start": "2026-10-13T15:47:37+00:00",
+     "end": "2026-10-13T15:50:33+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:47:37+00:00",
+       "2026-10-13T15:50:33+00:00"
+      ]
+     ],
+     "values": {
+      "person": "Satya Nadella",
+      "site": "microsoft.com",
+      "year": "2014"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T15:41:35+00:00",
+   "end": "2026-10-13T15:42:22+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:41:35+00:00",
+     "2026-10-13T15:42:22+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T15:45:10+00:00",
+   "end": "2026-10-13T15:46:19+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:45:10+00:00",
+     "2026-10-13T15:46:19+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to weather.com, search the forecast for New York, look at it, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T15:59:04+00:00",
+   "end": "2026-10-13T16:01:06+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:59:04+00:00",
+     "2026-10-13T16:01:06+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the OpenStreetMap tab, type \"coffee near Union Square\" in the search box, look at the results, then give up and clear the search box"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T16:04:42+00:00",
+   "end": "2026-10-13T16:05:08+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:04:42+00:00",
+     "2026-10-13T16:05:08+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and GitHub tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T16:15:44+00:00",
+   "end": "2026-10-13T16:19:01+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:15:44+00:00",
+     "2026-10-13T16:19:01+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "id": "WALK.2",
+   "start": "2026-10-13T15:50:33+00:00",
+   "end": "2026-10-13T15:52:30+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:50:33+00:00",
+     "2026-10-13T15:52:30+00:00"
+    ]
+   ],
+   "description": "abandoned run of WALK.2"
+  },
+  {
+   "id": "WALK.3",
+   "start": "2026-10-13T16:05:08+00:00",
+   "end": "2026-10-13T16:12:10+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:05:08+00:00",
+     "2026-10-13T16:06:32+00:00"
+    ],
+    [
+     "2026-10-13T16:10:30+00:00",
+     "2026-10-13T16:12:10+00:00"
+    ]
+   ],
+   "description": "abandoned run of WALK.3"
+  },
+  {
+   "id": "SOURCE.3",
+   "start": "2026-10-13T16:06:32+00:00",
+   "end": "2026-10-13T16:13:05+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:06:32+00:00",
+     "2026-10-13T16:10:30+00:00"
+    ],
+    [
+     "2026-10-13T16:12:10+00:00",
+     "2026-10-13T16:13:05+00:00"
+    ]
+   ],
+   "description": "abandoned run of SOURCE.3"
+  },
+  {
+   "id": "FACT.2",
+   "start": "2026-10-13T16:01:06+00:00",
+   "end": "2026-10-13T16:05:08+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:01:06+00:00",
+     "2026-10-13T16:02:23+00:00"
+    ],
+    [
+     "2026-10-13T16:05:08+00:00",
+     "2026-10-13T16:05:08+00:00"
+    ]
+   ],
+   "description": "abandoned run of FACT.2"
+  },
+  {
+   "id": "FACT.3",
+   "start": "2026-10-13T16:14:14+00:00",
+   "end": "2026-10-13T16:15:44+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:14:14+00:00",
+     "2026-10-13T16:15:44+00:00"
+    ]
+   ],
+   "description": "abandoned run of FACT.3"
+  }
+ ],
+ "failed": [
+  "FACT.2",
+  "FACT.3",
+  "N2",
+  "SOURCE.3",
+  "WALK.2",
+  "WALK.3"
+ ],
+ "log_reasons": {
+  "5": "location search did not accept text after two tries",
+  "8": "search text did not appear after two tries",
+  "11": "Wikipedia search did not accept text after two tries",
+  "14": "no snapshot or facts from failed chunk 11",
+  "15": "search text did not appear after two tries",
+  "17": "read Chicago Loop but missing park and route from chunk 15",
+  "18": "URL typing did not appear after two tries",
+  "20": "Wayback search text did not appear after two tries"
+ }
+}

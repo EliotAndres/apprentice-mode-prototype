@@ -1,0 +1,266 @@
+{
+ "tabs": [
+  "https://www.booking.com/",
+  "https://www.xe.com/",
+  "https://en.wikipedia.org/",
+  "https://www.timeanddate.com/",
+  "https://weather.com/",
+  "https://www.bbc.com/news",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "STAY",
+   "name": "Propose a business-trip hotel and its cost in the traveler's home currency",
+   "use_case": "Travel agency",
+   "apps": [
+    "booking.com",
+    "xe.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "traveler",
+    "city",
+    "checkin",
+    "checkout",
+    "currency"
+   ],
+   "steps": [
+    "In the Booking.com tab, click the destination box, type {city}, set the dates {checkin} to {checkout} and click Search",
+    "Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve or I'll reserve",
+    "Switch to the xe.com tab, set Amount to that total price, From to EUR and To to {currency}, click Convert and read the result",
+    "Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Hotel for {city}, {checkin}-{checkout}\"",
+    "Click Body and type \"Hi {traveler}, proposed hotel: <name>, <total> EUR (about <converted> {currency}). OK to book?\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "ENTRY",
+   "name": "Check visa rules and local public holidays for a traveler's destination",
+   "use_case": "Travel agency",
+   "apps": [
+    "wikipedia.org",
+    "timeanddate.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "nationality",
+    "country",
+    "month"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type \"Visa requirements for {nationality} citizens\" and open that article",
+    "Find the row for {country} in the table and note the visa requirement and the allowed stay",
+    "Switch to the timeanddate tab, open the Holidays menu, pick {country}, and note the public holidays in {month}",
+    "Switch to Notes, click \"New note\", type \"{nationality} traveler to {country}: <requirement>, <allowed stay>. Holidays in {month}: <dates>\" and press Enter"
+   ]
+  },
+  {
+   "id": "HEADSUP",
+   "name": "Send a traveler a weather and disruption heads-up before departure",
+   "use_case": "Travel agency",
+   "apps": [
+    "weather.com",
+    "bbc.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "traveler",
+    "city",
+    "date"
+   ],
+   "steps": [
+    "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast",
+    "Note the high, low and conditions for {date}",
+    "Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date",
+    "Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\"",
+    "Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+   ]
+  }
+ ],
+ "runs": {
+  "STAY.1": {
+   "workflow": "STAY",
+   "values": {
+    "traveler": "maria",
+    "city": "Frankfurt",
+    "checkin": "Nov 17",
+    "checkout": "Nov 20",
+    "currency": "USD"
+   }
+  },
+  "STAY.2": {
+   "workflow": "STAY",
+   "values": {
+    "traveler": "kenji",
+    "city": "Milan",
+    "checkin": "Dec 1",
+    "checkout": "Dec 4",
+    "currency": "JPY"
+   }
+  },
+  "STAY.3": {
+   "workflow": "STAY",
+   "values": {
+    "traveler": "aisha",
+    "city": "Amsterdam",
+    "checkin": "Jan 12",
+    "checkout": "Jan 15",
+    "currency": "GBP"
+   },
+   "note": "In step 1, first type \"Amsterdma\", notice the typo, fix it to \"Amsterdam\", then continue"
+  },
+  "ENTRY.1": {
+   "workflow": "ENTRY",
+   "values": {
+    "nationality": "Indian",
+    "country": "Japan",
+    "month": "December"
+   }
+  },
+  "ENTRY.2": {
+   "workflow": "ENTRY",
+   "values": {
+    "nationality": "Brazilian",
+    "country": "Canada",
+    "month": "November"
+   }
+  },
+  "ENTRY.3": {
+   "workflow": "ENTRY",
+   "values": {
+    "nationality": "Nigerian",
+    "country": "United Kingdom",
+    "month": "May"
+   }
+  },
+  "HEADSUP.1": {
+   "workflow": "HEADSUP",
+   "values": {
+    "traveler": "raj",
+    "city": "Berlin",
+    "date": "Saturday"
+   }
+  },
+  "HEADSUP.2": {
+   "workflow": "HEADSUP",
+   "values": {
+    "traveler": "sofia",
+    "city": "Madrid",
+    "date": "Monday"
+   }
+  },
+  "HEADSUP.3": {
+   "workflow": "HEADSUP",
+   "values": {
+    "traveler": "tom",
+    "city": "London",
+    "date": "Thursday"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab",
+  "N2": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab",
+  "N3": "Abandoned attempt: in the Booking.com tab, type Zurich in the destination box, open the date picker, then give up and press Escape",
+  "N4": "Wander: click through the Notes, Mail and xe.com tabs without doing anything, scroll the Notes list",
+  "N5": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit"
+ },
+ "script": [
+  {
+   "run": "STAY.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "ENTRY.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "ENTRY.1",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "HEADSUP.1"
+  },
+  {
+   "run": "STAY.2"
+  },
+  {
+   "run": "ENTRY.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "HEADSUP.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "HEADSUP.2",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "STAY.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "ENTRY.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "STAY.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "ENTRY.3",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "HEADSUP.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

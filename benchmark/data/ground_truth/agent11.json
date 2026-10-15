@@ -1,0 +1,879 @@
+{
+ "session_id": "agent11",
+ "action_t": [
+  45.964,
+  50.951,
+  54.364,
+  55.019,
+  64.861,
+  74.53,
+  88.372,
+  93.703,
+  101.785,
+  107.032,
+  110.444,
+  118.283,
+  128.968,
+  147.462,
+  152.863,
+  156.347,
+  160.224,
+  166.969,
+  170.61,
+  172.178,
+  179.763,
+  197.9,
+  203.179,
+  207.475,
+  210.618,
+  281.014,
+  287.153,
+  292.516,
+  312.496,
+  318.878,
+  336.798,
+  344.064,
+  350.207,
+  352.263,
+  358.325,
+  364.794,
+  370.363,
+  378.683,
+  380.606,
+  383.975,
+  387.412,
+  404.495,
+  407.867,
+  414.056,
+  420.639,
+  428.822,
+  436.062,
+  451.943,
+  459.366,
+  469.981,
+  475.568,
+  479.019,
+  482.132,
+  499.716,
+  504.613,
+  509.863,
+  517.366,
+  520.718,
+  523.003,
+  539.307,
+  545.159,
+  550.29,
+  553.66,
+  556.525,
+  644.089,
+  650.236,
+  677.515,
+  683.213,
+  686.778,
+  689.764,
+  697.289,
+  700.836,
+  703.472,
+  710.166,
+  714.594,
+  716.506,
+  728.92,
+  734.967,
+  742.25,
+  748.918,
+  752.37,
+  754.518,
+  763.386,
+  770.206,
+  773.617,
+  776.043,
+  781.487,
+  787.046,
+  794.333,
+  799.867,
+  814.411,
+  822.983,
+  829.999,
+  843.427,
+  853.136,
+  856.61,
+  859.638,
+  865.598,
+  871.62,
+  879.971,
+  883.701,
+  887.518,
+  893.107,
+  897.381,
+  900.272,
+  913.861,
+  921.208,
+  932.654,
+  939.756,
+  943.119,
+  947.532,
+  958.578,
+  973.546,
+  980.615,
+  1001.348,
+  1009.274,
+  1015.695,
+  1024.119,
+  1027.514,
+  1031.677,
+  1060.214,
+  1067.704,
+  1071.189,
+  1111.359,
+  1121.35,
+  1124.97,
+  1133.864,
+  1154.605,
+  1171.452,
+  1185.341,
+  1202.64,
+  1218.981,
+  1223.28,
+  1233.441,
+  1268.406,
+  1280.166,
+  1297.105,
+  1339.609,
+  1342.975,
+  1358.719,
+  1372.34,
+  1392.664,
+  1400.887,
+  1417.669,
+  1431.811,
+  1435.221,
+  1446.223,
+  1484.25,
+  1495.464,
+  1511.461,
+  1528.485,
+  1531.837,
+  1544.122,
+  1559.531,
+  1578.168,
+  1590.157,
+  1607.163,
+  1618.822,
+  1635.505,
+  1650.96,
+  1654.34,
+  1675.629,
+  1702.226,
+  1719.586,
+  1735.717,
+  1739.122,
+  1751.461,
+  1786.073,
+  1802.652,
+  1818.607,
+  1838.399,
+  1855.432,
+  1866.897,
+  1870.257,
+  1900.408,
+  1930.001,
+  1946.971,
+  1950.53,
+  1957.473,
+  1974.065,
+  1977.611,
+  1989.56,
+  2002.65,
+  2007.042,
+  2022.551,
+  2054.434,
+  2071.68,
+  2086.373,
+  2102.504,
+  2105.841,
+  2121.52,
+  2139.544,
+  2157.442,
+  2176.495,
+  2199.59,
+  2202.928,
+  2246.121,
+  2262.817,
+  2286.287,
+  2302.698,
+  2318.208,
+  2337.546,
+  2352.785,
+  2371.55,
+  2389.496,
+  2392.897,
+  2405.758,
+  2421.976,
+  2439.947,
+  2443.328,
+  2461.299,
+  2489.466,
+  2505.983,
+  2519.827,
+  2620.791,
+  2871.029,
+  2883.211,
+  2886.683,
+  2903.792,
+  2939.89,
+  2943.547,
+  2953.883,
+  2972.88,
+  2976.978,
+  2991.424,
+  3034.741,
+  3047.58,
+  3073.637,
+  3113.99,
+  3117.356,
+  3128.035,
+  3171.228,
+  3219.173,
+  3292.504,
+  3317.825,
+  3339.052,
+  3354.534,
+  3357.903,
+  3394.621,
+  3440.231,
+  3462.026,
+  3465.375,
+  3483.383,
+  3499.786,
+  3520.231,
+  3542.268,
+  3562.018,
+  3572.873,
+  3596.712,
+  3619.157,
+  3641.038,
+  3655.785,
+  3659.206,
+  3690.216,
+  3729.963
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent11-op0",
+   "template_id": "agent11-op0",
+   "name": "Write a pre-call account brief from SEC EDGAR and Wikipedia",
+   "use_case": "Sales",
+   "description": "In the EDGAR tab, click the company search box, type {ticker} and pick {company} from the suggestions -> On the company's filings page, filter the form type to 10-K -> Note the filing date and period of the latest 10-K -> Switch to the Wikipedia tab, search \"{company}\" and open the company article -> From the infobox, note the headquarters, number of employees and CEO -> Switch to the Mail tab, click To and type {manager}@example.com, click Subject and type \"Account brief: {company} ({ticker})\" -> Click Body and type \"{company}: HQ <city>, <employees> employees, CEO <name>. Latest 10-K filed <date>.\" Do not click Send. Click Discard",
+   "site": "sec.gov, wikipedia.org, mail.localhost",
+   "parameters": [
+    "company",
+    "ticker",
+    "manager"
+   ],
+   "steps": [
+    "In the EDGAR tab, click the company search box, type {ticker} and pick {company} from the suggestions",
+    "On the company's filings page, filter the form type to 10-K",
+    "Note the filing date and period of the latest 10-K",
+    "Switch to the Wikipedia tab, search \"{company}\" and open the company article",
+    "From the infobox, note the headquarters, number of employees and CEO",
+    "Switch to the Mail tab, click To and type {manager}@example.com, click Subject and type \"Account brief: {company} ({ticker})\"",
+    "Click Body and type \"{company}: HQ <city>, <employees> employees, CEO <name>. Latest 10-K filed <date>.\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 517.0,
+   "instances": [
+    {
+     "task_id": "BRIEF.1",
+     "spans": [
+      [
+       46.0,
+       218.0
+      ]
+     ],
+     "seqs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "seconds": 172.0,
+     "values": {
+      "company": "Snowflake",
+      "ticker": "SNOW",
+      "manager": "dana"
+     }
+    },
+    {
+     "task_id": "BRIEF.2",
+     "spans": [
+      [
+       908.0,
+       1253.0
+      ]
+     ],
+     "seqs": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133
+     ],
+     "seconds": 345.0,
+     "values": {
+      "company": "Datadog",
+      "ticker": "DDOG",
+      "manager": "dana"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent11-op1",
+   "template_id": "agent11-op1",
+   "name": "Convert two supplier quotes to USD and check the supplier's local time",
+   "use_case": "Procurement",
+   "description": "In the xe.com tab, set Amount and From to {quote_a}, set To to USD, click Convert and read the result -> Change Amount and From to {quote_b} (To stays USD) and read the result -> Switch to the timeanddate tab, search \"{supplier_city}\" with the site's search and open its current local time -> Switch to the Mail tab, click To and type procurement@example.com, click Subject and type \"Quotes: {item}\" -> Click Body and type \"{quote_a} = <USD> USD, {quote_b} = <USD> USD, cheaper: <which>. Supplier time in {supplier_city}: <time>.\" -> Do not click Send. Click Discard",
+   "site": "xe.com, timeanddate.com, mail.localhost",
+   "parameters": [
+    "item",
+    "quote_a",
+    "quote_b",
+    "supplier_city"
+   ],
+   "steps": [
+    "In the xe.com tab, set Amount and From to {quote_a}, set To to USD, click Convert and read the result",
+    "Change Amount and From to {quote_b} (To stays USD) and read the result",
+    "Switch to the timeanddate tab, search \"{supplier_city}\" with the site's search and open its current local time",
+    "Switch to the Mail tab, click To and type procurement@example.com, click Subject and type \"Quotes: {item}\"",
+    "Click Body and type \"{quote_a} = <USD> USD, {quote_b} = <USD> USD, cheaper: <which>. Supplier time in {supplier_city}: <time>.\"",
+    "Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 1126.0,
+   "instances": [
+    {
+     "task_id": "QUOTES.1",
+     "spans": [
+      [
+       276.0,
+       563.0
+      ],
+      [
+       671.0,
+       724.0
+      ]
+     ],
+     "seqs": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+     ],
+     "seconds": 340.0,
+     "values": {
+      "item": "CNC enclosures",
+      "quote_a": "12500 EUR",
+      "quote_b": "1950000 JPY",
+      "supplier_city": "Osaka"
+     }
+    },
+    {
+     "task_id": "QUOTES.2",
+     "spans": [
+      [
+       1253.0,
+       2039.0
+      ]
+     ],
+     "seqs": [
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184
+     ],
+     "seconds": 786.0,
+     "values": {
+      "item": "Shipping boxes",
+      "quote_a": "8200 GBP",
+      "quote_b": "780000 INR",
+      "supplier_city": "Pune"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent11-op2",
+   "template_id": "agent11-op2",
+   "name": "Plan a cross-timezone sync around public holidays",
+   "use_case": "Operations",
+   "description": "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter -> Add {hq_city} and {remote_city} and note the time difference -> Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month} -> Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\" -> Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\" -> Do not click Send. Click Discard",
+   "site": "timeanddate.com, mail.localhost",
+   "parameters": [
+    "hq_city",
+    "remote_city",
+    "country",
+    "month"
+   ],
+   "steps": [
+    "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter",
+    "Add {hq_city} and {remote_city} and note the time difference",
+    "Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month}",
+    "Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\"",
+    "Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\"",
+    "Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 799.0,
+   "instances": [
+    {
+     "task_id": "SYNC.1",
+     "spans": [
+      [
+       724.0,
+       908.0
+      ]
+     ],
+     "seqs": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+     ],
+     "seconds": 184.0,
+     "values": {
+      "hq_city": "San Francisco",
+      "remote_city": "Bangalore",
+      "country": "India",
+      "month": "October"
+     }
+    },
+    {
+     "task_id": "SYNC.2",
+     "spans": [
+      [
+       2231.0,
+       2683.0
+      ],
+      [
+       2849.0,
+       3012.0
+      ]
+     ],
+     "seqs": [
+      196,
+      197,
+      198,
+      199,
+      200,
+      201,
+      202,
+      203,
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      210,
+      211,
+      212,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224
+     ],
+     "seconds": 615.0,
+     "values": {
+      "hq_city": "New York",
+      "remote_city": "Berlin",
+      "country": "Germany",
+      "month": "December"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     218.0,
+     276.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 58.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     629.0,
+     671.0
+    ]
+   ],
+   "seqs": [
+    64,
+    65
+   ],
+   "seconds": 42.0,
+   "kind": "one_off",
+   "task": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     2039.0,
+     2231.0
+    ]
+   ],
+   "seqs": [
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195
+   ],
+   "seconds": 192.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the xe.com tab, type 50 in Amount and start setting From to CHF, then give up halfway and switch to the Wikipedia tab"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     2793.0,
+     2849.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 56.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and EDGAR tabs without doing anything"
+  },
+  {
+   "task_id": "BRIEF.3",
+   "spans": [
+    [
+     3012.0,
+     3251.0
+    ]
+   ],
+   "seqs": [
+    225,
+    226,
+    227,
+    228,
+    229,
+    230,
+    231,
+    232
+   ],
+   "seconds": 239.0,
+   "kind": "one_off",
+   "task": "abandoned run of BRIEF.3"
+  },
+  {
+   "task_id": "unlabelled",
+   "kind": "one_off",
+   "task": "between tasks",
+   "spans": [
+    [
+     45.964,
+     45.964
+    ],
+    [
+     3292.504,
+     3292.504
+    ],
+    [
+     3317.825,
+     3317.825
+    ],
+    [
+     3339.052,
+     3339.052
+    ],
+    [
+     3354.534,
+     3354.534
+    ],
+    [
+     3357.903,
+     3357.903
+    ],
+    [
+     3394.621,
+     3394.621
+    ],
+    [
+     3440.231,
+     3440.231
+    ],
+    [
+     3462.026,
+     3462.026
+    ],
+    [
+     3465.375,
+     3465.375
+    ],
+    [
+     3483.383,
+     3483.383
+    ],
+    [
+     3499.786,
+     3499.786
+    ],
+    [
+     3520.231,
+     3520.231
+    ],
+    [
+     3542.268,
+     3542.268
+    ],
+    [
+     3562.018,
+     3562.018
+    ],
+    [
+     3572.873,
+     3572.873
+    ],
+    [
+     3596.712,
+     3596.712
+    ],
+    [
+     3619.157,
+     3619.157
+    ],
+    [
+     3641.038,
+     3641.038
+    ],
+    [
+     3655.785,
+     3655.785
+    ],
+    [
+     3659.206,
+     3659.206
+    ],
+    [
+     3690.216,
+     3690.216
+    ],
+    [
+     3729.963,
+     3729.963
+    ]
+   ],
+   "seqs": [
+    0,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240,
+    241,
+    242,
+    243,
+    244,
+    245,
+    246,
+    247,
+    248,
+    249,
+    250,
+    251,
+    252,
+    253,
+    254
+   ],
+   "seconds": 0
+  }
+ ]
+}

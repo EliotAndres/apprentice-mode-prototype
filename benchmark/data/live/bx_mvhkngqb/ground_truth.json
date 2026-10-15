@@ -1,0 +1,300 @@
+{
+ "workflows": [
+  {
+   "name": "Plan a trip: pick a flight, a hotel and an activity, then note the plan",
+   "use_case": "Travel agency",
+   "apps": [
+    "google.com/travel/flights",
+    "booking.com",
+    "viator.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "destination",
+    "depart",
+    "return",
+    "activity"
+   ],
+   "steps": [
+    "In the Google Flights tab (if a Google consent page shows, click \"Reject all\"), set Where from to Paris and Where to to {destination}",
+    "Set the dates to {depart} and {return}, click Done, then click Search",
+    "Read the airline and price of the first (best) flight. Do not click Select or Book",
+    "Switch to the Booking.com tab, type {destination} in the destination box, set the dates {depart} to {return}, click Search",
+    "Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve",
+    "Switch to the Viator tab, search \"{activity} {destination}\", open the first result and note its name and price. Do not click Check availability, Reserve or Book",
+    "Switch to Notes, click \"New note\", type \"Trip {destination} {depart}-{return}: flight <airline> <price>, hotel <name> <price>, {activity} <name> <price>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "TRIP.2",
+     "start": "2026-10-13T15:46:07+00:00",
+     "end": "2026-10-13T15:51:00+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:46:07+00:00",
+       "2026-10-13T15:51:00+00:00"
+      ]
+     ],
+     "values": {
+      "destination": "Rome",
+      "depart": "Dec 3",
+      "return": "Dec 7",
+      "activity": "Colosseum tour"
+     }
+    },
+    {
+     "id": "TRIP.3",
+     "start": "2026-10-13T16:04:44+00:00",
+     "end": "2026-10-13T16:22:36+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:04:44+00:00",
+       "2026-10-13T16:07:11+00:00"
+      ],
+      [
+       "2026-10-13T16:09:43+00:00",
+       "2026-10-13T16:22:36+00:00"
+      ]
+     ],
+     "values": {
+      "destination": "Barcelona",
+      "depart": "Jan 20",
+      "return": "Jan 24",
+      "activity": "Sagrada Familia tour"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Compare two Python libraries on PyPI and GitHub",
+   "use_case": "Software development",
+   "apps": [
+    "pypi.org",
+    "github.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "package_a",
+    "package_b"
+   ],
+   "steps": [
+    "In the PyPI tab, click the search box, type {package_a}, press Enter and open the exact {package_a} result. Note the latest version and its release date",
+    "In the left sidebar click its Source / Repository / Homepage link to GitHub and read the star count and license",
+    "Go back to PyPI, search {package_b}, open the exact result and note the latest version and release date",
+    "Click its Source / Repository link to GitHub and read the star count and license",
+    "Switch to Notes, click \"New note\", type \"{package_a} <version> <date> <stars> stars <license> vs {package_b} <version> <date> <stars> stars <license>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "PYLIB.2",
+     "start": "2026-10-13T15:51:00+00:00",
+     "end": "2026-10-13T15:54:54+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:51:00+00:00",
+       "2026-10-13T15:54:54+00:00"
+      ]
+     ],
+     "values": {
+      "package_a": "pandas",
+      "package_b": "polars"
+     }
+    },
+    {
+     "id": "PYLIB.3",
+     "start": "2026-10-13T16:07:11+00:00",
+     "end": "2026-10-13T16:26:48+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:07:11+00:00",
+       "2026-10-13T16:09:43+00:00"
+      ],
+      [
+       "2026-10-13T16:22:36+00:00",
+       "2026-10-13T16:26:48+00:00"
+      ]
+     ],
+     "values": {
+      "package_a": "flask",
+      "package_b": "fastapi"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Answer a browser-support ticket with caniuse and MDN",
+   "use_case": "Customer service",
+   "apps": [
+    "caniuse.com",
+    "developer.mozilla.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "feature",
+    "browser",
+    "customer"
+   ],
+   "steps": [
+    "In the caniuse tab, click the search box and type \"{feature}\"",
+    "In the support table, find {browser} and note the first version that supports it (or that it is unsupported)",
+    "Open a new tab, go to developer.mozilla.org, search \"{feature}\" with the site's search and open the reference page; note its URL",
+    "Switch to the Mail tab, click To and type {customer}@example.com, then click Subject and type \"Re: {feature} in {browser}\"",
+    "Click Body and type \"Hi {customer}, {feature} is supported in {browser} from version <version> (or: not supported yet). Docs: <MDN URL>\"",
+    "Do not click Send. Click Discard to clear the draft, then close the MDN tab"
+   ],
+   "runs": [
+    {
+     "id": "CANIUSE.1",
+     "start": "2026-10-13T15:43:32+00:00",
+     "end": "2026-10-13T15:46:07+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:43:32+00:00",
+       "2026-10-13T15:46:07+00:00"
+      ]
+     ],
+     "values": {
+      "feature": "CSS :has() selector",
+      "browser": "Firefox",
+      "customer": "jordan"
+     }
+    },
+    {
+     "id": "CANIUSE.2",
+     "start": "2026-10-13T15:56:16+00:00",
+     "end": "2026-10-13T16:04:44+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:56:16+00:00",
+       "2026-10-13T15:59:35+00:00"
+      ],
+      [
+       "2026-10-13T16:02:13+00:00",
+       "2026-10-13T16:04:44+00:00"
+      ]
+     ],
+     "values": {
+      "feature": "View Transitions API",
+      "browser": "Safari",
+      "customer": "priya"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T15:40:10+00:00",
+   "end": "2026-10-13T15:40:58+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:40:10+00:00",
+     "2026-10-13T15:40:58+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T15:41:41+00:00",
+   "end": "2026-10-13T15:42:47+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:41:41+00:00",
+     "2026-10-13T15:42:47+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to weather.com, search the forecast for Paris, look at it, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T15:54:54+00:00",
+   "end": "2026-10-13T15:56:16+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:54:54+00:00",
+     "2026-10-13T15:56:16+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the Booking.com tab, type Vienna in the destination box, open the date picker, then give up and press Escape"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T16:01:18+00:00",
+   "end": "2026-10-13T16:02:13+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:01:18+00:00",
+     "2026-10-13T16:02:13+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and PyPI tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T16:30:43+00:00",
+   "end": "2026-10-13T16:31:18+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:30:43+00:00",
+     "2026-10-13T16:31:18+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "id": "TRIP.1",
+   "start": "2026-10-13T15:37:44+00:00",
+   "end": "2026-10-13T15:40:10+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:37:44+00:00",
+     "2026-10-13T15:40:10+00:00"
+    ]
+   ],
+   "description": "abandoned run of TRIP.1"
+  },
+  {
+   "id": "PYLIB.1",
+   "start": "2026-10-13T15:40:58+00:00",
+   "end": "2026-10-13T15:43:32+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:40:58+00:00",
+     "2026-10-13T15:41:27+00:00"
+    ],
+    [
+     "2026-10-13T15:42:47+00:00",
+     "2026-10-13T15:43:32+00:00"
+    ]
+   ],
+   "description": "abandoned run of PYLIB.1"
+  },
+  {
+   "id": "CANIUSE.3",
+   "start": "2026-10-13T16:27:52+00:00",
+   "end": "2026-10-13T16:30:43+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:27:52+00:00",
+     "2026-10-13T16:30:43+00:00"
+    ]
+   ],
+   "description": "abandoned run of CANIUSE.3"
+  }
+ ],
+ "failed": [
+  "CANIUSE.3",
+  "N5",
+  "PYLIB.1",
+  "TRIP.1"
+ ],
+ "log_reasons": {
+  "1": "Flights results error after retry",
+  "3": "PyPI bot check",
+  "6": "requests data unavailable from chunk 3",
+  "20": "new tab shortcut did not work twice",
+  "21": "new tab shortcut did not work twice"
+ }
+}

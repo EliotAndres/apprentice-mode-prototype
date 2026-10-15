@@ -1,0 +1,256 @@
+{
+ "tabs": [
+  "https://www.openstreetmap.org/",
+  "https://en.wikipedia.org/",
+  "https://github.com/",
+  "https://web.archive.org/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "WALK",
+   "name": "Walkability snapshot for a listing: nearest amenity on OpenStreetMap plus the area on Wikipedia",
+   "use_case": "Real estate",
+   "apps": [
+    "openstreetmap.org",
+    "wikipedia.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "address",
+    "amenity",
+    "neighborhood"
+   ],
+   "steps": [
+    "In the OpenStreetMap tab, click the search box, type \"{amenity} near {address}\" and press Enter; pick the first result and note its name",
+    "Click the directions icon, choose walking (Foot), set From to {address} and To to that {amenity}, and read the walking distance and time",
+    "Switch to the Wikipedia tab, search \"{neighborhood}\" and open the article; read its first sentence",
+    "Switch to Notes, click \"New note\", type \"{address}: nearest {amenity} <name>, <distance>, <minutes> walk. {neighborhood}: <short description>\" and press Enter"
+   ]
+  },
+  {
+   "id": "SOURCE",
+   "name": "Source a candidate from GitHub and their blog, then email the hiring manager",
+   "use_case": "Recruiting",
+   "apps": [
+    "github.com",
+    "personal blog",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "username",
+    "blog",
+    "role"
+   ],
+   "steps": [
+    "In the GitHub tab, click the search box, type {username}, and open the user profile {username}",
+    "Note the follower count and the most-starred pinned repository; open it and note its stars and main language",
+    "Open a new tab, go to {blog} and note the title of the most recent post, then close the tab",
+    "Switch to the Mail tab, click To and type hiring@example.com, click Subject and type \"Lead for {role}: {username}\"",
+    "Click Body and type \"{username}: <followers> followers, top repo <repo> (<stars> stars, <language>), latest post: <title>.\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "FACT",
+   "name": "Fact-check a person on Wikipedia and an old page on the Wayback Machine",
+   "use_case": "Journalism",
+   "apps": [
+    "wikipedia.org",
+    "web.archive.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "person",
+    "site",
+    "year"
+   ],
+   "steps": [
+    "In the Wikipedia tab, search \"{person}\" and open the article; note the birth date and current or last position",
+    "Switch to the Wayback Machine tab, type {site} in the search box and press Enter",
+    "Pick the year {year} in the timeline, click a highlighted day in the calendar and open the snapshot",
+    "Note the page title and one headline on the snapshot, then click Back to return to the Wayback Machine home",
+    "Switch to Notes, click \"New note\", type \"{person}: born <date>, <position>. {site} in {year}: <headline>\" and press Enter"
+   ]
+  }
+ ],
+ "runs": {
+  "WALK.1": {
+   "workflow": "WALK",
+   "values": {
+    "address": "350 5th Ave, New York",
+    "amenity": "library",
+    "neighborhood": "Midtown Manhattan"
+   }
+  },
+  "WALK.2": {
+   "workflow": "WALK",
+   "values": {
+    "address": "Ferry Building, San Francisco",
+    "amenity": "supermarket",
+    "neighborhood": "Embarcadero, San Francisco"
+   }
+  },
+  "WALK.3": {
+   "workflow": "WALK",
+   "values": {
+    "address": "233 S Wacker Dr, Chicago",
+    "amenity": "park",
+    "neighborhood": "Chicago Loop"
+   }
+  },
+  "SOURCE.1": {
+   "workflow": "SOURCE",
+   "values": {
+    "username": "karpathy",
+    "blog": "karpathy.github.io",
+    "role": "ML Research Engineer"
+   }
+  },
+  "SOURCE.2": {
+   "workflow": "SOURCE",
+   "values": {
+    "username": "gaearon",
+    "blog": "overreacted.io",
+    "role": "Staff Frontend Engineer"
+   },
+   "note": "In step 1, first type \"gaeron\", notice the typo and fix it to \"gaearon\""
+  },
+  "SOURCE.3": {
+   "workflow": "SOURCE",
+   "values": {
+    "username": "simonw",
+    "blog": "simonwillison.net",
+    "role": "Developer Advocate"
+   }
+  },
+  "FACT.1": {
+   "workflow": "FACT",
+   "values": {
+    "person": "Satya Nadella",
+    "site": "microsoft.com",
+    "year": "2014"
+   }
+  },
+  "FACT.2": {
+   "workflow": "FACT",
+   "values": {
+    "person": "Jacinda Ardern",
+    "site": "nasa.gov",
+    "year": "2019"
+   }
+  },
+  "FACT.3": {
+   "workflow": "FACT",
+   "values": {
+    "person": "Tim Berners-Lee",
+    "site": "w3.org",
+    "year": "2005"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to weather.com, search the forecast for New York, look at it, close the tab",
+  "N3": "Abandoned attempt: in the OpenStreetMap tab, type \"coffee near Union Square\" in the search box, look at the results, then give up and clear the search box",
+  "N4": "Wander: click through the Notes, Mail and GitHub tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+ },
+ "script": [
+  {
+   "run": "WALK.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "SOURCE.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "SOURCE.1",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "FACT.1"
+  },
+  {
+   "run": "WALK.2"
+  },
+  {
+   "run": "SOURCE.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "FACT.2",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "FACT.2",
+   "steps": [
+    4,
+    5
+   ]
+  },
+  {
+   "run": "WALK.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "SOURCE.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "WALK.3",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "SOURCE.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "FACT.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

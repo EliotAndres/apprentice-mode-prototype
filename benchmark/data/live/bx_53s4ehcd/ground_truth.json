@@ -1,0 +1,282 @@
+{
+ "workflows": [
+  {
+   "name": "Plan a literature unit: a public-domain novel on Gutenberg and its film adaptation on IMDb",
+   "use_case": "Education",
+   "apps": [
+    "gutenberg.org",
+    "imdb.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "book"
+   ],
+   "steps": [
+    "In the Project Gutenberg tab, click the search box, type \"{book}\" and press Enter",
+    "Open the matching book and note its author and its download count from the bibliographic record",
+    "Switch to the IMDb tab, click the search box, type \"{book}\" and press Enter; open the first film adaptation and note its year and IMDb rating",
+    "Switch to Notes, click \"New note\", type \"Unit: {book} by <author> (<downloads> downloads). Film: <year>, rated <rating>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "LIT.1",
+     "start": "2026-10-13T17:50:27+00:00",
+     "end": "2026-10-13T17:51:55+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:50:27+00:00",
+       "2026-10-13T17:51:55+00:00"
+      ]
+     ],
+     "values": {
+      "book": "Frankenstein"
+     }
+    },
+    {
+     "id": "LIT.2",
+     "start": "2026-10-13T17:57:23+00:00",
+     "end": "2026-10-13T17:58:11+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:57:23+00:00",
+       "2026-10-13T17:58:11+00:00"
+      ]
+     ],
+     "values": {
+      "book": "Pride and Prejudice"
+     }
+    },
+    {
+     "id": "LIT.3",
+     "start": "2026-10-13T18:04:03+00:00",
+     "end": "2026-10-13T18:05:38+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:04:03+00:00",
+       "2026-10-13T18:04:29+00:00"
+      ],
+      [
+       "2026-10-13T18:04:47+00:00",
+       "2026-10-13T18:05:38+00:00"
+      ]
+     ],
+     "values": {
+      "book": "Treasure Island"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Prepare a geography fact card from Wikipedia and the capital's local time",
+   "use_case": "Education",
+   "apps": [
+    "wikipedia.org",
+    "timeanddate.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "country",
+    "capital"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type {country} and open the country article",
+    "From the infobox, note the population, official language(s) and currency",
+    "Switch to the timeanddate tab, click the search box, type {capital}, press Enter and open its current local time page; note the time",
+    "Switch to Notes, click \"New note\", type \"Geography: {country}, capital {capital}, pop <population>, <language>, <currency>, time now <time>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "GEO.1",
+     "start": "2026-10-13T17:52:47+00:00",
+     "end": "2026-10-13T17:55:29+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:52:47+00:00",
+       "2026-10-13T17:53:10+00:00"
+      ],
+      [
+       "2026-10-13T17:54:50+00:00",
+       "2026-10-13T17:55:29+00:00"
+      ]
+     ],
+     "values": {
+      "country": "Peru",
+      "capital": "Lima"
+     }
+    },
+    {
+     "id": "GEO.2",
+     "start": "2026-10-13T17:58:11+00:00",
+     "end": "2026-10-13T18:00:16+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:58:11+00:00",
+       "2026-10-13T18:00:16+00:00"
+      ]
+     ],
+     "values": {
+      "country": "Vietnam",
+      "capital": "Hanoi"
+     }
+    },
+    {
+     "id": "GEO.3",
+     "start": "2026-10-13T18:04:29+00:00",
+     "end": "2026-10-13T18:06:10+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:04:29+00:00",
+       "2026-10-13T18:04:47+00:00"
+      ],
+      [
+       "2026-10-13T18:05:38+00:00",
+       "2026-10-13T18:06:10+00:00"
+      ]
+     ],
+     "values": {
+      "country": "Morocco",
+      "capital": "Rabat"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Plan a class museum trip: ticket on Viator, address on OpenStreetMap, then email parents",
+   "use_case": "Education",
+   "apps": [
+    "viator.com",
+    "openstreetmap.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "museum",
+    "city",
+    "date"
+   ],
+   "steps": [
+    "In the Viator tab, click the search box, type \"{museum} tickets\" and press Enter",
+    "Open the first result and note its name, price and duration. Do not click Check availability, Reserve or Book",
+    "Switch to the OpenStreetMap tab, click the search box, type \"{museum}, {city}\", press Enter and click the first result; note the address in the side panel",
+    "Switch to the Mail tab, click To and type parents@example.com, click Subject and type \"Class trip: {museum} on {date}\"",
+    "Click Body and type \"Dear parents, on {date} we visit {museum} (<address>). Ticket <price> per student, about <duration>.\" Do not click Send. Click Discard"
+   ],
+   "runs": []
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T17:51:55+00:00",
+   "end": "2026-10-13T17:52:47+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:51:55+00:00",
+     "2026-10-13T17:52:47+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T17:54:10+00:00",
+   "end": "2026-10-13T17:54:50+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:54:10+00:00",
+     "2026-10-13T17:54:50+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to allrecipes.com, scroll the home page, open one recipe, skim it, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T18:00:16+00:00",
+   "end": "2026-10-13T18:00:30+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:00:16+00:00",
+     "2026-10-13T18:00:30+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the IMDb tab, search \"Dune\", scroll the results, then give up without opening any"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T18:03:21+00:00",
+   "end": "2026-10-13T18:03:37+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:03:21+00:00",
+     "2026-10-13T18:03:37+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and Project Gutenberg tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T18:07:51+00:00",
+   "end": "2026-10-13T18:08:15+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:07:51+00:00",
+     "2026-10-13T18:08:15+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "id": "FIELDTRIP.1",
+   "start": "2026-10-13T17:55:29+00:00",
+   "end": "2026-10-13T17:57:23+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:55:29+00:00",
+     "2026-10-13T17:57:23+00:00"
+    ]
+   ],
+   "description": "abandoned run of FIELDTRIP.1"
+  },
+  {
+   "id": "FIELDTRIP.2",
+   "start": "2026-10-13T18:00:30+00:00",
+   "end": "2026-10-13T18:04:03+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:00:30+00:00",
+     "2026-10-13T18:01:51+00:00"
+    ],
+    [
+     "2026-10-13T18:03:37+00:00",
+     "2026-10-13T18:04:03+00:00"
+    ]
+   ],
+   "description": "abandoned run of FIELDTRIP.2"
+  },
+  {
+   "id": "FIELDTRIP.3",
+   "start": "2026-10-13T18:06:55+00:00",
+   "end": "2026-10-13T18:07:51+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:06:55+00:00",
+     "2026-10-13T18:07:51+00:00"
+    ]
+   ],
+   "description": "abandoned run of FIELDTRIP.3"
+  }
+ ],
+ "failed": [
+  "FIELDTRIP.1",
+  "FIELDTRIP.2",
+  "FIELDTRIP.3",
+  "N1",
+  "N2"
+ ],
+ "log_reasons": {
+  "2": "story opening/skimming not verified",
+  "5": "recipe opening/skimming not verified",
+  "7": "OpenStreetMap HTTP 429 after four retries",
+  "14": "OpenStreetMap HTTP 429 after four retries",
+  "20": "OpenStreetMap HTTP 429 after four retries"
+ }
+}

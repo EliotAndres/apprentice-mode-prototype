@@ -1,0 +1,281 @@
+{
+ "workflows": [
+  {
+   "name": "Size up a tech story lead from Hacker News buzz and the project's GitHub repo",
+   "use_case": "Journalism",
+   "apps": [
+    "news.ycombinator.com",
+    "github.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "project"
+   ],
+   "steps": [
+    "In the Hacker News tab, use the Search box (at the bottom of the front page, or at the top if you are already on HN Search), type {project} and press Enter",
+    "Note the title, points and date of the top story in the results",
+    "Switch to the GitHub tab, click the search box, type {project}, press Enter and open the main {project} repository",
+    "Note its star count and the date of its latest release in the right sidebar",
+    "Switch to Notes, click \"New note\", type \"Lead: {project}. HN \\\"<title>\\\" (<points> pts, <date>); GitHub <stars> stars, last release <date>\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "LEAD.1",
+     "start": "2026-10-13T17:50:45+00:00",
+     "end": "2026-10-13T17:52:56+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:50:45+00:00",
+       "2026-10-13T17:52:56+00:00"
+      ]
+     ],
+     "values": {
+      "project": "llama.cpp"
+     }
+    },
+    {
+     "id": "LEAD.2",
+     "start": "2026-10-13T17:59:00+00:00",
+     "end": "2026-10-13T18:00:14+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:59:00+00:00",
+       "2026-10-13T18:00:14+00:00"
+      ]
+     ],
+     "values": {
+      "project": "Zed"
+     }
+    },
+    {
+     "id": "LEAD.3",
+     "start": "2026-10-13T18:07:06+00:00",
+     "end": "2026-10-13T18:09:50+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:07:06+00:00",
+       "2026-10-13T18:07:21+00:00"
+      ],
+      [
+       "2026-10-13T18:08:58+00:00",
+       "2026-10-13T18:09:50+00:00"
+      ]
+     ],
+     "values": {
+      "project": "Bun"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Pitch a court story: find a company's latest opinion on CourtListener and its background on Wikipedia",
+   "use_case": "Journalism",
+   "apps": [
+    "courtlistener.com",
+    "wikipedia.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "company",
+    "editor"
+   ],
+   "steps": [
+    "In the CourtListener tab, click the search box, type \"{company}\" and press Enter",
+    "Open the first opinion in the results and note its case name, court and date filed",
+    "Switch to the Wikipedia tab, search \"{company}\" and open the company article; note its headquarters and CEO from the infobox",
+    "Switch to the Mail tab, click To and type {editor}@example.com, click Subject and type \"Pitch: {company} in court\"",
+    "Click Body and type \"Hi {editor}, <case name> (<court>, filed <date>). {company}: HQ <city>, CEO <name>. Worth a piece?\" Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "PARTY.1",
+     "start": "2026-10-13T17:53:56+00:00",
+     "end": "2026-10-13T17:57:06+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:53:56+00:00",
+       "2026-10-13T17:54:23+00:00"
+      ],
+      [
+       "2026-10-13T17:56:20+00:00",
+       "2026-10-13T17:57:06+00:00"
+      ]
+     ],
+     "values": {
+      "company": "Uber",
+      "editor": "lena"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Fact-check a country statistic on World Bank data and find news context on BBC",
+   "use_case": "Journalism",
+   "apps": [
+    "data.worldbank.org",
+    "bbc.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "country",
+    "indicator",
+    "topic"
+   ],
+   "steps": [
+    "In the World Bank tab, click the search box, type {country} and open the country page",
+    "Find {indicator} on the page and note its latest value and year",
+    "Switch to the BBC tab, click Search, type \"{country} {topic}\" and press Enter; open the first result and note its headline and date",
+    "Switch to Notes, click \"New note\", type \"Fact-check {country}: {indicator} <value> (<year>). Context: <headline> (<date>)\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "STAT.1",
+     "start": "2026-10-13T17:57:06+00:00",
+     "end": "2026-10-13T17:59:00+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:57:06+00:00",
+       "2026-10-13T17:59:00+00:00"
+      ]
+     ],
+     "values": {
+      "country": "Kenya",
+      "indicator": "Life expectancy at birth",
+      "topic": "health"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T17:52:56+00:00",
+   "end": "2026-10-13T17:53:56+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:52:56+00:00",
+     "2026-10-13T17:53:56+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to weather.com, search the forecast for Paris, look at it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T17:55:29+00:00",
+   "end": "2026-10-13T17:56:20+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:55:29+00:00",
+     "2026-10-13T17:56:20+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T18:02:29+00:00",
+   "end": "2026-10-13T18:02:54+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:02:29+00:00",
+     "2026-10-13T18:02:54+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the GitHub tab, search \"deno\", scroll the results, then give up without opening any"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T18:05:57+00:00",
+   "end": "2026-10-13T18:06:30+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:05:57+00:00",
+     "2026-10-13T18:06:30+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and CourtListener tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T18:12:38+00:00",
+   "end": "2026-10-13T18:13:08+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:12:38+00:00",
+     "2026-10-13T18:13:08+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to allrecipes.com, scroll the home page, open one recipe, skim it, close the tab"
+  },
+  {
+   "id": "PARTY.2",
+   "start": "2026-10-13T18:00:14+00:00",
+   "end": "2026-10-13T18:02:29+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:00:14+00:00",
+     "2026-10-13T18:02:29+00:00"
+    ]
+   ],
+   "description": "abandoned run of PARTY.2"
+  },
+  {
+   "id": "PARTY.3",
+   "start": "2026-10-13T18:07:21+00:00",
+   "end": "2026-10-13T18:10:35+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:07:21+00:00",
+     "2026-10-13T18:08:58+00:00"
+    ],
+    [
+     "2026-10-13T18:09:50+00:00",
+     "2026-10-13T18:10:35+00:00"
+    ]
+   ],
+   "description": "abandoned run of PARTY.3"
+  },
+  {
+   "id": "STAT.2",
+   "start": "2026-10-13T18:02:54+00:00",
+   "end": "2026-10-13T18:07:06+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:02:54+00:00",
+     "2026-10-13T18:04:19+00:00"
+    ],
+    [
+     "2026-10-13T18:06:30+00:00",
+     "2026-10-13T18:07:06+00:00"
+    ]
+   ],
+   "description": "abandoned run of STAT.2"
+  },
+  {
+   "id": "STAT.3",
+   "start": "2026-10-13T18:11:28+00:00",
+   "end": "2026-10-13T18:12:38+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:11:28+00:00",
+     "2026-10-13T18:12:38+00:00"
+    ]
+   ],
+   "description": "abandoned run of STAT.3"
+  }
+ ],
+ "failed": [
+  "PARTY.2",
+  "PARTY.3",
+  "STAT.2",
+  "STAT.3"
+ ],
+ "log_reasons": {
+  "9": "CourtListener search unresponsive after four attempts",
+  "14": "CO2 value missing from chunk 11; BBC first result read",
+  "16": "CourtListener search stalled after four attempts",
+  "18": "Tesla case missing from chunk 16; Wikipedia read, no draft fabricated",
+  "20": "World Bank search retained Viet Nam results after four attempts"
+ }
+}

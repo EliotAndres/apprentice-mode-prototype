@@ -1,0 +1,161 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "replicate/ground_truth.schema.json",
+  "title": "Opportunity annotation for one session (ground truth by construction)",
+  "type": "object",
+  "required": [
+    "session_id",
+    "action_t",
+    "opportunities",
+    "negatives"
+  ],
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "action_t": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "timestamp of every action by seq, so scoring needs no bundle"
+    },
+    "opportunities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "opportunity_id",
+          "template_id",
+          "name",
+          "description",
+          "instances"
+        ],
+        "properties": {
+          "opportunity_id": {
+            "type": "string"
+          },
+          "template_id": {
+            "type": "string"
+          },
+          "site": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "parameters": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "steps": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "observed_seconds": {
+            "type": "number",
+            "description": "total synthetic time spent on its instances (sum of instance seconds)"
+          },
+          "instances": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "$ref": "#/$defs/instance"
+            }
+          }
+        }
+      }
+    },
+    "negatives": {
+      "type": "array",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "#/$defs/instance"
+          }
+        ],
+        "required": [
+          "kind"
+        ],
+        "properties": {
+          "kind": {
+            "enum": [
+              "one_off",
+              "distractor"
+            ]
+          }
+        }
+      }
+    },
+    "tier": {
+      "enum": [
+        "easy",
+        "hard"
+      ]
+    },
+    "dontcare_inside_instances": {
+      "type": "boolean",
+      "description": "true: other tasks' actions inside an instance's first-to-last span are not scored"
+    }
+  },
+  "$defs": {
+    "instance": {
+      "type": "object",
+      "required": [
+        "task_id",
+        "spans",
+        "seqs"
+      ],
+      "properties": {
+        "task_id": {
+          "type": "string"
+        },
+        "task": {
+          "type": "string"
+        },
+        "values": {
+          "type": "object"
+        },
+        "kind": {
+          "type": "string"
+        },
+        "site": {
+          "type": "string"
+        },
+        "spans": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/span"
+          },
+          "description": "first to last action timestamp of each segment; more than one when the instance was interrupted"
+        },
+        "seconds": {
+          "type": "number",
+          "description": "synthetic time spent, including lead-in before the first action"
+        },
+        "seqs": {
+          "type": "array",
+          "items": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "span": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "minItems": 2,
+      "maxItems": 2
+    }
+  }
+}

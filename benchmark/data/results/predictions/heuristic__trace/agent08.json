@@ -1,0 +1,219 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 9-step flow on viator",
+   "description": "Repeated sequence on viator starting with CLICK combobox \"Search for a place or activity\"",
+   "site": "viator",
+   "steps": [
+    "CLICK combobox \"Search for a place or activity\"",
+    "KEY combobox \"Search for a place or activity\"",
+    "CLICK combobox \"Search for a place or activity\"",
+    "TYPE combobox \"Search for a place or activity\"",
+    "KEY combobox \"Search for a place or activity\"",
+    "TYPE combobox \"Search for a place or activity\"",
+    "CLICK search \"Use Up and Down to choose options, press\"",
+    "TYPE combobox \"Search for a place or activity\"",
+    "CLICK option \"Search for Tower of London London\""
+   ],
+   "parameters": [],
+   "confidence": 1.0,
+   "instances": [
+    {
+     "start_t": 251.783,
+     "end_t": 282.967,
+     "values": "ctrl+a, Thames boat LondTower of London Londonon, ctrl+a, Tower of London London"
+    },
+    {
+     "start_t": 1038.46,
+     "end_t": 1054.065,
+     "values": "ctrl+a, Guinness Storehouse Dublin"
+    },
+    {
+     "start_t": 1177.342,
+     "end_t": 1180.359,
+     "values": "ctrl+a"
+    },
+    {
+     "start_t": 1197.76,
+     "end_t": 1212.948,
+     "values": "Cliffs of Moher Dublin"
+    },
+    {
+     "start_t": 2513.216,
+     "end_t": 2516.246,
+     "values": "ctrl+a"
+    },
+    {
+     "start_t": 2582.324,
+     "end_t": 2586.162,
+     "values": "whisky tasting Edinburgh"
+    },
+    {
+     "start_t": 2729.988,
+     "end_t": 2733.021,
+     "values": "ctrl+a"
+    },
+    {
+     "start_t": 2752.291,
+     "end_t": 2756.065,
+     "values": "Highlands day trip Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 7-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK div \"We owe you an explanation. 13 October: A\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK div \"We owe you an explanation. 13 October: A\"",
+    "CLICK button \"Close\"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "CLICK link \"London Capital of England and the United\"",
+    "CLICK div \"Hide\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 31.296,
+     "end_t": 58.823,
+     "values": "London"
+    },
+    {
+     "start_t": 553.568,
+     "end_t": 575.264,
+     "values": "ctrl+home, Dublin"
+    },
+    {
+     "start_t": 1857.142,
+     "end_t": 1860.555,
+     "values": "Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on booking",
+   "description": "Repeated sequence on booking starting with CLICK combobox \"Enter destination\"",
+   "site": "booking",
+   "steps": [
+    "CLICK combobox \"Enter destination\"",
+    "TYPE combobox \"Enter destination\"",
+    "KEY combobox \"Enter destination\"",
+    "TYPE combobox \"Enter destination\"",
+    "CLICK combobox \"Enter destination\"",
+    "TYPE combobox \"Enter destination\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 726.301,
+     "end_t": 756.506,
+     "values": "Dubiln, ctrl+a, Dublin"
+    },
+    {
+     "start_t": 1677.67,
+     "end_t": 1681.043,
+     "values": "Paris"
+    },
+    {
+     "start_t": 2152.342,
+     "end_t": 2155.753,
+     "values": "Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "CLICK textbox \"New note\"",
+    "CLICK textbox \"New note\"",
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 385.55,
+     "end_t": 420.97,
+     "values": "London Nov 13-Nov 15: pop 9,122,909, 20 C, hotel voco London Camden Lock by IHG 503, Westminster to Greenwich Sightseeing Thames Cruise in London, Tower of London and Crown Jewels Exhibition Day Ticket, dinner Benares 18:30"
+    },
+    {
+     "start_t": 3318.534,
+     "end_t": 3324.674,
+     "values": "Edinburgh Jan 15-Jan 17: pop 531,370, 11 C, hotel Stylish Leith Residence Tram to Centre & Airport EUR 286, Edinburgh Whisky Tasting and History on the Royal Mile, Scottish Highlands, Loch Ness and Glencoe Day Trip from Edinburgh, dinner Evergreen Bar & Kitchen 18:30"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on timeanddate",
+   "description": "Repeated sequence on timeanddate starting with CLICK button \"Deny all\"",
+   "site": "timeanddate",
+   "steps": [
+    "CLICK button \"Deny all\"",
+    "CLICK searchbox \"Search for city or place\u2026\"",
+    "CLICK searchbox \"Search for city or place\u2026\"",
+    "TYPE searchbox \"Search for city or place\u2026\"",
+    "CLICK link \"London England - United Kingdom\"",
+    "CLICK link \"Current weather and forecast for London\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 81.971,
+     "end_t": 103.732,
+     "values": "London"
+    },
+    {
+     "start_t": 602.442,
+     "end_t": 612.944,
+     "values": "Dublin"
+    },
+    {
+     "start_t": 1981.101,
+     "end_t": 1984.513,
+     "values": "Edinburgh"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on mail",
+   "description": "Repeated sequence on mail starting with CLICK textbox \"To\"",
+   "site": "mail",
+   "steps": [
+    "CLICK textbox \"To\"",
+    "TYPE textbox \"To\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 3469.112,
+     "end_t": 3472.65,
+     "values": "priya@example.com"
+    },
+    {
+     "start_t": 3528.65,
+     "end_t": 3532.333,
+     "values": "Edinburgh weekend Jan 15-Jan 17"
+    },
+    {
+     "start_t": 3586.616,
+     "end_t": 3591.896,
+     "values": "Hi priya, plan: hotel Stylish Leith Residence Tram to Centre & Airport (EUR 286), whisky tasting and Highlands day trip, dinner at Evergreen Bar & Kitchen (Scottish) on Jan 15."
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

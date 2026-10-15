@@ -1,0 +1,590 @@
+{
+ "session_id": "agent05",
+ "action_t": [
+  40.748,
+  45.985,
+  50.688,
+  54.504,
+  57.359,
+  105.158,
+  127.104,
+  131.859,
+  137.447,
+  143.14,
+  149.067,
+  152.509,
+  154.476,
+  166.747,
+  317.113,
+  340.368,
+  348.157,
+  348.682,
+  354.846,
+  358.217,
+  361.57,
+  375.522,
+  393.038,
+  397.92,
+  401.425,
+  404.612,
+  410.507,
+  418.229,
+  423.68,
+  427.202,
+  429.825,
+  437.718,
+  442.476,
+  448.402,
+  455.987,
+  462.408,
+  465.922,
+  472.142,
+  478.145,
+  511.944,
+  518.264,
+  521.697,
+  526.082,
+  538.924,
+  546.825,
+  551.164,
+  558.942,
+  581.563,
+  587.753,
+  593.254,
+  600.029,
+  603.447,
+  614.477,
+  618.41,
+  624.625,
+  628.005,
+  631.144,
+  637.468,
+  647.177,
+  650.572,
+  664.851,
+  675.461,
+  692.395,
+  703.699,
+  709.524,
+  715.285,
+  718.685,
+  721.019,
+  740.581,
+  746.825,
+  750.218,
+  754.137,
+  783.199,
+  791.298,
+  792.336,
+  797.941,
+  804.323,
+  807.799,
+  811.225,
+  818.581,
+  822.127,
+  826.142,
+  834.018,
+  838.717,
+  845.959,
+  847.002,
+  853.034,
+  856.422,
+  863.019,
+  878.633,
+  886.849,
+  890.259,
+  940.739,
+  956.941,
+  1101.002,
+  1117.973,
+  1121.447,
+  1128.858,
+  1144.511,
+  1158.76,
+  1187.007,
+  1199.072,
+  1203.355,
+  1219.305,
+  1236.07,
+  1247.451,
+  1250.818,
+  1274.259,
+  1306.823,
+  1307.379,
+  1322.492,
+  1325.867,
+  1337.311,
+  1410.397,
+  1435.041,
+  1451.378,
+  1473.756,
+  1477.17,
+  1488.839,
+  1502.62,
+  1514.233,
+  1532.904,
+  1534.089,
+  1556.954,
+  1560.324,
+  1573.146,
+  1630.463,
+  1654.196,
+  1657.687,
+  1672.78,
+  1693.861,
+  1697.39,
+  1716.007,
+  1734.501,
+  1739.24,
+  1753.58,
+  1820.697,
+  1840.609,
+  1844.186,
+  1856.862,
+  1894.801,
+  1930.108,
+  1948.973,
+  1952.499,
+  1962.748,
+  1992.51,
+  2011.69,
+  2016.124,
+  2056.832,
+  2117.656,
+  2136.994
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent05-op0",
+   "template_id": "agent05-op0",
+   "name": "Pull a country's GDP and population from the World Bank and email a client brief",
+   "use_case": "Finance",
+   "description": "In the World Bank Data tab, click the search box, type {country} and press Enter; open the {country} country page -> Note the latest GDP (current US$) and population figures with their year -> Scroll down to GDP growth (annual %) and note the latest value -> Switch to the Wikipedia tab, search \"{country}\" and open the article; note the capital and the currency from the infobox -> Switch to the Mail tab, click To and type {client}@example.com, click Subject and type \"{country} macro snapshot\" -> Click Body and type \"Hi {client}, {country}: GDP <gdp> (<year>), growth <growth>%, population <population>; capital <capital>, currency <currency>.\" Do not click Send. Click Discard",
+   "site": "data.worldbank.org, wikipedia.org, mail.localhost",
+   "parameters": [
+    "country",
+    "client"
+   ],
+   "steps": [
+    "In the World Bank Data tab, click the search box, type {country} and press Enter; open the {country} country page",
+    "Note the latest GDP (current US$) and population figures with their year",
+    "Scroll down to GDP growth (annual %) and note the latest value",
+    "Switch to the Wikipedia tab, search \"{country}\" and open the article; note the capital and the currency from the infobox",
+    "Switch to the Mail tab, click To and type {client}@example.com, click Subject and type \"{country} macro snapshot\"",
+    "Click Body and type \"Hi {client}, {country}: GDP <gdp> (<year>), growth <growth>%, population <population>; capital <capital>, currency <currency>.\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 579.0,
+   "instances": [
+    {
+     "task_id": "MACRO.1",
+     "spans": [
+      [
+       112.0,
+       184.0
+      ],
+      [
+       333.0,
+       449.0
+      ]
+     ],
+     "seqs": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+     ],
+     "seconds": 188.0,
+     "values": {
+      "country": "Kenya",
+      "client": "olivia"
+     }
+    },
+    {
+     "task_id": "MACRO.3",
+     "spans": [
+      [
+       1221.0,
+       1392.0
+      ],
+      [
+       1534.0,
+       1754.0
+      ]
+     ],
+     "seqs": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135
+     ],
+     "seconds": 391.0,
+     "values": {
+      "country": "Chile",
+      "client": "sofia"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent05-op1",
+   "template_id": "agent05-op1",
+   "name": "Add a public-domain classic to a reading list from Project Gutenberg and the author's Wikipedia page",
+   "use_case": "Education",
+   "description": "In the Project Gutenberg tab, click the search box, type \"{title}\" and press Enter -> Open the matching book by {author}; on its page note the release date and the downloads count. Do not download it -> Switch to the Wikipedia tab, search \"{author}\" and open the article; note the birth and death years -> Switch to Notes, click \"New note\", type \"Read: {title} by {author} (<birth>-<death>), Gutenberg since <release date>, <downloads> downloads\" and press Enter",
+   "site": "gutenberg.org, wikipedia.org, notes.localhost",
+   "parameters": [
+    "title",
+    "author"
+   ],
+   "steps": [
+    "In the Project Gutenberg tab, click the search box, type \"{title}\" and press Enter",
+    "Open the matching book by {author}; on its page note the release date and the downloads count. Do not download it",
+    "Switch to the Wikipedia tab, search \"{author}\" and open the article; note the birth and death years",
+    "Switch to Notes, click \"New note\", type \"Read: {title} by {author} (<birth>-<death>), Gutenberg since <release date>, <downloads> downloads\" and press Enter"
+   ],
+   "observed_seconds": 580.0,
+   "instances": [
+    {
+     "task_id": "CLASSIC.1",
+     "spans": [
+      [
+       449.0,
+       560.0
+      ]
+     ],
+     "seqs": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46
+     ],
+     "seconds": 111.0,
+     "values": {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen"
+     }
+    },
+    {
+     "task_id": "CLASSIC.2",
+     "spans": [
+      [
+       879.0,
+       975.0
+      ],
+      [
+       1084.0,
+       1220.0
+      ]
+     ],
+     "seqs": [
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+     ],
+     "seconds": 232.0,
+     "values": {
+      "title": "Moby Dick",
+      "author": "Herman Melville"
+     }
+    },
+    {
+     "task_id": "CLASSIC.3",
+     "spans": [
+      [
+       1821.0,
+       2058.0
+      ]
+     ],
+     "seqs": [
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148
+     ],
+     "seconds": 237.0,
+     "values": {
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     70.0,
+     112.0
+    ]
+   ],
+   "seqs": [
+    5
+   ],
+   "seconds": 42.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     257.0,
+     333.0
+    ]
+   ],
+   "seqs": [
+    14
+   ],
+   "seconds": 76.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     847.0,
+     879.0
+    ]
+   ],
+   "seqs": [
+    85,
+    86,
+    87,
+    88,
+    89
+   ],
+   "seconds": 32.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the Project Gutenberg tab, search \"Ulysses\", scroll the results, then give up without opening any"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     1081.0,
+     1084.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 3.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and Stack Overflow tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     2058.0,
+     2176.0
+    ]
+   ],
+   "seqs": [
+    149,
+    150
+   ],
+   "seconds": 118.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to en.wikipedia.org, click Random article in the menu, skim it, close the tab"
+  },
+  {
+   "task_id": "DEBUG.1",
+   "spans": [
+    [
+     37.0,
+     70.0
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "seconds": 33.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of DEBUG.1"
+  },
+  {
+   "task_id": "DEBUG.2",
+   "spans": [
+    [
+     560.0,
+     570.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 10.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of DEBUG.2"
+  },
+  {
+   "task_id": "DEBUG.3",
+   "spans": [
+    [
+     1220.0,
+     1221.0
+    ],
+    [
+     1392.0,
+     1534.0
+    ]
+   ],
+   "seqs": [
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121
+   ],
+   "seconds": 143.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of DEBUG.3"
+  },
+  {
+   "task_id": "MACRO.2",
+   "spans": [
+    [
+     570.0,
+     847.0
+    ]
+   ],
+   "seqs": [
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84
+   ],
+   "seconds": 277.0,
+   "kind": "one_off",
+   "task": "abandoned run of MACRO.2"
+  },
+  {
+   "task_id": "unlabelled",
+   "kind": "one_off",
+   "task": "between tasks",
+   "spans": [
+    [
+     1820.697,
+     1820.697
+    ]
+   ],
+   "seqs": [
+    136
+   ],
+   "seconds": 0
+  }
+ ]
+}

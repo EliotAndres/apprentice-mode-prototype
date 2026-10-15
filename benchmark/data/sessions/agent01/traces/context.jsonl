@@ -1,0 +1,56 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "4C0075626A19D04BEC321AF1CA5E1BEC", "url": "https://www.sec.gov/edgar/search/", "title": "SEC.gov | EDGAR Full Text Search"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "8A00AFBB54F1A8B248CD308ABAFD6F11", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "8F6C4FEA52BE9F12FEC7D1BDDB8C1292", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "9F05201F06DE816A7BA2A5B17F45EB18", "url": "https://www.xe.com/", "title": "Xe: Currency Exchange Rates and International Money Transfers"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/", "title": "timeanddate.com"}
+{"t": 45.799, "type": "context", "kind": "url_change", "target_id": "4C0075626A19D04BEC321AF1CA5E1BEC", "url": "https://www.sec.gov/edgar/search/#/ciks=0001640147&entityName=Snowflake%2520Inc.%2520(SNOW)%2520(CIK%25200001640147)", "site": "sec"}
+{"t": 66.942, "type": "context", "kind": "url_change", "target_id": "4C0075626A19D04BEC321AF1CA5E1BEC", "url": "https://www.sec.gov/edgar/search/#/ciks=0001640147&entityName=Snowflake%2520Inc.%2520(SNOW)%2520(CIK%25200001640147)&filter_forms=10-K", "site": "sec"}
+{"t": 114.196, "type": "context", "kind": "tab_opened", "target_id": "42ED5E8BB6092051C346A91365AE316A", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 127.173, "type": "context", "kind": "url_change", "target_id": "42ED5E8BB6092051C346A91365AE316A", "url": "https://www.bbc.com/news", "site": "bbc"}
+{"t": 127.533, "type": "context", "kind": "title_change", "target_id": "42ED5E8BB6092051C346A91365AE316A", "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world"}
+{"t": 149.305, "type": "context", "kind": "url_change", "target_id": "42ED5E8BB6092051C346A91365AE316A", "url": "https://www.bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/", "site": "bbc"}
+{"t": 154.856, "type": "context", "kind": "url_change", "target_id": "42ED5E8BB6092051C346A91365AE316A", "url": "https://www.bbc.com/news", "site": "bbc"}
+{"t": 160.757, "type": "context", "kind": "url_change", "target_id": "42ED5E8BB6092051C346A91365AE316A", "url": "https://www.bbc.com/news/articles/c60rl5vwpk02o", "site": "bbc"}
+{"t": 160.876, "type": "context", "kind": "title_change", "target_id": "42ED5E8BB6092051C346A91365AE316A", "title": "MI5 tackling more state threats than during Cold War, warns intelligence chief"}
+{"t": 178.438, "type": "context", "kind": "tab_closed", "target_id": "42ED5E8BB6092051C346A91365AE316A"}
+{"t": 257.727, "type": "context", "kind": "url_change", "target_id": "9F05201F06DE816A7BA2A5B17F45EB18", "url": "https://www.xe.com/currencyconverter/", "site": "xe"}
+{"t": 352.615, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/wiki/Joanne_Beretta", "site": "wikipedia"}
+{"t": 400.218, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/time/", "site": "timeanddate"}
+{"t": 407.344, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html", "site": "timeanddate"}
+{"t": 464.688, "type": "context", "kind": "url_change", "target_id": "4C0075626A19D04BEC321AF1CA5E1BEC", "url": "https://www.sec.gov/edgar/search/#/ciks=0001561550&entityName=Datadog%252C%2520Inc.%2520(DDOG)%2520(CIK%25200001561550)", "site": "sec"}
+{"t": 526.642, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/time/", "site": "timeanddate"}
+{"t": 534.136, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html", "site": "timeanddate"}
+{"t": 558.899, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T150000&p1=179", "site": "timeanddate"}
+{"t": 578.535, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T150000&p1=179&p2=37", "site": "timeanddate"}
+{"t": 618.948, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/calendar/", "site": "timeanddate"}
+{"t": 634.78, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/holidays/", "site": "timeanddate"}
+{"t": 681.203, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/holidays/germany/", "site": "timeanddate"}
+{"t": 681.264, "type": "context", "kind": "title_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "title": "Holidays Today and Upcoming Holidays in Germany"}
+{"t": 960.092, "type": "context", "kind": "url_change", "target_id": "4C0075626A19D04BEC321AF1CA5E1BEC", "url": "https://www.sec.gov/edgar/search/#/ciks=0001404655&entityName=HUBSPOT%2520INC%2520(HUBS)%2520(CIK%25200001404655)", "site": "sec"}
+{"t": 1001.711, "type": "context", "kind": "url_change", "target_id": "4C0075626A19D04BEC321AF1CA5E1BEC", "url": "https://www.sec.gov/edgar/search/#/ciks=0001404655&entityName=HUBSPOT%2520INC%2520(HUBS)%2520(CIK%25200001404655)&filter_forms=10-K", "site": "sec"}
+{"t": 1063.231, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/w/index.php?search=&title=Special%3ASearch&wprov=acrw1_-1", "site": "wikipedia"}
+{"t": 1063.434, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/w/index.php?search=&title=Special%3ASearch", "site": "wikipedia"}
+{"t": 1104.38, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/w/index.php?search=HubSpot&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&wprov=acrw1_0", "site": "wikipedia"}
+{"t": 1104.614, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/w/index.php?search=HubSpot&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1", "site": "wikipedia"}
+{"t": 1128.89, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/w/index.php?search=HubSpot&title=Special%3ASearch&profile=advanced&fulltext=1&ns0=1&searchToken=8ynysa8i0nn2ihr8vy4hhdm38", "site": "wikipedia"}
+{"t": 1129.11, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/wiki/HubSpot?wprov=srpw1_0", "site": "wikipedia"}
+{"t": 1129.488, "type": "context", "kind": "url_change", "target_id": "2733CBA1876DC3E5BFB586F81E04346E", "url": "https://en.wikipedia.org/wiki/HubSpot", "site": "wikipedia"}
+{"t": 1307.411, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/search/results.html?query=Shenzhen", "site": "timeanddate"}
+{"t": 1372.049, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/china/shenzhen", "site": "timeanddate"}
+{"t": 1479.398, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/time/", "site": "timeanddate"}
+{"t": 1496.229, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html", "site": "timeanddate"}
+{"t": 1514.576, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T160000&p1=136", "site": "timeanddate"}
+{"t": 1551.109, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/worldclock/converter.html?iso=20261013T160000&p1=136&p2=240", "site": "timeanddate"}
+{"t": 1551.541, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/calendar/", "site": "timeanddate"}
+{"t": 1567.806, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/holidays/", "site": "timeanddate"}
+{"t": 1568.332, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/holidays/australia/", "site": "timeanddate"}
+{"t": 1568.408, "type": "context", "kind": "title_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "title": "Holidays Today and Upcoming Holidays in Australia"}
+{"t": 1586.268, "type": "context", "kind": "url_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "url": "https://www.timeanddate.com/holidays/australia/2026", "site": "timeanddate"}
+{"t": 1586.348, "type": "context", "kind": "title_change", "target_id": "BA36B67EE8F9ACB014AD0D8ADB974372", "title": "Holidays and Observances in Australia in 2026"}
+{"t": 1681.866, "type": "context", "kind": "tab_opened", "target_id": "BBE88A5DB60FBB551DD2C598C763B62F", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 1699.989, "type": "context", "kind": "url_change", "target_id": "BBE88A5DB60FBB551DD2C598C763B62F", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 1745.15, "type": "context", "kind": "url_change", "target_id": "BBE88A5DB60FBB551DD2C598C763B62F", "url": "https://news.ycombinator.com/item?id=50061791", "site": "ycombinator"}
+{"t": 1760.195, "type": "context", "kind": "title_change", "target_id": "BBE88A5DB60FBB551DD2C598C763B62F", "title": "Making big downloads resumable in Firefox | Hacker News"}
+{"t": 1760.195, "type": "context", "kind": "tab_closed", "target_id": "BBE88A5DB60FBB551DD2C598C763B62F"}
+{"t": 1860.626, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

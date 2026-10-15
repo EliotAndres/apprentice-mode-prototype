@@ -1,0 +1,38 @@
+{
+  "schema_version": "0.2",
+  "session_id": "h012",
+  "source": {
+    "kind": "chained_dataset",
+    "dataset": "osunlp/Multimodal-Mind2Web",
+    "license": "CC BY 4.0",
+    "composer_seed": 12,
+    "tier": "hard"
+  },
+  "started_at": "2026-09-13T09:00:00+00:00",
+  "duration_s": 2539.41,
+  "timing": {
+    "kind": "synthetic",
+    "note": "Mind2Web has no timing; per-action and pause durations are sampled by replicate.compose. Time-savings derived from it are indicative only."
+  },
+  "streams": {
+    "dom": {
+      "path": "traces/dom.jsonl",
+      "format": "jsonl",
+      "count": 168
+    },
+    "screenshots": {
+      "path": "screenshots/",
+      "format": "jpeg 1280x800",
+      "count": 168
+    },
+    "dom_snapshots": {
+      "path": "dom/",
+      "format": "html.gz",
+      "count": 168
+    }
+  },
+  "counts": {
+    "actions": 168,
+    "sites": 9
+  }
+}

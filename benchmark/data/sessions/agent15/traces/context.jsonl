@@ -1,0 +1,73 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "07B9835D51C1C78F892A45A54686761E", "url": "https://www.bbc.com/news", "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "09BC68ED93AF92CFCA79C47F231C814B", "url": "https://news.ycombinator.com/", "title": "Hacker News"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/", "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/", "title": "World Bank Open Data | Data"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "7142EA960350B618FE26616379BCAECA", "url": "https://www.courtlistener.com/", "title": ""}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "792E98E694FFB998E84B7C92BACD82CE", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "7ECFB07E62CF4EB7436D394B9CFFE6E6", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.002, "type": "context", "kind": "tab_opened", "target_id": "BA3F0896A5B6319628DE87DD579B03ED", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 18.901, "type": "context", "kind": "title_change", "target_id": "7142EA960350B618FE26616379BCAECA", "title": "courtlistener.com"}
+{"t": 168.976, "type": "context", "kind": "url_change", "target_id": "09BC68ED93AF92CFCA79C47F231C814B", "url": "https://hn.algolia.com/?q=llama.cpp", "site": "algolia"}
+{"t": 196.997, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/search?q=llama.cpp&type=repositories", "site": "github"}
+{"t": 197.453, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "Repository search results \u00b7 GitHub"}
+{"t": 202.612, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/ggml-org/llama.cpp", "site": "github"}
+{"t": 202.842, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "GitHub - ggml-org/llama.cpp: LLM inference in C/C++ \u00b7 GitHub"}
+{"t": 237.324, "type": "context", "kind": "tab_opened", "target_id": "B89230800C95C993CA5F7BEB8049DB48", "url": "about:blank", "title": ""}
+{"t": 237.342, "type": "context", "kind": "title_change", "target_id": "B89230800C95C993CA5F7BEB8049DB48", "title": "about:blank"}
+{"t": 237.465, "type": "context", "kind": "url_change", "target_id": "B89230800C95C993CA5F7BEB8049DB48", "url": "https://weather.com/?Goto=Redirected", "site": "weather"}
+{"t": 238.259, "type": "context", "kind": "title_change", "target_id": "B89230800C95C993CA5F7BEB8049DB48", "title": "National and Local Weather Radar, Daily Forecast, Hurricane and information from The Weather Channel and weather.com"}
+{"t": 281.914, "type": "context", "kind": "url_change", "target_id": "B89230800C95C993CA5F7BEB8049DB48", "url": "https://weather.com/fr/city/paris/today", "site": "weather"}
+{"t": 282.377, "type": "context", "kind": "title_change", "target_id": "B89230800C95C993CA5F7BEB8049DB48", "title": "Weather Forecast and Conditions for Paris, France - The Weather Channel | Weather.com"}
+{"t": 293.786, "type": "context", "kind": "tab_closed", "target_id": "B89230800C95C993CA5F7BEB8049DB48"}
+{"t": 303.981, "type": "context", "kind": "url_change", "target_id": "7142EA960350B618FE26616379BCAECA", "url": "https://www.courtlistener.com/?q=Uber", "site": "courtlistener"}
+{"t": 320.837, "type": "context", "kind": "url_change", "target_id": "7142EA960350B618FE26616379BCAECA", "url": "https://www.courtlistener.com/opinion/4379827/uber-v-uber/?q=Uber", "site": "courtlistener"}
+{"t": 386.358, "type": "context", "kind": "tab_opened", "target_id": "6F195092201581C22098E37950C39902", "url": "about:blank", "title": ""}
+{"t": 386.383, "type": "context", "kind": "title_change", "target_id": "6F195092201581C22098E37950C39902", "title": "about:blank"}
+{"t": 386.838, "type": "context", "kind": "url_change", "target_id": "6F195092201581C22098E37950C39902", "url": "https://www.imdb.com/", "site": "imdb"}
+{"t": 389.143, "type": "context", "kind": "title_change", "target_id": "6F195092201581C22098E37950C39902", "title": "IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows"}
+{"t": 433.741, "type": "context", "kind": "url_change", "target_id": "6F195092201581C22098E37950C39902", "url": "https://www.imdb.com/title/tt10986410/?ref_=hm_epspo_ttl", "site": "imdb"}
+{"t": 434.183, "type": "context", "kind": "title_change", "target_id": "6F195092201581C22098E37950C39902", "title": "Ted Lasso (TV Series 2020\u2013 ) - IMDb"}
+{"t": 436.679, "type": "context", "kind": "tab_closed", "target_id": "6F195092201581C22098E37950C39902"}
+{"t": 453.863, "type": "context", "kind": "url_change", "target_id": "7ECFB07E62CF4EB7436D394B9CFFE6E6", "url": "https://en.wikipedia.org/wiki/Uber", "site": "wikipedia"}
+{"t": 543.504, "type": "context", "kind": "url_change", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/country/kenya", "site": "worldbank"}
+{"t": 579.665, "type": "context", "kind": "url_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "url": "https://www.bbc.com/search?q=Kenya+health&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTc5MTkxNDYyMiwibmJmIjogMTc5MTkxNDI2MiwicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNES2VueWElMkJoZWFsdGgifQ.xFsy6CE7ko2RnrNOsuFnNV430rl2Yyj5aXThv7sg9gA", "site": "bbc"}
+{"t": 579.931, "type": "context", "kind": "title_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "title": "BBC"}
+{"t": 584.642, "type": "context", "kind": "url_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "url": "https://www.bbc.com/news/articles/c6eq3x3v11d5o", "site": "bbc"}
+{"t": 584.791, "type": "context", "kind": "title_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "title": "Kenya's first Ebola case: Ten people quarantined as screening concerns grow"}
+{"t": 612.232, "type": "context", "kind": "url_change", "target_id": "09BC68ED93AF92CFCA79C47F231C814B", "url": "https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=Zed&sort=byPopularity&type=story", "site": "algolia"}
+{"t": 613.24, "type": "context", "kind": "url_change", "target_id": "09BC68ED93AF92CFCA79C47F231C814B", "url": "https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=Zed&sort=byPopularity&type=story", "site": "algolia"}
+{"t": 645.087, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/search?q=Zed&type=repositories", "site": "github"}
+{"t": 645.365, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "Repository search results \u00b7 GitHub"}
+{"t": 650.706, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/zed-industries/zed", "site": "github"}
+{"t": 650.839, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "GitHub - zed-industries/zed: Code at the speed of thought \u2013 Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. \u00b7 GitHub"}
+{"t": 709.214, "type": "context", "kind": "url_change", "target_id": "7142EA960350B618FE26616379BCAECA", "url": "https://www.courtlistener.com/", "site": "courtlistener"}
+{"t": 818.92, "type": "context", "kind": "url_change", "target_id": "7142EA960350B618FE26616379BCAECA", "url": "https://www.courtlistener.com/?q=Airbnb", "site": "courtlistener"}
+{"t": 830.525, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/search?q=deno&type=repositories", "site": "github"}
+{"t": 830.771, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "Repository search results \u00b7 GitHub"}
+{"t": 888.89, "type": "context", "kind": "url_change", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/?locations=KE-VN", "site": "worldbank"}
+{"t": 903.929, "type": "context", "kind": "url_change", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/", "site": "worldbank"}
+{"t": 906.966, "type": "context", "kind": "url_change", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/country/viet-nam", "site": "worldbank"}
+{"t": 1060.699, "type": "context", "kind": "url_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "url": "https://www.bbc.com/search?q=Vietnam+climate&edgeauth=eyJhbGciOiAiSFMyNTYiLCAidHlwIjogIkpXVCJ9.eyJrZXkiOiAiZmFzdGx5LXVyaS10b2tlbi0xIiwiZXhwIjogMTc5MTkxNTEwMywibmJmIjogMTc5MTkxNDc0MywicmVxdWVzdHVyaSI6ICIlMkZzZWFyY2glM0ZxJTNEVmlldG5hbSUyQmNsaW1hdGUifQ.tg80YyLdNSbInYA0_DOL1Tpqd4v-RApcfmiOyJ6Rhtw", "site": "bbc"}
+{"t": 1060.845, "type": "context", "kind": "title_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "title": "BBC"}
+{"t": 1074.554, "type": "context", "kind": "url_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "url": "https://www.bbc.com/audio/play/w3ct9bz2", "site": "bbc"}
+{"t": 1074.738, "type": "context", "kind": "title_change", "target_id": "07B9835D51C1C78F892A45A54686761E", "title": "BBC Audio | Asia Specific | Why Vietnam\u2019s coffee beans might outlast others"}
+{"t": 1087.9, "type": "context", "kind": "url_change", "target_id": "09BC68ED93AF92CFCA79C47F231C814B", "url": "https://hn.algolia.com/?dateRange=all&page=0&prefix=true&query=Bun&sort=byPopularity&type=story", "site": "algolia"}
+{"t": 1089.103, "type": "context", "kind": "url_change", "target_id": "09BC68ED93AF92CFCA79C47F231C814B", "url": "https://hn.algolia.com/?dateRange=all&page=0&prefix=false&query=Bun&sort=byPopularity&type=story", "site": "algolia"}
+{"t": 1217.237, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/search?q=Bun&type=repositories", "site": "github"}
+{"t": 1217.485, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "Repository search results \u00b7 GitHub"}
+{"t": 1224.07, "type": "context", "kind": "url_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "url": "https://github.com/oven-sh/bun", "site": "github"}
+{"t": 1224.349, "type": "context", "kind": "title_change", "target_id": "10A7A2F5A7E9D56EA8C0533DE22365B9", "title": "GitHub - oven-sh/bun: Incredibly fast JavaScript runtime, bundler, test runner, and package manager \u2013 all in one \u00b7 GitHub"}
+{"t": 1260.616, "type": "context", "kind": "url_change", "target_id": "7ECFB07E62CF4EB7436D394B9CFFE6E6", "url": "https://en.wikipedia.org/wiki/Tesla", "site": "wikipedia"}
+{"t": 1285.512, "type": "context", "kind": "url_change", "target_id": "7ECFB07E62CF4EB7436D394B9CFFE6E6", "url": "https://en.wikipedia.org/wiki/Tesla,_Inc.", "site": "wikipedia"}
+{"t": 1290.281, "type": "context", "kind": "url_change", "target_id": "7142EA960350B618FE26616379BCAECA", "url": "https://www.courtlistener.com/?q=Tesla&type=o&order_by=score%20desc&stat_Published=on", "site": "courtlistener"}
+{"t": 1383.093, "type": "context", "kind": "url_change", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/", "site": "worldbank"}
+{"t": 1386.138, "type": "context", "kind": "url_change", "target_id": "20FAC181F8C115A8101DD1EFC3798882", "url": "https://data.worldbank.org/country/viet-nam", "site": "worldbank"}
+{"t": 1415.595, "type": "context", "kind": "tab_opened", "target_id": "D7557EDDF321AD64E89BF7AE461B9A67", "url": "about:blank", "title": ""}
+{"t": 1415.616, "type": "context", "kind": "title_change", "target_id": "D7557EDDF321AD64E89BF7AE461B9A67", "title": "about:blank"}
+{"t": 1417.623, "type": "context", "kind": "url_change", "target_id": "D7557EDDF321AD64E89BF7AE461B9A67", "url": "https://www.allrecipes.com/", "site": "allrecipes"}
+{"t": 1444.505, "type": "context", "kind": "title_change", "target_id": "D7557EDDF321AD64E89BF7AE461B9A67", "title": "Allrecipes | Recipes, How-Tos, Videos and More"}
+{"t": 1444.506, "type": "context", "kind": "tab_closed", "target_id": "D7557EDDF321AD64E89BF7AE461B9A67"}
+{"t": 1451.919, "type": "context", "kind": "tab_opened", "target_id": "8EC62D6058E42A894B700D9D565C08DD", "url": "about:blank", "title": ""}
+{"t": 1451.936, "type": "context", "kind": "title_change", "target_id": "8EC62D6058E42A894B700D9D565C08DD", "title": "about:blank"}
+{"t": 1451.966, "type": "context", "kind": "url_change", "target_id": "8EC62D6058E42A894B700D9D565C08DD", "url": "https://www.allrecipes.com/", "site": "allrecipes"}
+{"t": 1452.021, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

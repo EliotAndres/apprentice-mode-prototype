@@ -1,0 +1,512 @@
+{
+ "session_id": "agent10",
+ "action_t": [
+  108.299,
+  115.752,
+  119.759,
+  126.635,
+  139.511,
+  145.692,
+  156.686,
+  251.951,
+  260.392,
+  264.412,
+  275.198,
+  300.029,
+  302.037,
+  302.038,
+  306.047,
+  309.624,
+  311.632,
+  311.634,
+  323.941,
+  325.966,
+  325.967,
+  338.439,
+  344.194,
+  346.216,
+  346.217,
+  357.748,
+  368.033,
+  415.89,
+  431.067,
+  447.707,
+  449.719,
+  449.719,
+  450.842,
+  453.848,
+  456.851,
+  459.855,
+  474.833,
+  481.641,
+  483.653,
+  485.664,
+  485.664,
+  492.773,
+  501.459,
+  514.569,
+  534.484,
+  536.49,
+  536.49,
+  538.639,
+  538.639,
+  540.647,
+  540.647,
+  550.727,
+  551.731,
+  552.734,
+  553.737,
+  554.903,
+  555.917,
+  557.926,
+  557.926,
+  567.437,
+  569.463,
+  569.463,
+  584.854,
+  593.751,
+  719.355,
+  722.555,
+  724.563,
+  724.564,
+  733.263,
+  734.268,
+  735.272,
+  736.276,
+  737.481,
+  744.657,
+  746.674,
+  746.674,
+  749.846,
+  756.625,
+  772.414,
+  775.659,
+  776.676,
+  778.687,
+  778.688,
+  794.528,
+  796.537,
+  796.538,
+  811.527,
+  813.533,
+  813.533,
+  815.695,
+  815.696,
+  817.703,
+  817.704,
+  870.702,
+  871.712,
+  873.721,
+  873.721,
+  883.175,
+  885.208,
+  885.208,
+  905.464,
+  914.55,
+  935.606,
+  938.818,
+  940.827,
+  940.827,
+  955.578
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent10-op0",
+   "template_id": "agent10-op0",
+   "name": "Source a candidate from GitHub and their blog, then email the hiring manager",
+   "use_case": "Recruiting",
+   "description": "In the GitHub tab, click the search box, type {username}, and open the user profile {username} -> Note the follower count and the most-starred pinned repository; open it and note its stars and main language -> Open a new tab, go to {blog} and note the title of the most recent post, then close the tab -> Switch to the Mail tab, click To and type hiring@example.com, click Subject and type \"Lead for {role}: {username}\" -> Click Body and type \"{username}: <followers> followers, top repo <repo> (<stars> stars, <language>), latest post: <title>.\" Do not click Send. Click Discard",
+   "site": "github.com, personal blog, mail.localhost",
+   "parameters": [
+    "username",
+    "blog",
+    "role"
+   ],
+   "steps": [
+    "In the GitHub tab, click the search box, type {username}, and open the user profile {username}",
+    "Note the follower count and the most-starred pinned repository; open it and note its stars and main language",
+    "Open a new tab, go to {blog} and note the title of the most recent post, then close the tab",
+    "Switch to the Mail tab, click To and type hiring@example.com, click Subject and type \"Lead for {role}: {username}\"",
+    "Click Body and type \"{username}: <followers> followers, top repo <repo> (<stars> stars, <language>), latest post: <title>.\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 213.0,
+   "instances": [
+    {
+     "task_id": "SOURCE.1",
+     "spans": [
+      [
+       109.0,
+       165.0
+      ],
+      [
+       287.0,
+       313.0
+      ]
+     ],
+     "seqs": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+     ],
+     "seconds": 82.0,
+     "values": {
+      "username": "karpathy",
+      "blog": "karpathy.github.io",
+      "role": "ML Research Engineer"
+     }
+    },
+    {
+     "task_id": "SOURCE.2",
+     "spans": [
+      [
+       470.0,
+       542.0
+      ]
+     ],
+     "seqs": [
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50
+     ],
+     "seconds": 72.0,
+     "values": {
+      "username": "gaearon",
+      "blog": "overreacted.io",
+      "role": "Staff Frontend Engineer"
+     }
+    },
+    {
+     "task_id": "SOURCE.3",
+     "spans": [
+      [
+       738.0,
+       776.0
+      ],
+      [
+       798.0,
+       819.0
+      ]
+     ],
+     "seqs": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92
+     ],
+     "seconds": 59.0,
+     "values": {
+      "username": "simonw",
+      "blog": "simonwillison.net",
+      "role": "Developer Advocate"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent10-op1",
+   "template_id": "agent10-op1",
+   "name": "Fact-check a person on Wikipedia and an old page on the Wayback Machine",
+   "use_case": "Journalism",
+   "description": "In the Wikipedia tab, search \"{person}\" and open the article; note the birth date and current or last position -> Switch to the Wayback Machine tab, type {site} in the search box and press Enter -> Pick the year {year} in the timeline, click a highlighted day in the calendar and open the snapshot -> Note the page title and one headline on the snapshot, then click Back to return to the Wayback Machine home -> Switch to Notes, click \"New note\", type \"{person}: born <date>, <position>. {site} in {year}: <headline>\" and press Enter",
+   "site": "wikipedia.org, web.archive.org, notes.localhost",
+   "parameters": [
+    "person",
+    "site",
+    "year"
+   ],
+   "steps": [
+    "In the Wikipedia tab, search \"{person}\" and open the article; note the birth date and current or last position",
+    "Switch to the Wayback Machine tab, type {site} in the search box and press Enter",
+    "Pick the year {year} in the timeline, click a highlighted day in the calendar and open the snapshot",
+    "Note the page title and one headline on the snapshot, then click Back to return to the Wayback Machine home",
+    "Switch to Notes, click \"New note\", type \"{person}: born <date>, <position>. {site} in {year}: <headline>\" and press Enter"
+   ],
+   "observed_seconds": 274.0,
+   "instances": [
+    {
+     "task_id": "FACT.1",
+     "spans": [
+      [
+       313.0,
+       451.0
+      ]
+     ],
+     "seqs": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+     ],
+     "seconds": 138.0,
+     "values": {
+      "person": "Satya Nadella",
+      "site": "microsoft.com",
+      "year": "2014"
+     }
+    },
+    {
+     "task_id": "FACT.2",
+     "spans": [
+      [
+       555.0,
+       605.0
+      ],
+      [
+       711.0,
+       726.0
+      ]
+     ],
+     "seqs": [
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ],
+     "seconds": 65.0,
+     "values": {
+      "person": "Jacinda Ardern",
+      "site": "nasa.gov",
+      "year": "2019"
+     }
+    },
+    {
+     "task_id": "FACT.3",
+     "spans": [
+      [
+       871.0,
+       942.0
+      ]
+     ],
+     "seqs": [
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+     ],
+     "seconds": 71.0,
+     "values": {
+      "person": "Tim Berners-Lee",
+      "site": "w3.org",
+      "year": "2005"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     36.0,
+     109.0
+    ]
+   ],
+   "seqs": [
+    0
+   ],
+   "seconds": 73.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     225.0,
+     287.0
+    ]
+   ],
+   "seqs": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "seconds": 62.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to weather.com, search the forecast for New York, look at it, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     542.0,
+     555.0
+    ]
+   ],
+   "seqs": [
+    51,
+    52,
+    53,
+    54,
+    55
+   ],
+   "seconds": 13.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the OpenStreetMap tab, type \"coffee near Union Square\" in the search box, look at the results, then give up and clear the search box"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     706.0,
+     711.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 5.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and GitHub tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     942.0,
+     961.0
+    ]
+   ],
+   "seqs": [
+    106
+   ],
+   "seconds": 19.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "WALK.1",
+   "spans": [
+    [
+     21.0,
+     36.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 15.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of WALK.1"
+  },
+  {
+   "task_id": "WALK.2",
+   "spans": [
+    [
+     451.0,
+     470.0
+    ]
+   ],
+   "seqs": [
+    33,
+    34,
+    35
+   ],
+   "seconds": 19.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of WALK.2"
+  },
+  {
+   "task_id": "WALK.3",
+   "spans": [
+    [
+     726.0,
+     738.0
+    ],
+    [
+     776.0,
+     798.0
+    ]
+   ],
+   "seqs": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85
+   ],
+   "seconds": 34.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of WALK.3"
+  },
+  {
+   "task_id": "unlabelled",
+   "kind": "one_off",
+   "task": "between tasks",
+   "spans": [
+    [
+     870.702,
+     870.702
+    ]
+   ],
+   "seqs": [
+    93
+   ],
+   "seconds": 0
+  }
+ ]
+}

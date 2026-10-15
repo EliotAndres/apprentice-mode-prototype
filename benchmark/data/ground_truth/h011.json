@@ -1,0 +1,696 @@
+{
+ "session_id": "h011",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  3.29,
+  7.81,
+  12.55,
+  17.15,
+  22.23,
+  28.2,
+  33.72,
+  37.71,
+  41.22,
+  43.38,
+  49.18,
+  54.56,
+  59.49,
+  64.24,
+  67.37,
+  71.66,
+  77.21,
+  86.84,
+  90.07,
+  95.86,
+  103.11,
+  107.02,
+  112.32,
+  115.97,
+  120.64,
+  123.54,
+  128.41,
+  133.16,
+  138.54,
+  145.1,
+  151.99,
+  156.85,
+  160.79,
+  165.95,
+  170.09,
+  173.54,
+  177.24,
+  184.25,
+  190.25,
+  193.62,
+  199.59,
+  203.66,
+  212.28,
+  217.22,
+  219.98,
+  227.63,
+  234.26,
+  240.02,
+  245.13,
+  249.79,
+  254.65,
+  258.41,
+  264.83,
+  270.48,
+  454.94,
+  459.07,
+  462.99,
+  466.92,
+  471.42,
+  478.93,
+  483.89,
+  486.26,
+  490.96,
+  497.51,
+  500.59,
+  505.13,
+  512.77,
+  517.62,
+  521.65,
+  530.2,
+  533.01,
+  538.36,
+  542.04,
+  550.2,
+  554.91,
+  560.55,
+  567.66,
+  576.3,
+  583.21,
+  588.47,
+  592.38,
+  601.25,
+  607.47,
+  617.46,
+  623.29,
+  628.26,
+  632.84,
+  638.0,
+  642.48,
+  645.51,
+  656.58,
+  658.88,
+  664.55,
+  991.83,
+  998.21,
+  1003.19,
+  1008.47,
+  1018.83,
+  1024.81,
+  1028.11,
+  1033.01,
+  1038.3,
+  1046.39,
+  1055.66,
+  1059.63,
+  1064.09,
+  1068.77,
+  1073.08,
+  1079.6,
+  1085.12,
+  1091.04,
+  1094.68,
+  1100.53,
+  1105.4
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h011-op0",
+   "template_id": "carnival:filter_offers",
+   "site": "carnival",
+   "name": "View and filter cruise offers",
+   "description": "Open the offers/deals page and filter by {filter}.",
+   "parameters": [
+    "filter"
+   ],
+   "steps": [
+    "Navigate to the offers page via menu",
+    "Apply duration filter or show deals",
+    "Click filter/category link"
+   ],
+   "observed_seconds": 34.2,
+   "instances": [
+    {
+     "task_id": "3b74d9cc-ba1b-441d-a1a2-a05cea62a800",
+     "task": "Browse the trending daily deals.",
+     "site": "carnival",
+     "spans": [
+      [
+       71.66,
+       77.21
+      ]
+     ],
+     "seqs": [
+      15,
+      16
+     ],
+     "seconds": 9.8,
+     "values": {
+      "filter": "Trending daily deals"
+     }
+    },
+    {
+     "task_id": "fb04bb83-9ad5-4186-a0da-17af9ba2a63d",
+     "task": "Find offers for VIFP Club loyalty number 9016467685 and show the ones that are for members only.",
+     "site": "carnival",
+     "spans": [
+      [
+       177.24,
+       190.25
+      ],
+      [
+       258.41,
+       258.41
+      ],
+      [
+       462.99,
+       462.99
+      ]
+     ],
+     "seqs": [
+      36,
+      37,
+      38,
+      51,
+      56
+     ],
+     "seconds": 24.4,
+     "values": {
+      "filter": "VIFP Club members-only, loyalty 9016467685"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h011-op1",
+   "template_id": "parking:browse_city_category_places",
+   "site": "parking",
+   "name": "Browse city category/venue list",
+   "description": "Navigate Cities to {city} and open the {category} list or venue.",
+   "parameters": [
+    "city",
+    "category",
+    "venue"
+   ],
+   "steps": [
+    "Click CITIES",
+    "Choose the city",
+    "Click the category",
+    "Optionally open a venue and see options"
+   ],
+   "observed_seconds": 54.3,
+   "instances": [
+    {
+     "task_id": "7f640279-bd9d-45ae-b3fc-43338977e2c1",
+     "task": "Find the list of Museums in New York City.",
+     "site": "parking",
+     "spans": [
+      [
+       505.13,
+       505.13
+      ],
+      [
+       550.2,
+       554.91
+      ]
+     ],
+     "seqs": [
+      65,
+      73,
+      74
+     ],
+     "seconds": 17.4,
+     "values": {
+      "city": "New York City",
+      "category": "Museums"
+     }
+    },
+    {
+     "task_id": "cdb6b70d-6083-49b5-908c-a6c0f711c175",
+     "task": "Find parking spaces near Warner Theatre in Washington DC.",
+     "site": "parking",
+     "spans": [
+      [
+       628.26,
+       628.26
+      ],
+      [
+       998.21,
+       1018.83
+      ],
+      [
+       1033.01,
+       1033.01
+      ]
+     ],
+     "seqs": [
+      85,
+      94,
+      95,
+      96,
+      97,
+      100
+     ],
+     "seconds": 36.9,
+     "values": {
+      "city": "Washington DC",
+      "category": "Theaters",
+      "venue": "Warner Theatre"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h011-op2",
+   "template_id": "viator:search_destination_date_sort_open_activity",
+   "site": "viator",
+   "name": "Search destination on date, sort and open an activity",
+   "description": "Search {destination} for {date}, optionally filter/sort by {sort}, and open or act on a resulting activity.",
+   "parameters": [
+    "destination",
+    "date",
+    "sort",
+    "action"
+   ],
+   "steps": [
+    "Type {destination} into Where to? and select it",
+    "Pick {date} in the calendar",
+    "Submit the search",
+    "Apply sort/filter {sort}",
+    "Open the activity and perform {action}"
+   ],
+   "observed_seconds": 101.4,
+   "instances": [
+    {
+     "task_id": "19847108-680f-4021-83a9-2548fab75fac",
+     "task": "Mark a review in the best rated activity to do in Paris in May 12, 2023 as he\nlpful",
+     "site": "viator",
+     "spans": [
+      [
+       7.81,
+       7.81
+      ],
+      [
+       43.38,
+       49.18
+      ],
+      [
+       86.84,
+       86.84
+      ],
+      [
+       107.02,
+       133.16
+      ]
+     ],
+     "seqs": [
+      1,
+      9,
+      10,
+      17,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+     ],
+     "seconds": 52.2,
+     "values": {
+      "destination": "Paris",
+      "date": "May 12 2023",
+      "sort": "Traveler Rating",
+      "action": "Mark review Helpful"
+     }
+    },
+    {
+     "task_id": "d6dd19a2-c57e-4e4d-b7e1-8919a86f1157",
+     "task": "Book the cheapest likely to sell out activity in Los Angeles on April 2",
+     "site": "viator",
+     "spans": [
+      [
+       1028.11,
+       1028.11
+      ],
+      [
+       1038.3,
+       1073.08
+      ],
+      [
+       1100.53,
+       1100.53
+      ]
+     ],
+     "seqs": [
+      99,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      112
+     ],
+     "seconds": 49.2,
+     "values": {
+      "destination": "Los Angeles",
+      "date": "Apr 2 2023",
+      "sort": "Likely To Sell Out, Price (Low to High)",
+      "action": "Open cheapest activity"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h011-op3",
+   "template_id": "recreation.gov:find_filtered_listing_by_category",
+   "site": "recreation.gov",
+   "name": "Find listings via category filters",
+   "description": "Open {category} section and apply amenity/activity filters {filters}, optionally near {location}",
+   "parameters": [
+    "category",
+    "filters",
+    "location"
+   ],
+   "steps": [
+    "Click category heading",
+    "Optionally enter a location and select suggestion",
+    "Show filters",
+    "Select filter options",
+    "Hide filters to view results"
+   ],
+   "observed_seconds": 386.1,
+   "instances": [
+    {
+     "task_id": "de69733d-58cb-4118-a38f-ef684fc4d07d",
+     "task": "Find a day use park that offers horseback riding near Nashville.",
+     "site": "recreation.gov",
+     "spans": [
+      [
+       3.29,
+       3.29
+      ],
+      [
+       12.55,
+       33.72
+      ]
+     ],
+     "seqs": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "seconds": 29.2,
+     "values": {
+      "category": "Day Use / Venues",
+      "filters": "horseback riding",
+      "location": "Nashville, Tennessee"
+     }
+    },
+    {
+     "task_id": "c72c2a37-1eb4-415d-ac97-801f4ba59219",
+     "task": "Find a park to camp in that is wheelchair accessible and has boat sites.",
+     "site": "recreation.gov",
+     "spans": [
+      [
+       601.25,
+       617.46
+      ],
+      [
+       632.84,
+       632.84
+      ],
+      [
+       991.83,
+       991.83
+      ]
+     ],
+     "seqs": [
+      81,
+      82,
+      83,
+      86,
+      93
+     ],
+     "seconds": 356.9,
+     "values": {
+      "category": "Camping & Lodging",
+      "filters": "wheelchair accessible, boat sites",
+      "location": ""
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "7b7079f0-8891-426a-8e53-0818a02a0159",
+   "task": "Show me things to do nearby in Mar 30, 202\n3",
+   "site": "viator",
+   "spans": [
+    [
+     1079.6,
+     1094.68
+    ],
+    [
+     1105.4,
+     1105.4
+    ]
+   ],
+   "seqs": [
+    108,
+    109,
+    110,
+    111,
+    113
+   ],
+   "seconds": 26.5,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "920f240d-77a9-476b-a1d4-dcc88d199bfa",
+   "task": "Find rock  music events in Canada, happening this weekend and save top three popular events for my record.",
+   "site": "eventbrite",
+   "spans": [
+    [
+     160.79,
+     160.79
+    ],
+    [
+     219.98,
+     227.63
+    ],
+    [
+     240.02,
+     240.02
+    ],
+    [
+     264.83,
+     459.07
+    ],
+    [
+     466.92,
+     466.92
+    ]
+   ],
+   "seqs": [
+    32,
+    44,
+    45,
+    47,
+    52,
+    53,
+    54,
+    55,
+    57
+   ],
+   "seconds": 224.7,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "00e83fae-f2f0-48ab-912c-32c03982642b",
+   "task": "Show computer game reviews sorted by score.",
+   "site": "ign",
+   "spans": [
+    [
+     138.54,
+     156.85
+    ]
+   ],
+   "seqs": [
+    28,
+    29,
+    30,
+    31
+   ],
+   "seconds": 23.7,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "5c29c805-388d-471a-80e9-ca0fbaf820be",
+   "task": "Find Hotel in Chicago with lowest price for 2 adults checking in on Apr 14 for 3 days.",
+   "site": "united",
+   "spans": [
+    [
+     165.95,
+     173.54
+    ],
+    [
+     193.62,
+     217.22
+    ],
+    [
+     234.26,
+     234.26
+    ],
+    [
+     245.13,
+     254.65
+    ]
+   ],
+   "seqs": [
+    33,
+    34,
+    35,
+    39,
+    40,
+    41,
+    42,
+    43,
+    46,
+    48,
+    49,
+    50
+   ],
+   "seconds": 61.0,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "e62d1f6c-d98c-4ea2-b699-527eeedf3e9b",
+   "task": "Order an adult\u2019s bottomless bubbles package for Joe Bloggs who is booked onto cruise 101010",
+   "site": "carnival",
+   "spans": [
+    [
+     37.71,
+     41.22
+    ],
+    [
+     54.56,
+     67.37
+    ],
+    [
+     90.07,
+     103.11
+    ]
+   ],
+   "seqs": [
+    7,
+    8,
+    11,
+    12,
+    13,
+    14,
+    18,
+    19,
+    20
+   ],
+   "seconds": 42.0,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "862faed7-449c-4624-902b-6b512a977d0c",
+   "task": "Find the cheapest new surge protector with 6 to 8 outlets under 25 dollars with customer reviews above 4+, add 2 pieces to the cart.",
+   "site": "amazon",
+   "spans": [
+    [
+     512.77,
+     542.04
+    ],
+    [
+     560.55,
+     592.38
+    ]
+   ],
+   "seqs": [
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80
+   ],
+   "seconds": 74.4,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "76514d5c-cc1c-40b0-8c08-427cedb106e4",
+   "task": "Search for queen-size pillow protectors from the Marriot shop, and if found, add two pieces to the cart and checkout.",
+   "site": "marriott",
+   "spans": [
+    [
+     623.29,
+     623.29
+    ],
+    [
+     638.0,
+     664.55
+    ],
+    [
+     1024.81,
+     1024.81
+    ]
+   ],
+   "seqs": [
+    84,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    98
+   ],
+   "seconds": 43.5,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "bf159a0f-e6d7-46fa-beea-c231934fa7a9",
+   "task": "Find travel agents in Grand Junction, Colorado",
+   "site": "carnival",
+   "spans": [
+    [
+     471.42,
+     500.59
+    ]
+   ],
+   "seqs": [
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64
+   ],
+   "seconds": 33.7,
+   "kind": "one_off"
+  }
+ ]
+}

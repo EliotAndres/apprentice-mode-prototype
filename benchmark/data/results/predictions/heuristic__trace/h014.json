@@ -1,0 +1,77 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 2-step flow on ryanair",
+   "description": "Repeated sequence on ryanair starting with CLICK textbox \"To:\"",
+   "site": "ryanair",
+   "steps": [
+    "CLICK textbox \"To:\"",
+    "CLICK div \"Anywhere\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 134.28,
+     "end_t": 144.53,
+     "values": ""
+    },
+    {
+     "start_t": 351.56,
+     "end_t": 369.72,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on ryanair",
+   "description": "Repeated sequence on ryanair starting with CLICK generic \"$\u00a0150\"",
+   "site": "ryanair",
+   "steps": [
+    "CLICK generic \"$\u00a0150\"",
+    "CLICK div \"$ 100\"",
+    "CLICK button \"Let's go\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 289.4,
+     "end_t": 296.84,
+     "values": ""
+    },
+    {
+     "start_t": 387.09,
+     "end_t": 394.08,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on united",
+   "description": "Repeated sequence on united starting with CLICK span \"Analyst - Sales Programs\"",
+   "site": "united",
+   "steps": [
+    "CLICK span \"Analyst - Sales Programs\"",
+    "CLICK button \"Apply Now\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 319.14,
+     "end_t": 324.46,
+     "values": ""
+    },
+    {
+     "start_t": 376.26,
+     "end_t": 381.23,
+     "values": "jacksparrow@gmail.com"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

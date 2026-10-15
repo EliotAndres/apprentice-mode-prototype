@@ -1,0 +1,50 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "246B758BD4FAF0306BC2845C72DBE62C", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "8AE6AC4A1AE7BBEA3B8EC30F2B32DD4E", "url": "https://stackoverflow.com/questions", "title": "Newest Questions - Stack Overflow"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "url": "https://docs.python.org/3/", "title": "3.15.0 Documentation"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "BD5A82DBCAA56C5C775A4C94228D20CA", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/", "title": "World Bank Open Data | Data"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/", "title": "Free eBooks | Project Gutenberg"}
+{"t": 59.091, "type": "context", "kind": "url_change", "target_id": "8AE6AC4A1AE7BBEA3B8EC30F2B32DD4E", "url": "https://stackoverflow.com/nocaptcha?s=e97a16b9-478d-42a8-8146-271078e3deab", "site": "stackoverflow"}
+{"t": 70.077, "type": "context", "kind": "tab_opened", "target_id": "F52660910B0095E2256B5322A412147B", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 92.766, "type": "context", "kind": "url_change", "target_id": "F52660910B0095E2256B5322A412147B", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 105.475, "type": "context", "kind": "url_change", "target_id": "F52660910B0095E2256B5322A412147B", "url": "https://news.ycombinator.com/item?id=50058528", "site": "ycombinator"}
+{"t": 111.43, "type": "context", "kind": "title_change", "target_id": "F52660910B0095E2256B5322A412147B", "title": "A Modern Web App in C | Hacker News"}
+{"t": 111.43, "type": "context", "kind": "tab_closed", "target_id": "F52660910B0095E2256B5322A412147B"}
+{"t": 154.484, "type": "context", "kind": "url_change", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/country/kenya", "site": "worldbank"}
+{"t": 256.31, "type": "context", "kind": "tab_opened", "target_id": "D4F7D182F297D937304EC33277E74022", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 297.522, "type": "context", "kind": "url_change", "target_id": "D4F7D182F297D937304EC33277E74022", "url": "https://www.bbc.com/news", "site": "bbc"}
+{"t": 297.706, "type": "context", "kind": "title_change", "target_id": "D4F7D182F297D937304EC33277E74022", "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world"}
+{"t": 317.184, "type": "context", "kind": "url_change", "target_id": "D4F7D182F297D937304EC33277E74022", "url": "https://www.bbc.com/news/articles/cmn045en7d88o", "site": "bbc"}
+{"t": 317.271, "type": "context", "kind": "title_change", "target_id": "D4F7D182F297D937304EC33277E74022", "title": "RJ Mitte: Breaking Bad actor dies aged 34"}
+{"t": 332.166, "type": "context", "kind": "tab_closed", "target_id": "D4F7D182F297D937304EC33277E74022"}
+{"t": 361.788, "type": "context", "kind": "url_change", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Kenya", "site": "wikipedia"}
+{"t": 472.515, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/search/?query=Pride+and+Prejudice", "site": "gutenberg"}
+{"t": 478.164, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/1342", "site": "gutenberg"}
+{"t": 526.297, "type": "context", "kind": "url_change", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Jane_Austen", "site": "wikipedia"}
+{"t": 675.475, "type": "context", "kind": "url_change", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/?locations=KE-VN", "site": "worldbank"}
+{"t": 703.707, "type": "context", "kind": "url_change", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/", "site": "worldbank"}
+{"t": 721.028, "type": "context", "kind": "url_change", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/country/viet-nam", "site": "worldbank"}
+{"t": 754.416, "type": "context", "kind": "url_change", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Vietnam", "site": "wikipedia"}
+{"t": 863.447, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/search/?query=Ulysses", "site": "gutenberg"}
+{"t": 941.043, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/search/?query=Moby+Dick", "site": "gutenberg"}
+{"t": 957.484, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/2701", "site": "gutenberg"}
+{"t": 1129.059, "type": "context", "kind": "url_change", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Herman_Melville", "site": "wikipedia"}
+{"t": 1306.842, "type": "context", "kind": "url_change", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/", "site": "worldbank"}
+{"t": 1337.323, "type": "context", "kind": "url_change", "target_id": "CABE2F677367B9C45566C2FC85D40CF5", "url": "https://data.worldbank.org/country/chile", "site": "worldbank"}
+{"t": 1488.904, "type": "context", "kind": "url_change", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "url": "https://docs.python.org/3/search.html?q=importlib", "site": "python"}
+{"t": 1502.636, "type": "context", "kind": "url_change", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "url": "https://docs.python.org/3/library/importlib.resources.html", "site": "python"}
+{"t": 1502.682, "type": "context", "kind": "title_change", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "title": "importlib.resources \u2013 Package resource reading, opening and access \u2014 Python 3.15.0 documentation"}
+{"t": 1514.26, "type": "context", "kind": "url_change", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "url": "https://docs.python.org/3/library/importlib.html", "site": "python"}
+{"t": 1514.323, "type": "context", "kind": "title_change", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "title": "importlib \u2014 The implementation of import \u2014 Python 3.15.0 documentation"}
+{"t": 1532.959, "type": "context", "kind": "url_change", "target_id": "8F8BC9AAFC3A7D7456E24365CF0E82F6", "url": "https://www.python.org/", "site": "python"}
+{"t": 1573.481, "type": "context", "kind": "url_change", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Chile", "site": "wikipedia"}
+{"t": 1857.376, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/search/?query=The+Count+of+Monte+Cristo", "site": "gutenberg"}
+{"t": 1895.138, "type": "context", "kind": "url_change", "target_id": "D1C8E91054CA59698FC6FC5A6B6B3A6D", "url": "https://www.gutenberg.org/ebooks/1184", "site": "gutenberg"}
+{"t": 1963.151, "type": "context", "kind": "url_change", "target_id": "20C32AAEF912B44FB74344DD70AD42FF", "url": "https://en.wikipedia.org/wiki/Alexandre_Dumas", "site": "wikipedia"}
+{"t": 2057.418, "type": "context", "kind": "tab_opened", "target_id": "E7F3EF01A464EEBFD258FCA138FCCC62", "url": "chrome://newtab/", "title": "New Tab"}
+{"t": 2098.379, "type": "context", "kind": "url_change", "target_id": "E7F3EF01A464EEBFD258FCA138FCCC62", "url": "https://en.wikipedia.org/wiki/Main_Page", "site": "wikipedia"}
+{"t": 2137.397, "type": "context", "kind": "url_change", "target_id": "E7F3EF01A464EEBFD258FCA138FCCC62", "url": "https://en.wikipedia.org/wiki/%C5%9Awierczyna,_Pleszew_County", "site": "wikipedia"}
+{"t": 2175.447, "type": "context", "kind": "title_change", "target_id": "E7F3EF01A464EEBFD258FCA138FCCC62", "title": "\u015awierczyna, Pleszew County - Wikipedia"}
+{"t": 2175.447, "type": "context", "kind": "tab_closed", "target_id": "E7F3EF01A464EEBFD258FCA138FCCC62"}
+{"t": 2196.947, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

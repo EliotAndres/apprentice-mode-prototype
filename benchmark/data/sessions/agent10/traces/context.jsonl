@@ -1,0 +1,81 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "345AB0B71AA76B1A73A1472196C1B493", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "56DC568098355BC9DC430D3C6D1D228B", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "595F6AD10F5A96DA952DEBAA78B9617D", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/", "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/", "title": "Wayback Machine"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "C293821607E0B0387D5D2C531872571C", "url": "https://www.openstreetmap.org/", "title": "429 Unknown Error"}
+{"t": 36.044, "type": "context", "kind": "tab_opened", "target_id": "4887395DC969379FFB07456F3899BDC3", "url": "about:blank", "title": ""}
+{"t": 36.062, "type": "context", "kind": "title_change", "target_id": "4887395DC969379FFB07456F3899BDC3", "title": "about:blank"}
+{"t": 36.151, "type": "context", "kind": "url_change", "target_id": "4887395DC969379FFB07456F3899BDC3", "url": "https://www.bbc.com/news", "site": "bbc"}
+{"t": 36.482, "type": "context", "kind": "title_change", "target_id": "4887395DC969379FFB07456F3899BDC3", "title": "BBC News - Breaking news, video and the latest top stories from the U.S. and around the world"}
+{"t": 93.507, "type": "context", "kind": "tab_closed", "target_id": "4887395DC969379FFB07456F3899BDC3"}
+{"t": 127.2, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/search?q=karpathy&type=repositories", "site": "github"}
+{"t": 127.372, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "Repository search results \u00b7 GitHub"}
+{"t": 139.771, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/search?q=karpathy&type=users", "site": "github"}
+{"t": 146.16, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/karpathy", "site": "github"}
+{"t": 146.365, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "karpathy (Andrej) \u00b7 GitHub"}
+{"t": 157.16, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/karpathy/nanoGPT", "site": "github"}
+{"t": 157.233, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "GitHub - karpathy/nanoGPT: The simplest, fastest repository for training/finetuning medium-sized GPTs. \u00b7 GitHub"}
+{"t": 224.375, "type": "context", "kind": "tab_opened", "target_id": "C7D335365C52C1358CC32A365E3983C3", "url": "about:blank", "title": ""}
+{"t": 224.395, "type": "context", "kind": "title_change", "target_id": "C7D335365C52C1358CC32A365E3983C3", "title": "about:blank"}
+{"t": 224.518, "type": "context", "kind": "url_change", "target_id": "C7D335365C52C1358CC32A365E3983C3", "url": "https://weather.com/?Goto=Redirected", "site": "weather"}
+{"t": 225.236, "type": "context", "kind": "title_change", "target_id": "C7D335365C52C1358CC32A365E3983C3", "title": "National and Local Weather Radar, Daily Forecast, Hurricane and information from The Weather Channel and weather.com"}
+{"t": 275.807, "type": "context", "kind": "url_change", "target_id": "C7D335365C52C1358CC32A365E3983C3", "url": "https://weather.com/us/new-york/city/new-york-city/today", "site": "weather"}
+{"t": 276.214, "type": "context", "kind": "title_change", "target_id": "C7D335365C52C1358CC32A365E3983C3", "title": "Weather Forecast and Conditions for New York City, New York - The Weather Channel | Weather.com"}
+{"t": 285.102, "type": "context", "kind": "tab_closed", "target_id": "C7D335365C52C1358CC32A365E3983C3"}
+{"t": 286.18, "type": "context", "kind": "tab_opened", "target_id": "764D111A8401EE3540661F1B05A42599", "url": "about:blank", "title": ""}
+{"t": 286.199, "type": "context", "kind": "title_change", "target_id": "764D111A8401EE3540661F1B05A42599", "title": "about:blank"}
+{"t": 286.259, "type": "context", "kind": "url_change", "target_id": "764D111A8401EE3540661F1B05A42599", "url": "https://karpathy.github.io/", "site": "github"}
+{"t": 293.179, "type": "context", "kind": "title_change", "target_id": "764D111A8401EE3540661F1B05A42599", "title": "Andrej Karpathy blog"}
+{"t": 293.179, "type": "context", "kind": "tab_closed", "target_id": "764D111A8401EE3540661F1B05A42599"}
+{"t": 326.187, "type": "context", "kind": "url_change", "target_id": "595F6AD10F5A96DA952DEBAA78B9617D", "url": "https://en.wikipedia.org/wiki/Satya_Nadella", "site": "wikipedia"}
+{"t": 346.478, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20260000000000*/microsoft.com", "site": "archive"}
+{"t": 358.007, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20140101000000*/microsoft.com", "site": "archive"}
+{"t": 381.563, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20140104000219/http://www.microsoft.com/", "site": "archive"}
+{"t": 388.789, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20140104000250/http://www.microsoft.com/en-us/default.aspx", "site": "archive"}
+{"t": 432.216, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/", "site": "archive"}
+{"t": 432.283, "type": "context", "kind": "title_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "title": "Wayback Machine"}
+{"t": 486.27, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/search?q=gaearon&type=repositories", "site": "github"}
+{"t": 486.483, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "Repository search results \u00b7 GitHub"}
+{"t": 493.066, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/search?q=gaearon&type=users", "site": "github"}
+{"t": 501.82, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/gaearon", "site": "github"}
+{"t": 501.961, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "gaearon (dan) \u00b7 GitHub"}
+{"t": 515.001, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/react/react", "site": "github"}
+{"t": 515.25, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "GitHub - react/react: The library for web and native user interfaces. \u00b7 GitHub"}
+{"t": 521.533, "type": "context", "kind": "tab_opened", "target_id": "71C955B3440315686683618113C04C07", "url": "about:blank", "title": ""}
+{"t": 521.55, "type": "context", "kind": "title_change", "target_id": "71C955B3440315686683618113C04C07", "title": "about:blank"}
+{"t": 521.795, "type": "context", "kind": "url_change", "target_id": "71C955B3440315686683618113C04C07", "url": "https://overreacted.io/", "site": "overreacted"}
+{"t": 521.863, "type": "context", "kind": "title_change", "target_id": "71C955B3440315686683618113C04C07", "title": "overreacted \u2014 A blog by Dan Abramov"}
+{"t": 524.81, "type": "context", "kind": "tab_closed", "target_id": "71C955B3440315686683618113C04C07"}
+{"t": 558.148, "type": "context", "kind": "url_change", "target_id": "595F6AD10F5A96DA952DEBAA78B9617D", "url": "https://en.wikipedia.org/wiki/Jacinda_Ardern", "site": "wikipedia"}
+{"t": 569.734, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20260000000000*/nasa.gov", "site": "archive"}
+{"t": 585.113, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20190101000000*/nasa.gov", "site": "archive"}
+{"t": 600.553, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20190103234946/https://www.nasa.gov/", "site": "archive"}
+{"t": 719.851, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/", "site": "archive"}
+{"t": 719.943, "type": "context", "kind": "title_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "title": "Wayback Machine"}
+{"t": 747.269, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/search?q=simonw&type=repositories", "site": "github"}
+{"t": 747.443, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "Repository search results \u00b7 GitHub"}
+{"t": 750.159, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/search?q=simonw&type=users", "site": "github"}
+{"t": 757.087, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/simonw", "site": "github"}
+{"t": 757.271, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "simonw (Simon Willison) \u00b7 GitHub"}
+{"t": 772.981, "type": "context", "kind": "url_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "url": "https://github.com/simonw/llm", "site": "github"}
+{"t": 773.278, "type": "context", "kind": "title_change", "target_id": "A36A91AA10865CC047AFF03FC2EB9687", "title": "GitHub - simonw/llm: Access large language models from the command-line \u00b7 GitHub"}
+{"t": 779.003, "type": "context", "kind": "url_change", "target_id": "595F6AD10F5A96DA952DEBAA78B9617D", "url": "https://en.wikipedia.org/wiki/Chicago_Loop", "site": "wikipedia"}
+{"t": 797.715, "type": "context", "kind": "tab_opened", "target_id": "410ADBCDB4006CB2073B6C63A4435379", "url": "about:blank", "title": ""}
+{"t": 797.733, "type": "context", "kind": "title_change", "target_id": "410ADBCDB4006CB2073B6C63A4435379", "title": "about:blank"}
+{"t": 797.812, "type": "context", "kind": "url_change", "target_id": "410ADBCDB4006CB2073B6C63A4435379", "url": "https://simonwillison.net/", "site": "simonwillison"}
+{"t": 800.836, "type": "context", "kind": "title_change", "target_id": "410ADBCDB4006CB2073B6C63A4435379", "title": "Simon Willison\u2019s Weblog"}
+{"t": 800.837, "type": "context", "kind": "tab_closed", "target_id": "410ADBCDB4006CB2073B6C63A4435379"}
+{"t": 873.961, "type": "context", "kind": "url_change", "target_id": "595F6AD10F5A96DA952DEBAA78B9617D", "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee", "site": "wikipedia"}
+{"t": 885.483, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20260000000000*/w3.org", "site": "archive"}
+{"t": 905.723, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20050101000000*/w3.org", "site": "archive"}
+{"t": 917.17, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/web/20050102085749/http://www.w3.org/", "site": "archive"}
+{"t": 936.235, "type": "context", "kind": "url_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "url": "https://web.archive.org/", "site": "archive"}
+{"t": 936.519, "type": "context", "kind": "title_change", "target_id": "B871EE3F6FED2678650535EA42A66DA1", "title": "Wayback Machine"}
+{"t": 941.969, "type": "context", "kind": "tab_opened", "target_id": "8B1B819EFC97DBA72903159F7392075A", "url": "about:blank", "title": ""}
+{"t": 941.991, "type": "context", "kind": "title_change", "target_id": "8B1B819EFC97DBA72903159F7392075A", "title": "about:blank"}
+{"t": 942.463, "type": "context", "kind": "url_change", "target_id": "8B1B819EFC97DBA72903159F7392075A", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 955.748, "type": "context", "kind": "url_change", "target_id": "8B1B819EFC97DBA72903159F7392075A", "url": "https://news.ycombinator.com/item?id=50073471", "site": "ycombinator"}
+{"t": 959.594, "type": "context", "kind": "title_change", "target_id": "8B1B819EFC97DBA72903159F7392075A", "title": "Launch HN: Consus (YC F24) \u2013 LLM gateway for companies handling sensitive data | Hacker News"}
+{"t": 959.594, "type": "context", "kind": "tab_closed", "target_id": "8B1B819EFC97DBA72903159F7392075A"}
+{"t": 997.428, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

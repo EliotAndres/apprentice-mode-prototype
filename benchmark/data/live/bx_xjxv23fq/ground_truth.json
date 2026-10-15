@@ -1,0 +1,157 @@
+{
+ "workflows": [
+  {
+   "name": "Plan a full city break: city facts, weather, hotel, two activities and a dinner, then note and email the plan",
+   "use_case": "Travel agency",
+   "apps": [
+    "wikipedia.org",
+    "timeanddate.com",
+    "booking.com",
+    "viator.com",
+    "opentable.co.uk",
+    "notes.localhost",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "city",
+    "checkin",
+    "checkout",
+    "guests",
+    "activity1",
+    "activity2",
+    "cuisine",
+    "companion"
+   ],
+   "steps": [
+    "In the Wikipedia tab, search \"{city}\" and open the article; note the population from the infobox",
+    "Switch to the timeanddate tab, search \"{city}\" with the site's search, open its Weather page and note today's temperature",
+    "Switch to the Booking.com tab, type {city} in the destination box, set the dates {checkin} to {checkout} and {guests} adults, click Search",
+    "Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve",
+    "Switch to the Viator tab, search \"{activity1} {city}\", open the first result and note its name and price. Do not click Check availability or Book",
+    "Go back to Viator's search, search \"{activity2} {city}\", open the first result and note its name and price. Do not click Check availability or Book",
+    "Switch to the OpenTable tab, type {city} in the location / search box together with \"{cuisine}\", set the date to {checkin}, {guests} people, and search",
+    "Open the first restaurant and note its name and the first available evening time. Do not click a time slot or Complete reservation",
+    "Switch to Notes, click \"New note\", type \"{city} {checkin}-{checkout}: pop <population>, <temp>, hotel <name> <price>, <activity1 name>, <activity2 name>, dinner <restaurant> <time>\" and press Enter",
+    "Switch to the Mail tab, click To and type {companion}@example.com",
+    "Click Subject and type \"{city} weekend {checkin}-{checkout}\", then click Body and type \"Hi {companion}, plan: hotel <name> (<price>), {activity1} and {activity2}, dinner at <restaurant> ({cuisine}) on {checkin}.\"",
+    "Do not click Send. Click Discard to clear the draft"
+   ],
+   "runs": [
+    {
+     "id": "BREAK.1",
+     "start": "2026-10-13T16:00:33+00:00",
+     "end": "2026-10-13T16:08:12+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:00:33+00:00",
+       "2026-10-13T16:08:12+00:00"
+      ]
+     ],
+     "values": {
+      "city": "London",
+      "checkin": "Nov 13",
+      "checkout": "Nov 15",
+      "guests": "2",
+      "activity1": "Thames boat",
+      "activity2": "Tower of London",
+      "cuisine": "Indian",
+      "companion": "maya"
+     }
+    },
+    {
+     "id": "BREAK.3",
+     "start": "2026-10-13T16:30:11+00:00",
+     "end": "2026-10-13T17:00:19+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:30:11+00:00",
+       "2026-10-13T17:00:19+00:00"
+      ]
+     ],
+     "values": {
+      "city": "Edinburgh",
+      "checkin": "Jan 15",
+      "checkout": "Jan 17",
+      "guests": "2",
+      "activity1": "whisky tasting",
+      "activity2": "Highlands day trip",
+      "cuisine": "Scottish",
+      "companion": "priya"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T16:08:12+00:00",
+   "end": "2026-10-13T16:09:12+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:08:12+00:00",
+     "2026-10-13T16:09:12+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T16:23:13+00:00",
+   "end": "2026-10-13T16:25:22+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:23:13+00:00",
+     "2026-10-13T16:25:22+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T16:27:16+00:00",
+   "end": "2026-10-13T16:28:50+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:27:16+00:00",
+     "2026-10-13T16:28:50+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the Booking.com tab, type Paris in the destination box, open the date picker, then give up and press Escape"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T17:00:19+00:00",
+   "end": "2026-10-13T17:04:34+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:00:19+00:00",
+     "2026-10-13T17:04:34+00:00"
+    ]
+   ],
+   "description": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit"
+  },
+  {
+   "id": "BREAK.2",
+   "start": "2026-10-13T16:09:12+00:00",
+   "end": "2026-10-13T16:27:16+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:09:12+00:00",
+     "2026-10-13T16:21:22+00:00"
+    ],
+    [
+     "2026-10-13T16:25:22+00:00",
+     "2026-10-13T16:27:16+00:00"
+    ]
+   ],
+   "description": "abandoned run of BREAK.2"
+  }
+ ],
+ "failed": [
+  "BREAK.2"
+ ],
+ "log_reasons": {
+  "6": "OpenTable search input did not retain text after two tries"
+ }
+}

@@ -1,0 +1,818 @@
+{
+ "session_id": "h006",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  5.78,
+  9.72,
+  15.78,
+  21.49,
+  27.05,
+  31.05,
+  34.64,
+  37.66,
+  47.28,
+  50.77,
+  53.57,
+  60.53,
+  66.44,
+  74.7,
+  82.22,
+  87.59,
+  92.29,
+  97.29,
+  101.02,
+  106.59,
+  110.02,
+  115.83,
+  118.32,
+  123.73,
+  129.69,
+  133.98,
+  139.16,
+  147.63,
+  152.91,
+  157.34,
+  163.23,
+  166.71,
+  173.73,
+  177.84,
+  185.53,
+  192.78,
+  196.15,
+  200.66,
+  206.09,
+  211.59,
+  217.32,
+  222.08,
+  226.72,
+  233.79,
+  238.75,
+  243.32,
+  246.91,
+  253.88,
+  256.61,
+  261.36,
+  265.63,
+  273.87,
+  279.48,
+  282.13,
+  286.43,
+  291.75,
+  296.12,
+  302.25,
+  305.52,
+  312.73,
+  320.11,
+  325.42,
+  330.77,
+  336.94,
+  343.7,
+  354.14,
+  360.67,
+  367.9,
+  373.06,
+  375.1,
+  379.76,
+  386.95,
+  390.73,
+  395.6,
+  400.83,
+  405.31,
+  410.89,
+  416.2,
+  423.11,
+  429.24,
+  435.17,
+  439.85,
+  444.5,
+  448.83,
+  455.99,
+  463.21,
+  469.42,
+  472.07,
+  479.45,
+  482.8,
+  487.2,
+  490.79,
+  497.49,
+  503.22,
+  508.37,
+  516.77,
+  522.87,
+  526.78,
+  531.96,
+  536.92,
+  540.28,
+  544.43,
+  550.15,
+  556.85,
+  561.2,
+  565.63,
+  570.8,
+  576.51,
+  582.71,
+  590.19,
+  594.13,
+  597.9,
+  602.45,
+  605.99,
+  612.54,
+  616.97,
+  621.06,
+  627.45,
+  634.22,
+  639.13,
+  643.13,
+  648.05,
+  652.42,
+  655.42,
+  658.54,
+  662.55,
+  666.13,
+  671.69,
+  678.22,
+  686.42,
+  692.05,
+  696.33,
+  707.51,
+  714.24,
+  721.64,
+  727.23,
+  734.49,
+  739.32,
+  750.55,
+  756.93,
+  762.45,
+  766.42,
+  769.48,
+  773.81,
+  782.55,
+  790.54,
+  796.93,
+  801.58,
+  804.33
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h006-op0",
+   "template_id": "spothero:search_airport_parking",
+   "site": "spothero",
+   "name": "Search airport parking",
+   "description": "Search airport parking for {airport} between {start_date} and {end_date}, optionally sorted",
+   "parameters": [
+    "airport",
+    "start_date",
+    "end_date",
+    "sort"
+   ],
+   "steps": [
+    "Click Airport tab",
+    "Type airport name in search box",
+    "Select airport suggestion",
+    "Optionally set start and end dates",
+    "Optionally sort results"
+   ],
+   "observed_seconds": 55.3,
+   "instances": [
+    {
+     "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+     "task": "Find parking spaces in JFK airport between April 18-20 that have lowest shuttle times",
+     "site": "spothero",
+     "spans": [
+      [
+       9.72,
+       9.72
+      ],
+      [
+       37.66,
+       66.44
+      ]
+     ],
+     "seqs": [
+      1,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+     ],
+     "seconds": 35.7,
+     "values": {
+      "airport": "JFK",
+      "start_date": "Apr 18",
+      "end_date": "Apr 20",
+      "sort": "Shuttle Time"
+     }
+    },
+    {
+     "task_id": "0b59dd33-7f6a-48df-aa1e-9cc67177287f",
+     "task": "Find a parking spot near Dallas Love Field Airport.",
+     "site": "spothero",
+     "spans": [
+      [
+       508.37,
+       522.87
+      ]
+     ],
+     "seqs": [
+      94,
+      95,
+      96
+     ],
+     "seconds": 19.6,
+     "values": {
+      "airport": "Dallas Love Field"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h006-op1",
+   "template_id": "carnival:favorite_cruise_from_search",
+   "site": "carnival",
+   "name": "Add cruise to favorites from search",
+   "description": "Search cruises to {sail_to} (optionally from {sail_from}, {dates}, {guests} guests) and add a result to favorites.",
+   "parameters": [
+    "sail_to",
+    "sail_from",
+    "dates",
+    "guests"
+   ],
+   "steps": [
+    "Select destination in Sail To",
+    "Select departure port and dates if given",
+    "Click Search Cruises",
+    "Set number of guests if given",
+    "Click the favorite heart on a cruise result"
+   ],
+   "observed_seconds": 83.6,
+   "instances": [
+    {
+     "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+     "task": "Add to favorites a cruise from San Francisco to the Panama Canal departing Oct 2024",
+     "site": "carnival",
+     "spans": [
+      [
+       97.29,
+       110.02
+      ],
+      [
+       147.63,
+       163.23
+      ]
+     ],
+     "seqs": [
+      17,
+      18,
+      19,
+      20,
+      27,
+      28,
+      29,
+      30
+     ],
+     "seconds": 41.8,
+     "values": {
+      "sail_to": "Panama Canal",
+      "sail_from": "San Francisco, CA",
+      "dates": "October 2024"
+     }
+    },
+    {
+     "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+     "task": "Add to my favorites a cruise for 4 people going to Caribbean.",
+     "site": "carnival",
+     "spans": [
+      [
+       139.16,
+       139.16
+      ],
+      [
+       217.32,
+       233.79
+      ],
+      [
+       253.88,
+       261.36
+      ]
+     ],
+     "seqs": [
+      26,
+      40,
+      41,
+      42,
+      43,
+      47,
+      48,
+      49
+     ],
+     "seconds": 41.8,
+     "values": {
+      "sail_to": "Caribbean",
+      "guests": "4"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h006-op2",
+   "template_id": "new.mta.info:route_planned_service_changes",
+   "site": "new.mta.info",
+   "name": "Route planned service changes",
+   "description": "Find planned service changes or status for route {route} on {date}",
+   "parameters": [
+    "route",
+    "date"
+   ],
+   "steps": [
+    "Open Planned Service Changes",
+    "Search route",
+    "Select route",
+    "Pick date if needed"
+   ],
+   "observed_seconds": 49.6,
+   "instances": [
+    {
+     "task_id": "961e4feb-2b5b-4372-a5db-c7d3222aac21",
+     "task": "Check the status of train S92 for any disruptions.",
+     "site": "new.mta.info",
+     "spans": [
+      [
+       21.49,
+       21.49
+      ],
+      [
+       118.32,
+       123.73
+      ]
+     ],
+     "seqs": [
+      3,
+      22,
+      23
+     ],
+     "seconds": 13.6,
+     "values": {
+      "route": "S92",
+      "date": ""
+     }
+    },
+    {
+     "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+     "task": "Find out about planned service changes on the 4 Subway on 5/3/2023.",
+     "site": "new.mta.info",
+     "spans": [
+      [
+       343.7,
+       343.7
+      ],
+      [
+       390.73,
+       416.2
+      ]
+     ],
+     "seqs": [
+      64,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77
+     ],
+     "seconds": 36.0,
+     "values": {
+      "route": "4",
+      "date": "5/3/2023"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h006-op3",
+   "template_id": "booking:book_oneway_or_multicity_flight",
+   "site": "booking",
+   "name": "Search and select flights",
+   "description": "Search flights from {origin} to {destination} on {date} (one-way or multi-city), sort by fastest, and select a flight.",
+   "parameters": [
+    "trip_type",
+    "origin",
+    "destination",
+    "date",
+    "second_leg",
+    "passengers",
+    "filters"
+   ],
+   "steps": [
+    "Open Flights tab",
+    "Set trip type",
+    "Enter origin and destination",
+    "Choose departure date(s)",
+    "Set passengers",
+    "Click Search",
+    "Apply filters and sort by Fastest",
+    "See flight, Select, and click Next"
+   ],
+   "observed_seconds": 218.6,
+   "instances": [
+    {
+     "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+     "task": "Book a one-way, fastest, and most flexible direct flight ticket for two from Banglore to Goa on March 29 evening.",
+     "site": "booking",
+     "spans": [
+      [
+       273.87,
+       296.12
+      ],
+      [
+       330.77,
+       336.94
+      ],
+      [
+       386.95,
+       386.95
+      ],
+      [
+       423.11,
+       479.45
+      ]
+     ],
+     "seqs": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      62,
+      63,
+      71,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88
+     ],
+     "seconds": 112.4,
+     "values": {
+      "trip_type": "one-way",
+      "origin": "Banglore",
+      "destination": "Goa",
+      "date": "29 March",
+      "second_leg": "",
+      "passengers": "2",
+      "filters": "direct, flexible, evening"
+     }
+    },
+    {
+     "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+     "task": "Book fasted flexible direct flights from New York to Tokyo on June 1, between 6 to 12 pm departure, and from Tokyo to New Delhi on June 5.",
+     "site": "booking",
+     "spans": [
+      [
+       531.96,
+       582.71
+      ],
+      [
+       616.97,
+       639.13
+      ],
+      [
+       652.42,
+       671.69
+      ]
+     ],
+     "seqs": [
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      115,
+      116,
+      117,
+      118,
+      119,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+     ],
+     "seconds": 106.2,
+     "values": {
+      "trip_type": "multi-city",
+      "origin": "New York",
+      "destination": "Tokyo",
+      "date": "1 June",
+      "second_leg": "Tokyo to New Delhi 5 June",
+      "passengers": "1",
+      "filters": "direct, flexible, 6pm-12am departure"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h006-op4",
+   "template_id": "expedia:search_car_rentals",
+   "site": "expedia",
+   "name": "Search car rentals",
+   "description": "Search car rentals at {pickup_location} from {pickup_date} to {dropoff_date} and apply filters/sort.",
+   "parameters": [
+    "pickup_location",
+    "dropoff_location",
+    "pickup_date",
+    "dropoff_date",
+    "pickup_time",
+    "dropoff_time",
+    "filters",
+    "sort"
+   ],
+   "steps": [
+    "Open the Cars tab",
+    "Enter pick-up location",
+    "Enter drop-off location if different",
+    "Pick dates and times",
+    "Click Search",
+    "Apply filters and sort"
+   ],
+   "observed_seconds": 147.7,
+   "instances": [
+    {
+     "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+     "task": "Find cheapest luxury car rental in New York for two with pickup from JFK airport at 9am, April 3 and drop off at JFK on 6pm, April 6",
+     "site": "expedia",
+     "spans": [
+      [
+       206.09,
+       211.59
+      ],
+      [
+       238.75,
+       246.91
+      ],
+      [
+       265.63,
+       265.63
+      ],
+      [
+       302.25,
+       325.42
+      ],
+      [
+       354.14,
+       379.76
+      ]
+     ],
+     "seqs": [
+      38,
+      39,
+      44,
+      45,
+      46,
+      50,
+      57,
+      58,
+      59,
+      60,
+      61,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70
+     ],
+     "seconds": 93.7,
+     "values": {
+      "pickup_location": "JFK",
+      "dropoff_location": "JFK",
+      "pickup_date": "April 3",
+      "dropoff_date": "April 6",
+      "pickup_time": "9:00 am",
+      "dropoff_time": "6:00 pm",
+      "filters": "luxury",
+      "sort": "Total Price"
+     }
+    },
+    {
+     "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+     "task": "Search for car rentals in San Francisco for a weekend trip and filter the results by the rental company Avis and car type Economy.",
+     "site": "expedia",
+     "spans": [
+      [
+       678.22,
+       686.42
+      ],
+      [
+       739.32,
+       773.81
+      ]
+     ],
+     "seqs": [
+      128,
+      129,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143
+     ],
+     "seconds": 54.0,
+     "values": {
+      "pickup_location": "San Francisco",
+      "pickup_date": "April 2",
+      "dropoff_date": "April 8",
+      "filters": "Avis, Economy"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "5f9182dc-d35d-4c0e-9abe-cd913c136528",
+   "task": "Find career openings in the marketing department",
+   "site": "spothero",
+   "spans": [
+    [
+     5.78,
+     5.78
+    ],
+    [
+     15.78,
+     15.78
+    ]
+   ],
+   "seqs": [
+    0,
+    2
+   ],
+   "seconds": 11.8,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "task": "search for SkyMiles domestic Award Deals from Philadelphia to Atlanta.",
+   "site": "delta",
+   "spans": [
+    [
+     27.05,
+     34.64
+    ],
+    [
+     74.7,
+     92.29
+    ],
+    [
+     115.83,
+     115.83
+    ],
+    [
+     129.69,
+     133.98
+    ]
+   ],
+   "seqs": [
+    4,
+    5,
+    6,
+    13,
+    14,
+    15,
+    16,
+    21,
+    24,
+    25
+   ],
+   "seconds": 55.1,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "task": "Reserve a taxi from O'hare Airport to 123 Main St, West Chicago, IL on Mar 29, 2023 at 12 noon for 2 adults.",
+   "site": "booking",
+   "spans": [
+    [
+     590.19,
+     590.19
+    ],
+    [
+     692.05,
+     734.49
+    ],
+    [
+     782.55,
+     804.33
+    ]
+   ],
+   "seqs": [
+    109,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    144,
+    145,
+    146,
+    147,
+    148
+   ],
+   "seconds": 86.1,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "task": "Add the cheapest Women's Sweaters to my shopping cart.",
+   "site": "kohls",
+   "spans": [
+    [
+     166.71,
+     200.66
+    ]
+   ],
+   "seqs": [
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37
+   ],
+   "seconds": 37.4,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "task": "Search for women's golf polos in m size, priced between 50 to 75 dollars, and save the lowest priced among results.",
+   "site": "underarmour",
+   "spans": [
+    [
+     482.8,
+     503.22
+    ],
+    [
+     526.78,
+     526.78
+    ],
+    [
+     594.13,
+     612.54
+    ]
+   ],
+   "seqs": [
+    89,
+    90,
+    91,
+    92,
+    93,
+    97,
+    110,
+    111,
+    112,
+    113,
+    114
+   ],
+   "seconds": 50.0,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "60e7ffd3-dda8-4ec6-9c10-115a5ab1bf90",
+   "task": "Show me the latest news from rotten tomatoes.",
+   "site": "rottentomatoes",
+   "spans": [
+    [
+     643.13,
+     648.05
+    ]
+   ],
+   "seqs": [
+    120,
+    121
+   ],
+   "seconds": 8.9,
+   "kind": "distractor"
+  }
+ ]
+}

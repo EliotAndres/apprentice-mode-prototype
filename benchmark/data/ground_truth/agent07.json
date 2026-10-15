@@ -1,0 +1,603 @@
+{
+ "session_id": "agent07",
+ "action_t": [
+  55.108,
+  59.139,
+  69.092,
+  70.103,
+  74.136,
+  74.137,
+  95.051,
+  96.09,
+  109.373,
+  113.383,
+  124.048,
+  135.205,
+  137.215,
+  137.216,
+  141.22,
+  145.297,
+  147.304,
+  147.304,
+  207.279,
+  220.909,
+  222.922,
+  222.923,
+  232.323,
+  255.826,
+  257.834,
+  257.834,
+  282.444,
+  283.447,
+  286.454,
+  286.454,
+  297.701,
+  383.488,
+  395.815,
+  408.892,
+  425.29,
+  427.302,
+  427.302,
+  443.423,
+  444.523,
+  446.535,
+  446.535,
+  457.878,
+  483.536,
+  485.551,
+  485.551,
+  495.422,
+  504.045,
+  506.051,
+  506.052,
+  514.574,
+  515.626,
+  517.675,
+  517.675,
+  525.725,
+  543.259,
+  545.27,
+  545.27,
+  557.507,
+  567.477,
+  569.483,
+  569.484,
+  573.488,
+  581.233,
+  583.24,
+  583.24,
+  591.39,
+  592.396,
+  594.406,
+  596.418,
+  596.419,
+  611.124,
+  612.136,
+  628.686,
+  629.691,
+  632.698,
+  632.698,
+  639.72,
+  655.325,
+  668.106,
+  678.833,
+  680.839,
+  680.839,
+  688.08,
+  700.882,
+  701.891,
+  709.965,
+  711.995,
+  711.995,
+  719.851,
+  725.706,
+  727.724,
+  727.724,
+  736.263,
+  737.27,
+  739.279,
+  739.279,
+  745.651,
+  868.297,
+  869.305,
+  871.313,
+  871.313,
+  881.533,
+  883.54,
+  883.54,
+  892.48,
+  893.523,
+  895.542,
+  895.543,
+  902.214,
+  916.266,
+  917.271,
+  920.281,
+  920.281,
+  928.597,
+  929.6,
+  932.607,
+  932.607,
+  939.984,
+  977.935,
+  978.943,
+  980.951,
+  980.951,
+  987.916,
+  999.05,
+  1001.056,
+  1001.057,
+  1005.061,
+  1009.146,
+  1011.153,
+  1011.153,
+  1024.076,
+  1037.752,
+  1049.846,
+  1051.853,
+  1051.853,
+  1111.409,
+  1112.419,
+  1113.435,
+  1115.458,
+  1115.458,
+  1123.217,
+  1163.614,
+  1164.622,
+  1166.632,
+  1166.632,
+  1177.069,
+  1179.075,
+  1179.075,
+  1194.769
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent07-op0",
+   "template_id": "agent07-op0",
+   "name": "Pick a film for movie night from IMDb and Rotten Tomatoes, then email the invite",
+   "use_case": "Events and entertainment",
+   "description": "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title -> Note the IMDb rating, the runtime and the director -> Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score -> Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\" -> Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard",
+   "site": "imdb.com, rottentomatoes.com, mail.localhost",
+   "parameters": [
+    "film",
+    "friend",
+    "day"
+   ],
+   "steps": [
+    "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title",
+    "Note the IMDb rating, the runtime and the director",
+    "Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score",
+    "Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\"",
+    "Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 240.0,
+   "instances": [
+    {
+     "task_id": "MOVIE.1",
+     "spans": [
+      [
+       46.0,
+       149.0
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17
+     ],
+     "seconds": 103.0,
+     "values": {
+      "film": "Arrival",
+      "friend": "lena",
+      "day": "Friday"
+     }
+    },
+    {
+     "task_id": "MOVIE.2",
+     "spans": [
+      [
+       507.0,
+       584.0
+      ]
+     ],
+     "seqs": [
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+     ],
+     "seconds": 77.0,
+     "values": {
+      "film": "Spirited Away",
+      "friend": "tom",
+      "day": "Saturday"
+     }
+    },
+    {
+     "task_id": "MOVIE.3",
+     "spans": [
+      [
+       885.0,
+       910.0
+      ],
+      [
+       977.0,
+       1012.0
+      ]
+     ],
+     "seqs": [
+      104,
+      105,
+      106,
+      107,
+      108,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129
+     ],
+     "seconds": 60.0,
+     "values": {
+      "film": "The Grand Budapest Hotel",
+      "friend": "aisha",
+      "day": "Sunday"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent07-op1",
+   "template_id": "agent07-op1",
+   "name": "Audit a JavaScript dependency on npm and its GitHub repo before upgrading",
+   "use_case": "Software development",
+   "description": "In the npm tab, click the search box, type {package} and press Enter; open the package {package} -> Note the latest version, the weekly downloads and the license -> Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues -> Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm) -> Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter",
+   "site": "npmjs.com, github.com, notes.localhost",
+   "parameters": [
+    "package"
+   ],
+   "steps": [
+    "In the npm tab, click the search box, type {package} and press Enter; open the package {package}",
+    "Note the latest version, the weekly downloads and the license",
+    "Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues",
+    "Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm)",
+    "Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+   ],
+   "observed_seconds": 344.0,
+   "instances": [
+    {
+     "task_id": "DEPAUDIT.1",
+     "spans": [
+      [
+       211.0,
+       307.0
+      ],
+      [
+       387.0,
+       429.0
+      ]
+     ],
+     "seqs": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      34,
+      35,
+      36
+     ],
+     "seconds": 138.0,
+     "values": {
+      "package": "axios"
+     }
+    },
+    {
+     "task_id": "DEPAUDIT.2",
+     "spans": [
+      [
+       584.0,
+       682.0
+      ]
+     ],
+     "seqs": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+     ],
+     "seconds": 98.0,
+     "values": {
+      "package": "lodash"
+     }
+    },
+    {
+     "task_id": "DEPAUDIT.3",
+     "spans": [
+      [
+       910.0,
+       977.0
+      ],
+      [
+       1012.0,
+       1053.0
+      ]
+     ],
+     "seqs": [
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      130,
+      131,
+      132,
+      133,
+      134
+     ],
+     "seconds": 108.0,
+     "values": {
+      "package": "express"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent07-op2",
+   "template_id": "agent07-op2",
+   "name": "Build a dinner menu item from Allrecipes and the dish's background on Wikipedia",
+   "use_case": "Food and cooking",
+   "description": "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter -> Open the first recipe with a rating; note its name, star rating and total time -> Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients -> Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin -> Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter",
+   "site": "allrecipes.com, wikipedia.org, notes.localhost",
+   "parameters": [
+    "dish",
+    "servings"
+   ],
+   "steps": [
+    "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter",
+    "Open the first recipe with a rating; note its name, star rating and total time",
+    "Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients",
+    "Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin",
+    "Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter"
+   ],
+   "observed_seconds": 224.0,
+   "instances": [
+    {
+     "task_id": "MENU.1",
+     "spans": [
+      [
+       429.0,
+       507.0
+      ]
+     ],
+     "seqs": [
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+     ],
+     "seconds": 78.0,
+     "values": {
+      "dish": "shakshuka",
+      "servings": "4"
+     }
+    },
+    {
+     "task_id": "MENU.2",
+     "spans": [
+      [
+       716.0,
+       757.0
+      ],
+      [
+       862.0,
+       885.0
+      ]
+     ],
+     "seqs": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103
+     ],
+     "seconds": 64.0,
+     "values": {
+      "dish": "pad thai",
+      "servings": "2"
+     }
+    },
+    {
+     "task_id": "MENU.3",
+     "spans": [
+      [
+       1098.0,
+       1180.0
+      ]
+     ],
+     "seqs": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147
+     ],
+     "seconds": 82.0,
+     "values": {
+      "dish": "beef bourguignon",
+      "servings": "6"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     149.0,
+     211.0
+    ]
+   ],
+   "seqs": [
+    18
+   ],
+   "seconds": 62.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     367.0,
+     387.0
+    ]
+   ],
+   "seqs": [
+    31
+   ],
+   "seconds": 20.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     682.0,
+     716.0
+    ]
+   ],
+   "seqs": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "seconds": 34.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the Allrecipes tab, search \"lemon tart\", scroll the results, then give up without opening any"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     847.0,
+     862.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 15.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and Wikipedia tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     1180.0,
+     1200.0
+    ]
+   ],
+   "seqs": [
+    148
+   ],
+   "seconds": 20.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to stackoverflow.com, click Questions, skim the list, close the tab"
+  }
+ ]
+}

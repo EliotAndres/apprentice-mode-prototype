@@ -1,0 +1,138 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 6-step flow on sixflags",
+   "description": "Repeated sequence on sixflags starting with CLICK button \"Browse the Parks Below\"",
+   "site": "sixflags",
+   "steps": [
+    "CLICK button \"Browse the Parks Below\"",
+    "CLICK span \"Six Flags Fiesta Texas\"",
+    "CLICK button \"Go!\"",
+    "CLICK link \"Events \uf078\"",
+    "CLICK link \"See all events \uf054\"",
+    "CLICK link \"Jobs\""
+   ],
+   "parameters": [],
+   "confidence": 1.0,
+   "instances": [
+    {
+     "start_t": 514.73,
+     "end_t": 541.64,
+     "values": ""
+    },
+    {
+     "start_t": 557.82,
+     "end_t": 580.4,
+     "values": ""
+    },
+    {
+     "start_t": 590.41,
+     "end_t": 596.96,
+     "values": ""
+    },
+    {
+     "start_t": 606.03,
+     "end_t": 624.93,
+     "values": ""
+    },
+    {
+     "start_t": 678.83,
+     "end_t": 683.61,
+     "values": ""
+    },
+    {
+     "start_t": 770.1,
+     "end_t": 774.31,
+     "values": ""
+    },
+    {
+     "start_t": 798.99,
+     "end_t": 814.95,
+     "values": ""
+    },
+    {
+     "start_t": 874.23,
+     "end_t": 891.2,
+     "values": ""
+    },
+    {
+     "start_t": 982.75,
+     "end_t": 996.89,
+     "values": "Texas"
+    },
+    {
+     "start_t": 1028.42,
+     "end_t": 1032.06,
+     "values": ""
+    },
+    {
+     "start_t": 1058.77,
+     "end_t": 1074.3,
+     "values": ""
+    },
+    {
+     "start_t": 1366.95,
+     "end_t": 1377.4,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on sixflags",
+   "description": "Repeated sequence on sixflags starting with CLICK button \"Buy Now\ue903\"",
+   "site": "sixflags",
+   "steps": [
+    "CLICK button \"Buy Now\ue903\"",
+    "CLICK button \"Next\"",
+    "TYPE input \"\"",
+    "TYPE input \"\"",
+    "TYPE input \"\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 900.47,
+     "end_t": 920.6,
+     "values": "Neo, Thomas, 05/05/1995"
+    },
+    {
+     "start_t": 941.38,
+     "end_t": 968.48,
+     "values": "Texas city, 252-654-5258, thomas.neo@gmail.com, Anderson, po box 2846"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on rentalcars",
+   "description": "Repeated sequence on rentalcars starting with CLICK div \"View deal\"",
+   "site": "rentalcars",
+   "steps": [
+    "CLICK div \"View deal\"",
+    "CLICK checkbox \"29 April 2023\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 758.57,
+     "end_t": 764.6,
+     "values": ""
+    },
+    {
+     "start_t": 923.94,
+     "end_t": 935.58,
+     "values": ""
+    },
+    {
+     "start_t": 1003.3,
+     "end_t": 1018.61,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

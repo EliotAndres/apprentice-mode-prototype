@@ -1,0 +1,273 @@
+{
+ "tabs": [
+  "https://www.peerspace.com/",
+  "https://www.ezcater.com/",
+  "https://www.1800flowers.com/",
+  "https://arxiv.org/",
+  "https://www.courtlistener.com/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "EVENT",
+   "name": "Plan an event: pick a venue, a caterer and flowers, then draft the proposal email",
+   "use_case": "Events and entertainment",
+   "apps": [
+    "peerspace.com",
+    "ezcater.com",
+    "1800flowers.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "event",
+    "city",
+    "guests",
+    "date",
+    "cuisine",
+    "flowers",
+    "contact"
+   ],
+   "steps": [
+    "In the Peerspace tab, type \"{event}\" in What are you planning?, type {city} in Where? and pick it from the list, then click Search",
+    "Open the first venue that fits {guests} guests and note its name and hourly price. Do not click Reserve or Request",
+    "Switch to the ezCater tab, type {city} as the delivery address and pick it, set the date to {date}, then search for \"{cuisine}\"",
+    "Open the first caterer and note its name and minimum order. Do not add anything to the cart",
+    "Switch to the 1-800-Flowers tab, search \"{flowers}\", open the first product and note its name and price. Do not add it to the cart",
+    "Switch to the Mail tab, click To and type {contact}@example.com, click Subject and type \"{event} on {date}: venue, food, flowers\"",
+    "Click Body and type \"Hi {contact}, for {guests} guests: venue <name> (<price>/h), catering <caterer> (min <amount>), flowers <product> (<price>).\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "PAPER",
+   "name": "Find a recent arXiv paper on a topic and check its citations on Semantic Scholar",
+   "use_case": "Research",
+   "apps": [
+    "arxiv.org",
+    "semanticscholar.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "topic",
+    "category",
+    "year"
+   ],
+   "steps": [
+    "In the arXiv tab, click Advanced Search, type \"{topic}\" in the search term field",
+    "Under Subject tick {category}, under Date choose Specific year and type {year}, then click Search",
+    "Open the first result and note its title and first author",
+    "Open a new tab, go to semanticscholar.org, search for that title and open the matching paper; read its citation count",
+    "Close the Semantic Scholar tab, switch to Notes, click \"New note\", type \"{topic} ({year}): <title> by <first author>, <N> citations\" and press Enter"
+   ]
+  },
+  {
+   "id": "CASE",
+   "name": "Look up a Supreme Court case on CourtListener and the related statute on Cornell LII",
+   "use_case": "Legal",
+   "apps": [
+    "courtlistener.com",
+    "law.cornell.edu",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "case",
+    "statute"
+   ],
+   "steps": [
+    "In the CourtListener tab, click the search box, type \"{case}\" and press Enter",
+    "Open the matching Supreme Court opinion and note its citation (like 585 U.S. 296) and date filed",
+    "Open a new tab, go to law.cornell.edu, search \"{statute}\" with the site's search and open the statute page",
+    "Note the section heading, then close the tab",
+    "Switch to Notes, click \"New note\", type \"{case}: <citation>, decided <date>. See {statute} (<heading>)\" and press Enter"
+   ]
+  }
+ ],
+ "runs": {
+  "EVENT.1": {
+   "workflow": "EVENT",
+   "values": {
+    "event": "Team offsite",
+    "city": "Chicago",
+    "guests": "30",
+    "date": "Nov 19",
+    "cuisine": "Mexican",
+    "flowers": "sunflowers",
+    "contact": "dana"
+   }
+  },
+  "EVENT.2": {
+   "workflow": "EVENT",
+   "values": {
+    "event": "Birthday party",
+    "city": "San Francisco",
+    "guests": "20",
+    "date": "Dec 5",
+    "cuisine": "Italian",
+    "flowers": "roses",
+    "contact": "marc"
+   }
+  },
+  "EVENT.3": {
+   "workflow": "EVENT",
+   "values": {
+    "event": "Product launch",
+    "city": "New York",
+    "guests": "60",
+    "date": "Jan 14",
+    "cuisine": "Mediterranean",
+    "flowers": "white orchids",
+    "contact": "priya"
+   }
+  },
+  "PAPER.1": {
+   "workflow": "PAPER",
+   "values": {
+    "topic": "retrieval augmented generation",
+    "category": "Computer Science",
+    "year": "2023"
+   }
+  },
+  "PAPER.2": {
+   "workflow": "PAPER",
+   "values": {
+    "topic": "protein structure diffusion",
+    "category": "Quantitative Biology",
+    "year": "2024"
+   },
+   "note": "In step 1, first type \"protien\", notice the typo and fix it to \"protein\""
+  },
+  "PAPER.3": {
+   "workflow": "PAPER",
+   "values": {
+    "topic": "graph neural networks traffic forecasting",
+    "category": "Computer Science",
+    "year": "2022"
+   }
+  },
+  "CASE.1": {
+   "workflow": "CASE",
+   "values": {
+    "case": "Carpenter v. United States",
+    "statute": "18 U.S.C. 2703"
+   }
+  },
+  "CASE.2": {
+   "workflow": "CASE",
+   "values": {
+    "case": "Bostock v. Clayton County",
+    "statute": "42 U.S.C. 2000e-2"
+   }
+  },
+  "CASE.3": {
+   "workflow": "CASE",
+   "values": {
+    "case": "Miranda v. Arizona",
+    "statute": "18 U.S.C. 3501"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to theguardian.com, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to weather.com, search the forecast for Chicago, look at it, close the tab",
+  "N3": "Abandoned attempt: in the 1-800-Flowers tab, search \"tulips\", scroll the results, then give up without opening any",
+  "N4": "Wander: click through the Notes, Mail and arXiv tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to en.wikipedia.org, click Random article in the menu, skim it, close the tab"
+ },
+ "script": [
+  {
+   "run": "EVENT.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "PAPER.1",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "PAPER.1",
+   "steps": [
+    4,
+    5
+   ]
+  },
+  {
+   "run": "CASE.1"
+  },
+  {
+   "run": "EVENT.2"
+  },
+  {
+   "run": "PAPER.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "CASE.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "CASE.2",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "EVENT.3",
+   "steps": [
+    1,
+    4
+   ]
+  },
+  {
+   "run": "PAPER.3",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "run": "EVENT.3",
+   "steps": [
+    5,
+    7
+   ]
+  },
+  {
+   "run": "PAPER.3",
+   "steps": [
+    4,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "CASE.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

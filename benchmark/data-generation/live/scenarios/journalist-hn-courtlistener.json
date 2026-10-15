@@ -1,0 +1,246 @@
+{
+ "tabs": [
+  "https://news.ycombinator.com/",
+  "https://github.com/",
+  "https://www.courtlistener.com/",
+  "https://en.wikipedia.org/",
+  "https://data.worldbank.org/",
+  "https://www.bbc.com/news",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "LEAD",
+   "name": "Size up a tech story lead from Hacker News buzz and the project's GitHub repo",
+   "use_case": "Journalism",
+   "apps": [
+    "news.ycombinator.com",
+    "github.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "project"
+   ],
+   "steps": [
+    "In the Hacker News tab, use the Search box (at the bottom of the front page, or at the top if you are already on HN Search), type {project} and press Enter",
+    "Note the title, points and date of the top story in the results",
+    "Switch to the GitHub tab, click the search box, type {project}, press Enter and open the main {project} repository",
+    "Note its star count and the date of its latest release in the right sidebar",
+    "Switch to Notes, click \"New note\", type \"Lead: {project}. HN \\\"<title>\\\" (<points> pts, <date>); GitHub <stars> stars, last release <date>\" and press Enter"
+   ]
+  },
+  {
+   "id": "PARTY",
+   "name": "Pitch a court story: find a company's latest opinion on CourtListener and its background on Wikipedia",
+   "use_case": "Journalism",
+   "apps": [
+    "courtlistener.com",
+    "wikipedia.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "company",
+    "editor"
+   ],
+   "steps": [
+    "In the CourtListener tab, click the search box, type \"{company}\" and press Enter",
+    "Open the first opinion in the results and note its case name, court and date filed",
+    "Switch to the Wikipedia tab, search \"{company}\" and open the company article; note its headquarters and CEO from the infobox",
+    "Switch to the Mail tab, click To and type {editor}@example.com, click Subject and type \"Pitch: {company} in court\"",
+    "Click Body and type \"Hi {editor}, <case name> (<court>, filed <date>). {company}: HQ <city>, CEO <name>. Worth a piece?\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "STAT",
+   "name": "Fact-check a country statistic on World Bank data and find news context on BBC",
+   "use_case": "Journalism",
+   "apps": [
+    "data.worldbank.org",
+    "bbc.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "country",
+    "indicator",
+    "topic"
+   ],
+   "steps": [
+    "In the World Bank tab, click the search box, type {country} and open the country page",
+    "Find {indicator} on the page and note its latest value and year",
+    "Switch to the BBC tab, click Search, type \"{country} {topic}\" and press Enter; open the first result and note its headline and date",
+    "Switch to Notes, click \"New note\", type \"Fact-check {country}: {indicator} <value> (<year>). Context: <headline> (<date>)\" and press Enter"
+   ]
+  }
+ ],
+ "runs": {
+  "LEAD.1": {
+   "workflow": "LEAD",
+   "values": {
+    "project": "llama.cpp"
+   }
+  },
+  "LEAD.2": {
+   "workflow": "LEAD",
+   "values": {
+    "project": "Zed"
+   }
+  },
+  "LEAD.3": {
+   "workflow": "LEAD",
+   "values": {
+    "project": "Bun"
+   }
+  },
+  "PARTY.1": {
+   "workflow": "PARTY",
+   "values": {
+    "company": "Uber",
+    "editor": "lena"
+   }
+  },
+  "PARTY.2": {
+   "workflow": "PARTY",
+   "values": {
+    "company": "Airbnb",
+    "editor": "omar"
+   },
+   "note": "In step 1, first type \"Airbbn\", notice the typo, fix it to \"Airbnb\", then continue"
+  },
+  "PARTY.3": {
+   "workflow": "PARTY",
+   "values": {
+    "company": "Tesla",
+    "editor": "grace"
+   }
+  },
+  "STAT.1": {
+   "workflow": "STAT",
+   "values": {
+    "country": "Kenya",
+    "indicator": "Life expectancy at birth",
+    "topic": "health"
+   }
+  },
+  "STAT.2": {
+   "workflow": "STAT",
+   "values": {
+    "country": "Vietnam",
+    "indicator": "CO2 emissions",
+    "topic": "climate"
+   }
+  },
+  "STAT.3": {
+   "workflow": "STAT",
+   "values": {
+    "country": "Argentina",
+    "indicator": "Inflation, consumer prices",
+    "topic": "inflation"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to weather.com, search the forecast for Paris, look at it, close the tab",
+  "N2": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab",
+  "N3": "Abandoned attempt: in the GitHub tab, search \"deno\", scroll the results, then give up without opening any",
+  "N4": "Wander: click through the Notes, Mail and CourtListener tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to allrecipes.com, scroll the home page, open one recipe, skim it, close the tab"
+ },
+ "script": [
+  {
+   "run": "LEAD.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "PARTY.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "PARTY.1",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "STAT.1"
+  },
+  {
+   "run": "LEAD.2"
+  },
+  {
+   "run": "PARTY.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "STAT.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "STAT.2",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "LEAD.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "PARTY.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "LEAD.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "PARTY.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "STAT.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

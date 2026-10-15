@@ -1,0 +1,454 @@
+{
+ "session_id": "s002",
+ "tier": "easy",
+ "dontcare_inside_instances": true,
+ "action_t": [
+  13.93,
+  15.45,
+  17.48,
+  24.69,
+  31.88,
+  60.4,
+  61.55,
+  63.62,
+  66.52,
+  68.85,
+  70.89,
+  74.05,
+  109.12,
+  112.3,
+  114.47,
+  116.76,
+  150.25,
+  153.59,
+  158.1,
+  161.64,
+  164.2,
+  165.49,
+  168.05,
+  170.02,
+  176.35,
+  798.65,
+  800.98,
+  803.44,
+  806.16,
+  830.85,
+  835.47,
+  839.13,
+  878.7,
+  882.47,
+  884.06,
+  885.71,
+  976.1,
+  977.98,
+  980.87,
+  982.87,
+  985.18,
+  987.42,
+  1037.31,
+  1039.54,
+  1082.7,
+  1085.14,
+  1088.63,
+  1093.15,
+  1155.85,
+  1158.1,
+  1164.49,
+  1227.78,
+  1230.13,
+  1231.25,
+  1233.57,
+  1236.35,
+  1238.67,
+  1243.02,
+  1245.42,
+  1247.48,
+  1249.99,
+  1250.8,
+  1254.57,
+  1259.63,
+  1260.88,
+  1262.19,
+  1264.58,
+  1269.28,
+  1271.92,
+  1273.63,
+  1275.2,
+  1277.62,
+  1281.35,
+  1285.97,
+  1289.08,
+  1292.1,
+  1334.64,
+  1338.52,
+  1341.05,
+  1342.59,
+  1383.3,
+  1387.62,
+  1389.22,
+  1390.31
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "s002-op0",
+   "template_id": "flightaware:compare_products_plans",
+   "site": "flightaware",
+   "name": "Compare product plans/subscriptions",
+   "description": "Navigate Products menu to {product} and compare plans/tiers.",
+   "parameters": [
+    "product",
+    "final_action"
+   ],
+   "steps": [
+    "Open Products menu",
+    "Select product",
+    "Click compare button/link",
+    "Optionally click Upgrade"
+   ],
+   "observed_seconds": 47.2,
+   "instances": [
+    {
+     "task_id": "8a39a66d-cd0c-4741-b616-d2d7be631abf",
+     "task": "Compare available plans for the AeroAPI.",
+     "site": "flightaware",
+     "spans": [
+      [
+       1155.85,
+       1164.49
+      ]
+     ],
+     "seqs": [
+      48,
+      49,
+      50
+     ],
+     "seconds": 22.0,
+     "values": {
+      "product": "AeroAPI",
+      "final_action": "none"
+     }
+    },
+    {
+     "task_id": "e8603513-2740-485e-adf9-86361dd015f4",
+     "task": "Compare FlightAware subscriptions and signup for Enterprise plan.",
+     "site": "flightaware",
+     "spans": [
+      [
+       1383.3,
+       1390.31
+      ]
+     ],
+     "seqs": [
+      80,
+      81,
+      82,
+      83
+     ],
+     "seconds": 25.2,
+     "values": {
+      "product": "Premium Subscriptions",
+      "final_action": "Upgrade to Enterprise"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "s002-op1",
+   "template_id": "aa:check_flight_status_by_number",
+   "site": "aa",
+   "name": "Check flight status by number",
+   "description": "Check status of flight {flight_number} on {date}.",
+   "parameters": [
+    "flight_number",
+    "date"
+   ],
+   "steps": [
+    "Open Flight status",
+    "Select Flight number tab",
+    "Enter flight number",
+    "Select date",
+    "Click Search"
+   ],
+   "observed_seconds": 80.0,
+   "instances": [
+    {
+     "task_id": "63529dc2-7b13-493e-9a0c-b1ce50256a16",
+     "task": "Search for the flight status for the flight 12345678 leaving on april 7",
+     "site": "aa",
+     "spans": [
+      [
+       13.93,
+       31.88
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "seconds": 34.6,
+     "values": {
+      "flight_number": "12345678",
+      "date": "April 7"
+     }
+    },
+    {
+     "task_id": "7b05f537-af7a-4fd7-972b-123ce5a34294",
+     "task": "Check status of flight 6944 on April 6",
+     "site": "aa",
+     "spans": [
+      [
+       878.7,
+       885.71
+      ],
+      [
+       1037.31,
+       1039.54
+      ]
+     ],
+     "seqs": [
+      32,
+      33,
+      34,
+      35,
+      42,
+      43
+     ],
+     "seconds": 45.4,
+     "values": {
+      "flight_number": "6944",
+      "date": "April 6"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "s002-op2",
+   "template_id": "amtrak:deals_by_region",
+   "site": "amtrak",
+   "name": "Find deals by region",
+   "description": "Show deals and promotions for {region}.",
+   "parameters": [
+    "region"
+   ],
+   "steps": [
+    "Click DEALS",
+    "Open Deals & Promotions",
+    "Click All Regions",
+    "Select {region}"
+   ],
+   "observed_seconds": 54.0,
+   "instances": [
+    {
+     "task_id": "2089ee5c-1ccd-495e-9a80-f62e129554ed",
+     "task": "What are the deals in California",
+     "site": "amtrak",
+     "spans": [
+      [
+       109.12,
+       116.76
+      ]
+     ],
+     "seqs": [
+      12,
+      13,
+      14,
+      15
+     ],
+     "seconds": 26.8,
+     "values": {
+      "region": "California"
+     }
+    },
+    {
+     "task_id": "f355cfcf-a3f7-47e4-b0be-b1c595e0954e",
+     "task": "Show me current deals for California.",
+     "site": "amtrak",
+     "spans": [
+      [
+       1082.7,
+       1093.15
+      ]
+     ],
+     "seqs": [
+      44,
+      45,
+      46,
+      47
+     ],
+     "seconds": 27.2,
+     "values": {
+      "region": "California"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "4947d606-626e-4da3-a595-bfedacbed3ec",
+   "task": "Request ticket receipt for ticket no. 1234567890123 and last name Davis",
+   "site": "aa",
+   "spans": [
+    [
+     60.4,
+     74.05
+    ]
+   ],
+   "seqs": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "seconds": 32.6,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "fbefeb82-f3e6-4db4-acc6-a68b1d519ba7",
+   "task": "Add a parking button code for my company Boston Legal located near Boston Navy Yard, and the button should be 160x400 pixels, and the parking spot should be within 15 miles of my address.",
+   "site": "parking",
+   "spans": [
+    [
+     150.25,
+     176.35
+    ]
+   ],
+   "seqs": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "seconds": 39.9,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "f9c80513-c1c2-42ef-b768-9a6d0bb5a9a5",
+   "task": "Find discussions of community and open one with most replies.",
+   "site": "flightaware",
+   "spans": [
+    [
+     798.65,
+     806.16
+    ]
+   ],
+   "seqs": [
+    25,
+    26,
+    27,
+    28
+   ],
+   "seconds": 24.5,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "52a8bace-f14c-41ce-980f-50d95e5ac259",
+   "task": "Show the list of countries with the highest number of seen aircrafts.",
+   "site": "flightaware",
+   "spans": [
+    [
+     830.85,
+     839.13
+    ]
+   ],
+   "seqs": [
+    29,
+    30,
+    31
+   ],
+   "seconds": 21.2,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "f0f8088f-46dc-453a-b695-772b30421ece",
+   "task": "Find trip for 123456 last name Smith.",
+   "site": "amtrak",
+   "spans": [
+    [
+     976.1,
+     987.42
+    ]
+   ],
+   "seqs": [
+    36,
+    37,
+    38,
+    39,
+    40,
+    41
+   ],
+   "seconds": 29.5,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "274571ea-fc2f-4353-86ba-00ecb112d6d2",
+   "task": "Find multi-colored fillable eggs for easter eggs made from polypropylene priced between 5 to 10 dollars for pick-up from Barboursville, zip 25504.",
+   "site": "target",
+   "spans": [
+    [
+     1227.78,
+     1292.1
+    ]
+   ],
+   "seqs": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75
+   ],
+   "seconds": 81.3,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "01c6e863-be94-4c6b-b9c1-55c203332f50",
+   "task": "Find an editor's choice review with a score of 10 in the boardgame category.",
+   "site": "ign",
+   "spans": [
+    [
+     1334.64,
+     1342.59
+    ]
+   ],
+   "seqs": [
+    76,
+    77,
+    78,
+    79
+   ],
+   "seconds": 19.3,
+   "kind": "distractor"
+  }
+ ]
+}

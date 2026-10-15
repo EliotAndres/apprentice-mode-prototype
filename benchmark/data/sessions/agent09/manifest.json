@@ -1,0 +1,34 @@
+{
+ "schema_version": "0.2",
+ "session_id": "agent09",
+ "source": {
+  "kind": "cdp_recorder",
+  "recorder_version": "0.1.0"
+ },
+ "started_at": "2026-10-13T16:49:03+00:00",
+ "duration_s": 1440.429,
+ "timing": {
+  "kind": "observed"
+ },
+ "streams": {
+  "dom": {
+   "path": "traces/dom.jsonl",
+   "format": "jsonl",
+   "count": 186
+  },
+  "screenshots": {
+   "path": "screenshots/",
+   "format": "jpeg max 1280w",
+   "count": 186
+  },
+  "accessibility": {
+   "path": "traces/context.jsonl",
+   "format": "jsonl",
+   "count": 89
+  }
+ },
+ "counts": {
+  "actions": 186,
+  "sites": 10
+ }
+}

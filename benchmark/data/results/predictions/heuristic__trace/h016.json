@@ -1,0 +1,229 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 2-step flow on enterprise",
+   "description": "Repeated sequence on enterprise starting with CLICK button \"Car Sales\"",
+   "site": "enterprise",
+   "steps": [
+    "CLICK button \"Car Sales\"",
+    "CLICK link \"Shop Vehicles Under $20,000 Link opens i\""
+   ],
+   "parameters": [],
+   "confidence": 1.0,
+   "instances": [
+    {
+     "start_t": 4.98,
+     "end_t": 10.79,
+     "values": ""
+    },
+    {
+     "start_t": 123.48,
+     "end_t": 127.32,
+     "values": "Price  Low to High"
+    },
+    {
+     "start_t": 141.43,
+     "end_t": 146.77,
+     "values": ""
+    },
+    {
+     "start_t": 178.61,
+     "end_t": 183.77,
+     "values": ""
+    },
+    {
+     "start_t": 218.37,
+     "end_t": 221.23,
+     "values": ""
+    },
+    {
+     "start_t": 296.22,
+     "end_t": 304.26,
+     "values": "5 00 PM"
+    },
+    {
+     "start_t": 326.93,
+     "end_t": 329.71,
+     "values": ""
+    },
+    {
+     "start_t": 423.18,
+     "end_t": 427.17,
+     "values": "10001"
+    },
+    {
+     "start_t": 990.42,
+     "end_t": 1015.82,
+     "values": "Low to High"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 6-step flow on enterprise",
+   "description": "Repeated sequence on enterprise starting with CLICK button \"Selected Pick-Up Date 03/21/2023\"",
+   "site": "enterprise",
+   "steps": [
+    "CLICK button \"Selected Pick-Up Date 03/21/2023\"",
+    "CLICK button \"Selected Return Date 03/22/2023\"",
+    "SELECT combobox \"Pick-Up Time Selector\"",
+    "CLICK span \"22\"",
+    "CLICK button \"03/25/2023\"",
+    "SELECT combobox \"Return Time Selector\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 73.03,
+     "end_t": 101.24,
+     "values": "11 00 AM, 5 00 PM"
+    },
+    {
+     "start_t": 255.58,
+     "end_t": 270.36,
+     "values": "11 00 AM"
+    },
+    {
+     "start_t": 912.78,
+     "end_t": 946.89,
+     "values": "JFK, 11 00 AM"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on marriott",
+   "description": "Repeated sequence on marriott starting with CLICK button \"\ue023\"",
+   "site": "marriott",
+   "steps": [
+    "CLICK button \"\ue023\"",
+    "CLICK gridcell \"Sun, Jun 4, 2023\"",
+    "CLICK div \"Start Date\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 375.05,
+     "end_t": 384.96,
+     "values": ""
+    },
+    {
+     "start_t": 901.71,
+     "end_t": 909.51,
+     "values": ""
+    },
+    {
+     "start_t": 1020.47,
+     "end_t": 1053.3,
+     "values": "1, 7"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on ikea",
+   "description": "Repeated sequence on ikea starting with CLICK button \"Kitchenware & tableware\"",
+   "site": "ikea",
+   "steps": [
+    "CLICK button \"Kitchenware & tableware\"",
+    "CLICK link \"Flatware & cutlery\"",
+    "CLICK span \"Columbus\"",
+    "TYPE searchbox \"Search by ZIP code or city, state\"",
+    "CLICK button \"Submit\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 43.97,
+     "end_t": 68.32,
+     "values": "san diego"
+    },
+    {
+     "start_t": 108.07,
+     "end_t": 117.46,
+     "values": ""
+    },
+    {
+     "start_t": 195.7,
+     "end_t": 202.36,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on agoda",
+   "description": "Repeated sequence on agoda starting with CLICK path \"\"",
+   "site": "agoda",
+   "steps": [
+    "CLICK path \"\"",
+    "TYPE combobox \"Search by city or activity\"",
+    "CLICK generic \"United States\"",
+    "CLICK button \"SEARCH\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 342.73,
+     "end_t": 355.9,
+     "values": "Miami"
+    },
+    {
+     "start_t": 1058.61,
+     "end_t": 1070.74,
+     "values": "Phuket"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on enterprise",
+   "description": "Repeated sequence on enterprise starting with CLICK a \"\"",
+   "site": "enterprise",
+   "steps": [
+    "CLICK a \"\"",
+    "TYPE textbox \"First Name (required)\"",
+    "TYPE textbox \"Last Name (required)\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 361.04,
+     "end_t": 370.92,
+     "values": "Allan, Smith"
+    },
+    {
+     "start_t": 394.92,
+     "end_t": 402.96,
+     "values": "allan.smith@gmail.com, allan.smith@gmail.com"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on carnival",
+   "description": "Repeated sequence on carnival starting with CLICK button \"Plan\"",
+   "site": "carnival",
+   "steps": [
+    "CLICK button \"Plan\"",
+    "CLICK use \"\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 189.01,
+     "end_t": 192.43,
+     "values": ""
+    },
+    {
+     "start_t": 475.4,
+     "end_t": 485.76,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

@@ -1,0 +1,1737 @@
+{
+ "session_id": "s001",
+ "seed": 1,
+ "tier": "easy",
+ "started_at": "2026-09-02T09:00:00+00:00",
+ "duration_s": 2412.47,
+ "events": [
+  {
+   "seq": 0,
+   "t": 9.22,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 0
+  },
+  {
+   "seq": 1,
+   "t": 12.1,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 1
+  },
+  {
+   "seq": 2,
+   "t": 13.81,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 2
+  },
+  {
+   "seq": 3,
+   "t": 15.52,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 3
+  },
+  {
+   "seq": 4,
+   "t": 18.51,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 4
+  },
+  {
+   "seq": 5,
+   "t": 22.04,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 5
+  },
+  {
+   "seq": 6,
+   "t": 23.59,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 6
+  },
+  {
+   "seq": 7,
+   "t": 24.88,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 7
+  },
+  {
+   "seq": 8,
+   "t": 26.77,
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "action_index": 8
+  },
+  {
+   "seq": 9,
+   "t": 755.05,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 0
+  },
+  {
+   "seq": 10,
+   "t": 759.29,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 1
+  },
+  {
+   "seq": 11,
+   "t": 761.58,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 2
+  },
+  {
+   "seq": 12,
+   "t": 765.11,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 3
+  },
+  {
+   "seq": 13,
+   "t": 767.08,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 4
+  },
+  {
+   "seq": 14,
+   "t": 769.07,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 5
+  },
+  {
+   "seq": 15,
+   "t": 771.11,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 6
+  },
+  {
+   "seq": 16,
+   "t": 773.77,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 7
+  },
+  {
+   "seq": 17,
+   "t": 777.31,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 8
+  },
+  {
+   "seq": 18,
+   "t": 780.08,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 9
+  },
+  {
+   "seq": 19,
+   "t": 784.81,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 10
+  },
+  {
+   "seq": 20,
+   "t": 790.48,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 11
+  },
+  {
+   "seq": 21,
+   "t": 791.6,
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "action_index": 12
+  },
+  {
+   "seq": 22,
+   "t": 831.68,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 0
+  },
+  {
+   "seq": 23,
+   "t": 834.62,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 1
+  },
+  {
+   "seq": 24,
+   "t": 836.62,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 2
+  },
+  {
+   "seq": 25,
+   "t": 839.28,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 3
+  },
+  {
+   "seq": 26,
+   "t": 841.58,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 4
+  },
+  {
+   "seq": 27,
+   "t": 843.02,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 5
+  },
+  {
+   "seq": 28,
+   "t": 847.05,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 6
+  },
+  {
+   "seq": 29,
+   "t": 851.7,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 7
+  },
+  {
+   "seq": 30,
+   "t": 855.79,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 8
+  },
+  {
+   "seq": 31,
+   "t": 857.5,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 9
+  },
+  {
+   "seq": 32,
+   "t": 860.12,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 10
+  },
+  {
+   "seq": 33,
+   "t": 861.99,
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "action_index": 11
+  },
+  {
+   "seq": 34,
+   "t": 897.23,
+   "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+   "action_index": 0
+  },
+  {
+   "seq": 35,
+   "t": 900.75,
+   "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+   "action_index": 1
+  },
+  {
+   "seq": 36,
+   "t": 902.94,
+   "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+   "action_index": 2
+  },
+  {
+   "seq": 37,
+   "t": 911.23,
+   "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+   "action_index": 3
+  },
+  {
+   "seq": 38,
+   "t": 912.34,
+   "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+   "action_index": 4
+  },
+  {
+   "seq": 39,
+   "t": 983.73,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 0
+  },
+  {
+   "seq": 40,
+   "t": 985.32,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 1
+  },
+  {
+   "seq": 41,
+   "t": 986.55,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 2
+  },
+  {
+   "seq": 42,
+   "t": 989.28,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 3
+  },
+  {
+   "seq": 43,
+   "t": 991.48,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 4
+  },
+  {
+   "seq": 44,
+   "t": 991.99,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 5
+  },
+  {
+   "seq": 45,
+   "t": 996.44,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 6
+  },
+  {
+   "seq": 46,
+   "t": 1001.02,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 7
+  },
+  {
+   "seq": 47,
+   "t": 1004.28,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 8
+  },
+  {
+   "seq": 48,
+   "t": 1006.01,
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "action_index": 9
+  },
+  {
+   "seq": 49,
+   "t": 1052.58,
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "action_index": 0
+  },
+  {
+   "seq": 50,
+   "t": 1055.51,
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "action_index": 1
+  },
+  {
+   "seq": 51,
+   "t": 1056.43,
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "action_index": 2
+  },
+  {
+   "seq": 52,
+   "t": 1060.96,
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "action_index": 3
+  },
+  {
+   "seq": 53,
+   "t": 1063.11,
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "action_index": 4
+  },
+  {
+   "seq": 54,
+   "t": 1090.36,
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "action_index": 0
+  },
+  {
+   "seq": 55,
+   "t": 1094.9,
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "action_index": 1
+  },
+  {
+   "seq": 56,
+   "t": 1098.94,
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "action_index": 2
+  },
+  {
+   "seq": 57,
+   "t": 1099.97,
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "action_index": 3
+  },
+  {
+   "seq": 58,
+   "t": 1103.98,
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "action_index": 4
+  },
+  {
+   "seq": 59,
+   "t": 1104.7,
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "action_index": 5
+  },
+  {
+   "seq": 60,
+   "t": 1139.4,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 0
+  },
+  {
+   "seq": 61,
+   "t": 1141.72,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 1
+  },
+  {
+   "seq": 62,
+   "t": 1143.13,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 2
+  },
+  {
+   "seq": 63,
+   "t": 1148.27,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 3
+  },
+  {
+   "seq": 64,
+   "t": 1149.94,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 4
+  },
+  {
+   "seq": 65,
+   "t": 1152.82,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 5
+  },
+  {
+   "seq": 66,
+   "t": 1156.27,
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "action_index": 6
+  },
+  {
+   "seq": 67,
+   "t": 1187.82,
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "action_index": 0
+  },
+  {
+   "seq": 68,
+   "t": 1190.13,
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "action_index": 1
+  },
+  {
+   "seq": 69,
+   "t": 1191.92,
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "action_index": 2
+  },
+  {
+   "seq": 70,
+   "t": 1194.51,
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "action_index": 3
+  },
+  {
+   "seq": 71,
+   "t": 1198.05,
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "action_index": 4
+  },
+  {
+   "seq": 72,
+   "t": 1248.88,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 0
+  },
+  {
+   "seq": 73,
+   "t": 1250.14,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 1
+  },
+  {
+   "seq": 74,
+   "t": 1252.08,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 2
+  },
+  {
+   "seq": 75,
+   "t": 1253.86,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 3
+  },
+  {
+   "seq": 76,
+   "t": 1257.15,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 4
+  },
+  {
+   "seq": 77,
+   "t": 1260.7,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 5
+  },
+  {
+   "seq": 78,
+   "t": 1265.43,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 6
+  },
+  {
+   "seq": 79,
+   "t": 1267.41,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 7
+  },
+  {
+   "seq": 80,
+   "t": 1270.84,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 8
+  },
+  {
+   "seq": 81,
+   "t": 1272.79,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 9
+  },
+  {
+   "seq": 82,
+   "t": 1275.43,
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "action_index": 10
+  },
+  {
+   "seq": 83,
+   "t": 1313.88,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 0
+  },
+  {
+   "seq": 84,
+   "t": 1315.37,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 1
+  },
+  {
+   "seq": 85,
+   "t": 1320.21,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 2
+  },
+  {
+   "seq": 86,
+   "t": 1322.55,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 3
+  },
+  {
+   "seq": 87,
+   "t": 1324.12,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 4
+  },
+  {
+   "seq": 88,
+   "t": 1328.77,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 5
+  },
+  {
+   "seq": 89,
+   "t": 1330.75,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 6
+  },
+  {
+   "seq": 90,
+   "t": 1333.87,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 7
+  },
+  {
+   "seq": 91,
+   "t": 1336.85,
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "action_index": 8
+  },
+  {
+   "seq": 92,
+   "t": 1357.59,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 0
+  },
+  {
+   "seq": 93,
+   "t": 1359.79,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 1
+  },
+  {
+   "seq": 94,
+   "t": 1366.82,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 2
+  },
+  {
+   "seq": 95,
+   "t": 1368.66,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 3
+  },
+  {
+   "seq": 96,
+   "t": 1377.54,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 4
+  },
+  {
+   "seq": 97,
+   "t": 1380.19,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 5
+  },
+  {
+   "seq": 98,
+   "t": 1382.04,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 6
+  },
+  {
+   "seq": 99,
+   "t": 1383.84,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 7
+  },
+  {
+   "seq": 100,
+   "t": 1385.56,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 8
+  },
+  {
+   "seq": 101,
+   "t": 1389.65,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 9
+  },
+  {
+   "seq": 102,
+   "t": 1391.44,
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "action_index": 10
+  },
+  {
+   "seq": 103,
+   "t": 1426.63,
+   "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+   "action_index": 0
+  },
+  {
+   "seq": 104,
+   "t": 1429.28,
+   "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+   "action_index": 1
+  },
+  {
+   "seq": 105,
+   "t": 1430.75,
+   "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+   "action_index": 2
+  },
+  {
+   "seq": 106,
+   "t": 1435.08,
+   "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+   "action_index": 3
+  },
+  {
+   "seq": 107,
+   "t": 1461.83,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 0
+  },
+  {
+   "seq": 108,
+   "t": 1463.72,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 1
+  },
+  {
+   "seq": 109,
+   "t": 2202.18,
+   "task_id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+   "action_index": 0
+  },
+  {
+   "seq": 110,
+   "t": 2205.98,
+   "task_id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+   "action_index": 1
+  },
+  {
+   "seq": 111,
+   "t": 2211.29,
+   "task_id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+   "action_index": 2
+  },
+  {
+   "seq": 112,
+   "t": 2266.33,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 2
+  },
+  {
+   "seq": 113,
+   "t": 2269.02,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 3
+  },
+  {
+   "seq": 114,
+   "t": 2270.74,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 4
+  },
+  {
+   "seq": 115,
+   "t": 2275.14,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 5
+  },
+  {
+   "seq": 116,
+   "t": 2277.35,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 6
+  },
+  {
+   "seq": 117,
+   "t": 2279.32,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 7
+  },
+  {
+   "seq": 118,
+   "t": 2281.14,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 8
+  },
+  {
+   "seq": 119,
+   "t": 2283.09,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 9
+  },
+  {
+   "seq": 120,
+   "t": 2285.62,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 10
+  },
+  {
+   "seq": 121,
+   "t": 2286.7,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 11
+  },
+  {
+   "seq": 122,
+   "t": 2289.06,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 12
+  },
+  {
+   "seq": 123,
+   "t": 2292.16,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 13
+  },
+  {
+   "seq": 124,
+   "t": 2293.12,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 14
+  },
+  {
+   "seq": 125,
+   "t": 2295.01,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 15
+  },
+  {
+   "seq": 126,
+   "t": 2297.59,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 16
+  },
+  {
+   "seq": 127,
+   "t": 2299.74,
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "action_index": 17
+  },
+  {
+   "seq": 128,
+   "t": 2399.09,
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "action_index": 0
+  },
+  {
+   "seq": 129,
+   "t": 2401.78,
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "action_index": 1
+  },
+  {
+   "seq": 130,
+   "t": 2405.29,
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "action_index": 2
+  },
+  {
+   "seq": 131,
+   "t": 2407.41,
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "action_index": 3
+  },
+  {
+   "seq": 132,
+   "t": 2409.18,
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "action_index": 4
+  }
+ ],
+ "segments": [
+  {
+   "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+   "role": "workflow",
+   "start": 0.0,
+   "end": 30.1,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "role": "one_off",
+   "start": 744.08,
+   "end": 795.34,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+   "role": "workflow",
+   "start": 825.43,
+   "end": 864.13,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+   "role": "workflow",
+   "start": 884.86,
+   "end": 915.26,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+   "role": "workflow",
+   "start": 967.29,
+   "end": 1007.58,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "role": "distractor",
+   "start": 1042.81,
+   "end": 1065.13,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+   "role": "workflow",
+   "start": 1080.53,
+   "end": 1107.2,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "role": "distractor",
+   "start": 1126.23,
+   "end": 1159.15,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "role": "one_off",
+   "start": 1175.37,
+   "end": 1200.76,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+   "role": "workflow",
+   "start": 1240.76,
+   "end": 1278.68,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "role": "one_off",
+   "start": 1302.71,
+   "end": 1340.48,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+   "role": "workflow",
+   "start": 1348.19,
+   "end": 1395.08,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+   "role": "distractor",
+   "start": 1409.77,
+   "end": 1436.76,
+   "actions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "role": "workflow",
+   "start": 1449.58,
+   "end": 1466.07,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+   "role": "one_off",
+   "start": 2185.25,
+   "end": 2213.29,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+   "role": "workflow",
+   "start": 2257.97,
+   "end": 2302.99,
+   "actions": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "role": "distractor",
+   "start": 2389.19,
+   "end": 2412.47,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  }
+ ],
+ "ground_truth": {
+  "session_id": "s001",
+  "tier": "easy",
+  "dontcare_inside_instances": true,
+  "action_t": [
+   9.22,
+   12.1,
+   13.81,
+   15.52,
+   18.51,
+   22.04,
+   23.59,
+   24.88,
+   26.77,
+   755.05,
+   759.29,
+   761.58,
+   765.11,
+   767.08,
+   769.07,
+   771.11,
+   773.77,
+   777.31,
+   780.08,
+   784.81,
+   790.48,
+   791.6,
+   831.68,
+   834.62,
+   836.62,
+   839.28,
+   841.58,
+   843.02,
+   847.05,
+   851.7,
+   855.79,
+   857.5,
+   860.12,
+   861.99,
+   897.23,
+   900.75,
+   902.94,
+   911.23,
+   912.34,
+   983.73,
+   985.32,
+   986.55,
+   989.28,
+   991.48,
+   991.99,
+   996.44,
+   1001.02,
+   1004.28,
+   1006.01,
+   1052.58,
+   1055.51,
+   1056.43,
+   1060.96,
+   1063.11,
+   1090.36,
+   1094.9,
+   1098.94,
+   1099.97,
+   1103.98,
+   1104.7,
+   1139.4,
+   1141.72,
+   1143.13,
+   1148.27,
+   1149.94,
+   1152.82,
+   1156.27,
+   1187.82,
+   1190.13,
+   1191.92,
+   1194.51,
+   1198.05,
+   1248.88,
+   1250.14,
+   1252.08,
+   1253.86,
+   1257.15,
+   1260.7,
+   1265.43,
+   1267.41,
+   1270.84,
+   1272.79,
+   1275.43,
+   1313.88,
+   1315.37,
+   1320.21,
+   1322.55,
+   1324.12,
+   1328.77,
+   1330.75,
+   1333.87,
+   1336.85,
+   1357.59,
+   1359.79,
+   1366.82,
+   1368.66,
+   1377.54,
+   1380.19,
+   1382.04,
+   1383.84,
+   1385.56,
+   1389.65,
+   1391.44,
+   1426.63,
+   1429.28,
+   1430.75,
+   1435.08,
+   1461.83,
+   1463.72,
+   2202.18,
+   2205.98,
+   2211.29,
+   2266.33,
+   2269.02,
+   2270.74,
+   2275.14,
+   2277.35,
+   2279.32,
+   2281.14,
+   2283.09,
+   2285.62,
+   2286.7,
+   2289.06,
+   2292.16,
+   2293.12,
+   2295.01,
+   2297.59,
+   2299.74,
+   2399.09,
+   2401.78,
+   2405.29,
+   2407.41,
+   2409.18
+  ],
+  "opportunities": [
+   {
+    "opportunity_id": "s001-op0",
+    "template_id": "booking:attraction_search_and_book",
+    "site": "booking",
+    "name": "Search attractions and check tickets",
+    "description": "Find attraction/tours in {destination} on {date} for {guests}, apply filters, and view prices or book.",
+    "parameters": [
+     "destination",
+     "date",
+     "guests",
+     "filters"
+    ],
+    "steps": [
+     "Open Attractions",
+     "Enter destination and select",
+     "Select date",
+     "Click Search",
+     "Apply filters/sort",
+     "Open attraction and see availability/price",
+     "Set guests and proceed"
+    ],
+    "observed_seconds": 91.6,
+    "instances": [
+     {
+      "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+      "task": "Show ticket price for Aquarium of Paris for 2 adults on May 5th.",
+      "site": "booking",
+      "spans": [
+       [
+        9.22,
+        26.77
+       ]
+      ],
+      "seqs": [
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "seconds": 30.1,
+      "values": {
+       "destination": "Aquarium of Paris",
+       "date": "5 May",
+       "guests": "2 adults",
+       "filters": "none"
+      }
+     },
+     {
+      "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+      "task": "Find the most popular tours and attractions in Kyoto, Japan from May 25 with free cancellation option, check availability for 2 adults and 1 infant, and book.",
+      "site": "booking",
+      "spans": [
+       [
+        1461.83,
+        1463.72
+       ],
+       [
+        2266.33,
+        2299.74
+       ]
+      ],
+      "seqs": [
+       107,
+       108,
+       112,
+       113,
+       114,
+       115,
+       116,
+       117,
+       118,
+       119,
+       120,
+       121,
+       122,
+       123,
+       124,
+       125,
+       126,
+       127
+      ],
+      "seconds": 61.5,
+      "values": {
+       "destination": "Kyoto, Japan",
+       "date": "25 May",
+       "guests": "2 adults, 1 infant",
+       "filters": "free cancellation, most popular"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "s001-op1",
+    "template_id": "ryanair:search_flights",
+    "site": "ryanair",
+    "name": "Search flights",
+    "description": "Search flights from {origin} to {destination} departing {depart_date}, optional return {return_date}, passengers, fare, promo, and optionally book",
+    "parameters": [
+     "origin",
+     "destination",
+     "depart_date",
+     "return_date",
+     "passengers",
+     "fare_type",
+     "promo_code",
+     "passenger_details"
+    ],
+    "steps": [
+     "Enter origin",
+     "Enter destination",
+     "Select dates",
+     "Set passengers / promo code",
+     "Search",
+     "Select flights and fare",
+     "Optionally enter passenger details and continue"
+    ],
+    "observed_seconds": 163.8,
+    "instances": [
+     {
+      "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+      "task": "Find a flight From Dublin To Athens Greece for 1 Adult that leaves on April 1 and returns April 5th.",
+      "site": "ryanair",
+      "spans": [
+       [
+        831.68,
+        861.99
+       ]
+      ],
+      "seqs": [
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29,
+       30,
+       31,
+       32,
+       33
+      ],
+      "seconds": 38.7,
+      "values": {
+       "origin": "Dublin",
+       "destination": "Athens",
+       "depart_date": "April 1",
+       "return_date": "April 5",
+       "passengers": "1 adult"
+      }
+     },
+     {
+      "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+      "task": "Search for a one way flight from Dublin to Malta on April 22, 2023 for 2 adults.",
+      "site": "ryanair",
+      "spans": [
+       [
+        983.73,
+        1006.01
+       ]
+      ],
+      "seqs": [
+       39,
+       40,
+       41,
+       42,
+       43,
+       44,
+       45,
+       46,
+       47,
+       48
+      ],
+      "seconds": 40.3,
+      "values": {
+       "origin": "Dublin",
+       "destination": "Malta",
+       "depart_date": "April 22, 2023",
+       "passengers": "2 adults"
+      }
+     },
+     {
+      "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+      "task": "Search for a flight on May 9 and return on May 16 from Tel Aviv to Venice with plus type fare option.",
+      "site": "ryanair",
+      "spans": [
+       [
+        1248.88,
+        1275.43
+       ]
+      ],
+      "seqs": [
+       72,
+       73,
+       74,
+       75,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82
+      ],
+      "seconds": 37.9,
+      "values": {
+       "origin": "Tel Aviv",
+       "destination": "Venice",
+       "depart_date": "May 9",
+       "return_date": "May 16",
+       "fare_type": "Plus"
+      }
+     },
+     {
+      "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+      "task": "Search for a flight from Dublin in Ireland to Paris Beauvais in france for 2 adults leaving apr 26 and returning may 2 with the promo code 10000001",
+      "site": "ryanair",
+      "spans": [
+       [
+        1357.59,
+        1391.44
+       ]
+      ],
+      "seqs": [
+       92,
+       93,
+       94,
+       95,
+       96,
+       97,
+       98,
+       99,
+       100,
+       101,
+       102
+      ],
+      "seconds": 46.9,
+      "values": {
+       "origin": "Dublin",
+       "destination": "Paris Beauvais",
+       "depart_date": "Apr 26",
+       "return_date": "May 2",
+       "passengers": "2 adults",
+       "promo_code": "1000001"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "s001-op2",
+    "template_id": "resy:notify_restaurant_availability",
+    "site": "resy",
+    "name": "Notify for restaurant availability",
+    "description": "Set a notification for restaurant {restaurant} for {guests} on {date} or time window {time}",
+    "parameters": [
+     "restaurant",
+     "guests",
+     "date",
+     "time"
+    ],
+    "steps": [
+     "Search restaurant",
+     "Open restaurant page",
+     "Set date and guests",
+     "Click Notify",
+     "Set preferred times and confirm"
+    ],
+    "observed_seconds": 57.1,
+    "instances": [
+     {
+      "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+      "task": "Find a Thai restaurant and get notified when they have an open table between 5 to 7 PM",
+      "site": "resy",
+      "spans": [
+       [
+        897.23,
+        912.34
+       ]
+      ],
+      "seqs": [
+       34,
+       35,
+       36,
+       37,
+       38
+      ],
+      "seconds": 30.4,
+      "values": {
+       "restaurant": "Thai (Senyai Thai Kitchen)",
+       "guests": "",
+       "date": "",
+       "time": "5-7 PM"
+      }
+     },
+     {
+      "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+      "task": "Notify me about availability for 2 guests on april 17 at the High Tide restaurant",
+      "site": "resy",
+      "spans": [
+       [
+        1090.36,
+        1104.7
+       ]
+      ],
+      "seqs": [
+       54,
+       55,
+       56,
+       57,
+       58,
+       59
+      ],
+      "seconds": 26.7,
+      "values": {
+       "restaurant": "High Tide",
+       "guests": "2",
+       "date": "April 17",
+       "time": ""
+      }
+     }
+    ]
+   }
+  ],
+  "negatives": [
+   {
+    "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+    "task": "Book a first class vacation travel for 2 adults from San Francisco to New york leavind on april 9 and returning on april 19",
+    "site": "aa",
+    "spans": [
+     [
+      755.05,
+      791.6
+     ]
+    ],
+    "seqs": [
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "seconds": 51.3,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+    "task": "Show MLB tickets for this weekend and select the next one.",
+    "site": "ticketcenter",
+    "spans": [
+     [
+      1052.58,
+      1063.11
+     ]
+    ],
+    "seqs": [
+     49,
+     50,
+     51,
+     52,
+     53
+    ],
+    "seconds": 22.3,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+    "task": "Find out if Coldplay is playing any events in Columbus, OH on May 17.",
+    "site": "seatgeek",
+    "spans": [
+     [
+      1139.4,
+      1156.27
+     ]
+    ],
+    "seqs": [
+     60,
+     61,
+     62,
+     63,
+     64,
+     65,
+     66
+    ],
+    "seconds": 32.9,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+    "task": "Find a pasta restaurant in Sydney and save it",
+    "site": "resy",
+    "spans": [
+     [
+      1187.82,
+      1198.05
+     ]
+    ],
+    "seqs": [
+     67,
+     68,
+     69,
+     70,
+     71
+    ],
+    "seconds": 25.4,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+    "task": "Add my birthday detail, January 5, 1980, and dairy and peanut allergy in my profile, also add love ramen noodles to my bio, and save.",
+    "site": "resy",
+    "spans": [
+     [
+      1313.88,
+      1336.85
+     ]
+    ],
+    "seqs": [
+     83,
+     84,
+     85,
+     86,
+     87,
+     88,
+     89,
+     90,
+     91
+    ],
+    "seconds": 37.8,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+    "task": "find the cheapest xbox 360 game available for purchase",
+    "site": "gamestop",
+    "spans": [
+     [
+      1426.63,
+      1435.08
+     ]
+    ],
+    "seqs": [
+     103,
+     104,
+     105,
+     106
+    ],
+    "seconds": 27.0,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+    "task": "Find an article about a new restaurant and share it on Twitter",
+    "site": "resy",
+    "spans": [
+     [
+      2202.18,
+      2211.29
+     ]
+    ],
+    "seqs": [
+     109,
+     110,
+     111
+    ],
+    "seconds": 28.0,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+    "task": "Find climbing gear and sort the results by price high to low.",
+    "site": "rei",
+    "spans": [
+     [
+      2399.09,
+      2409.18
+     ]
+    ],
+    "seqs": [
+     128,
+     129,
+     130,
+     131,
+     132
+    ],
+    "seconds": 23.3,
+    "kind": "distractor"
+   }
+  ]
+ }
+}

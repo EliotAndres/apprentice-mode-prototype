@@ -1,0 +1,710 @@
+{
+ "session_id": "agent09",
+ "action_t": [
+  58.402,
+  59.409,
+  60.447,
+  62.47,
+  62.471,
+  72.106,
+  73.129,
+  74.165,
+  117.705,
+  141.01,
+  146.988,
+  153.841,
+  165.865,
+  166.903,
+  167.933,
+  184.644,
+  185.657,
+  187.676,
+  187.677,
+  201.215,
+  218.753,
+  220.76,
+  220.761,
+  224.766,
+  229.344,
+  231.353,
+  231.353,
+  261.877,
+  277.182,
+  279.199,
+  279.199,
+  287.309,
+  380.062,
+  402.504,
+  408.836,
+  414.961,
+  418.969,
+  427.24,
+  437.41,
+  455.805,
+  457.819,
+  457.82,
+  485.47,
+  493.989,
+  495.935,
+  511.427,
+  512.475,
+  536.635,
+  544.008,
+  546.019,
+  546.02,
+  556.72,
+  563.511,
+  565.517,
+  565.517,
+  569.522,
+  572.982,
+  574.989,
+  574.989,
+  584.757,
+  585.779,
+  586.808,
+  588.831,
+  588.832,
+  594.346,
+  603.11,
+  604.135,
+  605.171,
+  620.341,
+  640.268,
+  641.284,
+  643.299,
+  643.3,
+  650.583,
+  656.762,
+  660.775,
+  673.069,
+  679.401,
+  686.732,
+  688.739,
+  688.739,
+  692.744,
+  697.434,
+  699.442,
+  699.442,
+  706.492,
+  707.497,
+  708.506,
+  710.522,
+  710.522,
+  717.934,
+  727.886,
+  732.849,
+  737.26,
+  755.06,
+  768.596,
+  769.603,
+  778.829,
+  780.838,
+  780.838,
+  792.409,
+  793.43,
+  794.458,
+  796.481,
+  796.482,
+  805.436,
+  811.811,
+  813.83,
+  813.83,
+  814.937,
+  933.675,
+  939.826,
+  941.841,
+  941.842,
+  947.946,
+  958.569,
+  966.778,
+  968.783,
+  968.783,
+  972.788,
+  977.564,
+  979.571,
+  979.572,
+  988.342,
+  989.373,
+  991.388,
+  993.405,
+  993.406,
+  999.305,
+  1006.671,
+  1007.703,
+  1008.743,
+  1019.874,
+  1035.933,
+  1036.939,
+  1037.95,
+  1039.968,
+  1039.969,
+  1047.031,
+  1062.802,
+  1063.827,
+  1066.125,
+  1066.912,
+  1078.165,
+  1079.183,
+  1083.195,
+  1086.374,
+  1087.417,
+  1095.387,
+  1097.394,
+  1097.394,
+  1101.399,
+  1108.027,
+  1110.035,
+  1110.035,
+  1118.756,
+  1126.248,
+  1131.29,
+  1143.015,
+  1153.116,
+  1155.123,
+  1155.124,
+  1210.037,
+  1211.087,
+  1213.109,
+  1213.109,
+  1214.255,
+  1227.379,
+  1233.007,
+  1239.862,
+  1240.87,
+  1242.891,
+  1242.891,
+  1248.658,
+  1272.797,
+  1285.416,
+  1287.423,
+  1287.424,
+  1291.428,
+  1296.725,
+  1298.735,
+  1298.736,
+  1306.477,
+  1307.483,
+  1313.389,
+  1330.746
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent09-op0",
+   "template_id": "agent09-op0",
+   "name": "Propose a business-trip hotel and its cost in the traveler's home currency",
+   "use_case": "Travel agency",
+   "description": "In the Booking.com tab, click the destination box, type {city}, set the dates {checkin} to {checkout} and click Search -> Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve or I'll reserve -> Switch to the xe.com tab, set Amount to that total price, From to EUR and To to {currency}, click Convert and read the result -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Hotel for {city}, {checkin}-{checkout}\" -> Click Body and type \"Hi {traveler}, proposed hotel: <name>, <total> EUR (about <converted> {currency}). OK to book?\" Do not click Send. Click Discard",
+   "site": "booking.com, xe.com, mail.localhost",
+   "parameters": [
+    "traveler",
+    "city",
+    "checkin",
+    "checkout",
+    "currency"
+   ],
+   "steps": [
+    "In the Booking.com tab, click the destination box, type {city}, set the dates {checkin} to {checkout} and click Search",
+    "Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve or I'll reserve",
+    "Switch to the xe.com tab, set Amount to that total price, From to EUR and To to {currency}, click Convert and read the result",
+    "Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Hotel for {city}, {checkin}-{checkout}\"",
+    "Click Body and type \"Hi {traveler}, proposed hotel: <name>, <total> EUR (about <converted> {currency}). OK to book?\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 421.0,
+   "instances": [
+    {
+     "task_id": "STAY.1",
+     "spans": [
+      [
+       45.0,
+       232.0
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+     ],
+     "seconds": 187.0,
+     "values": {
+      "traveler": "maria",
+      "city": "Frankfurt",
+      "checkin": "Nov 17",
+      "checkout": "Nov 20",
+      "currency": "USD"
+     }
+    },
+    {
+     "task_id": "STAY.2",
+     "spans": [
+      [
+       576.0,
+       700.0
+      ]
+     ],
+     "seqs": [
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+     ],
+     "seconds": 124.0,
+     "values": {
+      "traveler": "kenji",
+      "city": "Milan",
+      "checkin": "Dec 1",
+      "checkout": "Dec 4",
+      "currency": "JPY"
+     }
+    },
+    {
+     "task_id": "STAY.3",
+     "spans": [
+      [
+       980.0,
+       1029.0
+      ],
+      [
+       1050.0,
+       1111.0
+      ]
+     ],
+     "seqs": [
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+     ],
+     "seconds": 110.0,
+     "values": {
+      "traveler": "aisha",
+      "city": "Amsterdam",
+      "checkin": "Jan 12",
+      "checkout": "Jan 15",
+      "currency": "GBP"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent09-op1",
+   "template_id": "agent09-op1",
+   "name": "Check visa rules and local public holidays for a traveler's destination",
+   "use_case": "Travel agency",
+   "description": "In the Wikipedia tab, click the search box, type \"Visa requirements for {nationality} citizens\" and open that article -> Find the row for {country} in the table and note the visa requirement and the allowed stay -> Switch to the timeanddate tab, open the Holidays menu, pick {country}, and note the public holidays in {month} -> Switch to Notes, click \"New note\", type \"{nationality} traveler to {country}: <requirement>, <allowed stay>. Holidays in {month}: <dates>\" and press Enter",
+   "site": "wikipedia.org, timeanddate.com, notes.localhost",
+   "parameters": [
+    "nationality",
+    "country",
+    "month"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type \"Visa requirements for {nationality} citizens\" and open that article",
+    "Find the row for {country} in the table and note the visa requirement and the allowed stay",
+    "Switch to the timeanddate tab, open the Holidays menu, pick {country}, and note the public holidays in {month}",
+    "Switch to Notes, click \"New note\", type \"{nationality} traveler to {country}: <requirement>, <allowed stay>. Holidays in {month}: <dates>\" and press Enter"
+   ],
+   "observed_seconds": 247.0,
+   "instances": [
+    {
+     "task_id": "ENTRY.1",
+     "spans": [
+      [
+       263.0,
+       290.0
+      ],
+      [
+       385.0,
+       458.0
+      ]
+     ],
+     "seqs": [
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+     ],
+     "seconds": 100.0,
+     "values": {
+      "nationality": "Indian",
+      "country": "Japan",
+      "month": "December"
+     }
+    },
+    {
+     "task_id": "ENTRY.2",
+     "spans": [
+      [
+       700.0,
+       781.0
+      ]
+     ],
+     "seqs": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "seconds": 81.0,
+     "values": {
+      "nationality": "Brazilian",
+      "country": "Canada",
+      "month": "November"
+     }
+    },
+    {
+     "task_id": "ENTRY.3",
+     "spans": [
+      [
+       1029.0,
+       1050.0
+      ],
+      [
+       1111.0,
+       1156.0
+      ]
+     ],
+     "seqs": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+     ],
+     "seconds": 66.0,
+     "values": {
+      "nationality": "Nigerian",
+      "country": "United Kingdom",
+      "month": "May"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "agent09-op2",
+   "template_id": "agent09-op2",
+   "name": "Send a traveler a weather and disruption heads-up before departure",
+   "use_case": "Travel agency",
+   "description": "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast -> Note the high, low and conditions for {date} -> Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date -> Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\" -> Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard",
+   "site": "weather.com, bbc.com, mail.localhost",
+   "parameters": [
+    "traveler",
+    "city",
+    "date"
+   ],
+   "steps": [
+    "In the weather.com tab, click the search box, type {city}, pick it from the list and open the 10 Day forecast",
+    "Note the high, low and conditions for {date}",
+    "Switch to the BBC tab, click Search, type \"{city} strike\" and press Enter; open the first result and note its headline and date",
+    "Switch to the Mail tab, click To and type {traveler}@example.com, click Subject and type \"Heads-up: {city} on {date}\"",
+    "Click Body and type \"Hi {traveler}, {city} on {date}: <high>/<low>, <conditions>. Latest news: <headline> (<date>).\" Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 285.0,
+   "instances": [
+    {
+     "task_id": "HEADSUP.1",
+     "spans": [
+      [
+       458.0,
+       576.0
+      ]
+     ],
+     "seqs": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+     ],
+     "seconds": 118.0,
+     "values": {
+      "traveler": "raj",
+      "city": "Berlin",
+      "date": "Saturday"
+     }
+    },
+    {
+     "task_id": "HEADSUP.2",
+     "spans": [
+      [
+       798.0,
+       821.0
+      ],
+      [
+       927.0,
+       980.0
+      ]
+     ],
+     "seqs": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+     ],
+     "seconds": 76.0,
+     "values": {
+      "traveler": "sofia",
+      "city": "Madrid",
+      "date": "Monday"
+     }
+    },
+    {
+     "task_id": "HEADSUP.3",
+     "spans": [
+      [
+       1208.0,
+       1299.0
+      ]
+     ],
+     "seqs": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181
+     ],
+     "seconds": 91.0,
+     "values": {
+      "traveler": "tom",
+      "city": "London",
+      "date": "Thursday"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     232.0,
+     263.0
+    ]
+   ],
+   "seqs": [
+    27
+   ],
+   "seconds": 31.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     357.0,
+     385.0
+    ]
+   ],
+   "seqs": [
+    32
+   ],
+   "seconds": 28.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     781.0,
+     798.0
+    ]
+   ],
+   "seqs": [
+    100,
+    101,
+    102,
+    103,
+    104
+   ],
+   "seconds": 17.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the Booking.com tab, type Zurich in the destination box, open the date picker, then give up and press Escape"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     921.0,
+     927.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 6.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and xe.com tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     1299.0,
+     1317.0
+    ]
+   ],
+   "seqs": [
+    182,
+    183,
+    184
+   ],
+   "seconds": 18.0,
+   "kind": "one_off",
+   "task": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit"
+  },
+  {
+   "task_id": "unlabelled",
+   "kind": "one_off",
+   "task": "between tasks",
+   "spans": [
+    [
+     1330.746,
+     1330.746
+    ]
+   ],
+   "seqs": [
+    185
+   ],
+   "seconds": 0
+  }
+ ]
+}

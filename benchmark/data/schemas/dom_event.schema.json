@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "replicate/dom_event.schema.json",
+  "title": "One line of traces/dom.jsonl: a page-level user action",
+  "type": "object",
+  "required": ["seq", "t", "type", "op", "site", "element"],
+  "properties": {
+    "seq": {"type": "integer", "minimum": 0},
+    "t": {"type": "number", "minimum": 0, "description": "seconds since session start"},
+    "type": {"const": "action"},
+    "op": {"enum": ["CLICK", "TYPE", "SELECT", "HOVER", "ENTER", "KEY"]},
+    "value": {"type": "string"},
+    "site": {"type": "string", "description": "site the page belongs to (Mind2Web has no per-action URL)"},
+    "url": {"type": ["string", "null"]},
+    "element": {
+      "type": "object",
+      "required": ["role", "text"],
+      "properties": {
+        "tag": {"type": "string"},
+        "role": {"type": "string"},
+        "text": {"type": "string"},
+        "bbox": {"type": ["array", "null"], "items": {"type": "number"}, "minItems": 4, "maxItems": 4,
+                 "description": "x, y, w, h in screenshot pixels"}
+      }
+    },
+    "screenshot": {"type": ["string", "null"], "description": "bundle-relative path, frame taken before the action"},
+    "dom_snapshot": {"type": ["string", "null"], "description": "bundle-relative path to gzipped cleaned HTML"}
+  }
+}

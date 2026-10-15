@@ -1,0 +1,43 @@
+2026-10-13T17:50:45+00:00 start 1
+2026-10-13T17:52:56+00:00 end 1 ok
+2026-10-13T17:52:56+00:00 start 2
+2026-10-13T17:53:56+00:00 end 2 ok
+2026-10-13T17:53:56+00:00 start 3
+2026-10-13T17:54:23+00:00 end 3 ok
+2026-10-13T17:54:23+00:00 start 4
+2026-10-13T17:55:23+00:00 end 4 ok
+2026-10-13T17:55:29+00:00 start 5
+2026-10-13T17:56:20+00:00 end 5 ok
+2026-10-13T17:56:20+00:00 start 6
+2026-10-13T17:57:06+00:00 end 6 ok
+2026-10-13T17:57:06+00:00 start 7
+2026-10-13T17:59:00+00:00 end 7 ok
+2026-10-13T17:59:00+00:00 start 8
+2026-10-13T18:00:14+00:00 end 8 ok
+2026-10-13T18:00:14+00:00 start 9
+2026-10-13T18:02:29+00:00 end 9 failed CourtListener search unresponsive after four attempts
+2026-10-13T18:02:29+00:00 start 10
+2026-10-13T18:02:54+00:00 end 10 ok
+2026-10-13T18:02:54+00:00 start 11
+2026-10-13T18:04:19+00:00 end 11 ok
+2026-10-13T18:04:19+00:00 start 12
+2026-10-13T18:05:49+00:00 end 12 ok
+2026-10-13T18:05:57+00:00 correction 11 failed Viet Nam country link returned home; no country CO2 value captured
+2026-10-13T18:05:57+00:00 start 13
+2026-10-13T18:06:30+00:00 end 13 ok
+2026-10-13T18:06:30+00:00 start 14
+2026-10-13T18:07:06+00:00 end 14 failed CO2 value missing from chunk 11; BBC first result read
+2026-10-13T18:07:06+00:00 start 15
+2026-10-13T18:07:21+00:00 end 15 ok
+2026-10-13T18:07:21+00:00 start 16
+2026-10-13T18:08:58+00:00 end 16 failed CourtListener search stalled after four attempts
+2026-10-13T18:08:58+00:00 start 17
+2026-10-13T18:09:50+00:00 end 17 ok
+2026-10-13T18:09:50+00:00 start 18
+2026-10-13T18:10:35+00:00 end 18 failed Tesla case missing from chunk 16; Wikipedia read, no draft fabricated
+2026-10-13T18:10:35+00:00 start 19
+2026-10-13T18:11:20+00:00 end 19 ok
+2026-10-13T18:11:28+00:00 start 20
+2026-10-13T18:12:38+00:00 end 20 failed World Bank search retained Viet Nam results after four attempts
+2026-10-13T18:12:38+00:00 start 21
+2026-10-13T18:13:08+00:00 end 21 ok

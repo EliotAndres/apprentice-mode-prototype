@@ -1,0 +1,268 @@
+{
+ "tabs": [
+  "https://www.sec.gov/edgar/search/",
+  "https://en.wikipedia.org/",
+  "https://www.xe.com/",
+  "https://www.timeanddate.com/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "BRIEF",
+   "name": "Write a pre-call account brief from SEC EDGAR and Wikipedia",
+   "use_case": "Sales",
+   "apps": [
+    "sec.gov",
+    "wikipedia.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "company",
+    "ticker",
+    "manager"
+   ],
+   "steps": [
+    "In the EDGAR tab, click the company search box, type {ticker} and pick {company} from the suggestions",
+    "On the company's filings page, filter the form type to 10-K",
+    "Note the filing date and period of the latest 10-K",
+    "Switch to the Wikipedia tab, search \"{company}\" and open the company article",
+    "From the infobox, note the headquarters, number of employees and CEO",
+    "Switch to the Mail tab, click To and type {manager}@example.com, click Subject and type \"Account brief: {company} ({ticker})\"",
+    "Click Body and type \"{company}: HQ <city>, <employees> employees, CEO <name>. Latest 10-K filed <date>.\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "QUOTES",
+   "name": "Convert two supplier quotes to USD and check the supplier's local time",
+   "use_case": "Procurement",
+   "apps": [
+    "xe.com",
+    "timeanddate.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "item",
+    "quote_a",
+    "quote_b",
+    "supplier_city"
+   ],
+   "steps": [
+    "In the xe.com tab, set Amount and From to {quote_a}, set To to USD, click Convert and read the result",
+    "Change Amount and From to {quote_b} (To stays USD) and read the result",
+    "Switch to the timeanddate tab, search \"{supplier_city}\" with the site's search and open its current local time",
+    "Switch to the Mail tab, click To and type procurement@example.com, click Subject and type \"Quotes: {item}\"",
+    "Click Body and type \"{quote_a} = <USD> USD, {quote_b} = <USD> USD, cheaper: <which>. Supplier time in {supplier_city}: <time>.\"",
+    "Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "SYNC",
+   "name": "Plan a cross-timezone sync around public holidays",
+   "use_case": "Operations",
+   "apps": [
+    "timeanddate.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "hq_city",
+    "remote_city",
+    "country",
+    "month"
+   ],
+   "steps": [
+    "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter",
+    "Add {hq_city} and {remote_city} and note the time difference",
+    "Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month}",
+    "Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\"",
+    "Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\"",
+    "Do not click Send. Click Discard"
+   ]
+  }
+ ],
+ "runs": {
+  "BRIEF.1": {
+   "workflow": "BRIEF",
+   "values": {
+    "company": "Snowflake",
+    "ticker": "SNOW",
+    "manager": "dana"
+   }
+  },
+  "BRIEF.2": {
+   "workflow": "BRIEF",
+   "values": {
+    "company": "Datadog",
+    "ticker": "DDOG",
+    "manager": "dana"
+   }
+  },
+  "BRIEF.3": {
+   "workflow": "BRIEF",
+   "values": {
+    "company": "HubSpot",
+    "ticker": "HUBS",
+    "manager": "marc"
+   }
+  },
+  "QUOTES.1": {
+   "workflow": "QUOTES",
+   "values": {
+    "item": "CNC enclosures",
+    "quote_a": "12500 EUR",
+    "quote_b": "1950000 JPY",
+    "supplier_city": "Osaka"
+   }
+  },
+  "QUOTES.2": {
+   "workflow": "QUOTES",
+   "values": {
+    "item": "Shipping boxes",
+    "quote_a": "8200 GBP",
+    "quote_b": "780000 INR",
+    "supplier_city": "Pune"
+   },
+   "note": "In step 1, first type 8020, notice the typo and fix it to 8200"
+  },
+  "QUOTES.3": {
+   "workflow": "QUOTES",
+   "values": {
+    "item": "PCB assembly",
+    "quote_a": "64000 CNY",
+    "quote_b": "14500 CAD",
+    "supplier_city": "Shenzhen"
+   }
+  },
+  "SYNC.1": {
+   "workflow": "SYNC",
+   "values": {
+    "hq_city": "San Francisco",
+    "remote_city": "Bangalore",
+    "country": "India",
+    "month": "October"
+   }
+  },
+  "SYNC.2": {
+   "workflow": "SYNC",
+   "values": {
+    "hq_city": "New York",
+    "remote_city": "Berlin",
+    "country": "Germany",
+    "month": "December"
+   }
+  },
+  "SYNC.3": {
+   "workflow": "SYNC",
+   "values": {
+    "hq_city": "London",
+    "remote_city": "Sydney",
+    "country": "Australia",
+    "month": "January"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit",
+  "N3": "Abandoned attempt: in the xe.com tab, type 50 in Amount and start setting From to CHF, then give up halfway and switch to the Wikipedia tab",
+  "N4": "Wander: click through the Notes, Mail and EDGAR tabs without doing anything",
+  "N5": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+ },
+ "script": [
+  {
+   "run": "BRIEF.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "QUOTES.1",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "QUOTES.1",
+   "steps": [
+    4,
+    6
+   ]
+  },
+  {
+   "run": "SYNC.1"
+  },
+  {
+   "run": "BRIEF.2"
+  },
+  {
+   "run": "QUOTES.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "SYNC.2",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "SYNC.2",
+   "steps": [
+    4,
+    6
+   ]
+  },
+  {
+   "run": "BRIEF.3",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "run": "QUOTES.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "BRIEF.3",
+   "steps": [
+    4,
+    7
+   ]
+  },
+  {
+   "run": "QUOTES.3",
+   "steps": [
+    3,
+    6
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "SYNC.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

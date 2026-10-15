@@ -1,0 +1,91 @@
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "03E234AE3B4C15037FA0F95AA4FE9073", "url": "http://mail.localhost:8000/mail.html", "title": "Mail \u2013 New message"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "0502940C06D03248651AACAEAA61E411", "url": "https://en.wikipedia.org/wiki/Main_Page", "title": "Wikipedia, the free encyclopedia"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "313EB0C39D9961CDE207198F7B133068", "url": "https://github.com/", "title": "GitHub \u00b7 Change is constant. GitHub keeps you ahead. \u00b7 GitHub \u00b7 GitHub"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/", "title": "npm | Home"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/", "title": "Allrecipes | Recipes, How-Tos, Videos and More"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "6AF893604F1CC226FAA600009BF16095", "url": "http://notes.localhost:8000/notes.html", "title": "Notes"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "url": "https://www.imdb.com/", "title": "IMDb: Ratings, Reviews, and Where to Watch the Best Movies & TV Shows"}
+{"t": 0.001, "type": "context", "kind": "tab_opened", "target_id": "A6E9B514D52E5AD9718357E3E0F496CC", "url": "https://www.rottentomatoes.com/", "title": "Rotten Tomatoes: Movies | TV Shows | Movie Trailers | Reviews | Rotten Tomatoes"}
+{"t": 74.956, "type": "context", "kind": "url_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "url": "https://www.imdb.com/title/tt2543164/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_ArrivalArrival", "site": "imdb"}
+{"t": 75.337, "type": "context", "kind": "title_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "title": "Arrival (2016) - IMDb"}
+{"t": 124.415, "type": "context", "kind": "url_change", "target_id": "A6E9B514D52E5AD9718357E3E0F496CC", "url": "https://www.rottentomatoes.com/m/arrival_2016", "site": "rottentomatoes"}
+{"t": 148.426, "type": "context", "kind": "tab_opened", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE", "url": "about:blank", "title": ""}
+{"t": 148.445, "type": "context", "kind": "title_change", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE", "title": "about:blank"}
+{"t": 148.539, "type": "context", "kind": "url_change", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE", "url": "https://www.bbc.com/", "site": "bbc"}
+{"t": 148.965, "type": "context", "kind": "title_change", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE", "title": "BBC Home - Breaking News, World News, US News, Sports, Business, Innovation, Climate, Culture, Travel, Video & Audio"}
+{"t": 207.334, "type": "context", "kind": "url_change", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE", "url": "https://www.bbc.com/future/article/20261008-how-can-i-eat-30-plants-a-week", "site": "bbc"}
+{"t": 207.483, "type": "context", "kind": "title_change", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE", "title": "I tried eating 30 plants a week. It was surprisingly easy"}
+{"t": 209.344, "type": "context", "kind": "tab_closed", "target_id": "DDAE7523D9C68C740AE4A1B2B3BC57CE"}
+{"t": 223.464, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/search?q=axios", "site": "npmjs"}
+{"t": 233.195, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/@nestjs/axios", "site": "npmjs"}
+{"t": 286.475, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/search?q=axios", "site": "npmjs"}
+{"t": 299.453, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/axios", "site": "npmjs"}
+{"t": 299.989, "type": "context", "kind": "title_change", "target_id": "413D564248B1BF67599866F392B96632", "title": "axios - npm"}
+{"t": 371.948, "type": "context", "kind": "tab_opened", "target_id": "FE4C8C11C08DC3110A544681D36BB106", "url": "about:blank", "title": ""}
+{"t": 371.964, "type": "context", "kind": "title_change", "target_id": "FE4C8C11C08DC3110A544681D36BB106", "title": "about:blank"}
+{"t": 372.427, "type": "context", "kind": "url_change", "target_id": "FE4C8C11C08DC3110A544681D36BB106", "url": "https://news.ycombinator.com/", "site": "ycombinator"}
+{"t": 383.798, "type": "context", "kind": "url_change", "target_id": "FE4C8C11C08DC3110A544681D36BB106", "url": "https://news.ycombinator.com/item?id=50067414", "site": "ycombinator"}
+{"t": 385.501, "type": "context", "kind": "title_change", "target_id": "FE4C8C11C08DC3110A544681D36BB106", "title": "Hittite royal archive found in Turkey | Hacker News"}
+{"t": 385.501, "type": "context", "kind": "tab_closed", "target_id": "FE4C8C11C08DC3110A544681D36BB106"}
+{"t": 395.822, "type": "context", "kind": "tab_opened", "target_id": "A7D50589EEF45AB76F26BE5ED144E2C7", "url": "", "title": ""}
+{"t": 396.428, "type": "context", "kind": "url_change", "target_id": "A7D50589EEF45AB76F26BE5ED144E2C7", "url": "https://github.com/axios/axios", "site": "github"}
+{"t": 396.823, "type": "context", "kind": "title_change", "target_id": "A7D50589EEF45AB76F26BE5ED144E2C7", "title": "GitHub - axios/axios: Promise based HTTP client for the browser and node.js \u00b7 GitHub"}
+{"t": 410.393, "type": "context", "kind": "url_change", "target_id": "A7D50589EEF45AB76F26BE5ED144E2C7", "url": "https://github.com/axios/axios/releases", "site": "github"}
+{"t": 417.114, "type": "context", "kind": "title_change", "target_id": "A7D50589EEF45AB76F26BE5ED144E2C7", "title": "Releases \u00b7 axios/axios \u00b7 GitHub"}
+{"t": 417.115, "type": "context", "kind": "tab_closed", "target_id": "A7D50589EEF45AB76F26BE5ED144E2C7"}
+{"t": 447.13, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/search?q=shakshuka", "site": "allrecipes"}
+{"t": 459.295, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/recipe/245362/chef-johns-shakshuka/", "site": "allrecipes"}
+{"t": 485.828, "type": "context", "kind": "url_change", "target_id": "0502940C06D03248651AACAEAA61E411", "url": "https://en.wikipedia.org/wiki/Shakshuka", "site": "wikipedia"}
+{"t": 486.009, "type": "context", "kind": "url_change", "target_id": "0502940C06D03248651AACAEAA61E411", "url": "https://en.wikipedia.org/wiki/Shakshouka", "site": "wikipedia"}
+{"t": 518.758, "type": "context", "kind": "url_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "url": "https://www.imdb.com/find/?q=Spirited%20Away&ref_=tt_nv_srb_sm", "site": "imdb"}
+{"t": 519.223, "type": "context", "kind": "title_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "title": "Find - IMDb"}
+{"t": 526.769, "type": "context", "kind": "url_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "url": "https://www.imdb.com/title/tt0245429/?ref_=fn_t_1", "site": "imdb"}
+{"t": 527.349, "type": "context", "kind": "title_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "title": "Spirited Away (2001) - IMDb"}
+{"t": 545.582, "type": "context", "kind": "url_change", "target_id": "A6E9B514D52E5AD9718357E3E0F496CC", "url": "https://www.rottentomatoes.com/search?search=Spirited%20Away", "site": "rottentomatoes"}
+{"t": 557.825, "type": "context", "kind": "url_change", "target_id": "A6E9B514D52E5AD9718357E3E0F496CC", "url": "https://www.rottentomatoes.com/m/spirited_away", "site": "rottentomatoes"}
+{"t": 633.019, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/search?q=lodash", "site": "npmjs"}
+{"t": 640.898, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/lodash", "site": "npmjs"}
+{"t": 641.212, "type": "context", "kind": "title_change", "target_id": "413D564248B1BF67599866F392B96632", "title": "lodash - npm"}
+{"t": 655.338, "type": "context", "kind": "tab_opened", "target_id": "0634A1D5C9DB074702B4514FBC6A9482", "url": "", "title": ""}
+{"t": 655.823, "type": "context", "kind": "url_change", "target_id": "0634A1D5C9DB074702B4514FBC6A9482", "url": "https://github.com/lodash/lodash", "site": "github"}
+{"t": 656.09, "type": "context", "kind": "title_change", "target_id": "0634A1D5C9DB074702B4514FBC6A9482", "title": "GitHub - lodash/lodash: A modern JavaScript utility library delivering modularity, performance, & extras. \u00b7 GitHub"}
+{"t": 668.644, "type": "context", "kind": "url_change", "target_id": "0634A1D5C9DB074702B4514FBC6A9482", "url": "https://github.com/lodash/lodash/releases", "site": "github"}
+{"t": 671.152, "type": "context", "kind": "title_change", "target_id": "0634A1D5C9DB074702B4514FBC6A9482", "title": "Releases \u00b7 lodash/lodash \u00b7 GitHub"}
+{"t": 671.152, "type": "context", "kind": "tab_closed", "target_id": "0634A1D5C9DB074702B4514FBC6A9482"}
+{"t": 713.243, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/search?q=lemon+tart", "site": "allrecipes"}
+{"t": 728.46, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/search?q=lemon+tartpad+thai", "site": "allrecipes"}
+{"t": 741.109, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/search?q=pad+thai", "site": "allrecipes"}
+{"t": 746.418, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/recipe/42968/pad-thai/", "site": "allrecipes"}
+{"t": 871.572, "type": "context", "kind": "url_change", "target_id": "0502940C06D03248651AACAEAA61E411", "url": "https://en.wikipedia.org/wiki/Pad_thai", "site": "wikipedia"}
+{"t": 897.521, "type": "context", "kind": "url_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "url": "https://www.imdb.com/find/?q=The%20Grand%20Budapest%20Hotel&ref_=tt_nv_srb_sm", "site": "imdb"}
+{"t": 897.979, "type": "context", "kind": "title_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "title": "Find - IMDb"}
+{"t": 903.482, "type": "context", "kind": "url_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "url": "https://www.imdb.com/title/tt2278388/?ref_=fn_t_1", "site": "imdb"}
+{"t": 904.071, "type": "context", "kind": "title_change", "target_id": "97B69E901874C0F3DE21A48825EABBF8", "title": "The Grand Budapest Hotel (2014) - IMDb"}
+{"t": 932.915, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/search?q=express", "site": "npmjs"}
+{"t": 940.543, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/express", "site": "npmjs"}
+{"t": 940.549, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/express?__cf_chl_rt_tk=qfIO7fzgXfIlcjLeivYrOKfOn0FzthtGeoLChq38CQY-1791910345-1.0.1.1-Yj4DWC8adlxTSQ6hUDhSIFrhBD.2ZKQa1xijxMlVlFQ", "site": "npmjs"}
+{"t": 941.067, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/express", "site": "npmjs"}
+{"t": 958.267, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/express?__cf_chl_tk=qfIO7fzgXfIlcjLeivYrOKfOn0FzthtGeoLChq38CQY-1791910345-1.0.1.1-Yj4DWC8adlxTSQ6hUDhSIFrhBD.2ZKQa1xijxMlVlFQ", "site": "npmjs"}
+{"t": 958.679, "type": "context", "kind": "url_change", "target_id": "413D564248B1BF67599866F392B96632", "url": "https://www.npmjs.com/package/express", "site": "npmjs"}
+{"t": 958.983, "type": "context", "kind": "title_change", "target_id": "413D564248B1BF67599866F392B96632", "title": "express - npm"}
+{"t": 981.358, "type": "context", "kind": "url_change", "target_id": "A6E9B514D52E5AD9718357E3E0F496CC", "url": "https://www.rottentomatoes.com/search?search=The%20Grand%20Budapest%20Hotel", "site": "rottentomatoes"}
+{"t": 988.758, "type": "context", "kind": "url_change", "target_id": "A6E9B514D52E5AD9718357E3E0F496CC", "url": "https://www.rottentomatoes.com/m/the_grand_budapest_hotel", "site": "rottentomatoes"}
+{"t": 1024.085, "type": "context", "kind": "tab_opened", "target_id": "151DDC01608DADC79B71506498664AE3", "url": "", "title": ""}
+{"t": 1024.597, "type": "context", "kind": "url_change", "target_id": "151DDC01608DADC79B71506498664AE3", "url": "https://github.com/expressjs/express", "site": "github"}
+{"t": 1024.84, "type": "context", "kind": "title_change", "target_id": "151DDC01608DADC79B71506498664AE3", "title": "GitHub - expressjs/express: Fast, unopinionated, minimalist web framework for node. \u00b7 GitHub"}
+{"t": 1038.921, "type": "context", "kind": "url_change", "target_id": "151DDC01608DADC79B71506498664AE3", "url": "https://github.com/expressjs/express/releases", "site": "github"}
+{"t": 1040.813, "type": "context", "kind": "title_change", "target_id": "151DDC01608DADC79B71506498664AE3", "title": "Releases \u00b7 expressjs/express \u00b7 GitHub"}
+{"t": 1040.813, "type": "context", "kind": "tab_closed", "target_id": "151DDC01608DADC79B71506498664AE3"}
+{"t": 1116.175, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/search?q=beef+bourguignon", "site": "allrecipes"}
+{"t": 1123.993, "type": "context", "kind": "url_change", "target_id": "459CE3C843761C1D1628E3FA968CB0BF", "url": "https://www.allrecipes.com/recipe/16167/beef-bourguignon-i/", "site": "allrecipes"}
+{"t": 1166.864, "type": "context", "kind": "url_change", "target_id": "0502940C06D03248651AACAEAA61E411", "url": "https://en.wikipedia.org/wiki/Beef_bourguignon", "site": "wikipedia"}
+{"t": 1184.688, "type": "context", "kind": "tab_opened", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "url": "about:blank", "title": ""}
+{"t": 1184.711, "type": "context", "kind": "title_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "title": "about:blank"}
+{"t": 1186.701, "type": "context", "kind": "url_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "url": "https://stackoverflow.com/questions", "site": "stackoverflow"}
+{"t": 1186.706, "type": "context", "kind": "url_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "url": "https://stackoverflow.com/questions?__cf_chl_rt_tk=pZ7R12bsA19IvSThQYll7I0E7z6_wluxJgDid1gaP9s-1791910591-1.0.1.1-IwmRf22XhG7VlInxkW6eq.x75lwMX5_5RT49mSfQBqg", "site": "stackoverflow"}
+{"t": 1187.304, "type": "context", "kind": "url_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "url": "https://stackoverflow.com/questions", "site": "stackoverflow"}
+{"t": 1188.343, "type": "context", "kind": "url_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "url": "https://stackoverflow.com/questions?__cf_chl_tk=pZ7R12bsA19IvSThQYll7I0E7z6_wluxJgDid1gaP9s-1791910591-1.0.1.1-IwmRf22XhG7VlInxkW6eq.x75lwMX5_5RT49mSfQBqg", "site": "stackoverflow"}
+{"t": 1188.931, "type": "context", "kind": "url_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "url": "https://stackoverflow.com/questions", "site": "stackoverflow"}
+{"t": 1198.804, "type": "context", "kind": "title_change", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34", "title": "Newest Questions - Stack Overflow"}
+{"t": 1198.804, "type": "context", "kind": "tab_closed", "target_id": "850C912F89B14DCAE6FC9D5608EF4C34"}
+{"t": 1311.741, "type": "context", "kind": "recorder_stopped", "reason": "signal"}

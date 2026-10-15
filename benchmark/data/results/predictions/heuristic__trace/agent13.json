@@ -1,0 +1,242 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 5-step flow on imdb",
+   "description": "Repeated sequence on imdb starting with CLICK button \"Decline\"",
+   "site": "imdb",
+   "steps": [
+    "CLICK button \"Decline\"",
+    "CLICK textbox \"Search IMDb\"",
+    "TYPE textbox \"Search IMDb\"",
+    "ENTER textbox \"Search IMDb\"",
+    "CLICK link \"Frankenstein\""
+   ],
+   "parameters": [],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "start_t": 124.991,
+     "end_t": 138.288,
+     "values": "Frankenstein"
+    },
+    {
+     "start_t": 507.542,
+     "end_t": 517.542,
+     "values": "Pride and Prejudice"
+    },
+    {
+     "start_t": 664.515,
+     "end_t": 666.612,
+     "values": "Dune"
+    },
+    {
+     "start_t": 942.277,
+     "end_t": 964.59,
+     "values": "ctrl+a, Treasure Island"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on wikipedia",
+   "description": "Repeated sequence on wikipedia starting with CLICK searchbox \"Search Wikipedia\"",
+   "site": "wikipedia",
+   "steps": [
+    "CLICK searchbox \"Search Wikipedia\"",
+    "TYPE searchbox \"Search Wikipedia\"",
+    "ENTER searchbox \"Search Wikipedia\""
+   ],
+   "parameters": [],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "start_t": 216.494,
+     "end_t": 221.719,
+     "values": "Peru"
+    },
+    {
+     "start_t": 538.4,
+     "end_t": 542.427,
+     "values": "VeitnamVietnam"
+    },
+    {
+     "start_t": 556.671,
+     "end_t": 561.69,
+     "values": "VeitnamVietnamVeitnam"
+    },
+    {
+     "start_t": 589.775,
+     "end_t": 610.249,
+     "values": "VVietnam, Vietnam"
+    },
+    {
+     "start_t": 918.233,
+     "end_t": 920.273,
+     "values": "Morocco"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on gutenberg",
+   "description": "Repeated sequence on gutenberg starting with CLICK textbox \"Search books\"",
+   "site": "gutenberg",
+   "steps": [
+    "CLICK textbox \"Search books\"",
+    "TYPE textbox \"Search books\"",
+    "CLICK textbox \"Search books\"",
+    "ENTER textbox \"Search books\"",
+    "CLICK link \"Frankenstein; or, the modern prometheus \""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 82.896,
+     "end_t": 106.23,
+     "values": "Frankenstein"
+    },
+    {
+     "start_t": 489.299,
+     "end_t": 497.373,
+     "values": "Pride and Prejudice"
+    },
+    {
+     "start_t": 892.378,
+     "end_t": 906.374,
+     "values": "Treasure Island"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 4-step flow on openstreetmap",
+   "description": "Repeated sequence on openstreetmap starting with KEY body \"Error 429 Unknown Error Unknown Error Er\"",
+   "site": "openstreetmap",
+   "steps": [
+    "KEY body \"Error 429 Unknown Error Unknown Error Er\"",
+    "KEY body \"Error 429 Unknown Error Unknown Error Er\"",
+    "KEY body \"Error 429 Unknown Error Unknown Error Er\"",
+    "KEY body \"Error 429 Unknown Error Unknown Error Er\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 861.62,
+     "end_t": 880.851,
+     "values": "ctrl+r, ctrl+r, ctrl+r, ctrl+r"
+    },
+    {
+     "start_t": 1090.058,
+     "end_t": 1109.028,
+     "values": "ctrl+r, ctrl+r, ctrl+r, ctrl+r"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 5-step flow on timeanddate",
+   "description": "Repeated sequence on timeanddate starting with CLICK button \"Deny all\"",
+   "site": "timeanddate",
+   "steps": [
+    "CLICK button \"Deny all\"",
+    "CLICK searchbox \"Search for city or place\u2026\"",
+    "TYPE searchbox \"Search for city or place\u2026\"",
+    "ENTER searchbox \"Search for city or place\u2026\"",
+    "CLICK link \"Peru, Lima, Lima\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 342.248,
+     "end_t": 355.734,
+     "values": "Lima"
+    },
+    {
+     "start_t": 632.658,
+     "end_t": 641.124,
+     "values": "Hanoi"
+    },
+    {
+     "start_t": 987.54,
+     "end_t": 995.614,
+     "values": "Rabat"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on viator",
+   "description": "Repeated sequence on viator starting with TYPE combobox \"Search for a place or activity\"",
+   "site": "viator",
+   "steps": [
+    "TYPE combobox \"Search for a place or activity\"",
+    "TYPE combobox \"Search for a place or activity\"",
+    "ENTER combobox \"Search for a place or activity\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 706.541,
+     "end_t": 714.602,
+     "values": "um tickets, Louvre ticketsum tickets"
+    },
+    {
+     "start_t": 731.781,
+     "end_t": 740.664,
+     "values": "ctrl+a, Louvre tickets"
+    },
+    {
+     "start_t": 1062.241,
+     "end_t": 1074.15,
+     "values": "ctrl+a, Rijksmuseum tickets"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on notes",
+   "description": "Repeated sequence on notes starting with CLICK textbox \"New note\"",
+   "site": "notes",
+   "steps": [
+    "CLICK textbox \"New note\"",
+    "TYPE textbox \"New note\"",
+    "ENTER textbox \"New note\""
+   ],
+   "parameters": [],
+   "confidence": 0.9000000000000001,
+   "instances": [
+    {
+     "start_t": 152.171,
+     "end_t": 154.181,
+     "values": "Unit: Frankenstein by Mary Wollstonecraft Shelley (160188 downloads). Film: 2025, rated 7.4"
+    },
+    {
+     "start_t": 365.3,
+     "end_t": 367.311,
+     "values": "Geography: Peru, capital Lima, pop 34,157,732, Spanish; co-official Quechua, Aymara and other Indigenous languages, Peruvian sol (PEN), time now 12:55:16 PET"
+    },
+    {
+     "start_t": 528.216,
+     "end_t": 530.237,
+     "values": "Unit: Pride and Prejudice by Jane Austen (192356 downloads). Film: 2005, rated 7.8"
+    },
+    {
+     "start_t": 653.067,
+     "end_t": 655.08,
+     "values": "Geography: Vietnam, capital Hanoi, pop 102,300,000, Vietnamese, Vietnamese \u0111\u1ed3ng (VND), time now 01:00:03 ICT"
+    },
+    {
+     "start_t": 975.117,
+     "end_t": 977.133,
+     "values": "Unit: Treasure Island by Robert Louis Stevenson (35366 downloads). Film: 1990, rated 7.0"
+    },
+    {
+     "start_t": 1006.742,
+     "end_t": 1008.75,
+     "values": "Geography: Morocco, capital Rabat, pop 36,828,330, Arabic and Amazigh, Moroccan dirham (MAD), time now 18:05:56 GMT"
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

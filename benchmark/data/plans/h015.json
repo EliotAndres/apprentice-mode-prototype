@@ -1,0 +1,2026 @@
+{
+ "session_id": "h015",
+ "seed": 15,
+ "tier": "hard",
+ "started_at": "2026-09-16T09:00:00+00:00",
+ "duration_s": 1377.4,
+ "events": [
+  {
+   "seq": 0,
+   "t": 477.7,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 0
+  },
+  {
+   "seq": 1,
+   "t": 484.95,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 1
+  },
+  {
+   "seq": 2,
+   "t": 491.02,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 2
+  },
+  {
+   "seq": 3,
+   "t": 493.99,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 3
+  },
+  {
+   "seq": 4,
+   "t": 499.64,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 4
+  },
+  {
+   "seq": 5,
+   "t": 505.0,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 5
+  },
+  {
+   "seq": 6,
+   "t": 509.71,
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "action_index": 6
+  },
+  {
+   "seq": 7,
+   "t": 514.73,
+   "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+   "action_index": 0
+  },
+  {
+   "seq": 8,
+   "t": 520.82,
+   "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+   "action_index": 1
+  },
+  {
+   "seq": 9,
+   "t": 524.57,
+   "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+   "action_index": 2
+  },
+  {
+   "seq": 10,
+   "t": 530.16,
+   "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+   "action_index": 3
+  },
+  {
+   "seq": 11,
+   "t": 535.5,
+   "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+   "action_index": 4
+  },
+  {
+   "seq": 12,
+   "t": 541.64,
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "action_index": 0
+  },
+  {
+   "seq": 13,
+   "t": 546.17,
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "action_index": 0
+  },
+  {
+   "seq": 14,
+   "t": 549.11,
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "action_index": 1
+  },
+  {
+   "seq": 15,
+   "t": 557.82,
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "action_index": 0
+  },
+  {
+   "seq": 16,
+   "t": 563.51,
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "action_index": 1
+  },
+  {
+   "seq": 17,
+   "t": 569.17,
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "action_index": 1
+  },
+  {
+   "seq": 18,
+   "t": 572.67,
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "action_index": 2
+  },
+  {
+   "seq": 19,
+   "t": 575.32,
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "action_index": 3
+  },
+  {
+   "seq": 20,
+   "t": 580.4,
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "action_index": 4
+  },
+  {
+   "seq": 21,
+   "t": 585.91,
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "action_index": 2
+  },
+  {
+   "seq": 22,
+   "t": 590.41,
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "action_index": 2
+  },
+  {
+   "seq": 23,
+   "t": 596.96,
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "action_index": 3
+  },
+  {
+   "seq": 24,
+   "t": 600.2,
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "action_index": 3
+  },
+  {
+   "seq": 25,
+   "t": 606.03,
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "action_index": 4
+  },
+  {
+   "seq": 26,
+   "t": 612.4,
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "action_index": 5
+  },
+  {
+   "seq": 27,
+   "t": 618.9,
+   "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+   "action_index": 0
+  },
+  {
+   "seq": 28,
+   "t": 624.93,
+   "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+   "action_index": 1
+  },
+  {
+   "seq": 29,
+   "t": 631.74,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 0
+  },
+  {
+   "seq": 30,
+   "t": 637.14,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 1
+  },
+  {
+   "seq": 31,
+   "t": 640.43,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 2
+  },
+  {
+   "seq": 32,
+   "t": 647.31,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 3
+  },
+  {
+   "seq": 33,
+   "t": 651.18,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 4
+  },
+  {
+   "seq": 34,
+   "t": 655.75,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 0
+  },
+  {
+   "seq": 35,
+   "t": 660.51,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 1
+  },
+  {
+   "seq": 36,
+   "t": 668.94,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 5
+  },
+  {
+   "seq": 37,
+   "t": 674.74,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 6
+  },
+  {
+   "seq": 38,
+   "t": 678.83,
+   "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+   "action_index": 2
+  },
+  {
+   "seq": 39,
+   "t": 683.61,
+   "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+   "action_index": 3
+  },
+  {
+   "seq": 40,
+   "t": 691.69,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 2
+  },
+  {
+   "seq": 41,
+   "t": 696.09,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 7
+  },
+  {
+   "seq": 42,
+   "t": 700.19,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 8
+  },
+  {
+   "seq": 43,
+   "t": 704.72,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 9
+  },
+  {
+   "seq": 44,
+   "t": 709.99,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 10
+  },
+  {
+   "seq": 45,
+   "t": 717.68,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 3
+  },
+  {
+   "seq": 46,
+   "t": 726.81,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 4
+  },
+  {
+   "seq": 47,
+   "t": 731.63,
+   "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+   "action_index": 0
+  },
+  {
+   "seq": 48,
+   "t": 738.05,
+   "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+   "action_index": 1
+  },
+  {
+   "seq": 49,
+   "t": 740.81,
+   "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+   "action_index": 2
+  },
+  {
+   "seq": 50,
+   "t": 745.04,
+   "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+   "action_index": 3
+  },
+  {
+   "seq": 51,
+   "t": 754.42,
+   "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+   "action_index": 4
+  },
+  {
+   "seq": 52,
+   "t": 758.57,
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "action_index": 11
+  },
+  {
+   "seq": 53,
+   "t": 764.6,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 5
+  },
+  {
+   "seq": 54,
+   "t": 770.1,
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "action_index": 0
+  },
+  {
+   "seq": 55,
+   "t": 774.31,
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "action_index": 1
+  },
+  {
+   "seq": 56,
+   "t": 780.26,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 6
+  },
+  {
+   "seq": 57,
+   "t": 783.78,
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "action_index": 0
+  },
+  {
+   "seq": 58,
+   "t": 788.26,
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "action_index": 1
+  },
+  {
+   "seq": 59,
+   "t": 792.87,
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "action_index": 2
+  },
+  {
+   "seq": 60,
+   "t": 796.29,
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "action_index": 3
+  },
+  {
+   "seq": 61,
+   "t": 798.99,
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "action_index": 2
+  },
+  {
+   "seq": 62,
+   "t": 805.19,
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "action_index": 3
+  },
+  {
+   "seq": 63,
+   "t": 810.36,
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "action_index": 4
+  },
+  {
+   "seq": 64,
+   "t": 814.95,
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "action_index": 5
+  },
+  {
+   "seq": 65,
+   "t": 820.5,
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "action_index": 4
+  },
+  {
+   "seq": 66,
+   "t": 828.12,
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "action_index": 5
+  },
+  {
+   "seq": 67,
+   "t": 834.41,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 0
+  },
+  {
+   "seq": 68,
+   "t": 839.01,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 7
+  },
+  {
+   "seq": 69,
+   "t": 844.44,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 8
+  },
+  {
+   "seq": 70,
+   "t": 852.96,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 9
+  },
+  {
+   "seq": 71,
+   "t": 860.38,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 10
+  },
+  {
+   "seq": 72,
+   "t": 866.23,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 11
+  },
+  {
+   "seq": 73,
+   "t": 869.23,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 12
+  },
+  {
+   "seq": 74,
+   "t": 874.23,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 1
+  },
+  {
+   "seq": 75,
+   "t": 880.47,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 2
+  },
+  {
+   "seq": 76,
+   "t": 886.42,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 3
+  },
+  {
+   "seq": 77,
+   "t": 891.2,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 4
+  },
+  {
+   "seq": 78,
+   "t": 895.71,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 0
+  },
+  {
+   "seq": 79,
+   "t": 900.47,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 5
+  },
+  {
+   "seq": 80,
+   "t": 906.13,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 6
+  },
+  {
+   "seq": 81,
+   "t": 909.93,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 7
+  },
+  {
+   "seq": 82,
+   "t": 914.62,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 8
+  },
+  {
+   "seq": 83,
+   "t": 920.6,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 9
+  },
+  {
+   "seq": 84,
+   "t": 923.94,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 1
+  },
+  {
+   "seq": 85,
+   "t": 927.93,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 2
+  },
+  {
+   "seq": 86,
+   "t": 935.58,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 3
+  },
+  {
+   "seq": 87,
+   "t": 941.38,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 10
+  },
+  {
+   "seq": 88,
+   "t": 948.83,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 11
+  },
+  {
+   "seq": 89,
+   "t": 957.58,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 12
+  },
+  {
+   "seq": 90,
+   "t": 964.1,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 13
+  },
+  {
+   "seq": 91,
+   "t": 968.48,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 14
+  },
+  {
+   "seq": 92,
+   "t": 976.58,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 13
+  },
+  {
+   "seq": 93,
+   "t": 982.75,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 15
+  },
+  {
+   "seq": 94,
+   "t": 989.08,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 16
+  },
+  {
+   "seq": 95,
+   "t": 991.44,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 17
+  },
+  {
+   "seq": 96,
+   "t": 996.89,
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "action_index": 18
+  },
+  {
+   "seq": 97,
+   "t": 1003.3,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 4
+  },
+  {
+   "seq": 98,
+   "t": 1009.22,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 5
+  },
+  {
+   "seq": 99,
+   "t": 1014.61,
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "action_index": 6
+  },
+  {
+   "seq": 100,
+   "t": 1018.61,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 14
+  },
+  {
+   "seq": 101,
+   "t": 1023.09,
+   "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+   "action_index": 0
+  },
+  {
+   "seq": 102,
+   "t": 1028.42,
+   "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+   "action_index": 0
+  },
+  {
+   "seq": 103,
+   "t": 1032.06,
+   "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+   "action_index": 1
+  },
+  {
+   "seq": 104,
+   "t": 1037.75,
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "action_index": 15
+  },
+  {
+   "seq": 105,
+   "t": 1044.88,
+   "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+   "action_index": 1
+  },
+  {
+   "seq": 106,
+   "t": 1049.71,
+   "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+   "action_index": 2
+  },
+  {
+   "seq": 107,
+   "t": 1053.15,
+   "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+   "action_index": 3
+  },
+  {
+   "seq": 108,
+   "t": 1058.77,
+   "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+   "action_index": 2
+  },
+  {
+   "seq": 109,
+   "t": 1064.64,
+   "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+   "action_index": 3
+  },
+  {
+   "seq": 110,
+   "t": 1070.93,
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "action_index": 0
+  },
+  {
+   "seq": 111,
+   "t": 1074.3,
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "action_index": 1
+  },
+  {
+   "seq": 112,
+   "t": 1081.45,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 0
+  },
+  {
+   "seq": 113,
+   "t": 1090.85,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 1
+  },
+  {
+   "seq": 114,
+   "t": 1096.36,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 2
+  },
+  {
+   "seq": 115,
+   "t": 1102.69,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 3
+  },
+  {
+   "seq": 116,
+   "t": 1107.47,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 4
+  },
+  {
+   "seq": 117,
+   "t": 1111.25,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 5
+  },
+  {
+   "seq": 118,
+   "t": 1114.43,
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "action_index": 6
+  },
+  {
+   "seq": 119,
+   "t": 1121.59,
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "action_index": 2
+  },
+  {
+   "seq": 120,
+   "t": 1366.95,
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "action_index": 3
+  },
+  {
+   "seq": 121,
+   "t": 1371.75,
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "action_index": 4
+  },
+  {
+   "seq": 122,
+   "t": 1377.4,
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "action_index": 5
+  }
+ ],
+ "segments": [
+  {
+   "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+   "role": "one_off",
+   "start": 0.0,
+   "end": 509.71,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+   "role": "workflow",
+   "start": 509.71,
+   "end": 535.5,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "role": "one_off",
+   "start": 535.5,
+   "end": 541.64,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "role": "workflow",
+   "start": 541.64,
+   "end": 549.11,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "role": "workflow",
+   "start": 549.11,
+   "end": 557.82,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "role": "one_off",
+   "start": 557.82,
+   "end": 563.51,
+   "actions": [
+    1
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+   "role": "workflow",
+   "start": 563.51,
+   "end": 580.4,
+   "actions": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "role": "workflow",
+   "start": 580.4,
+   "end": 585.91,
+   "actions": [
+    2
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "role": "one_off",
+   "start": 585.91,
+   "end": 596.96,
+   "actions": [
+    2,
+    3
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+   "role": "workflow",
+   "start": 596.96,
+   "end": 600.2,
+   "actions": [
+    3
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+   "role": "one_off",
+   "start": 600.2,
+   "end": 612.4,
+   "actions": [
+    4,
+    5
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+   "role": "workflow",
+   "start": 612.4,
+   "end": 624.93,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "role": "workflow",
+   "start": 624.93,
+   "end": 651.18,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 651.18,
+   "end": 660.51,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "role": "workflow",
+   "start": 660.51,
+   "end": 674.74,
+   "actions": [
+    5,
+    6
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+   "role": "workflow",
+   "start": 674.74,
+   "end": 683.61,
+   "actions": [
+    2,
+    3
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 683.61,
+   "end": 691.69,
+   "actions": [
+    2
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "role": "workflow",
+   "start": 691.69,
+   "end": 709.99,
+   "actions": [
+    7,
+    8,
+    9,
+    10
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 709.99,
+   "end": 726.81,
+   "actions": [
+    3,
+    4
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+   "role": "distractor",
+   "start": 726.81,
+   "end": 754.42,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+   "role": "workflow",
+   "start": 754.42,
+   "end": 758.57,
+   "actions": [
+    11
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 758.57,
+   "end": 764.6,
+   "actions": [
+    5
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "role": "workflow",
+   "start": 764.6,
+   "end": 774.31,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 774.31,
+   "end": 780.26,
+   "actions": [
+    6
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "role": "distractor",
+   "start": 780.26,
+   "end": 796.29,
+   "actions": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+   "role": "workflow",
+   "start": 796.29,
+   "end": 814.95,
+   "actions": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+   "role": "distractor",
+   "start": 814.95,
+   "end": 828.12,
+   "actions": [
+    4,
+    5
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "role": "one_off",
+   "start": 828.12,
+   "end": 834.41,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 834.41,
+   "end": 869.23,
+   "actions": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "role": "one_off",
+   "start": 869.23,
+   "end": 891.2,
+   "actions": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "role": "workflow",
+   "start": 891.2,
+   "end": 895.71,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "role": "one_off",
+   "start": 895.71,
+   "end": 920.6,
+   "actions": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "role": "workflow",
+   "start": 920.6,
+   "end": 935.58,
+   "actions": [
+    1,
+    2,
+    3
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "role": "one_off",
+   "start": 935.58,
+   "end": 968.48,
+   "actions": [
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 968.48,
+   "end": 976.58,
+   "actions": [
+    13
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+   "role": "one_off",
+   "start": 976.58,
+   "end": 996.89,
+   "actions": [
+    15,
+    16,
+    17,
+    18
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+   "role": "workflow",
+   "start": 996.89,
+   "end": 1014.61,
+   "actions": [
+    4,
+    5,
+    6
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 1014.61,
+   "end": 1018.61,
+   "actions": [
+    14
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+   "role": "workflow",
+   "start": 1018.61,
+   "end": 1023.09,
+   "actions": [
+    0
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+   "role": "workflow",
+   "start": 1023.09,
+   "end": 1032.06,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+   "role": "workflow",
+   "start": 1032.06,
+   "end": 1037.75,
+   "actions": [
+    15
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+   "role": "workflow",
+   "start": 1037.75,
+   "end": 1053.15,
+   "actions": [
+    1,
+    2,
+    3
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+   "role": "workflow",
+   "start": 1053.15,
+   "end": 1064.64,
+   "actions": [
+    2,
+    3
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "role": "one_off",
+   "start": 1064.64,
+   "end": 1074.3,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+   "role": "distractor",
+   "start": 1074.3,
+   "end": 1114.43,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+   "role": "one_off",
+   "start": 1114.43,
+   "end": 1377.4,
+   "actions": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "resumed": true
+  }
+ ],
+ "ground_truth": {
+  "session_id": "h015",
+  "tier": "hard",
+  "dontcare_inside_instances": false,
+  "action_t": [
+   477.7,
+   484.95,
+   491.02,
+   493.99,
+   499.64,
+   505.0,
+   509.71,
+   514.73,
+   520.82,
+   524.57,
+   530.16,
+   535.5,
+   541.64,
+   546.17,
+   549.11,
+   557.82,
+   563.51,
+   569.17,
+   572.67,
+   575.32,
+   580.4,
+   585.91,
+   590.41,
+   596.96,
+   600.2,
+   606.03,
+   612.4,
+   618.9,
+   624.93,
+   631.74,
+   637.14,
+   640.43,
+   647.31,
+   651.18,
+   655.75,
+   660.51,
+   668.94,
+   674.74,
+   678.83,
+   683.61,
+   691.69,
+   696.09,
+   700.19,
+   704.72,
+   709.99,
+   717.68,
+   726.81,
+   731.63,
+   738.05,
+   740.81,
+   745.04,
+   754.42,
+   758.57,
+   764.6,
+   770.1,
+   774.31,
+   780.26,
+   783.78,
+   788.26,
+   792.87,
+   796.29,
+   798.99,
+   805.19,
+   810.36,
+   814.95,
+   820.5,
+   828.12,
+   834.41,
+   839.01,
+   844.44,
+   852.96,
+   860.38,
+   866.23,
+   869.23,
+   874.23,
+   880.47,
+   886.42,
+   891.2,
+   895.71,
+   900.47,
+   906.13,
+   909.93,
+   914.62,
+   920.6,
+   923.94,
+   927.93,
+   935.58,
+   941.38,
+   948.83,
+   957.58,
+   964.1,
+   968.48,
+   976.58,
+   982.75,
+   989.08,
+   991.44,
+   996.89,
+   1003.3,
+   1009.22,
+   1014.61,
+   1018.61,
+   1023.09,
+   1028.42,
+   1032.06,
+   1037.75,
+   1044.88,
+   1049.71,
+   1053.15,
+   1058.77,
+   1064.64,
+   1070.93,
+   1074.3,
+   1081.45,
+   1090.85,
+   1096.36,
+   1102.69,
+   1107.47,
+   1111.25,
+   1114.43,
+   1121.59,
+   1366.95,
+   1371.75,
+   1377.4
+  ],
+  "opportunities": [
+   {
+    "opportunity_id": "h015-op0",
+    "template_id": "sixflags:browse_park_page",
+    "site": "sixflags",
+    "name": "Browse park info page",
+    "description": "Navigate to the {section} page of {park}.",
+    "parameters": [
+     "park",
+     "section"
+    ],
+    "steps": [
+     "Select park and click Go",
+     "Open the navigation menu section",
+     "Click the target subpage"
+    ],
+    "observed_seconds": 121.7,
+    "instances": [
+     {
+      "task_id": "dc1f0824-5483-4d3b-87d2-3f760a42a25e",
+      "task": "Show me all the events at any six flags park in Texas",
+      "site": "sixflags",
+      "spans": [
+       [
+        514.73,
+        535.5
+       ]
+      ],
+      "seqs": [
+       7,
+       8,
+       9,
+       10,
+       11
+      ],
+      "seconds": 25.8,
+      "values": {
+       "park": "Six Flags Fiesta Texas",
+       "section": "Events - See all events"
+      }
+     },
+     {
+      "task_id": "caafd610-202e-49d2-85d1-3f167f3ab443",
+      "task": "Show me the map of a Six flags park in mexico",
+      "site": "sixflags",
+      "spans": [
+       [
+        557.82,
+        557.82
+       ],
+       [
+        569.17,
+        580.4
+       ]
+      ],
+      "seqs": [
+       15,
+       17,
+       18,
+       19,
+       20
+      ],
+      "seconds": 25.6,
+      "values": {
+       "park": "Six Flags M\u00e9xico",
+       "section": "Mapa del Parque"
+      }
+     },
+     {
+      "task_id": "c4538b84-ca81-413a-8f3d-7ce87e42b4f6",
+      "task": "Find the Saturday park hours for Six Flags, Magic Mountain.",
+      "site": "sixflags",
+      "spans": [
+       [
+        618.9,
+        624.93
+       ],
+       [
+        678.83,
+        683.61
+       ]
+      ],
+      "seqs": [
+       27,
+       28,
+       38,
+       39
+      ],
+      "seconds": 21.4,
+      "values": {
+       "park": "Six Flags Magic Mountain",
+       "section": "Park Hours & Calendar"
+      }
+     },
+     {
+      "task_id": "5098c679-dacc-4abd-9331-18b898f936dd",
+      "task": "What are the St louis park policies regarding security?",
+      "site": "sixflags",
+      "spans": [
+       [
+        770.1,
+        774.31
+       ],
+       [
+        798.99,
+        814.95
+       ]
+      ],
+      "seqs": [
+       54,
+       55,
+       61,
+       62,
+       63,
+       64
+      ],
+      "seconds": 28.4,
+      "values": {
+       "park": "Six Flags St. Louis",
+       "section": "Park Policies - Security"
+      }
+     },
+     {
+      "task_id": "5b56d5b8-1f41-43ca-9f21-369d849f1aa0",
+      "task": "Browse the season pass prices for  Hurricane HarborLos Angeles.",
+      "site": "sixflags",
+      "spans": [
+       [
+        1028.42,
+        1032.06
+       ],
+       [
+        1058.77,
+        1064.64
+       ]
+      ],
+      "seqs": [
+       102,
+       103,
+       108,
+       109
+      ],
+      "seconds": 20.5,
+      "values": {
+       "park": "Hurricane Harbor Los Angeles",
+       "section": "Tickets & Passes"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "h015-op1",
+    "template_id": "rentalcars:search_car_rental_with_filters",
+    "site": "rentalcars",
+    "name": "Search car rental with dates and filters",
+    "description": "Search for rental cars at {location} for {pickup_date}/{dropoff_date} (times optional) and apply filters such as {car_type}, supplier, sorting, then optionally view the deal.",
+    "parameters": [
+     "location",
+     "pickup_date",
+     "dropoff_date",
+     "pickup_time",
+     "dropoff_time",
+     "car_type",
+     "other_filters",
+     "sort"
+    ],
+    "steps": [
+     "Enter the pick-up location (city, airport or place) and select the suggestion",
+     "Pick the pick-up and drop-off dates in the calendar",
+     "Set pick-up and drop-off times if specified",
+     "Click Search",
+     "Apply filters (car type, supplier, specs, policy)",
+     "Sort results (e.g. lowest price first or distance)",
+     "Click View deal / go to book if required"
+    ],
+    "observed_seconds": 198.9,
+    "instances": [
+     {
+      "task_id": "06497906-8b76-4367-a1b3-ebc8238bd470",
+      "task": "Choose a lowest priced hybrid SUV car to pick up from Bangkok downtown on May 24 at 9:30 am and drop off on May 28, at 9 am.",
+      "site": "rentalcars",
+      "spans": [
+       [
+        631.74,
+        651.18
+       ],
+       [
+        668.94,
+        674.74
+       ],
+       [
+        696.09,
+        709.99
+       ],
+       [
+        758.57,
+        758.57
+       ]
+      ],
+      "seqs": [
+       29,
+       30,
+       31,
+       32,
+       33,
+       36,
+       37,
+       41,
+       42,
+       43,
+       44,
+       52
+      ],
+      "seconds": 62.9,
+      "values": {
+       "location": "Downtown Bangkok",
+       "pickup_date": "May 24",
+       "dropoff_date": "May 28",
+       "pickup_time": "9:30 AM",
+       "dropoff_time": "9:00 AM",
+       "car_type": "SUV",
+       "other_filters": "hybrid",
+       "sort": "lowest price"
+      }
+     },
+     {
+      "task_id": "d9ab19b6-fecb-4545-ab5d-fabc94c27ff6",
+      "task": "Hire a premium luxury car closest to North Las Vegas on April 29 at 6 pm and drop it off at the same location and the same day at 11 pm, supplier should be Avis if available.",
+      "site": "rentalcars",
+      "spans": [
+       [
+        655.75,
+        660.51
+       ],
+       [
+        691.69,
+        691.69
+       ],
+       [
+        717.68,
+        726.81
+       ],
+       [
+        764.6,
+        764.6
+       ],
+       [
+        780.26,
+        780.26
+       ],
+       [
+        839.01,
+        869.23
+       ],
+       [
+        976.58,
+        976.58
+       ],
+       [
+        1018.61,
+        1018.61
+       ],
+       [
+        1037.75,
+        1037.75
+       ]
+      ],
+      "seqs": [
+       34,
+       35,
+       40,
+       45,
+       46,
+       53,
+       56,
+       68,
+       69,
+       70,
+       71,
+       72,
+       73,
+       92,
+       100,
+       104
+      ],
+      "seconds": 98.8,
+      "values": {
+       "location": "North Las Vegas",
+       "pickup_date": "Apr 29",
+       "dropoff_date": "Apr 29",
+       "pickup_time": "6:00 PM",
+       "dropoff_time": "11:00 PM",
+       "car_type": "premium luxury",
+       "other_filters": "Avis",
+       "sort": "distance"
+      }
+     },
+     {
+      "task_id": "8082086a-10a7-4631-9792-b57337426f9a",
+      "task": "Find a SUV with automatic transmission in New York drop off at March 30.",
+      "site": "rentalcars",
+      "spans": [
+       [
+        895.71,
+        895.71
+       ],
+       [
+        923.94,
+        935.58
+       ],
+       [
+        1003.3,
+        1014.61
+       ]
+      ],
+      "seqs": [
+       78,
+       84,
+       85,
+       86,
+       97,
+       98,
+       99
+      ],
+      "seconds": 37.2,
+      "values": {
+       "location": "New York, NY",
+       "dropoff_date": "Mar 30",
+       "car_type": "SUV",
+       "other_filters": "automatic transmission"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "h015-op2",
+    "template_id": "us.megabus:find_bus_stop_info",
+    "site": "us.megabus",
+    "name": "Find bus stop information",
+    "description": "Look up bus stops in {city} and view a stop's details",
+    "parameters": [
+     "city",
+     "stop"
+    ],
+    "steps": [
+     "Click Explore",
+     "Open Bus stops",
+     "Expand the city",
+     "Click the stop to see its location"
+    ],
+    "observed_seconds": 36.1,
+    "instances": [
+     {
+      "task_id": "2ce0a80e-a049-434d-8b99-8343d2a0b21d",
+      "task": "Show me the location of the Altavista bus stop.",
+      "site": "us.megabus",
+      "spans": [
+       [
+        546.17,
+        549.11
+       ],
+       [
+        585.91,
+        585.91
+       ],
+       [
+        600.2,
+        600.2
+       ]
+      ],
+      "seqs": [
+       13,
+       14,
+       21,
+       24
+      ],
+      "seconds": 16.2,
+      "values": {
+       "city": "Altavista, VA",
+       "stop": "Altavista Commons (Walmart parking lot)"
+      }
+     },
+     {
+      "task_id": "2e2cb6d9-560c-4258-baed-82e0ed5b5dbc",
+      "task": "Find bus stop information at Abbotsford, WI.",
+      "site": "us.megabus",
+      "spans": [
+       [
+        1023.09,
+        1023.09
+       ],
+       [
+        1044.88,
+        1053.15
+       ]
+      ],
+      "seqs": [
+       101,
+       105,
+       106,
+       107
+      ],
+      "seconds": 19.9,
+      "values": {
+       "city": "Abbotsford, WI",
+       "stop": "Super 39 Shell"
+      }
+     }
+    ]
+   }
+  ],
+  "negatives": [
+   {
+    "task_id": "cc174cb2-520d-49c3-93da-f93a1c485c03",
+    "task": "Calculate the fare options to go from the south station to the north station",
+    "site": "mbta",
+    "spans": [
+     [
+      477.7,
+      509.71
+     ]
+    ],
+    "seqs": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "seconds": 509.7,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "e72f9c32-4633-4fcf-abd7-b7cc4a9aaba3",
+    "task": "Find similar artists to the Weekend.",
+    "site": "last.fm",
+    "spans": [
+     [
+      731.63,
+      754.42
+     ]
+    ],
+    "seqs": [
+     47,
+     48,
+     49,
+     50,
+     51
+    ],
+    "seconds": 27.6,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "cdd9ef05-4d5b-4469-b001-8d73b6dc8120",
+    "task": "Find the documents required to sell a car in New Jersey for which payments are being paid and it has single person on the title who can come to the store",
+    "site": "carmax",
+    "spans": [
+     [
+      783.78,
+      796.29
+     ],
+     [
+      820.5,
+      828.12
+     ]
+    ],
+    "seqs": [
+     57,
+     58,
+     59,
+     60,
+     65,
+     66
+    ],
+    "seconds": 29.2,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "8f4a020d-ac81-4d20-ae3a-02808faaba4e",
+    "task": "Buy a birthday party package for a group of 10 at Arizona park with my address details. Group name is Neo, group leader's name is Thomas Anderson, birthday is May 5th, 1995. The phone number is2526545258. The email address is thomas.neo@gmail.com and address is po box 2846, Texas city in the state of Texas.",
+    "site": "sixflags",
+    "spans": [
+     [
+      834.41,
+      834.41
+     ],
+     [
+      874.23,
+      891.2
+     ],
+     [
+      900.47,
+      920.6
+     ],
+     [
+      941.38,
+      968.48
+     ],
+     [
+      982.75,
+      996.89
+     ]
+    ],
+    "seqs": [
+     67,
+     74,
+     75,
+     76,
+     77,
+     79,
+     80,
+     81,
+     82,
+     83,
+     87,
+     88,
+     89,
+     90,
+     91,
+     93,
+     94,
+     95,
+     96
+    ],
+    "seconds": 106.4,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "19b955ba-fdcd-4345-b33a-fc6a88b5a85d",
+    "task": "Apply for a job on the Six Flags White Water park",
+    "site": "sixflags",
+    "spans": [
+     [
+      541.64,
+      541.64
+     ],
+     [
+      563.51,
+      563.51
+     ],
+     [
+      590.41,
+      596.96
+     ],
+     [
+      606.03,
+      612.4
+     ]
+    ],
+    "seqs": [
+     12,
+     16,
+     22,
+     23,
+     25,
+     26
+    ],
+    "seconds": 35.1,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "607cea69-abb5-4055-aa09-117650cb7cc9",
+    "task": "Request information for tickets for a group of 100 people at a park in california",
+    "site": "sixflags",
+    "spans": [
+     [
+      1070.93,
+      1074.3
+     ],
+     [
+      1121.59,
+      1377.4
+     ]
+    ],
+    "seqs": [
+     110,
+     111,
+     119,
+     120,
+     121,
+     122
+    ],
+    "seconds": 272.6,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "f1986a5b-c074-40fe-9c89-d083389f0cc4",
+    "task": "Find bluetooth vertical mouse with most reviews and add two to my shopping cart..",
+    "site": "newegg",
+    "spans": [
+     [
+      1081.45,
+      1114.43
+     ]
+    ],
+    "seqs": [
+     112,
+     113,
+     114,
+     115,
+     116,
+     117,
+     118
+    ],
+    "seconds": 40.1,
+    "kind": "distractor"
+   }
+  ]
+ }
+}

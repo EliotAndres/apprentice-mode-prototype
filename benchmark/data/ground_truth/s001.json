@@ -1,0 +1,642 @@
+{
+ "session_id": "s001",
+ "tier": "easy",
+ "dontcare_inside_instances": true,
+ "action_t": [
+  9.22,
+  12.1,
+  13.81,
+  15.52,
+  18.51,
+  22.04,
+  23.59,
+  24.88,
+  26.77,
+  755.05,
+  759.29,
+  761.58,
+  765.11,
+  767.08,
+  769.07,
+  771.11,
+  773.77,
+  777.31,
+  780.08,
+  784.81,
+  790.48,
+  791.6,
+  831.68,
+  834.62,
+  836.62,
+  839.28,
+  841.58,
+  843.02,
+  847.05,
+  851.7,
+  855.79,
+  857.5,
+  860.12,
+  861.99,
+  897.23,
+  900.75,
+  902.94,
+  911.23,
+  912.34,
+  983.73,
+  985.32,
+  986.55,
+  989.28,
+  991.48,
+  991.99,
+  996.44,
+  1001.02,
+  1004.28,
+  1006.01,
+  1052.58,
+  1055.51,
+  1056.43,
+  1060.96,
+  1063.11,
+  1090.36,
+  1094.9,
+  1098.94,
+  1099.97,
+  1103.98,
+  1104.7,
+  1139.4,
+  1141.72,
+  1143.13,
+  1148.27,
+  1149.94,
+  1152.82,
+  1156.27,
+  1187.82,
+  1190.13,
+  1191.92,
+  1194.51,
+  1198.05,
+  1248.88,
+  1250.14,
+  1252.08,
+  1253.86,
+  1257.15,
+  1260.7,
+  1265.43,
+  1267.41,
+  1270.84,
+  1272.79,
+  1275.43,
+  1313.88,
+  1315.37,
+  1320.21,
+  1322.55,
+  1324.12,
+  1328.77,
+  1330.75,
+  1333.87,
+  1336.85,
+  1357.59,
+  1359.79,
+  1366.82,
+  1368.66,
+  1377.54,
+  1380.19,
+  1382.04,
+  1383.84,
+  1385.56,
+  1389.65,
+  1391.44,
+  1426.63,
+  1429.28,
+  1430.75,
+  1435.08,
+  1461.83,
+  1463.72,
+  2202.18,
+  2205.98,
+  2211.29,
+  2266.33,
+  2269.02,
+  2270.74,
+  2275.14,
+  2277.35,
+  2279.32,
+  2281.14,
+  2283.09,
+  2285.62,
+  2286.7,
+  2289.06,
+  2292.16,
+  2293.12,
+  2295.01,
+  2297.59,
+  2299.74,
+  2399.09,
+  2401.78,
+  2405.29,
+  2407.41,
+  2409.18
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "s001-op0",
+   "template_id": "booking:attraction_search_and_book",
+   "site": "booking",
+   "name": "Search attractions and check tickets",
+   "description": "Find attraction/tours in {destination} on {date} for {guests}, apply filters, and view prices or book.",
+   "parameters": [
+    "destination",
+    "date",
+    "guests",
+    "filters"
+   ],
+   "steps": [
+    "Open Attractions",
+    "Enter destination and select",
+    "Select date",
+    "Click Search",
+    "Apply filters/sort",
+    "Open attraction and see availability/price",
+    "Set guests and proceed"
+   ],
+   "observed_seconds": 91.6,
+   "instances": [
+    {
+     "task_id": "c51cc2c0-5750-4bae-b665-ad1b7fafa63e",
+     "task": "Show ticket price for Aquarium of Paris for 2 adults on May 5th.",
+     "site": "booking",
+     "spans": [
+      [
+       9.22,
+       26.77
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+     ],
+     "seconds": 30.1,
+     "values": {
+      "destination": "Aquarium of Paris",
+      "date": "5 May",
+      "guests": "2 adults",
+      "filters": "none"
+     }
+    },
+    {
+     "task_id": "4272e233-3440-4572-bd86-b3a2b22a4061",
+     "task": "Find the most popular tours and attractions in Kyoto, Japan from May 25 with free cancellation option, check availability for 2 adults and 1 infant, and book.",
+     "site": "booking",
+     "spans": [
+      [
+       1461.83,
+       1463.72
+      ],
+      [
+       2266.33,
+       2299.74
+      ]
+     ],
+     "seqs": [
+      107,
+      108,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+     ],
+     "seconds": 61.5,
+     "values": {
+      "destination": "Kyoto, Japan",
+      "date": "25 May",
+      "guests": "2 adults, 1 infant",
+      "filters": "free cancellation, most popular"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "s001-op1",
+   "template_id": "ryanair:search_flights",
+   "site": "ryanair",
+   "name": "Search flights",
+   "description": "Search flights from {origin} to {destination} departing {depart_date}, optional return {return_date}, passengers, fare, promo, and optionally book",
+   "parameters": [
+    "origin",
+    "destination",
+    "depart_date",
+    "return_date",
+    "passengers",
+    "fare_type",
+    "promo_code",
+    "passenger_details"
+   ],
+   "steps": [
+    "Enter origin",
+    "Enter destination",
+    "Select dates",
+    "Set passengers / promo code",
+    "Search",
+    "Select flights and fare",
+    "Optionally enter passenger details and continue"
+   ],
+   "observed_seconds": 163.8,
+   "instances": [
+    {
+     "task_id": "6d87b507-14dd-4903-a131-fa089499ccb5",
+     "task": "Find a flight From Dublin To Athens Greece for 1 Adult that leaves on April 1 and returns April 5th.",
+     "site": "ryanair",
+     "spans": [
+      [
+       831.68,
+       861.99
+      ]
+     ],
+     "seqs": [
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33
+     ],
+     "seconds": 38.7,
+     "values": {
+      "origin": "Dublin",
+      "destination": "Athens",
+      "depart_date": "April 1",
+      "return_date": "April 5",
+      "passengers": "1 adult"
+     }
+    },
+    {
+     "task_id": "400c291f-6a0c-46fb-874e-d5c174fdedfc",
+     "task": "Search for a one way flight from Dublin to Malta on April 22, 2023 for 2 adults.",
+     "site": "ryanair",
+     "spans": [
+      [
+       983.73,
+       1006.01
+      ]
+     ],
+     "seqs": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48
+     ],
+     "seconds": 40.3,
+     "values": {
+      "origin": "Dublin",
+      "destination": "Malta",
+      "depart_date": "April 22, 2023",
+      "passengers": "2 adults"
+     }
+    },
+    {
+     "task_id": "2742f638-cf66-4c72-a6a6-69f2a12bc269",
+     "task": "Search for a flight on May 9 and return on May 16 from Tel Aviv to Venice with plus type fare option.",
+     "site": "ryanair",
+     "spans": [
+      [
+       1248.88,
+       1275.43
+      ]
+     ],
+     "seqs": [
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82
+     ],
+     "seconds": 37.9,
+     "values": {
+      "origin": "Tel Aviv",
+      "destination": "Venice",
+      "depart_date": "May 9",
+      "return_date": "May 16",
+      "fare_type": "Plus"
+     }
+    },
+    {
+     "task_id": "87ca0d6a-c513-4aae-b14f-7d4db3255e98",
+     "task": "Search for a flight from Dublin in Ireland to Paris Beauvais in france for 2 adults leaving apr 26 and returning may 2 with the promo code 10000001",
+     "site": "ryanair",
+     "spans": [
+      [
+       1357.59,
+       1391.44
+      ]
+     ],
+     "seqs": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102
+     ],
+     "seconds": 46.9,
+     "values": {
+      "origin": "Dublin",
+      "destination": "Paris Beauvais",
+      "depart_date": "Apr 26",
+      "return_date": "May 2",
+      "passengers": "2 adults",
+      "promo_code": "1000001"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "s001-op2",
+   "template_id": "resy:notify_restaurant_availability",
+   "site": "resy",
+   "name": "Notify for restaurant availability",
+   "description": "Set a notification for restaurant {restaurant} for {guests} on {date} or time window {time}",
+   "parameters": [
+    "restaurant",
+    "guests",
+    "date",
+    "time"
+   ],
+   "steps": [
+    "Search restaurant",
+    "Open restaurant page",
+    "Set date and guests",
+    "Click Notify",
+    "Set preferred times and confirm"
+   ],
+   "observed_seconds": 57.1,
+   "instances": [
+    {
+     "task_id": "f4c21e9f-fbd7-4c45-a282-de06ae3b73c5",
+     "task": "Find a Thai restaurant and get notified when they have an open table between 5 to 7 PM",
+     "site": "resy",
+     "spans": [
+      [
+       897.23,
+       912.34
+      ]
+     ],
+     "seqs": [
+      34,
+      35,
+      36,
+      37,
+      38
+     ],
+     "seconds": 30.4,
+     "values": {
+      "restaurant": "Thai (Senyai Thai Kitchen)",
+      "guests": "",
+      "date": "",
+      "time": "5-7 PM"
+     }
+    },
+    {
+     "task_id": "3eae65d9-7778-4cf2-bc3d-f666b5e43bce",
+     "task": "Notify me about availability for 2 guests on april 17 at the High Tide restaurant",
+     "site": "resy",
+     "spans": [
+      [
+       1090.36,
+       1104.7
+      ]
+     ],
+     "seqs": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+     ],
+     "seconds": 26.7,
+     "values": {
+      "restaurant": "High Tide",
+      "guests": "2",
+      "date": "April 17",
+      "time": ""
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "16e81dcf-9762-4b83-be3e-60a65a15efec",
+   "task": "Book a first class vacation travel for 2 adults from San Francisco to New york leavind on april 9 and returning on april 19",
+   "site": "aa",
+   "spans": [
+    [
+     755.05,
+     791.6
+    ]
+   ],
+   "seqs": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "seconds": 51.3,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "4d73937b-3be7-4f5f-950f-b1905244a2ac",
+   "task": "Show MLB tickets for this weekend and select the next one.",
+   "site": "ticketcenter",
+   "spans": [
+    [
+     1052.58,
+     1063.11
+    ]
+   ],
+   "seqs": [
+    49,
+    50,
+    51,
+    52,
+    53
+   ],
+   "seconds": 22.3,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "78915162-53c9-4cb1-86e1-6be6047528e0",
+   "task": "Find out if Coldplay is playing any events in Columbus, OH on May 17.",
+   "site": "seatgeek",
+   "spans": [
+    [
+     1139.4,
+     1156.27
+    ]
+   ],
+   "seqs": [
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66
+   ],
+   "seconds": 32.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "92869590-839d-4dfd-8884-4c52bef3b328",
+   "task": "Find a pasta restaurant in Sydney and save it",
+   "site": "resy",
+   "spans": [
+    [
+     1187.82,
+     1198.05
+    ]
+   ],
+   "seqs": [
+    67,
+    68,
+    69,
+    70,
+    71
+   ],
+   "seconds": 25.4,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "790ba0ec-4e7d-4df0-ac86-ea52b3a73532",
+   "task": "Add my birthday detail, January 5, 1980, and dairy and peanut allergy in my profile, also add love ramen noodles to my bio, and save.",
+   "site": "resy",
+   "spans": [
+    [
+     1313.88,
+     1336.85
+    ]
+   ],
+   "seqs": [
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91
+   ],
+   "seconds": 37.8,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "693ae151-6a70-41b1-b016-87279c4c532e",
+   "task": "find the cheapest xbox 360 game available for purchase",
+   "site": "gamestop",
+   "spans": [
+    [
+     1426.63,
+     1435.08
+    ]
+   ],
+   "seqs": [
+    103,
+    104,
+    105,
+    106
+   ],
+   "seconds": 27.0,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "e031c695-28e2-4507-949e-bbb65edf9f3d",
+   "task": "Find an article about a new restaurant and share it on Twitter",
+   "site": "resy",
+   "spans": [
+    [
+     2202.18,
+     2211.29
+    ]
+   ],
+   "seqs": [
+    109,
+    110,
+    111
+   ],
+   "seconds": 28.0,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "70b3ef5b-d900-44cf-9b62-9ecece97954c",
+   "task": "Find climbing gear and sort the results by price high to low.",
+   "site": "rei",
+   "spans": [
+    [
+     2399.09,
+     2409.18
+    ]
+   ],
+   "seqs": [
+    128,
+    129,
+    130,
+    131,
+    132
+   ],
+   "seconds": 23.3,
+   "kind": "distractor"
+  }
+ ]
+}

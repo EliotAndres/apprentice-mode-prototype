@@ -1,0 +1,346 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Replicate Session Viewer</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f4f3f0; --surface-1: #fcfcfb; --border: #dddcd7;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #8a8984;
+  --neg: #c9c8c2; --neg-strong: #9d9c96; --accent: #e34948;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --s5: #e87ba4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-0: #121211; --surface-1: #1a1a19; --border: #383835;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --neg: #4a4a46; --neg-strong: #6c6b66; --accent: #e66767;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #121211; --surface-1: #1a1a19; --border: #383835;
+  --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+  --neg: #4a4a46; --neg-strong: #6c6b66; --accent: #e66767;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --s5: #d55181;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+header { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: center; padding: 14px 16px;
+  border-bottom: 1px solid var(--border); background: var(--surface-1); }
+h1 { font-size: 16px; margin: 0; font-weight: 600; }
+select, button { font: inherit; color: var(--text-primary); background: var(--surface-0);
+  border: 1px solid var(--border); border-radius: 6px; padding: 4px 8px; }
+button { cursor: pointer; }
+.stats { color: var(--text-secondary); font-size: 13px; }
+main { padding: 16px; max-width: 1400px; margin: 0 auto; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; padding: 14px; margin-bottom: 16px; }
+.card h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--text-secondary); margin: 0 0 10px; font-weight: 600; }
+.lanes { position: relative; }
+.lane { display: grid; grid-template-columns: 170px 1fr; align-items: center; gap: 8px; margin: 3px 0; }
+.lane-label { font-size: 12px; color: var(--text-secondary); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.track { position: relative; height: 18px; background: var(--surface-0); border-radius: 4px; cursor: pointer; }
+.seg { position: absolute; top: 2px; bottom: 2px; border-radius: 3px; min-width: 2px; }
+.seg.neg { background: var(--neg); }
+.seg.distractor { background: repeating-linear-gradient(45deg, var(--neg) 0 4px, var(--neg-strong) 4px 6px); }
+.seg.pred-miss { background: transparent; border: 2px solid var(--accent); }
+.playhead { position: absolute; top: 0; bottom: 0; width: 2px; background: var(--text-primary); pointer-events: none; }
+.axis { display: grid; grid-template-columns: 170px 1fr; gap: 8px; font-size: 11px; color: var(--text-muted); }
+.axis .ticks { position: relative; height: 14px; }
+.axis .ticks span { position: absolute; transform: translateX(-50%); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 16px; margin-top: 10px; font-size: 12px; color: var(--text-secondary); }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; vertical-align: -2px; margin-right: 5px; }
+.player { display: grid; grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr); gap: 16px; }
+.frame { position: relative; width: 100%; aspect-ratio: 1280 / 800; background: var(--surface-0); border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.frame img { width: 100%; height: 100%; display: block; }
+.frame .box { position: absolute; border: 3px solid var(--accent); border-radius: 3px; pointer-events: none; }
+.controls { display: flex; gap: 8px; align-items: center; margin-top: 10px; flex-wrap: wrap; }
+.controls input[type=range] { flex: 1; min-width: 160px; }
+.meta dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 10px; font-size: 13px; }
+.meta dt { color: var(--text-muted); }
+.meta dd { margin: 0; word-break: break-word; }
+.pill { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 12px; font-weight: 600; color: #fff; }
+.pill.neg { background: var(--neg-strong); }
+.strip { display: flex; gap: 6px; overflow-x: auto; padding: 8px 0 2px; }
+.strip img { height: 64px; border-radius: 4px; border: 2px solid transparent; cursor: pointer; flex: none; }
+.strip img.on { border-color: var(--accent); }
+.opps { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.opp { border-left: 4px solid; padding: 6px 10px; background: var(--surface-0); border-radius: 0 6px 6px 0; font-size: 13px; }
+.opp b { display: block; }
+.opp ol { margin: 6px 0 0; padding-left: 18px; color: var(--text-secondary); }
+.tip { position: fixed; pointer-events: none; background: var(--surface-1); border: 1px solid var(--border); border-radius: 6px;
+  padding: 6px 9px; font-size: 12px; max-width: 360px; box-shadow: 0 4px 14px rgba(0,0,0,.15); display: none; z-index: 10; }
+a { color: inherit; }
+.kbd { color: var(--text-muted); font-size: 12px; }
+@media (max-width: 800px) {
+  .player { grid-template-columns: 1fr; }
+  .lane, .axis { grid-template-columns: 90px 1fr; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Replicate · session viewer</h1>
+  <label>Session <select id="session"></select></label>
+  <label>Predictions <select id="pred"><option value="">none</option></select></label>
+  <span class="stats" id="stats"></span>
+</header>
+<main>
+  <section class="card">
+    <h2>Timeline</h2>
+    <div class="lanes" id="lanes"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+  <section class="card player">
+    <div>
+      <div class="frame" id="frame"><img id="img" alt="viewport before the action"><div class="box" id="box"></div></div>
+      <div class="controls">
+        <button id="prev" title="Previous action (←)">◀</button>
+        <button id="play" title="Play / pause (space)">▶ Play</button>
+        <button id="next" title="Next action (→)">▶</button>
+        <input type="range" id="slider" min="0" value="0">
+        <span class="kbd" id="pos"></span>
+      </div>
+      <div class="strip" id="strip"></div>
+    </div>
+    <div class="meta"><dl id="meta"></dl></div>
+  </section>
+  <section class="card">
+    <h2>Ground-truth workflows</h2>
+    <div class="opps" id="opps"></div>
+  </section>
+</main>
+<div class="tip" id="tip"></div>
+<script>
+const SESSIONS = /*DATA*/null;
+const WORKFLOW_COLORS = ["--s1", "--s2", "--s3", "--s4", "--s5"].map(variableName => `var(${variableName})`);
+const elementById = elementId => document.getElementById(elementId);
+let currentSession = null, currentActionIndex = 0, playbackTimer = null;
+
+const formatTime = seconds =>
+  `${String(Math.floor(seconds / 60)).padStart(2, "0")}:${String(Math.floor(seconds % 60)).padStart(2, "0")}`;
+const escapeHtml = text => String(text ?? "").replace(/[&<>"]/g,
+  character => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[character]));
+
+function init() {
+  SESSIONS.forEach((session, sessionIndex) =>
+    elementById("session").add(new Option(`${session.id} · ${session.events.length} actions`, sessionIndex)));
+  const runNames = [...new Set(SESSIONS.flatMap(session => Object.keys(session.preds)))].sort();
+  runNames.forEach(runName => elementById("pred").add(new Option(runName.replace("__", " · "), runName)));
+  elementById("session").onchange = () => loadSession(+elementById("session").value);
+  elementById("pred").onchange = () => drawLanes();
+  elementById("prev").onclick = () => showAction(currentActionIndex - 1);
+  elementById("next").onclick = () => showAction(currentActionIndex + 1);
+  elementById("slider").oninput = inputEvent => showAction(+inputEvent.target.value);
+  elementById("play").onclick = togglePlay;
+  document.addEventListener("keydown", keyEvent => {
+    if (keyEvent.target.tagName === "SELECT") return;
+    if (keyEvent.key === "ArrowRight") showAction(currentActionIndex + 1);
+    else if (keyEvent.key === "ArrowLeft") showAction(currentActionIndex - 1);
+    else if (keyEvent.key === " ") { keyEvent.preventDefault(); togglePlay(); }
+  });
+  loadSession(0);
+}
+
+function loadSession(sessionIndex) {
+  currentSession = SESSIONS[sessionIndex];
+  const groundTruth = currentSession.gt;
+  const oneOffCount = groundTruth.negatives.filter(negative => negative.kind === "one_off").length;
+  const distractorCount = groundTruth.negatives.filter(negative => negative.kind === "distractor").length;
+  elementById("stats").textContent = `${currentSession.tier} tier · ${formatTime(currentSession.duration)} long · ` +
+    `${groundTruth.opportunities.length} workflows · ${oneOffCount} one-offs · ${distractorCount} distractors · timing synthetic`;
+  elementById("slider").max = currentSession.events.length - 1;
+  drawLanes();
+  drawOpportunityCards();
+  showAction(0);
+}
+
+function segmentElement(startTime, endTime, cssClass, color, tooltipHtml, sequenceNumber) {
+  const segment = document.createElement("div");
+  segment.className = "seg " + cssClass;
+  segment.style.left = (100 * startTime / currentSession.duration) + "%";
+  segment.style.width = (100 * (endTime - startTime) / currentSession.duration) + "%";
+  if (color) segment.style.background = color;
+  segment.dataset.tip = tooltipHtml;
+  if (sequenceNumber != null) segment.dataset.seq = sequenceNumber;
+  return segment;
+}
+
+function lane(label, segments) {
+  const row = document.createElement("div");
+  row.className = "lane";
+  row.innerHTML = `<div class="lane-label" title="${escapeHtml(label)}">${escapeHtml(label)}</div>`;
+  const track = document.createElement("div");
+  track.className = "track";
+  segments.forEach(segment => track.appendChild(segment));
+  const playhead = document.createElement("div");
+  playhead.className = "playhead";
+  track.appendChild(playhead);
+  track.onclick = clickEvent => {
+    const trackBounds = track.getBoundingClientRect();
+    const clickedTime = (clickEvent.clientX - trackBounds.left) / trackBounds.width * currentSession.duration;
+    let nearestActionIndex = 0;
+    currentSession.events.forEach((event, actionIndex) => {
+      if (Math.abs(event.t - clickedTime) < Math.abs(currentSession.events[nearestActionIndex].t - clickedTime)) {
+        nearestActionIndex = actionIndex;
+      }
+    });
+    showAction(nearestActionIndex);
+  };
+  row.appendChild(track);
+  return row;
+}
+
+function firstSequenceNumber(taskInstance) {
+  return taskInstance.seqs && taskInstance.seqs.length ? taskInstance.seqs[0] : null;
+}
+
+function drawLanes() {
+  const lanesContainer = elementById("lanes");
+  lanesContainer.innerHTML = "";
+  const groundTruth = currentSession.gt;
+  const workflowSegments = (opportunity, opportunityIndex) => opportunity.instances.flatMap(workflowInstance =>
+    workflowInstance.spans.map(([startTime, endTime]) => segmentElement(startTime, endTime, "",
+      WORKFLOW_COLORS[opportunityIndex % 5],
+      `<b>${escapeHtml(opportunity.name)}</b><br>${escapeHtml(workflowInstance.task)}`,
+      firstSequenceNumber(workflowInstance))));
+  const allTaskSegments = groundTruth.opportunities.flatMap(workflowSegments);
+  groundTruth.negatives.forEach(negative => negative.spans.forEach(([startTime, endTime]) =>
+    allTaskSegments.push(segmentElement(startTime, endTime, negative.kind === "distractor" ? "distractor" : "neg", null,
+      `<b>${negative.kind === "distractor" ? "Distractor" : "One-off"}</b> · ${escapeHtml(negative.site)}` +
+      `<br>${escapeHtml(negative.task)}`, firstSequenceNumber(negative)))));
+  lanesContainer.appendChild(lane("Ground truth (all tasks)", allTaskSegments));
+  groundTruth.opportunities.forEach((opportunity, opportunityIndex) =>
+    lanesContainer.appendChild(lane(`W${opportunityIndex + 1} · ${opportunity.name}`,
+      workflowSegments(opportunity, opportunityIndex))));
+  const selectedRun = elementById("pred").value;
+  if (selectedRun && currentSession.preds[selectedRun]) {
+    currentSession.preds[selectedRun].forEach((predictedOpportunity, predictionRank) => {
+      const matchedIndex = predictedOpportunity.match;
+      const isUnmatched = matchedIndex == null;
+      const minimumWidth = currentSession.duration / 800;  // keep one-action segments visible
+      const predictedSegments = predictedOpportunity.spans.flatMap((occurrenceSpans, occurrenceIndex) =>
+        occurrenceSpans.map(([startTime, endTime]) => segmentElement(startTime, Math.max(endTime, startTime + minimumWidth),
+          isUnmatched ? "pred-miss" : "", isUnmatched ? null : WORKFLOW_COLORS[matchedIndex % 5],
+          `<b>#${predictionRank + 1} ${escapeHtml(predictedOpportunity.name)}</b> · occurrence ${occurrenceIndex + 1}` +
+          `<br>${escapeHtml(predictedOpportunity.description)}<br>` +
+          (isUnmatched ? "<i>no ground-truth match</i>" : `matches W${matchedIndex + 1}`))));
+      const laneLabel = `#${predictionRank + 1} ${isUnmatched ? "✗" : "→ W" + (matchedIndex + 1)} · ${predictedOpportunity.name}`;
+      lanesContainer.appendChild(lane(laneLabel, predictedSegments));
+    });
+  }
+  const axis = document.createElement("div");
+  axis.className = "axis";
+  const tickStep = currentSession.duration > 2400 ? 600 : currentSession.duration > 900 ? 300 : 120;
+  let ticksHtml = "";
+  for (let tickTime = 0; tickTime <= currentSession.duration; tickTime += tickStep) {
+    ticksHtml += `<span style="left:${100 * tickTime / currentSession.duration}%">${formatTime(tickTime)}</span>`;
+  }
+  axis.innerHTML = `<div></div><div class="ticks">${ticksHtml}</div>`;
+  lanesContainer.appendChild(axis);
+  lanesContainer.querySelectorAll(".seg").forEach(segment => {
+    segment.onmousemove = mouseEvent => {
+      const tooltip = elementById("tip");
+      tooltip.innerHTML = segment.dataset.tip;
+      tooltip.style.display = "block";
+      tooltip.style.left = Math.min(mouseEvent.clientX + 12, innerWidth - 380) + "px";
+      tooltip.style.top = mouseEvent.clientY + 14 + "px";
+    };
+    segment.onmouseleave = () => elementById("tip").style.display = "none";
+    if (segment.dataset.seq) {
+      segment.onclick = clickEvent => { clickEvent.stopPropagation(); showAction(+segment.dataset.seq); };
+    }
+  });
+  elementById("legend").innerHTML = groundTruth.opportunities.map((opportunity, opportunityIndex) =>
+      `<span><i style="background:${WORKFLOW_COLORS[opportunityIndex % 5]}"></i>W${opportunityIndex + 1} ` +
+      `${escapeHtml(opportunity.name)} (${opportunity.instances.length}×)</span>`).join("") +
+    `<span><i style="background:var(--neg)"></i>One-off (travel)</span>` +
+    `<span><i style="background:repeating-linear-gradient(45deg,var(--neg) 0 4px,var(--neg-strong) 4px 6px)"></i>Distractor (other domain)</span>` +
+    (selectedRun ? `<span><i style="border:2px solid var(--accent)"></i>Prediction with no match</span>` : "");
+  movePlayhead();
+}
+
+function drawOpportunityCards() {
+  elementById("opps").innerHTML = currentSession.gt.opportunities.map((opportunity, opportunityIndex) => `
+    <div class="opp" style="border-color:${WORKFLOW_COLORS[opportunityIndex % 5]}">
+    <b>W${opportunityIndex + 1} · ${escapeHtml(opportunity.name)}</b><span class="kbd">${escapeHtml(opportunity.site)} · ` +
+    `${opportunity.instances.length} instances · params: ${escapeHtml((opportunity.parameters || []).join(", "))}</span>
+    <div>${escapeHtml(opportunity.description)}</div>
+    <ol>${opportunity.instances.map(workflowInstance =>
+      `<li><a href="#" data-seq="${firstSequenceNumber(workflowInstance)}">${escapeHtml(workflowInstance.task)}</a>` +
+      `${workflowInstance.spans.length > 1 ? ` <i>(${workflowInstance.spans.length} pieces)</i>` : ""}</li>`).join("")}</ol></div>`).join("");
+  elementById("opps").querySelectorAll("a").forEach(link => link.onclick = clickEvent => {
+    clickEvent.preventDefault();
+    showAction(+link.dataset.seq);
+    scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+function showAction(actionIndex) {
+  currentActionIndex = Math.max(0, Math.min(currentSession.events.length - 1, actionIndex));
+  const action = currentSession.events[currentActionIndex];
+  elementById("img").src = action.img;
+  const targetBox = elementById("box");
+  if (action.bbox) {
+    const [boxX, boxY, boxWidth, boxHeight] = action.bbox;
+    Object.assign(targetBox.style, { display: "block", left: 100 * boxX / 1280 + "%", top: 100 * boxY / 800 + "%",
+                                     width: 100 * boxWidth / 1280 + "%", height: 100 * boxHeight / 800 + "%" });
+  } else {
+    targetBox.style.display = "none";
+  }
+  elementById("slider").value = currentActionIndex;
+  elementById("pos").textContent =
+    `action ${currentActionIndex + 1}/${currentSession.events.length} · t=${formatTime(action.t)}`;
+  const roleLabel = action.kind === "workflow"
+    ? `<span class="pill" style="background:${WORKFLOW_COLORS[action.opp % 5]}">W${action.opp + 1} · ` +
+      `${escapeHtml(currentSession.gt.opportunities[action.opp].name)}</span>`
+    : `<span class="pill neg">${action.kind === "distractor" ? "Distractor" : "One-off"}</span>`;
+  elementById("meta").innerHTML = `<dt>Role</dt><dd>${roleLabel}</dd><dt>Task</dt><dd>${escapeHtml(action.task)}</dd>` +
+    `<dt>Site</dt><dd>${escapeHtml(action.site)}</dd>` +
+    `<dt>Action</dt><dd><b>${escapeHtml(action.op)}</b> ${escapeHtml(action.role)} “${escapeHtml(action.text)}”</dd>` +
+    (action.value ? `<dt>Value</dt><dd>${escapeHtml(action.value)}</dd>` : "") +
+    `<dt>Time</dt><dd>${formatTime(action.t)} (${action.t.toFixed(1)} s)</dd><dt>Seq</dt><dd>#${action.seq}</dd>`;
+  const sameTaskActions = currentSession.events.filter(otherAction => otherAction.task === action.task);
+  const filmstrip = elementById("strip");
+  filmstrip.innerHTML = sameTaskActions.map(otherAction =>
+    `<img src="${otherAction.img}" data-seq="${otherAction.seq}" class="${otherAction.seq === action.seq ? "on" : ""}" ` +
+    `title="${escapeHtml(otherAction.op + " " + otherAction.text)}" loading="lazy">`).join("");
+  filmstrip.querySelectorAll("img").forEach(thumbnail => thumbnail.onclick = () => showAction(+thumbnail.dataset.seq));
+  const activeThumbnail = filmstrip.querySelector(".on");  // scroll the strip only, never the page
+  if (activeThumbnail) {
+    filmstrip.scrollLeft = activeThumbnail.offsetLeft - filmstrip.offsetLeft - filmstrip.clientWidth / 2
+      + activeThumbnail.clientWidth / 2;
+  }
+  movePlayhead();
+}
+
+function movePlayhead() {
+  if (!currentSession) return;
+  const currentTime = currentSession.events[currentActionIndex].t;
+  document.querySelectorAll(".playhead").forEach(playhead =>
+    playhead.style.left = (100 * currentTime / currentSession.duration) + "%");
+}
+
+function togglePlay() {
+  if (playbackTimer) {
+    clearInterval(playbackTimer);
+    playbackTimer = null;
+    elementById("play").textContent = "▶ Play";
+    return;
+  }
+  elementById("play").textContent = "❚❚ Pause";
+  playbackTimer = setInterval(() => {
+    if (currentActionIndex >= currentSession.events.length - 1) togglePlay();
+    else showAction(currentActionIndex + 1);
+  }, 900);
+}
+
+init();
+</script>
+</body>
+</html>

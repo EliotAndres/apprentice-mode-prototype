@@ -1,0 +1,150 @@
+{
+ "opportunities": [
+  {
+   "name": "Repeated 9-step flow on aa",
+   "description": "Repeated sequence on aa starting with CLICK link \"Search flights multiple cities\"",
+   "site": "aa",
+   "steps": [
+    "CLICK link \"Search flights multiple cities\"",
+    "CLICK textbox \"From , required.\"",
+    "TYPE textbox \"From , required.\"",
+    "CLICK a \"JFK - New York John F Kennedy Intl, NY\"",
+    "CLICK textbox \"To , required.\"",
+    "TYPE textbox \"To , required.\"",
+    "CLICK a \"LHR - London Heathrow, United Kingdom\"",
+    "TYPE textbox \"Depart , required.\"",
+    "CLICK textbox \"From , required.\""
+   ],
+   "parameters": [],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "start_t": 297.12,
+     "end_t": 347.08,
+     "values": "JFK, Heathrow, 04/19/2023"
+    },
+    {
+     "start_t": 380.4,
+     "end_t": 437.52,
+     "values": "Heathrow, developer, dallas, CDG"
+    },
+    {
+     "start_t": 476.79,
+     "end_t": 510.3,
+     "values": "8, CDG, JFK"
+    },
+    {
+     "start_t": 594.95,
+     "end_t": 619.71,
+     "values": "JFK"
+    },
+    {
+     "start_t": 731.55,
+     "end_t": 736.21,
+     "values": "Heathrow"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 3-step flow on tripadvisor",
+   "description": "Repeated sequence on tripadvisor starting with CLICK link \"Hotels\"",
+   "site": "tripadvisor",
+   "steps": [
+    "CLICK link \"Hotels\"",
+    "TYPE searchbox \"Search\"",
+    "CLICK div \"Jaipur\""
+   ],
+   "parameters": [],
+   "confidence": 0.6000000000000001,
+   "instances": [
+    {
+     "start_t": 128.37,
+     "end_t": 139.09,
+     "values": "jaipur"
+    },
+    {
+     "start_t": 270.22,
+     "end_t": 292.72,
+     "values": "New York City"
+    },
+    {
+     "start_t": 623.29,
+     "end_t": 640.66,
+     "values": "Toronto"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on aa",
+   "description": "Repeated sequence on aa starting with CLICK a \"CDG - Paris Charles de Gaulle, France\"",
+   "site": "aa",
+   "steps": [
+    "CLICK a \"CDG - Paris Charles de Gaulle, France\"",
+    "TYPE textbox \"Depart , required.\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 462.92,
+     "end_t": 469.01,
+     "values": "04/21/2023"
+    },
+    {
+     "start_t": 566.5,
+     "end_t": 581.77,
+     "values": "04/23/2023, Total travel time"
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on tripadvisor",
+   "description": "Repeated sequence on tripadvisor starting with CLICK generic \"Best Value\"",
+   "site": "tripadvisor",
+   "steps": [
+    "CLICK generic \"Best Value\"",
+    "CLICK div \"Price (low to high)\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 232.94,
+     "end_t": 238.61,
+     "values": ""
+    },
+    {
+     "start_t": 357.26,
+     "end_t": 372.0,
+     "values": ""
+    }
+   ]
+  },
+  {
+   "name": "Repeated 2-step flow on marriott",
+   "description": "Repeated sequence on marriott starting with CLICK link \"Redeem Points \ue922\"",
+   "site": "marriott",
+   "steps": [
+    "CLICK link \"Redeem Points \ue922\"",
+    "CLICK link \"Learn More\""
+   ],
+   "parameters": [],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "start_t": 585.86,
+     "end_t": 589.84,
+     "values": ""
+    },
+    {
+     "start_t": 643.71,
+     "end_t": 649.44,
+     "values": ""
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "heuristic"
+ }
+}

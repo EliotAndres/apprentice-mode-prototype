@@ -1,0 +1,1946 @@
+{
+ "session_id": "s006",
+ "seed": 6,
+ "tier": "easy",
+ "started_at": "2026-09-07T09:00:00+00:00",
+ "duration_s": 2992.78,
+ "events": [
+  {
+   "seq": 0,
+   "t": 15.11,
+   "task_id": "5f9182dc-d35d-4c0e-9abe-cd913c136528",
+   "action_index": 0
+  },
+  {
+   "seq": 1,
+   "t": 17.04,
+   "task_id": "5f9182dc-d35d-4c0e-9abe-cd913c136528",
+   "action_index": 1
+  },
+  {
+   "seq": 2,
+   "t": 656.71,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 0
+  },
+  {
+   "seq": 3,
+   "t": 658.53,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 1
+  },
+  {
+   "seq": 4,
+   "t": 660.96,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 2
+  },
+  {
+   "seq": 5,
+   "t": 663.14,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 3
+  },
+  {
+   "seq": 6,
+   "t": 666.42,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 4
+  },
+  {
+   "seq": 7,
+   "t": 667.52,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 5
+  },
+  {
+   "seq": 8,
+   "t": 671.31,
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "action_index": 6
+  },
+  {
+   "seq": 9,
+   "t": 735.91,
+   "task_id": "961e4feb-2b5b-4372-a5db-c7d3222aac21",
+   "action_index": 0
+  },
+  {
+   "seq": 10,
+   "t": 737.78,
+   "task_id": "961e4feb-2b5b-4372-a5db-c7d3222aac21",
+   "action_index": 1
+  },
+  {
+   "seq": 11,
+   "t": 743.33,
+   "task_id": "961e4feb-2b5b-4372-a5db-c7d3222aac21",
+   "action_index": 2
+  },
+  {
+   "seq": 12,
+   "t": 770.15,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 0
+  },
+  {
+   "seq": 13,
+   "t": 771.31,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 1
+  },
+  {
+   "seq": 14,
+   "t": 776.61,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 2
+  },
+  {
+   "seq": 15,
+   "t": 779.19,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 3
+  },
+  {
+   "seq": 16,
+   "t": 780.79,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 4
+  },
+  {
+   "seq": 17,
+   "t": 784.04,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 5
+  },
+  {
+   "seq": 18,
+   "t": 785.24,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 6
+  },
+  {
+   "seq": 19,
+   "t": 787.6,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 7
+  },
+  {
+   "seq": 20,
+   "t": 790.14,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 8
+  },
+  {
+   "seq": 21,
+   "t": 792.71,
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "action_index": 9
+  },
+  {
+   "seq": 22,
+   "t": 817.83,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 0
+  },
+  {
+   "seq": 23,
+   "t": 822.42,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 1
+  },
+  {
+   "seq": 24,
+   "t": 824.06,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 2
+  },
+  {
+   "seq": 25,
+   "t": 825.54,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 3
+  },
+  {
+   "seq": 26,
+   "t": 829.96,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 4
+  },
+  {
+   "seq": 27,
+   "t": 831.64,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 5
+  },
+  {
+   "seq": 28,
+   "t": 833.73,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 6
+  },
+  {
+   "seq": 29,
+   "t": 836.57,
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "action_index": 7
+  },
+  {
+   "seq": 30,
+   "t": 903.09,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 0
+  },
+  {
+   "seq": 31,
+   "t": 907.35,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 1
+  },
+  {
+   "seq": 32,
+   "t": 910.41,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 2
+  },
+  {
+   "seq": 33,
+   "t": 916.81,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 3
+  },
+  {
+   "seq": 34,
+   "t": 919.78,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 4
+  },
+  {
+   "seq": 35,
+   "t": 921.23,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 5
+  },
+  {
+   "seq": 36,
+   "t": 925.41,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 6
+  },
+  {
+   "seq": 37,
+   "t": 927.69,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 7
+  },
+  {
+   "seq": 38,
+   "t": 931.33,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 8
+  },
+  {
+   "seq": 39,
+   "t": 934.84,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 9
+  },
+  {
+   "seq": 40,
+   "t": 939.69,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 10
+  },
+  {
+   "seq": 41,
+   "t": 944.08,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 11
+  },
+  {
+   "seq": 42,
+   "t": 945.89,
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "action_index": 12
+  },
+  {
+   "seq": 43,
+   "t": 997.43,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 0
+  },
+  {
+   "seq": 44,
+   "t": 1002.5,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 1
+  },
+  {
+   "seq": 45,
+   "t": 1003.56,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 2
+  },
+  {
+   "seq": 46,
+   "t": 1004.89,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 3
+  },
+  {
+   "seq": 47,
+   "t": 1009.82,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 4
+  },
+  {
+   "seq": 48,
+   "t": 1029.72,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 0
+  },
+  {
+   "seq": 49,
+   "t": 1034.58,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 1
+  },
+  {
+   "seq": 50,
+   "t": 1037.58,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 2
+  },
+  {
+   "seq": 51,
+   "t": 1040.66,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 3
+  },
+  {
+   "seq": 52,
+   "t": 1042.65,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 4
+  },
+  {
+   "seq": 53,
+   "t": 1046.43,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 5
+  },
+  {
+   "seq": 54,
+   "t": 1048.41,
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "action_index": 6
+  },
+  {
+   "seq": 55,
+   "t": 1078.56,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 5
+  },
+  {
+   "seq": 56,
+   "t": 1084.61,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 6
+  },
+  {
+   "seq": 57,
+   "t": 1086.74,
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "action_index": 7
+  },
+  {
+   "seq": 58,
+   "t": 1119.64,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 0
+  },
+  {
+   "seq": 59,
+   "t": 1120.61,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 1
+  },
+  {
+   "seq": 60,
+   "t": 1122.04,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 2
+  },
+  {
+   "seq": 61,
+   "t": 1126.6,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 3
+  },
+  {
+   "seq": 62,
+   "t": 1132.23,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 4
+  },
+  {
+   "seq": 63,
+   "t": 1134.03,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 5
+  },
+  {
+   "seq": 64,
+   "t": 1139.15,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 6
+  },
+  {
+   "seq": 65,
+   "t": 1460.31,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 0
+  },
+  {
+   "seq": 66,
+   "t": 1461.69,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 1
+  },
+  {
+   "seq": 67,
+   "t": 1462.55,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 2
+  },
+  {
+   "seq": 68,
+   "t": 1465.8,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 3
+  },
+  {
+   "seq": 69,
+   "t": 1467.32,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 4
+  },
+  {
+   "seq": 70,
+   "t": 1468.18,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 5
+  },
+  {
+   "seq": 71,
+   "t": 1472.03,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 6
+  },
+  {
+   "seq": 72,
+   "t": 1473.24,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 7
+  },
+  {
+   "seq": 73,
+   "t": 1475.64,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 8
+  },
+  {
+   "seq": 74,
+   "t": 1478.63,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 9
+  },
+  {
+   "seq": 75,
+   "t": 1483.22,
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "action_index": 10
+  },
+  {
+   "seq": 76,
+   "t": 2179.37,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 7
+  },
+  {
+   "seq": 77,
+   "t": 2182.77,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 8
+  },
+  {
+   "seq": 78,
+   "t": 2185.58,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 9
+  },
+  {
+   "seq": 79,
+   "t": 2189.54,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 10
+  },
+  {
+   "seq": 80,
+   "t": 2193.73,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 11
+  },
+  {
+   "seq": 81,
+   "t": 2197.66,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 12
+  },
+  {
+   "seq": 82,
+   "t": 2199.96,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 13
+  },
+  {
+   "seq": 83,
+   "t": 2202.92,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 14
+  },
+  {
+   "seq": 84,
+   "t": 2204.28,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 15
+  },
+  {
+   "seq": 85,
+   "t": 2207.22,
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "action_index": 16
+  },
+  {
+   "seq": 86,
+   "t": 2289.98,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 0
+  },
+  {
+   "seq": 87,
+   "t": 2292.62,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 1
+  },
+  {
+   "seq": 88,
+   "t": 2296.1,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 2
+  },
+  {
+   "seq": 89,
+   "t": 2298.9,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 3
+  },
+  {
+   "seq": 90,
+   "t": 2303.58,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 4
+  },
+  {
+   "seq": 91,
+   "t": 2308.34,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 5
+  },
+  {
+   "seq": 92,
+   "t": 2309.95,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 6
+  },
+  {
+   "seq": 93,
+   "t": 2311.7,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 7
+  },
+  {
+   "seq": 94,
+   "t": 2316.51,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 8
+  },
+  {
+   "seq": 95,
+   "t": 2320.31,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 9
+  },
+  {
+   "seq": 96,
+   "t": 2324.37,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 10
+  },
+  {
+   "seq": 97,
+   "t": 2326.52,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 11
+  },
+  {
+   "seq": 98,
+   "t": 2328.21,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 12
+  },
+  {
+   "seq": 99,
+   "t": 2330.88,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 13
+  },
+  {
+   "seq": 100,
+   "t": 2333.77,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 14
+  },
+  {
+   "seq": 101,
+   "t": 2335.93,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 15
+  },
+  {
+   "seq": 102,
+   "t": 2339.18,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 16
+  },
+  {
+   "seq": 103,
+   "t": 2340.63,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 17
+  },
+  {
+   "seq": 104,
+   "t": 2346.09,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 18
+  },
+  {
+   "seq": 105,
+   "t": 2351.43,
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "action_index": 19
+  },
+  {
+   "seq": 106,
+   "t": 2381.85,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 0
+  },
+  {
+   "seq": 107,
+   "t": 2384.87,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 1
+  },
+  {
+   "seq": 108,
+   "t": 2386.1,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 2
+  },
+  {
+   "seq": 109,
+   "t": 2388.34,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 3
+  },
+  {
+   "seq": 110,
+   "t": 2390.05,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 4
+  },
+  {
+   "seq": 111,
+   "t": 2391.97,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 5
+  },
+  {
+   "seq": 112,
+   "t": 2396.27,
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "action_index": 6
+  },
+  {
+   "seq": 113,
+   "t": 2449.61,
+   "task_id": "0b59dd33-7f6a-48df-aa1e-9cc67177287f",
+   "action_index": 0
+  },
+  {
+   "seq": 114,
+   "t": 2456.4,
+   "task_id": "0b59dd33-7f6a-48df-aa1e-9cc67177287f",
+   "action_index": 1
+  },
+  {
+   "seq": 115,
+   "t": 2459.75,
+   "task_id": "0b59dd33-7f6a-48df-aa1e-9cc67177287f",
+   "action_index": 2
+  },
+  {
+   "seq": 116,
+   "t": 2817.69,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 0
+  },
+  {
+   "seq": 117,
+   "t": 2820.06,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 1
+  },
+  {
+   "seq": 118,
+   "t": 2823.9,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 2
+  },
+  {
+   "seq": 119,
+   "t": 2826.36,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 3
+  },
+  {
+   "seq": 120,
+   "t": 2828.44,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 4
+  },
+  {
+   "seq": 121,
+   "t": 2830.27,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 5
+  },
+  {
+   "seq": 122,
+   "t": 2833.23,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 6
+  },
+  {
+   "seq": 123,
+   "t": 2834.96,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 7
+  },
+  {
+   "seq": 124,
+   "t": 2837.88,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 8
+  },
+  {
+   "seq": 125,
+   "t": 2840.01,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 9
+  },
+  {
+   "seq": 126,
+   "t": 2843.53,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 10
+  },
+  {
+   "seq": 127,
+   "t": 2846.12,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 11
+  },
+  {
+   "seq": 128,
+   "t": 2847.12,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 12
+  },
+  {
+   "seq": 129,
+   "t": 2851.42,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 13
+  },
+  {
+   "seq": 130,
+   "t": 2853.92,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 14
+  },
+  {
+   "seq": 131,
+   "t": 2858.31,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 15
+  },
+  {
+   "seq": 132,
+   "t": 2859.96,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 16
+  },
+  {
+   "seq": 133,
+   "t": 2860.75,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 17
+  },
+  {
+   "seq": 134,
+   "t": 2862.83,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 18
+  },
+  {
+   "seq": 135,
+   "t": 2864.49,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 19
+  },
+  {
+   "seq": 136,
+   "t": 2866.92,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 20
+  },
+  {
+   "seq": 137,
+   "t": 2870.64,
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "action_index": 21
+  },
+  {
+   "seq": 138,
+   "t": 2922.82,
+   "task_id": "60e7ffd3-dda8-4ec6-9c10-115a5ab1bf90",
+   "action_index": 0
+  },
+  {
+   "seq": 139,
+   "t": 2927.89,
+   "task_id": "60e7ffd3-dda8-4ec6-9c10-115a5ab1bf90",
+   "action_index": 1
+  },
+  {
+   "seq": 140,
+   "t": 2967.13,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 0
+  },
+  {
+   "seq": 141,
+   "t": 2970.87,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 1
+  },
+  {
+   "seq": 142,
+   "t": 2972.58,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 2
+  },
+  {
+   "seq": 143,
+   "t": 2975.66,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 3
+  },
+  {
+   "seq": 144,
+   "t": 2980.81,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 4
+  },
+  {
+   "seq": 145,
+   "t": 2981.8,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 5
+  },
+  {
+   "seq": 146,
+   "t": 2984.78,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 6
+  },
+  {
+   "seq": 147,
+   "t": 2988.1,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 7
+  },
+  {
+   "seq": 148,
+   "t": 2990.11,
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "action_index": 8
+  }
+ ],
+ "segments": [
+  {
+   "task_id": "5f9182dc-d35d-4c0e-9abe-cd913c136528",
+   "role": "one_off",
+   "start": 0.0,
+   "end": 19.76,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+   "role": "workflow",
+   "start": 641.14,
+   "end": 675.06,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "961e4feb-2b5b-4372-a5db-c7d3222aac21",
+   "role": "workflow",
+   "start": 714.08,
+   "end": 745.17,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+   "role": "one_off",
+   "start": 764.16,
+   "end": 794.91,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+   "role": "workflow",
+   "start": 805.79,
+   "end": 839.86,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+   "role": "one_off",
+   "start": 893.7,
+   "end": 947.89,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "role": "workflow",
+   "start": 984.32,
+   "end": 1013.41,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+   "role": "distractor",
+   "start": 1022.26,
+   "end": 1051.35,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+   "role": "workflow",
+   "start": 1066.59,
+   "end": 1090.49,
+   "actions": [
+    5,
+    6,
+    7
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "role": "workflow",
+   "start": 1110.49,
+   "end": 1142.82,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+   "role": "distractor",
+   "start": 1447.32,
+   "end": 1486.56,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+   "role": "workflow",
+   "start": 2169.94,
+   "end": 2209.02,
+   "actions": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "resumed": true
+  },
+  {
+   "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+   "role": "workflow",
+   "start": 2278.83,
+   "end": 2353.56,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+   "role": "workflow",
+   "start": 2371.04,
+   "end": 2399.56,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "0b59dd33-7f6a-48df-aa1e-9cc67177287f",
+   "role": "workflow",
+   "start": 2434.88,
+   "end": 2461.54,
+   "actions": [
+    0,
+    1,
+    2
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+   "role": "workflow",
+   "start": 2810.79,
+   "end": 2873.58,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "60e7ffd3-dda8-4ec6-9c10-115a5ab1bf90",
+   "role": "distractor",
+   "start": 2908.82,
+   "end": 2931.83,
+   "actions": [
+    0,
+    1
+   ],
+   "resumed": false
+  },
+  {
+   "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+   "role": "workflow",
+   "start": 2957.44,
+   "end": 2992.78,
+   "actions": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "resumed": false
+  }
+ ],
+ "ground_truth": {
+  "session_id": "s006",
+  "tier": "easy",
+  "dontcare_inside_instances": true,
+  "action_t": [
+   15.11,
+   17.04,
+   656.71,
+   658.53,
+   660.96,
+   663.14,
+   666.42,
+   667.52,
+   671.31,
+   735.91,
+   737.78,
+   743.33,
+   770.15,
+   771.31,
+   776.61,
+   779.19,
+   780.79,
+   784.04,
+   785.24,
+   787.6,
+   790.14,
+   792.71,
+   817.83,
+   822.42,
+   824.06,
+   825.54,
+   829.96,
+   831.64,
+   833.73,
+   836.57,
+   903.09,
+   907.35,
+   910.41,
+   916.81,
+   919.78,
+   921.23,
+   925.41,
+   927.69,
+   931.33,
+   934.84,
+   939.69,
+   944.08,
+   945.89,
+   997.43,
+   1002.5,
+   1003.56,
+   1004.89,
+   1009.82,
+   1029.72,
+   1034.58,
+   1037.58,
+   1040.66,
+   1042.65,
+   1046.43,
+   1048.41,
+   1078.56,
+   1084.61,
+   1086.74,
+   1119.64,
+   1120.61,
+   1122.04,
+   1126.6,
+   1132.23,
+   1134.03,
+   1139.15,
+   1460.31,
+   1461.69,
+   1462.55,
+   1465.8,
+   1467.32,
+   1468.18,
+   1472.03,
+   1473.24,
+   1475.64,
+   1478.63,
+   1483.22,
+   2179.37,
+   2182.77,
+   2185.58,
+   2189.54,
+   2193.73,
+   2197.66,
+   2199.96,
+   2202.92,
+   2204.28,
+   2207.22,
+   2289.98,
+   2292.62,
+   2296.1,
+   2298.9,
+   2303.58,
+   2308.34,
+   2309.95,
+   2311.7,
+   2316.51,
+   2320.31,
+   2324.37,
+   2326.52,
+   2328.21,
+   2330.88,
+   2333.77,
+   2335.93,
+   2339.18,
+   2340.63,
+   2346.09,
+   2351.43,
+   2381.85,
+   2384.87,
+   2386.1,
+   2388.34,
+   2390.05,
+   2391.97,
+   2396.27,
+   2449.61,
+   2456.4,
+   2459.75,
+   2817.69,
+   2820.06,
+   2823.9,
+   2826.36,
+   2828.44,
+   2830.27,
+   2833.23,
+   2834.96,
+   2837.88,
+   2840.01,
+   2843.53,
+   2846.12,
+   2847.12,
+   2851.42,
+   2853.92,
+   2858.31,
+   2859.96,
+   2860.75,
+   2862.83,
+   2864.49,
+   2866.92,
+   2870.64,
+   2922.82,
+   2927.89,
+   2967.13,
+   2970.87,
+   2972.58,
+   2975.66,
+   2980.81,
+   2981.8,
+   2984.78,
+   2988.1,
+   2990.11
+  ],
+  "opportunities": [
+   {
+    "opportunity_id": "s006-op0",
+    "template_id": "spothero:search_airport_parking",
+    "site": "spothero",
+    "name": "Search airport parking",
+    "description": "Search airport parking for {airport} between {start_date} and {end_date}, optionally sorted",
+    "parameters": [
+     "airport",
+     "start_date",
+     "end_date",
+     "sort"
+    ],
+    "steps": [
+     "Click Airport tab",
+     "Type airport name in search box",
+     "Select airport suggestion",
+     "Optionally set start and end dates",
+     "Optionally sort results"
+    ],
+    "observed_seconds": 60.6,
+    "instances": [
+     {
+      "task_id": "a2959cdb-fbc4-435f-ba89-85d50d22298c",
+      "task": "Find parking spaces in JFK airport between April 18-20 that have lowest shuttle times",
+      "site": "spothero",
+      "spans": [
+       [
+        656.71,
+        671.31
+       ]
+      ],
+      "seqs": [
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8
+      ],
+      "seconds": 33.9,
+      "values": {
+       "airport": "JFK",
+       "start_date": "Apr 18",
+       "end_date": "Apr 20",
+       "sort": "Shuttle Time"
+      }
+     },
+     {
+      "task_id": "0b59dd33-7f6a-48df-aa1e-9cc67177287f",
+      "task": "Find a parking spot near Dallas Love Field Airport.",
+      "site": "spothero",
+      "spans": [
+       [
+        2449.61,
+        2459.75
+       ]
+      ],
+      "seqs": [
+       113,
+       114,
+       115
+      ],
+      "seconds": 26.7,
+      "values": {
+       "airport": "Dallas Love Field"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "s006-op1",
+    "template_id": "carnival:favorite_cruise_from_search",
+    "site": "carnival",
+    "name": "Add cruise to favorites from search",
+    "description": "Search cruises to {sail_to} (optionally from {sail_from}, {dates}, {guests} guests) and add a result to favorites.",
+    "parameters": [
+     "sail_to",
+     "sail_from",
+     "dates",
+     "guests"
+    ],
+    "steps": [
+     "Select destination in Sail To",
+     "Select departure port and dates if given",
+     "Click Search Cruises",
+     "Set number of guests if given",
+     "Click the favorite heart on a cruise result"
+    ],
+    "observed_seconds": 87.1,
+    "instances": [
+     {
+      "task_id": "0dc0190c-57cc-4c0f-b939-c0617102166e",
+      "task": "Add to favorites a cruise from San Francisco to the Panama Canal departing Oct 2024",
+      "site": "carnival",
+      "spans": [
+       [
+        817.83,
+        836.57
+       ]
+      ],
+      "seqs": [
+       22,
+       23,
+       24,
+       25,
+       26,
+       27,
+       28,
+       29
+      ],
+      "seconds": 34.1,
+      "values": {
+       "sail_to": "Panama Canal",
+       "sail_from": "San Francisco, CA",
+       "dates": "October 2024"
+      }
+     },
+     {
+      "task_id": "7cbd1771-ca62-47ed-97db-5577644d285c",
+      "task": "Add to my favorites a cruise for 4 people going to Caribbean.",
+      "site": "carnival",
+      "spans": [
+       [
+        997.43,
+        1009.82
+       ],
+       [
+        1078.56,
+        1086.74
+       ]
+      ],
+      "seqs": [
+       43,
+       44,
+       45,
+       46,
+       47,
+       55,
+       56,
+       57
+      ],
+      "seconds": 53.0,
+      "values": {
+       "sail_to": "Caribbean",
+       "guests": "4"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "s006-op2",
+    "template_id": "new.mta.info:route_planned_service_changes",
+    "site": "new.mta.info",
+    "name": "Route planned service changes",
+    "description": "Find planned service changes or status for route {route} on {date}",
+    "parameters": [
+     "route",
+     "date"
+    ],
+    "steps": [
+     "Open Planned Service Changes",
+     "Search route",
+     "Select route",
+     "Pick date if needed"
+    ],
+    "observed_seconds": 59.6,
+    "instances": [
+     {
+      "task_id": "961e4feb-2b5b-4372-a5db-c7d3222aac21",
+      "task": "Check the status of train S92 for any disruptions.",
+      "site": "new.mta.info",
+      "spans": [
+       [
+        735.91,
+        743.33
+       ]
+      ],
+      "seqs": [
+       9,
+       10,
+       11
+      ],
+      "seconds": 31.1,
+      "values": {
+       "route": "S92",
+       "date": ""
+      }
+     },
+     {
+      "task_id": "1ec300ff-d45f-495f-8fbe-36802fdd8c57",
+      "task": "Find out about planned service changes on the 4 Subway on 5/3/2023.",
+      "site": "new.mta.info",
+      "spans": [
+       [
+        2381.85,
+        2396.27
+       ]
+      ],
+      "seqs": [
+       106,
+       107,
+       108,
+       109,
+       110,
+       111,
+       112
+      ],
+      "seconds": 28.5,
+      "values": {
+       "route": "4",
+       "date": "5/3/2023"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "s006-op3",
+    "template_id": "booking:book_oneway_or_multicity_flight",
+    "site": "booking",
+    "name": "Search and select flights",
+    "description": "Search flights from {origin} to {destination} on {date} (one-way or multi-city), sort by fastest, and select a flight.",
+    "parameters": [
+     "trip_type",
+     "origin",
+     "destination",
+     "date",
+     "second_leg",
+     "passengers",
+     "filters"
+    ],
+    "steps": [
+     "Open Flights tab",
+     "Set trip type",
+     "Enter origin and destination",
+     "Choose departure date(s)",
+     "Set passengers",
+     "Click Search",
+     "Apply filters and sort by Fastest",
+     "See flight, Select, and click Next"
+    ],
+    "observed_seconds": 137.5,
+    "instances": [
+     {
+      "task_id": "e37f9fa1-70bc-4f55-86c4-8b7593e8fb48",
+      "task": "Book a one-way, fastest, and most flexible direct flight ticket for two from Banglore to Goa on March 29 evening.",
+      "site": "booking",
+      "spans": [
+       [
+        2289.98,
+        2351.43
+       ]
+      ],
+      "seqs": [
+       86,
+       87,
+       88,
+       89,
+       90,
+       91,
+       92,
+       93,
+       94,
+       95,
+       96,
+       97,
+       98,
+       99,
+       100,
+       101,
+       102,
+       103,
+       104,
+       105
+      ],
+      "seconds": 74.7,
+      "values": {
+       "trip_type": "one-way",
+       "origin": "Banglore",
+       "destination": "Goa",
+       "date": "29 March",
+       "second_leg": "",
+       "passengers": "2",
+       "filters": "direct, flexible, evening"
+      }
+     },
+     {
+      "task_id": "fc552b69-feb8-4951-bf67-725071bf8c8a",
+      "task": "Book fasted flexible direct flights from New York to Tokyo on June 1, between 6 to 12 pm departure, and from Tokyo to New Delhi on June 5.",
+      "site": "booking",
+      "spans": [
+       [
+        2817.69,
+        2870.64
+       ]
+      ],
+      "seqs": [
+       116,
+       117,
+       118,
+       119,
+       120,
+       121,
+       122,
+       123,
+       124,
+       125,
+       126,
+       127,
+       128,
+       129,
+       130,
+       131,
+       132,
+       133,
+       134,
+       135,
+       136,
+       137
+      ],
+      "seconds": 62.8,
+      "values": {
+       "trip_type": "multi-city",
+       "origin": "New York",
+       "destination": "Tokyo",
+       "date": "1 June",
+       "second_leg": "Tokyo to New Delhi 5 June",
+       "passengers": "1",
+       "filters": "direct, flexible, 6pm-12am departure"
+      }
+     }
+    ]
+   },
+   {
+    "opportunity_id": "s006-op4",
+    "template_id": "expedia:search_car_rentals",
+    "site": "expedia",
+    "name": "Search car rentals",
+    "description": "Search car rentals at {pickup_location} from {pickup_date} to {dropoff_date} and apply filters/sort.",
+    "parameters": [
+     "pickup_location",
+     "dropoff_location",
+     "pickup_date",
+     "dropoff_date",
+     "pickup_time",
+     "dropoff_time",
+     "filters",
+     "sort"
+    ],
+    "steps": [
+     "Open the Cars tab",
+     "Enter pick-up location",
+     "Enter drop-off location if different",
+     "Pick dates and times",
+     "Click Search",
+     "Apply filters and sort"
+    ],
+    "observed_seconds": 106.7,
+    "instances": [
+     {
+      "task_id": "56cfe20a-f008-48d3-b683-002ce7790616",
+      "task": "Find cheapest luxury car rental in New York for two with pickup from JFK airport at 9am, April 3 and drop off at JFK on 6pm, April 6",
+      "site": "expedia",
+      "spans": [
+       [
+        1119.64,
+        1139.15
+       ],
+       [
+        2179.37,
+        2207.22
+       ]
+      ],
+      "seqs": [
+       58,
+       59,
+       60,
+       61,
+       62,
+       63,
+       64,
+       76,
+       77,
+       78,
+       79,
+       80,
+       81,
+       82,
+       83,
+       84,
+       85
+      ],
+      "seconds": 71.4,
+      "values": {
+       "pickup_location": "JFK",
+       "dropoff_location": "JFK",
+       "pickup_date": "April 3",
+       "dropoff_date": "April 6",
+       "pickup_time": "9:00 am",
+       "dropoff_time": "6:00 pm",
+       "filters": "luxury",
+       "sort": "Total Price"
+      }
+     },
+     {
+      "task_id": "3c098275-ff82-48b1-bd00-6313b4caf215",
+      "task": "Search for car rentals in San Francisco for a weekend trip and filter the results by the rental company Avis and car type Economy.",
+      "site": "expedia",
+      "spans": [
+       [
+        2967.13,
+        2990.11
+       ]
+      ],
+      "seqs": [
+       140,
+       141,
+       142,
+       143,
+       144,
+       145,
+       146,
+       147,
+       148
+      ],
+      "seconds": 35.3,
+      "values": {
+       "pickup_location": "San Francisco",
+       "pickup_date": "April 2",
+       "dropoff_date": "April 8",
+       "filters": "Avis, Economy"
+      }
+     }
+    ]
+   }
+  ],
+  "negatives": [
+   {
+    "task_id": "5f9182dc-d35d-4c0e-9abe-cd913c136528",
+    "task": "Find career openings in the marketing department",
+    "site": "spothero",
+    "spans": [
+     [
+      15.11,
+      17.04
+     ]
+    ],
+    "seqs": [
+     0,
+     1
+    ],
+    "seconds": 19.8,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "e4cf5835-4726-4a84-bc8f-5023e95ddec9",
+    "task": "search for SkyMiles domestic Award Deals from Philadelphia to Atlanta.",
+    "site": "delta",
+    "spans": [
+     [
+      770.15,
+      792.71
+     ]
+    ],
+    "seqs": [
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "seconds": 30.8,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "b73503a7-e4e1-43f7-bfc0-866e7003615f",
+    "task": "Reserve a taxi from O'hare Airport to 123 Main St, West Chicago, IL on Mar 29, 2023 at 12 noon for 2 adults.",
+    "site": "booking",
+    "spans": [
+     [
+      903.09,
+      945.89
+     ]
+    ],
+    "seqs": [
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36,
+     37,
+     38,
+     39,
+     40,
+     41,
+     42
+    ],
+    "seconds": 54.2,
+    "kind": "one_off"
+   },
+   {
+    "task_id": "4bc70fa1-e817-405f-b113-0919e8e94205",
+    "task": "Add the cheapest Women's Sweaters to my shopping cart.",
+    "site": "kohls",
+    "spans": [
+     [
+      1029.72,
+      1048.41
+     ]
+    ],
+    "seqs": [
+     48,
+     49,
+     50,
+     51,
+     52,
+     53,
+     54
+    ],
+    "seconds": 29.1,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "6e98e331-c80b-4316-b332-af76c4cb2440",
+    "task": "Search for women's golf polos in m size, priced between 50 to 75 dollars, and save the lowest priced among results.",
+    "site": "underarmour",
+    "spans": [
+     [
+      1460.31,
+      1483.22
+     ]
+    ],
+    "seqs": [
+     65,
+     66,
+     67,
+     68,
+     69,
+     70,
+     71,
+     72,
+     73,
+     74,
+     75
+    ],
+    "seconds": 39.2,
+    "kind": "distractor"
+   },
+   {
+    "task_id": "60e7ffd3-dda8-4ec6-9c10-115a5ab1bf90",
+    "task": "Show me the latest news from rotten tomatoes.",
+    "site": "rottentomatoes",
+    "spans": [
+     [
+      2922.82,
+      2927.89
+     ]
+    ],
+    "seqs": [
+     138,
+     139
+    ],
+    "seconds": 23.0,
+    "kind": "distractor"
+   }
+  ]
+ }
+}

@@ -1,0 +1,374 @@
+{
+ "opportunities": [
+  {
+   "name": "SpotHero monthly parking search",
+   "description": "Search monthly parking on SpotHero for a given location, optionally set start date, apply filters, and sort/view details.",
+   "site": "spothero",
+   "steps": [
+    "Click Monthly tab",
+    "Type location in 'Search for parking' and select suggestion",
+    "Optionally set Monthly Start Date and click Update Search",
+    "Optionally open Filter, tick a checkbox, click Show Results",
+    "Optionally sort or select parking option type",
+    "Click View Details"
+   ],
+   "parameters": [
+    "location",
+    "start date",
+    "filter (Self Park, EV Charging)",
+    "sort/parking option"
+   ],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "actions": [
+      3,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      25,
+      26
+     ],
+     "values": "New York, date Jul 05 2023",
+     "segments": [
+      {
+       "start_t": 14.75,
+       "end_t": 14.75
+      },
+      {
+       "start_t": 50.49,
+       "end_t": 86.24
+      },
+      {
+       "start_t": 141.85,
+       "end_t": 146.05
+      }
+     ]
+    },
+    {
+     "actions": [
+      27,
+      28,
+      29,
+      32,
+      33,
+      34
+     ],
+     "values": "Florida Keys, Apr 12 2023",
+     "segments": [
+      {
+       "start_t": 149.54,
+       "end_t": 159.18
+      },
+      {
+       "start_t": 173.01,
+       "end_t": 179.79
+      }
+     ]
+    },
+    {
+     "actions": [
+      39,
+      40,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+     ],
+     "values": "Street Taco NY, May 06 2023, Self Park filter",
+     "segments": [
+      {
+       "start_t": 197.25,
+       "end_t": 202.12
+      },
+      {
+       "start_t": 220.89,
+       "end_t": 257.88
+      }
+     ]
+    },
+    {
+     "actions": [
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      86,
+      94
+     ],
+     "values": "Chicago, EV Charging filter, sort by price",
+     "segments": [
+      {
+       "start_t": 798.23,
+       "end_t": 822.31
+      },
+      {
+       "start_t": 1445.64,
+       "end_t": 1445.64
+      },
+      {
+       "start_t": 1491.92,
+       "end_t": 1491.92
+      }
+     ]
+    },
+    {
+     "actions": [
+      104,
+      105,
+      106,
+      107,
+      112,
+      113,
+      114
+     ],
+     "values": "Stripe 5th Avenue, Daytime Only, sort by price",
+     "segments": [
+      {
+       "start_t": 1550.42,
+       "end_t": 1566.02
+      },
+      {
+       "start_t": 1594.25,
+       "end_t": 1603.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Parking venue search with filters",
+   "description": "On the parking site, enter an address/venue, pick suggestion, open Filters and tick an option.",
+   "site": "parking",
+   "steps": [
+    "Type address or venue in the search box",
+    "Select suggestion",
+    "Click Filters",
+    "Tick a filter checkbox"
+   ],
+   "parameters": [
+    "venue/address",
+    "filter option"
+   ],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "actions": [
+      68,
+      69,
+      70,
+      71
+     ],
+     "values": "Venice Beach, Accepts Mobile Coupons",
+     "segments": [
+      {
+       "start_t": 341.23,
+       "end_t": 355.25
+      }
+     ]
+    },
+    {
+     "actions": [
+      97,
+      98,
+      99,
+      100
+     ],
+     "values": "SoFi Stadium, Pay with Phone",
+     "segments": [
+      {
+       "start_t": 1508.35,
+       "end_t": 1524.29
+      }
+     ]
+    },
+    {
+     "actions": [
+      124,
+      125,
+      134,
+      135
+     ],
+     "values": "Thalia Hall Chicago, Pre-Purchased Available",
+     "segments": [
+      {
+       "start_t": 1660.59,
+       "end_t": 1665.36
+      },
+      {
+       "start_t": 1706.64,
+       "end_t": 1710.81
+      }
+     ]
+    },
+    {
+     "actions": [
+      147,
+      148,
+      149,
+      150
+     ],
+     "values": "Stewart Hotel, Book monthly parking",
+     "segments": [
+      {
+       "start_t": 1777.31,
+       "end_t": 1799.11
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Yelp search with filters and sort",
+   "description": "Search Yelp for a category/location, apply filters and open all filters.",
+   "site": "yelp",
+   "steps": [
+    "Type query in Find (and Near)",
+    "Select suggestion",
+    "Click All filters / See all",
+    "Tick filter checkboxes and click Add"
+   ],
+   "parameters": [
+    "query",
+    "location",
+    "filters"
+   ],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "actions": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+     ],
+     "values": "Electricians Westminster, highest rated, quote",
+     "segments": [
+      {
+       "start_t": 20.6,
+       "end_t": 44.77
+      },
+      {
+       "start_t": 89.31,
+       "end_t": 134.4
+      }
+     ]
+    },
+    {
+     "actions": [
+      35,
+      36,
+      37,
+      38,
+      41,
+      42,
+      43
+     ],
+     "values": "cafe, Outdoor Seating, Dogs Allowed",
+     "segments": [
+      {
+       "start_t": 183.5,
+       "end_t": 192.46
+      },
+      {
+       "start_t": 207.75,
+       "end_t": 217.54
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tripadvisor flight search",
+   "description": "Enter origin and destination cities, find flights and view deal.",
+   "site": "tripadvisor",
+   "steps": [
+    "Type city/airport and choose suggestion",
+    "Set destination",
+    "Click Find flights",
+    "Sort and View Deal"
+   ],
+   "parameters": [
+    "origin",
+    "destination"
+   ],
+   "confidence": 0.4,
+   "instances": [
+    {
+     "actions": [
+      115,
+      116
+     ],
+     "values": "San Francisco",
+     "segments": [
+      {
+       "start_t": 1610.47,
+       "end_t": 1616.05
+      }
+     ]
+    },
+    {
+     "actions": [
+      121,
+      122
+     ],
+     "values": "San Diego",
+     "segments": [
+      {
+       "start_t": 1644.37,
+       "end_t": 1649.52
+      }
+     ]
+    },
+    {
+     "actions": [
+      137,
+      138,
+      139,
+      140,
+      141
+     ],
+     "values": "Toronto to NYC",
+     "segments": [
+      {
+       "start_t": 1721.85,
+       "end_t": 1745.11
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.0497711,
+  "seconds": 9.7,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

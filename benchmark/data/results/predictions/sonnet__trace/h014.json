@@ -1,0 +1,216 @@
+{
+ "opportunities": [
+  {
+   "name": "Ryanair Fare Finder search",
+   "description": "Find cheap flights on Ryanair Fare Finder from a given origin airport to anywhere under a max price.",
+   "site": "ryanair",
+   "steps": [
+    "Click Plan",
+    "Click Fare Finder",
+    "Type origin in From and select the airport",
+    "Click To and choose Anywhere",
+    "Set the max price",
+    "Click Let's go"
+   ],
+   "parameters": [
+    "origin airport",
+    "destination (Anywhere)",
+    "max price"
+   ],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "actions": [
+      19,
+      20,
+      21,
+      22,
+      26,
+      27,
+      55,
+      56,
+      57
+     ],
+     "values": "From Dresden, Anywhere, price $100",
+     "segments": [
+      {
+       "start_t": 96.71,
+       "end_t": 113.05
+      },
+      {
+       "start_t": 134.28,
+       "end_t": 144.53
+      },
+      {
+       "start_t": 289.4,
+       "end_t": 296.84
+      }
+     ]
+    },
+    {
+     "actions": [
+      66,
+      68,
+      69,
+      70,
+      71,
+      72,
+      75,
+      76,
+      77
+     ],
+     "values": "From Dublin, Anywhere, price $150",
+     "segments": [
+      {
+       "start_t": 342.62,
+       "end_t": 342.62
+      },
+      {
+       "start_t": 351.56,
+       "end_t": 369.72
+      },
+      {
+       "start_t": 387.09,
+       "end_t": 394.08
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "United baggage fee calculator",
+   "description": "Open the United baggage fee calculator and look up bag charges for a confirmation number and last name.",
+   "site": "united",
+   "steps": [
+    "Open TRAVEL INFO tab",
+    "Click Baggage info",
+    "Click Baggage fee calculator",
+    "Open My flights tab",
+    "Enter confirmation number and last name",
+    "Click View my bag charges"
+   ],
+   "parameters": [
+    "confirmation number",
+    "last name"
+   ],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "actions": [
+      0,
+      4,
+      5
+     ],
+     "values": "Navigated to calculator only",
+     "segments": [
+      {
+       "start_t": 3.38,
+       "end_t": 3.38
+      },
+      {
+       "start_t": 23.54,
+       "end_t": 26.95
+      }
+     ]
+    },
+    {
+     "actions": [
+      39,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+     ],
+     "values": "Conf 10000002, last name Son",
+     "segments": [
+      {
+       "start_t": 207.88,
+       "end_t": 207.88
+      },
+      {
+       "start_t": 221.88,
+       "end_t": 245.73
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "United careers job filter",
+   "description": "Filter United open jobs by facets such as country, state, city, hiring type.",
+   "site": "united",
+   "steps": [
+    "Open Careers, Open Jobs",
+    "Expand a filter",
+    "Pick a filter value",
+    "Repeat for other filters",
+    "Sort by"
+   ],
+   "parameters": [
+    "filter type",
+    "filter value"
+   ],
+   "confidence": 0.4,
+   "instances": [
+    {
+     "actions": [
+      35,
+      36,
+      37,
+      38
+     ],
+     "values": "Country filter",
+     "segments": [
+      {
+       "start_t": 190.24,
+       "end_t": 202.53
+      }
+     ]
+    },
+    {
+     "actions": [
+      40,
+      41
+     ],
+     "values": "State/Province filter",
+     "segments": [
+      {
+       "start_t": 214.91,
+       "end_t": 218.18
+      }
+     ]
+    },
+    {
+     "actions": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53
+     ],
+     "values": "City, Hiring type, sort most recent",
+     "segments": [
+      {
+       "start_t": 251.38,
+       "end_t": 279.53
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.0305391,
+  "seconds": 6.7,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

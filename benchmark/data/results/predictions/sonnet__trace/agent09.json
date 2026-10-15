@@ -1,0 +1,365 @@
+{
+ "opportunities": [
+  {
+   "name": "Hotel search, currency conversion, and email proposal",
+   "description": "Search Booking.com for a hotel in a destination for given dates, convert the price from EUR to a target currency on xe.com, then draft an email to a contact proposing the hotel.",
+   "site": "booking, xe, mail",
+   "steps": [
+    "On Booking enter destination and select check-in/check-out dates, then Search",
+    "Open the chosen hotel and note name and price in EUR",
+    "On xe.com Currency Converter enter the EUR amount and select the target currency, click Convert",
+    "Open mail compose, fill To, Subject 'Hotel for <city>, <dates>'",
+    "Write body with hotel name, EUR price, converted amount, and 'OK to book?'",
+    "Discard the draft"
+   ],
+   "parameters": [
+    "destination",
+    "check-in date",
+    "check-out date",
+    "hotel",
+    "EUR amount",
+    "target currency",
+    "recipient"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26
+     ],
+     "values": "Frankfurt, Nov 17-20, Vienna House 818 EUR to USD, maria",
+     "segments": [
+      {
+       "start_t": 60.447,
+       "end_t": 231.353
+      }
+     ]
+    },
+    {
+     "actions": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84
+     ],
+     "values": "Milan, Dec 1-4, BB Hotels Aparthotel Visconti 264 EUR to JPY, kenji",
+     "segments": [
+      {
+       "start_t": 585.779,
+       "end_t": 699.442
+      }
+     ]
+    },
+    {
+     "actions": [
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154
+     ],
+     "values": "Amsterdam, Jan 12-15 2027, Jan Luyken 577 EUR to GBP, aisha",
+     "segments": [
+      {
+       "start_t": 988.342,
+       "end_t": 1019.874
+      },
+      {
+       "start_t": 1062.802,
+       "end_t": 1110.035
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "City weather and news heads-up email",
+   "description": "Look up a city's 10-day weather forecast, search BBC news for '<city> strike', then email a contact a heads-up with the forecast and top headline.",
+   "site": "weather, bbc, mail",
+   "steps": [
+    "On the weather site search for the city and open the 10 Day forecast",
+    "Note the day's high/low and conditions",
+    "On BBC search '<city> strike' and open the top article for headline and date",
+    "Compose email to recipient with subject 'Heads-up: <city> on <day>'",
+    "Write body with forecast and headline",
+    "Discard the draft"
+   ],
+   "parameters": [
+    "city",
+    "recipient",
+    "day",
+    "search query"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+     ],
+     "values": "Berlin, raj, Saturday",
+     "segments": [
+      {
+       "start_t": 485.47,
+       "end_t": 574.989
+      }
+     ]
+    },
+    {
+     "actions": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122
+     ],
+     "values": "Madrid, sofia, Monday",
+     "segments": [
+      {
+       "start_t": 805.436,
+       "end_t": 979.572
+      }
+     ]
+    },
+    {
+     "actions": [
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181
+     ],
+     "values": "London, tom, Thursday",
+     "segments": [
+      {
+       "start_t": 1210.037,
+       "end_t": 1298.736
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Visa requirements and holidays note",
+   "description": "Look up a Wikipedia 'Visa requirements for <nationality> citizens' page, find the entry for a destination country, check that country's holidays on timeanddate, and save a summary note.",
+   "site": "wikipedia, timeanddate, notes",
+   "steps": [
+    "Search Wikipedia for 'Visa requirements for <nationality> citizens'",
+    "Find destination country's visa status and allowed stay",
+    "On timeanddate open Holidays and select the destination country",
+    "Read holidays for the relevant month",
+    "Add a note summarizing visa and holidays"
+   ],
+   "parameters": [
+    "nationality",
+    "destination country",
+    "holiday month"
+   ],
+   "confidence": 0.85,
+   "instances": [
+    {
+     "actions": [
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+     ],
+     "values": "Indian, Japan, December",
+     "segments": [
+      {
+       "start_t": 277.182,
+       "end_t": 287.309
+      },
+      {
+       "start_t": 402.504,
+       "end_t": 457.82
+      }
+     ]
+    },
+    {
+     "actions": [
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "values": "Brazilian, Canada, November",
+     "segments": [
+      {
+       "start_t": 706.492,
+       "end_t": 780.838
+      }
+     ]
+    },
+    {
+     "actions": [
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161
+     ],
+     "values": "Nigerian, United Kingdom, May",
+     "segments": [
+      {
+       "start_t": 1035.933,
+       "end_t": 1047.031
+      },
+      {
+       "start_t": 1118.756,
+       "end_t": 1155.124
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.0586051,
+  "seconds": 12.0,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

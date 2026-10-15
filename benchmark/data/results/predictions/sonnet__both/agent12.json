@@ -1,0 +1,318 @@
+{
+ "opportunities": [
+  {
+   "name": "Movie research (IMDb + Rotten Tomatoes) and draft movie-night email",
+   "description": "Look up a movie on IMDb and Rotten Tomatoes, then compose an email to a friend with the movie's director, runtime, IMDb rating and Tomatometer, then discard the draft.",
+   "site": "imdb / rottentomatoes / mail",
+   "steps": [
+    "Search the movie title on IMDb and open the title page",
+    "Note director, runtime and IMDb rating",
+    "Search the same title on Rotten Tomatoes and open the page",
+    "Note the Tomatometer score",
+    "Open the mail compose form",
+    "Enter recipient, subject 'Movie night <day>: <movie>' and body with the gathered facts",
+    "Click Discard (or Send)"
+   ],
+   "parameters": [
+    "movie title",
+    "recipient email",
+    "day of week",
+    "director",
+    "runtime",
+    "IMDb rating",
+    "Tomatometer"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      4,
+      5,
+      6,
+      14,
+      15,
+      16,
+      19,
+      22,
+      25,
+      26
+     ],
+     "values": "Arrival; lena@example.com; Friday; Denis Villeneuve, 1h 56m, IMDb 7.9, 94%",
+     "segments": [
+      {
+       "start_t": 119.942,
+       "end_t": 132.02
+      },
+      {
+       "start_t": 200.349,
+       "end_t": 211.002
+      },
+      {
+       "start_t": 234.881,
+       "end_t": 234.881
+      },
+      {
+       "start_t": 245.48,
+       "end_t": 245.48
+      },
+      {
+       "start_t": 263.259,
+       "end_t": 265.397
+      }
+     ]
+    },
+    {
+     "actions": [
+      59,
+      60,
+      61,
+      64,
+      65,
+      66,
+      69,
+      72,
+      75,
+      76
+     ],
+     "values": "Spirited Away; tom@example.com; Saturday; Hayao Miyazaki, 2h 4m, IMDb 8.6, 96%",
+     "segments": [
+      {
+       "start_t": 1061.636,
+       "end_t": 1103.153
+      },
+      {
+       "start_t": 1158.35,
+       "end_t": 1221.312
+      },
+      {
+       "start_t": 1291.239,
+       "end_t": 1291.239
+      },
+      {
+       "start_t": 1343.466,
+       "end_t": 1343.466
+      },
+      {
+       "start_t": 1410.388,
+       "end_t": 1422.92
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "npm package stats note",
+   "description": "Search an npm package, open its page and GitHub repo releases, then save a summary note of version, weekly downloads, license, stars, open issues and last release.",
+   "site": "npmjs / github / notes",
+   "steps": [
+    "Search the package name on npmjs",
+    "Open the package page",
+    "Click through to the GitHub repository and open Releases",
+    "Collect version, weekly downloads, license, stars, issues, last release date",
+    "Open Notes app and add a note '<package>: ...'"
+   ],
+   "parameters": [
+    "package name"
+   ],
+   "confidence": 0.85,
+   "instances": [
+    {
+     "actions": [
+      29,
+      30,
+      32,
+      34,
+      35,
+      38,
+      39
+     ],
+     "values": "axios",
+     "segments": [
+      {
+       "start_t": 418.072,
+       "end_t": 420.949
+      },
+      {
+       "start_t": 440.921,
+       "end_t": 440.921
+      },
+      {
+       "start_t": 573.711,
+       "end_t": 677.845
+      },
+      {
+       "start_t": 710.663,
+       "end_t": 722.53
+      }
+     ]
+    },
+    {
+     "actions": [
+      86,
+      87,
+      89,
+      90,
+      91,
+      96,
+      97
+     ],
+     "values": "lodash (after typo 'lodahs' correction, actions 79-85)",
+     "segments": [
+      {
+       "start_t": 1722.984,
+       "end_t": 1737.498
+      },
+      {
+       "start_t": 1794.088,
+       "end_t": 1871.73
+      },
+      {
+       "start_t": 2003.93,
+       "end_t": 2015.674
+      }
+     ]
+    },
+    {
+     "actions": [
+      126,
+      127,
+      129
+     ],
+     "values": "express (looked up, not yet noted in the recording)",
+     "segments": [
+      {
+       "start_t": 3372.387,
+       "end_t": 3388.261
+      },
+      {
+       "start_t": 3449.042,
+       "end_t": 3449.042
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Recipe research and note with origin",
+   "description": "Search a recipe on Allrecipes, open the top result, look up the dish's origin on Wikipedia, and save a note with servings, rating, time, ingredients and origin.",
+   "site": "allrecipes / wikipedia / notes",
+   "steps": [
+    "Search the dish on Allrecipes and open the top result",
+    "Note rating, time and key ingredients",
+    "Search the dish on Wikipedia",
+    "Note the place of origin",
+    "Add a note '<dish> for N: ... Origin: ...' in Notes"
+   ],
+   "parameters": [
+    "dish name",
+    "servings",
+    "rating",
+    "time",
+    "ingredients",
+    "origin"
+   ],
+   "confidence": 0.85,
+   "instances": [
+    {
+     "actions": [
+      42,
+      43,
+      44,
+      50,
+      51,
+      55,
+      56
+     ],
+     "values": "shakshuka; Chef John's Shakshuka; origin Ottoman North Africa",
+     "segments": [
+      {
+       "start_t": 751.682,
+       "end_t": 771.212
+      },
+      {
+       "start_t": 891.265,
+       "end_t": 894.216
+      },
+      {
+       "start_t": 932.401,
+       "end_t": 936.722
+      }
+     ]
+    },
+    {
+     "actions": [
+      108,
+      109,
+      110,
+      113,
+      114,
+      117,
+      118
+     ],
+     "values": "pad thai; Pad Thai; origin Thailand",
+     "segments": [
+      {
+       "start_t": 2413.93,
+       "end_t": 2476.435
+      },
+      {
+       "start_t": 2877.871,
+       "end_t": 2890.739
+      },
+      {
+       "start_t": 2986.302,
+       "end_t": 3002.428
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Cross-check a movie title on IMDb and Rotten Tomatoes",
+   "description": "Search a movie title on IMDb and open its page, then search the same title on Rotten Tomatoes and open its page.",
+   "site": "imdb / rottentomatoes",
+   "steps": [
+    "Search title on IMDb and open the result",
+    "Search the same title on Rotten Tomatoes and open the result"
+   ],
+   "parameters": [
+    "movie title"
+   ],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "actions": [
+      121,
+      122,
+      123,
+      134,
+      135,
+      136
+     ],
+     "values": "The Grand Budapest Hotel",
+     "segments": [
+      {
+       "start_t": 3162.203,
+       "end_t": 3244.044
+      },
+      {
+       "start_t": 3657.27,
+       "end_t": 3732.499
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.21439060000000004,
+  "seconds": 14.5,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

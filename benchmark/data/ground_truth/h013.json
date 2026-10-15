@@ -1,0 +1,857 @@
+{
+ "session_id": "h013",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  5.76,
+  11.36,
+  14.49,
+  19.67,
+  23.55,
+  29.83,
+  34.76,
+  36.95,
+  41.58,
+  46.13,
+  50.85,
+  54.19,
+  58.79,
+  64.53,
+  67.9,
+  72.72,
+  77.67,
+  86.43,
+  92.72,
+  99.77,
+  103.6,
+  110.91,
+  116.0,
+  122.31,
+  129.37,
+  134.7,
+  138.52,
+  141.16,
+  144.27,
+  149.88,
+  156.51,
+  160.06,
+  166.83,
+  171.52,
+  175.87,
+  181.17,
+  186.49,
+  191.78,
+  195.32,
+  199.96,
+  206.62,
+  210.1,
+  214.9,
+  219.17,
+  224.05,
+  229.31,
+  235.91,
+  249.37,
+  254.98,
+  260.75,
+  264.09,
+  270.34,
+  275.39,
+  281.25,
+  289.11,
+  296.1,
+  300.56,
+  304.16,
+  311.17,
+  313.07,
+  317.55,
+  322.52,
+  327.35,
+  334.12,
+  339.74,
+  344.59,
+  349.98,
+  352.87,
+  358.68,
+  366.56,
+  372.58,
+  376.78,
+  382.17,
+  385.03,
+  391.78,
+  395.4,
+  402.08,
+  409.63,
+  417.63,
+  425.09,
+  427.96,
+  434.7,
+  439.78,
+  443.1,
+  447.78,
+  450.02,
+  455.61,
+  461.33,
+  468.61,
+  475.94,
+  482.33,
+  488.28,
+  494.02,
+  723.67,
+  728.36,
+  733.01,
+  736.29,
+  741.37,
+  746.87,
+  752.16,
+  756.57,
+  762.51,
+  767.52,
+  771.47,
+  777.91,
+  783.3,
+  787.86,
+  793.59,
+  798.31,
+  802.77,
+  808.28,
+  812.91,
+  815.78,
+  819.5,
+  824.3,
+  828.93,
+  833.52,
+  838.26,
+  844.35,
+  975.66,
+  979.31,
+  985.08,
+  992.31,
+  996.01,
+  998.8,
+  1003.02,
+  1011.51,
+  1016.38,
+  1020.24,
+  1024.95,
+  1028.63,
+  1031.92,
+  1037.9,
+  1041.79,
+  1045.5,
+  1050.58,
+  1056.22,
+  1059.89,
+  1064.78
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h013-op0",
+   "template_id": "yellowpages:city_page_section_browse",
+   "site": "yellowpages",
+   "name": "Browse a city page section",
+   "description": "Open city page for {city} and view {section} (popular businesses, trending searches, deals, map of a category)",
+   "parameters": [
+    "city",
+    "section"
+   ],
+   "steps": [
+    "Click City Pages",
+    "Click the city",
+    "Click the desired section/link (e.g. Search for more, Coupons & Deals, category with Map View)"
+   ],
+   "observed_seconds": 49.2,
+   "instances": [
+    {
+     "task_id": "cc5908a9-263b-4dd2-96ac-405fda7240e9",
+     "task": "Show list of popular businesses in Cleveland.",
+     "site": "yellowpages",
+     "spans": [
+      [
+       58.79,
+       58.79
+      ],
+      [
+       156.51,
+       156.51
+      ],
+      [
+       166.83,
+       166.83
+      ]
+     ],
+     "seqs": [
+      12,
+      30,
+      32
+     ],
+     "seconds": 18.0,
+     "values": {
+      "city": "Cleveland",
+      "section": "popular businesses (Search for more)"
+     }
+    },
+    {
+     "task_id": "62806bef-eeeb-4892-b4d5-6a8d2005c58d",
+     "task": "Browse the trending searches in Columbus.",
+     "site": "yellowpages",
+     "spans": [
+      [
+       264.09,
+       275.39
+      ]
+     ],
+     "seqs": [
+      50,
+      51,
+      52
+     ],
+     "seconds": 14.6,
+     "values": {
+      "city": "Columbus",
+      "section": "trending searches (Search for more)"
+     }
+    },
+    {
+     "task_id": "a6fc427d-c2fd-4f1b-8f7d-8bb8647e63e9",
+     "task": "Find deals in New York.",
+     "site": "yellowpages",
+     "spans": [
+      [
+       979.31,
+       992.31
+      ]
+     ],
+     "seqs": [
+      120,
+      121,
+      122
+     ],
+     "seconds": 16.6,
+     "values": {
+      "city": "New York",
+      "section": "Coupons & Deals"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h013-op1",
+   "template_id": "exploretock:search_restaurants_by_service_type_location_filters",
+   "site": "exploretock",
+   "name": "Search restaurants by reservation type, location, date, time, size and filters",
+   "description": "Search Tock listings for {reservation_type} in {location} on {date} at {time} for {party_size} guests, applying optional {cuisine} and other filters",
+   "parameters": [
+    "reservation_type",
+    "location",
+    "date",
+    "time",
+    "party_size",
+    "cuisine",
+    "additional_filters"
+   ],
+   "steps": [
+    "Select the reservation type (Dine in, Delivery, Pickup, Wineries, Events)",
+    "Open the location search and type and choose the location",
+    "Pick the date in the calendar",
+    "Select the time and party size",
+    "Optionally open the cuisine filter and check the cuisine",
+    "Optionally open additional filters and select options",
+    "Submit or update the search to view results"
+   ],
+   "observed_seconds": 184.3,
+   "instances": [
+    {
+     "task_id": "3e472e41-99d6-4215-8880-9c3a48d3c33a",
+     "task": "Book a dine in reserveration in New Delhi for 5 Guests on 22nd March, 7:00 pm, terrace seating arrangement preferred.",
+     "site": "exploretock",
+     "spans": [
+      [
+       219.17,
+       224.05
+      ],
+      [
+       249.37,
+       260.75
+      ],
+      [
+       289.11,
+       300.56
+      ],
+      [
+       366.56,
+       385.03
+      ],
+      [
+       395.4,
+       395.4
+      ]
+     ],
+     "seqs": [
+      43,
+      44,
+      47,
+      48,
+      49,
+      54,
+      55,
+      56,
+      69,
+      70,
+      71,
+      72,
+      73,
+      75
+     ],
+     "seconds": 83.3,
+     "values": {
+      "reservation_type": "Dine in",
+      "location": "New Delhi",
+      "date": "March 22",
+      "time": "7:00 PM",
+      "party_size": "5",
+      "cuisine": "",
+      "additional_filters": "Outdoors"
+     }
+    },
+    {
+     "task_id": "a6372f23-f462-4706-8455-5b350c46d83c",
+     "task": "Book a winery tour in Napa Valley in a winery which serves Mediterranean cuisine with wine testing for 4 guests on April 15, 10 am in a outdoor setup.",
+     "site": "exploretock",
+     "spans": [
+      [
+       391.78,
+       391.78
+      ],
+      [
+       402.08,
+       427.96
+      ],
+      [
+       455.61,
+       461.33
+      ],
+      [
+       482.33,
+       488.28
+      ],
+      [
+       736.29,
+       741.37
+      ],
+      [
+       812.91,
+       819.5
+      ],
+      [
+       828.93,
+       833.52
+      ],
+      [
+       1031.92,
+       1037.9
+      ]
+     ],
+     "seqs": [
+      74,
+      76,
+      77,
+      78,
+      79,
+      80,
+      86,
+      87,
+      90,
+      91,
+      96,
+      97,
+      111,
+      112,
+      113,
+      115,
+      116,
+      131,
+      132
+     ],
+     "seconds": 101.0,
+     "values": {
+      "reservation_type": "Wineries",
+      "location": "Napa Valley",
+      "date": "April 15",
+      "time": "10:00 AM",
+      "party_size": "4",
+      "cuisine": "Mediterranean",
+      "additional_filters": "Outdoors, Wine tasting"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h013-op2",
+   "template_id": "agoda:search_flights",
+   "site": "agoda",
+   "name": "Search flights",
+   "description": "Search flights from {origin} to {destination} on {depart_date} (optional return {return_date}) with {passengers} and sort/filter such as {filter}",
+   "parameters": [
+    "origin",
+    "destination",
+    "depart_date",
+    "return_date",
+    "passengers",
+    "filter"
+   ],
+   "steps": [
+    "Open Flights tab",
+    "Choose trip type",
+    "Enter origin and destination and select options",
+    "Select dates",
+    "Set passengers",
+    "Click SEARCH FLIGHTS",
+    "Sort/filter results (cheapest, direct)"
+   ],
+   "observed_seconds": 153.5,
+   "instances": [
+    {
+     "task_id": "c614be5b-a32a-4d67-9fb9-d0702257e83a",
+     "task": "Book a flight for 2 adults from Belo Horizonte to Buenos Aires on April 24",
+     "site": "agoda",
+     "spans": [
+      [
+       171.52,
+       191.78
+      ],
+      [
+       210.1,
+       214.9
+      ],
+      [
+       229.31,
+       229.31
+      ]
+     ],
+     "seqs": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      41,
+      42,
+      45
+     ],
+     "seconds": 38.5,
+     "values": {
+      "origin": "Belo Horizonte",
+      "destination": "Buenos Aires",
+      "depart_date": "April 24",
+      "passengers": "2 adults"
+     }
+    },
+    {
+     "task_id": "fbe9f625-7b47-4e13-a2f5-6823195d7438",
+     "task": "find a cheapest direct flight From mumbai to new delhi, India, on june 1 and return travel on june 8.",
+     "site": "agoda",
+     "spans": [
+      [
+       468.61,
+       475.94
+      ],
+      [
+       746.87,
+       756.57
+      ],
+      [
+       771.47,
+       771.47
+      ],
+      [
+       783.3,
+       808.28
+      ]
+     ],
+     "seqs": [
+      88,
+      89,
+      98,
+      99,
+      100,
+      103,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+     ],
+     "seconds": 64.1,
+     "values": {
+      "origin": "Mumbai",
+      "destination": "New Delhi",
+      "depart_date": "June 1",
+      "return_date": "June 8",
+      "filter": "direct, cheapest"
+     }
+    },
+    {
+     "task_id": "fe6b5531-ce29-4ba1-8e98-43b5fecf57fa",
+     "task": "Find a cheapest flight from London to New York on 9th May.",
+     "site": "agoda",
+     "spans": [
+      [
+       998.8,
+       1028.63
+      ],
+      [
+       1041.79,
+       1056.22
+      ]
+     ],
+     "seqs": [
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      133,
+      134,
+      135,
+      136
+     ],
+     "seconds": 50.9,
+     "values": {
+      "origin": "London",
+      "destination": "New York",
+      "depart_date": "May 9",
+      "filter": "cheapest first"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h013-op3",
+   "template_id": "travelzoo:search_deals_with_search_form_and_filters",
+   "site": "travelzoo",
+   "name": "Search deals via search form with filters",
+   "description": "Use the Travelzoo search form to find {deal_type} deals in {destination} during {when} (optionally guests), then apply filters/sort such as {filters}.",
+   "parameters": [
+    "deal_type",
+    "destination",
+    "when",
+    "guests",
+    "filters",
+    "sort"
+   ],
+   "steps": [
+    "Click 'What type of deals?' and choose the deal type (or navigate via category link)",
+    "Enter or select the destination in 'Where?'",
+    "Open 'When?' and choose a season, month or dates",
+    "Optionally select number of guests",
+    "Click SEARCH DEALS",
+    "Open Filter, select desired filters/sort options and click DONE",
+    "Optionally open a result or view on map"
+   ],
+   "observed_seconds": 105.6,
+   "instances": [
+    {
+     "task_id": "0633c328-f1ad-42bd-8aec-7a1883b5898d",
+     "task": "Find a luxury trip deal anywhere to go in spring",
+     "site": "travelzoo",
+     "spans": [
+      [
+       5.76,
+       5.76
+      ],
+      [
+       29.83,
+       41.58
+      ],
+      [
+       54.19,
+       54.19
+      ]
+     ],
+     "seqs": [
+      0,
+      5,
+      6,
+      7,
+      8,
+      11
+     ],
+     "seconds": 27.1,
+     "values": {
+      "deal_type": "Luxury Trips",
+      "destination": "Anywhere",
+      "when": "Spring"
+     }
+    },
+    {
+     "task_id": "604c4377-e24c-4900-a72f-346d8999d443",
+     "task": "Select a deal which is highly rated in Fiji location.",
+     "site": "travelzoo",
+     "spans": [
+      [
+       134.7,
+       149.88
+      ],
+      [
+       160.06,
+       160.06
+      ]
+     ],
+     "seqs": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      31
+     ],
+     "seconds": 24.1,
+     "values": {
+      "destination": "Fiji",
+      "sort": "Highest Rated"
+     }
+    },
+    {
+     "task_id": "33964bc4-fc1d-417c-ba5a-2c1c45ed8d8b",
+     "task": "Show me the most expensive things to do anywhere in December in a map",
+     "site": "travelzoo",
+     "spans": [
+      [
+       235.91,
+       235.91
+      ],
+      [
+       281.25,
+       281.25
+      ],
+      [
+       304.16,
+       311.17
+      ],
+      [
+       334.12,
+       358.68
+      ]
+     ],
+     "seqs": [
+      46,
+      53,
+      57,
+      58,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68
+     ],
+     "seconds": 54.4,
+     "values": {
+      "deal_type": "Things To Do",
+      "destination": "Anywhere",
+      "when": "December",
+      "sort": "Price: High to Low",
+      "filters": "Map view"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "9cd20dc6-d2a5-4e8f-9252-549f2c51413c",
+   "task": "View inventory of Tesla Model S that are blue and new with 19\" wheels within 50 miles of zip code 60602.",
+   "site": "tesla",
+   "spans": [
+    [
+     11.36,
+     23.55
+    ],
+    [
+     46.13,
+     50.85
+    ]
+   ],
+   "seqs": [
+    1,
+    2,
+    3,
+    4,
+    9,
+    10
+   ],
+   "seconds": 27.1,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "3b390b60-5c04-40ee-a5af-353def43ffbc",
+   "task": "Show me japanese restaurants in Fresno with online delivery.",
+   "site": "yellowpages",
+   "spans": [
+    [
+     86.43,
+     122.31
+    ]
+   ],
+   "seqs": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "seconds": 44.6,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "2a8ae104-6f06-47cb-80a0-045188125868",
+   "task": "Find the Display details of new lanched iPad pro 11-inch",
+   "site": "apple",
+   "spans": [
+    [
+     195.32,
+     206.62
+    ]
+   ],
+   "seqs": [
+    38,
+    39,
+    40
+   ],
+   "seconds": 14.8,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "eb03aa9f-bb6d-42e6-8fff-9897176d6db9",
+   "task": "Track flight with number D145 of Qatar Airways on April 18t\nh.",
+   "site": "kayak",
+   "spans": [
+    [
+     434.7,
+     450.02
+    ]
+   ],
+   "seqs": [
+    81,
+    82,
+    83,
+    84,
+    85
+   ],
+   "seconds": 22.1,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "4baa4918-3312-4b9b-9506-333057d6856b",
+   "task": "Search for coupons and deals in New York.",
+   "site": "yellowpages",
+   "spans": [
+    [
+     313.07,
+     327.35
+    ]
+   ],
+   "seqs": [
+    59,
+    60,
+    61,
+    62
+   ],
+   "seconds": 16.2,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "a3edc9c7-397d-478b-a0b9-0ffa0897acca",
+   "task": "Search for person named John Smith in New York.",
+   "site": "yellowpages",
+   "spans": [
+    [
+     64.53,
+     77.67
+    ],
+    [
+     129.37,
+     129.37
+    ]
+   ],
+   "seqs": [
+    13,
+    14,
+    15,
+    16,
+    24
+   ],
+   "seconds": 25.9,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "662af945-3514-4dce-81d4-858b7669db40",
+   "task": "Find tickets of Taylor Swift event in Las Vegas this month and book 2 lowest priced aisle seat.",
+   "site": "stubhub",
+   "spans": [
+    [
+     494.02,
+     733.01
+    ],
+    [
+     762.51,
+     767.52
+    ],
+    [
+     777.91,
+     777.91
+    ],
+    [
+     824.3,
+     824.3
+    ],
+    [
+     838.26,
+     975.66
+    ]
+   ],
+   "seqs": [
+    92,
+    93,
+    94,
+    95,
+    101,
+    102,
+    104,
+    114,
+    117,
+    118,
+    119
+   ],
+   "seconds": 409.1,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "27724810-0bc8-446a-a2f4-b53a87e190df",
+   "task": "Find the location and operating hours of the nearest CVS pharmacy to zip code 90028",
+   "site": "cvs",
+   "spans": [
+    [
+     996.01,
+     996.01
+    ],
+    [
+     1059.89,
+     1064.78
+    ]
+   ],
+   "seqs": [
+    123,
+    137,
+    138
+   ],
+   "seconds": 12.3,
+   "kind": "distractor"
+  }
+ ]
+}

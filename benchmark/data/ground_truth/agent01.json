@@ -1,0 +1,466 @@
+{
+ "session_id": "agent01",
+ "action_t": [
+  24.987,
+  35.548,
+  40.609,
+  43.968,
+  45.77,
+  56.034,
+  66.928,
+  82.601,
+  90.366,
+  97.389,
+  106.569,
+  149.258,
+  160.712,
+  190.403,
+  203.216,
+  208.5,
+  219.713,
+  226.713,
+  226.854,
+  233.744,
+  237.121,
+  242.38,
+  242.512,
+  254.435,
+  257.667,
+  344.2,
+  352.095,
+  363.508,
+  394.028,
+  400.103,
+  407.211,
+  414.269,
+  423.646,
+  433.447,
+  450.817,
+  450.955,
+  461.088,
+  464.68,
+  472.279,
+  478.695,
+  494.011,
+  526.482,
+  533.993,
+  541.498,
+  551.7,
+  558.632,
+  565.176,
+  575.002,
+  578.259,
+  618.826,
+  634.665,
+  644.715,
+  663.056,
+  680.972,
+  866.033,
+  879.86,
+  879.86,
+  894.587,
+  894.588,
+  911.986,
+  911.987,
+  930.266,
+  930.403,
+  960.084,
+  960.084,
+  990.49,
+  1001.698,
+  1047.388,
+  1062.93,
+  1091.523,
+  1095.295,
+  1103.891,
+  1128.88,
+  1158.757,
+  1179.576,
+  1196.256,
+  1200.121,
+  1212.434,
+  1216.447,
+  1228.247,
+  1232.865,
+  1248.18,
+  1272.822,
+  1291.236,
+  1295.044,
+  1307.228,
+  1371.842,
+  1479.256,
+  1496.118,
+  1496.692,
+  1514.318,
+  1514.319,
+  1532.836,
+  1536.622,
+  1550.844,
+  1551.404,
+  1567.677,
+  1568.213,
+  1586.15,
+  1603.859,
+  1626.43,
+  1641.243,
+  1645.255,
+  1659.967,
+  1664.317,
+  1681.317,
+  1744.835
+ ],
+ "dontcare_inside_instances": true,
+ "opportunities": [
+  {
+   "opportunity_id": "agent01-op0",
+   "template_id": "agent01-op0",
+   "name": "Plan a cross-timezone sync around public holidays",
+   "use_case": "Operations",
+   "description": "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter -> Add {hq_city} and {remote_city} and note the time difference -> Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month} -> Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\" -> Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\" -> Do not click Send. Click Discard",
+   "site": "timeanddate.com, mail.localhost",
+   "parameters": [
+    "hq_city",
+    "remote_city",
+    "country",
+    "month"
+   ],
+   "steps": [
+    "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter",
+    "Add {hq_city} and {remote_city} and note the time difference",
+    "Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month}",
+    "Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\"",
+    "Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\"",
+    "Do not click Send. Click Discard"
+   ],
+   "observed_seconds": 474.0,
+   "instances": [
+    {
+     "task_id": "SYNC.2",
+     "spans": [
+      [
+       513.0,
+       720.0
+      ],
+      [
+       848.0,
+       912.0
+      ]
+     ],
+     "seqs": [
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60
+     ],
+     "seconds": 271.0,
+     "values": {
+      "hq_city": "New York",
+      "remote_city": "Berlin",
+      "country": "Germany",
+      "month": "December"
+     }
+    },
+    {
+     "task_id": "SYNC.3",
+     "spans": [
+      [
+       1479.0,
+       1682.0
+      ]
+     ],
+     "seqs": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105
+     ],
+     "seconds": 203.0,
+     "values": {
+      "hq_city": "London",
+      "remote_city": "Sydney",
+      "country": "Australia",
+      "month": "January"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "N1",
+   "spans": [
+    [
+     114.0,
+     179.0
+    ]
+   ],
+   "seqs": [
+    11,
+    12
+   ],
+   "seconds": 65.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "task_id": "N2",
+   "spans": [
+    [
+     337.0,
+     373.0
+    ]
+   ],
+   "seqs": [
+    25,
+    26,
+    27
+   ],
+   "seconds": 36.0,
+   "kind": "one_off",
+   "task": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit"
+  },
+  {
+   "task_id": "N3",
+   "spans": [
+    [
+     511.0,
+     513.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 2.0,
+   "kind": "one_off",
+   "task": "Abandoned attempt: in the xe.com tab, type 50 in Amount and start setting From to CHF, then give up halfway and switch to the Wikipedia tab"
+  },
+  {
+   "task_id": "N4",
+   "spans": [
+    [
+     822.0,
+     848.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 26.0,
+   "kind": "one_off",
+   "task": "Wander: click through the Notes, Mail and EDGAR tabs without doing anything"
+  },
+  {
+   "task_id": "N5",
+   "spans": [
+    [
+     1682.0,
+     1761.0
+    ]
+   ],
+   "seqs": [
+    106
+   ],
+   "seconds": 79.0,
+   "kind": "one_off",
+   "task": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "task_id": "BRIEF.1",
+   "spans": [
+    [
+     20.0,
+     114.0
+    ]
+   ],
+   "seqs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "seconds": 94.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of BRIEF.1"
+  },
+  {
+   "task_id": "BRIEF.2",
+   "spans": [
+    [
+     444.0,
+     495.0
+    ]
+   ],
+   "seqs": [
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40
+   ],
+   "seconds": 51.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of BRIEF.2"
+  },
+  {
+   "task_id": "QUOTES.1",
+   "spans": [
+    [
+     179.0,
+     264.0
+    ],
+    [
+     373.0,
+     388.0
+    ]
+   ],
+   "seqs": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "seconds": 100.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of QUOTES.1"
+  },
+  {
+   "task_id": "QUOTES.2",
+   "spans": [
+    [
+     495.0,
+     511.0
+    ]
+   ],
+   "seqs": [],
+   "seconds": 16.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of QUOTES.2"
+  },
+  {
+   "task_id": "QUOTES.3",
+   "spans": [
+    [
+     1033.0,
+     1033.0
+    ],
+    [
+     1249.0,
+     1403.0
+    ]
+   ],
+   "seqs": [
+    82,
+    83,
+    84,
+    85,
+    86
+   ],
+   "seconds": 154.0,
+   "kind": "ambiguous",
+   "task": "abandoned run of QUOTES.3"
+  },
+  {
+   "task_id": "SYNC.1",
+   "spans": [
+    [
+     388.0,
+     444.0
+    ]
+   ],
+   "seqs": [
+    28,
+    29,
+    30,
+    31,
+    32,
+    33
+   ],
+   "seconds": 56.0,
+   "kind": "one_off",
+   "task": "abandoned run of SYNC.1"
+  },
+  {
+   "task_id": "BRIEF.3",
+   "spans": [
+    [
+     912.0,
+     1033.0
+    ],
+    [
+     1033.0,
+     1249.0
+    ]
+   ],
+   "seqs": [
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81
+   ],
+   "seconds": 337.0,
+   "kind": "ambiguous",
+   "task": "single run of Write a pre-call account brief from SEC EDGAR and Wikipedia"
+  }
+ ]
+}

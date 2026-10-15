@@ -1,0 +1,291 @@
+{
+ "opportunities": [
+  {
+   "name": "Viator destination and date tour search",
+   "description": "On Viator, search a destination, pick a travel date, and sort the resulting tours (by traveler rating or price), then open a tour.",
+   "site": "viator",
+   "steps": [
+    "Type destination into 'Where to?'",
+    "Select the destination suggestion",
+    "Click Next to reach the target month in the calendar",
+    "Click the travel date",
+    "Click Apply",
+    "Optionally filter by category such as Likely To Sell Out",
+    "Open the Sort menu and choose the sort option",
+    "Open a tour result"
+   ],
+   "parameters": [
+    "destination",
+    "travel date",
+    "sort option",
+    "category filter"
+   ],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "actions": [
+      1,
+      9,
+      10,
+      17,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+     ],
+     "values": "Paris, May 12 2023, sort by Traveler Rating, open Eiffel Tower tour and reviews",
+     "segments": [
+      {
+       "start_t": 7.81,
+       "end_t": 7.81
+      },
+      {
+       "start_t": 43.38,
+       "end_t": 49.18
+      },
+      {
+       "start_t": 86.84,
+       "end_t": 86.84
+      },
+      {
+       "start_t": 107.02,
+       "end_t": 133.16
+      }
+     ]
+    },
+    {
+     "actions": [
+      99,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107
+     ],
+     "values": "Los Angeles, Apr 2 2023, Likely To Sell Out, sort by Price low to high",
+     "segments": [
+      {
+       "start_t": 1028.11,
+       "end_t": 1028.11
+      },
+      {
+       "start_t": 1038.3,
+       "end_t": 1073.08
+      }
+     ]
+    },
+    {
+     "actions": [
+      108,
+      109,
+      110,
+      111,
+      112,
+      113
+     ],
+     "values": "Nearby, Mar 30 2023, open Hollywood Sign Hiking Tour",
+     "segments": [
+      {
+       "start_t": 1079.6,
+       "end_t": 1105.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Recreation.gov search with filters",
+   "description": "On Recreation.gov, choose a booking category, optionally enter a location, open More Filters and set filters like accessible campsites.",
+   "site": "recreation.gov",
+   "steps": [
+    "Click a category tile (Day Use / Camping & Lodging)",
+    "Type location and select the suggestion",
+    "Click Show filters",
+    "Toggle the desired filters",
+    "Hide filters or view results"
+   ],
+   "parameters": [
+    "category",
+    "location",
+    "filter options"
+   ],
+   "confidence": 0.6,
+   "instances": [
+    {
+     "actions": [
+      0,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "values": "Day Use, nashville Tennessee",
+     "segments": [
+      {
+       "start_t": 3.29,
+       "end_t": 3.29
+      },
+      {
+       "start_t": 12.55,
+       "end_t": 33.72
+      }
+     ]
+    },
+    {
+     "actions": [
+      81,
+      82,
+      83,
+      86,
+      93
+     ],
+     "values": "Camping & Lodging, accessible campsites filter",
+     "segments": [
+      {
+       "start_t": 601.25,
+       "end_t": 617.46
+      },
+      {
+       "start_t": 632.84,
+       "end_t": 632.84
+      },
+      {
+       "start_t": 991.83,
+       "end_t": 991.83
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Parking.com city destination to parking options",
+   "description": "On Parking.com, choose a city and then a destination category and venue to view parking options.",
+   "site": "parking",
+   "steps": [
+    "Open CITIES or the city tile list",
+    "Click the city",
+    "Click a category such as Museums or Theaters",
+    "Click the venue",
+    "Click SEE OPTIONS for an event",
+    "Select a parking garage"
+   ],
+   "parameters": [
+    "city",
+    "category",
+    "venue"
+   ],
+   "confidence": 0.5,
+   "instances": [
+    {
+     "actions": [
+      65,
+      73,
+      74
+     ],
+     "values": "New York City, Museums",
+     "segments": [
+      {
+       "start_t": 505.13,
+       "end_t": 505.13
+      },
+      {
+       "start_t": 550.2,
+       "end_t": 554.91
+      }
+     ]
+    },
+    {
+     "actions": [
+      85,
+      94,
+      95,
+      96,
+      97,
+      100
+     ],
+     "values": "Washington DC, Theaters, Warner Theatre, Hits! The Musical",
+     "segments": [
+      {
+       "start_t": 628.26,
+       "end_t": 628.26
+      },
+      {
+       "start_t": 998.21,
+       "end_t": 1018.83
+      },
+      {
+       "start_t": 1033.01,
+       "end_t": 1033.01
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Add item to cart with quantity",
+   "description": "Select a product, choose the variant and quantity, and add it to the cart or bag.",
+   "site": "amazon / marriott",
+   "steps": [
+    "Open the product page",
+    "Select the size or variant",
+    "Set the quantity",
+    "Click Add to Cart / Add to Bag"
+   ],
+   "parameters": [
+    "product",
+    "variant",
+    "quantity"
+   ],
+   "confidence": 0.4,
+   "instances": [
+    {
+     "actions": [
+      77,
+      78,
+      79,
+      80
+     ],
+     "values": "Amazon Woods surge protector, qty 2",
+     "segments": [
+      {
+       "start_t": 576.3,
+       "end_t": 592.38
+      }
+     ]
+    },
+    {
+     "actions": [
+      89,
+      90,
+      91,
+      92
+     ],
+     "values": "Marriott Pillow Protector, Queen, qty 2",
+     "segments": [
+      {
+       "start_t": 645.51,
+       "end_t": 664.55
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.1773956,
+  "seconds": 22.7,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "replicate/manifest.schema.json",
+  "title": "Browser session bundle manifest (v0.2, browser-only)",
+  "description": "v0.2 drops the macOS-only requirements of v0.1: displays, host and video streams are optional. traces/dom.jsonl plus screenshots are the core streams.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "session_id",
+    "source",
+    "started_at",
+    "duration_s",
+    "timing",
+    "streams"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "0.2"
+    },
+    "session_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_-]+$"
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "chained_dataset",
+            "chrome_extension",
+            "cdp_recorder",
+            "macos_recorder"
+          ]
+        },
+        "dataset": {
+          "type": "string"
+        },
+        "license": {
+          "type": "string"
+        },
+        "composer_seed": {
+          "type": "integer"
+        },
+        "tier": {
+          "enum": [
+            "easy",
+            "hard"
+          ]
+        }
+      }
+    },
+    "started_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "duration_s": {
+      "type": "number",
+      "minimum": 0
+    },
+    "timing": {
+      "type": "object",
+      "required": [
+        "kind"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "observed",
+            "synthetic"
+          ]
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    },
+    "streams": {
+      "type": "object",
+      "required": [
+        "dom"
+      ],
+      "properties": {
+        "dom": {
+          "$ref": "#/$defs/stream"
+        },
+        "screenshots": {
+          "$ref": "#/$defs/stream"
+        },
+        "dom_snapshots": {
+          "$ref": "#/$defs/stream"
+        },
+        "video": {
+          "$ref": "#/$defs/stream"
+        },
+        "accessibility": {
+          "$ref": "#/$defs/stream"
+        },
+        "input": {
+          "$ref": "#/$defs/stream"
+        }
+      }
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "displays": {
+      "type": "array"
+    },
+    "host": {
+      "type": "object"
+    }
+  },
+  "$defs": {
+    "stream": {
+      "type": "object",
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "type": "string"
+        },
+        "format": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

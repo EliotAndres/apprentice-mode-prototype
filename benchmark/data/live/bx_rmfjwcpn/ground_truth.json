@@ -1,0 +1,302 @@
+{
+ "workflows": [
+  {
+   "name": "Plan an event: pick a venue, a caterer and flowers, then draft the proposal email",
+   "use_case": "Events and entertainment",
+   "apps": [
+    "peerspace.com",
+    "ezcater.com",
+    "1800flowers.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "event",
+    "city",
+    "guests",
+    "date",
+    "cuisine",
+    "flowers",
+    "contact"
+   ],
+   "steps": [
+    "In the Peerspace tab, type \"{event}\" in What are you planning?, type {city} in Where? and pick it from the list, then click Search",
+    "Open the first venue that fits {guests} guests and note its name and hourly price. Do not click Reserve or Request",
+    "Switch to the ezCater tab, type {city} as the delivery address and pick it, set the date to {date}, then search for \"{cuisine}\"",
+    "Open the first caterer and note its name and minimum order. Do not add anything to the cart",
+    "Switch to the 1-800-Flowers tab, search \"{flowers}\", open the first product and note its name and price. Do not add it to the cart",
+    "Switch to the Mail tab, click To and type {contact}@example.com, click Subject and type \"{event} on {date}: venue, food, flowers\"",
+    "Click Body and type \"Hi {contact}, for {guests} guests: venue <name> (<price>/h), catering <caterer> (min <amount>), flowers <product> (<price>).\" Do not click Send. Click Discard"
+   ],
+   "runs": []
+  },
+  {
+   "name": "Find a recent arXiv paper on a topic and check its citations on Semantic Scholar",
+   "use_case": "Research",
+   "apps": [
+    "arxiv.org",
+    "semanticscholar.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "topic",
+    "category",
+    "year"
+   ],
+   "steps": [
+    "In the arXiv tab, click Advanced Search, type \"{topic}\" in the search term field",
+    "Under Subject tick {category}, under Date choose Specific year and type {year}, then click Search",
+    "Open the first result and note its title and first author",
+    "Open a new tab, go to semanticscholar.org, search for that title and open the matching paper; read its citation count",
+    "Close the Semantic Scholar tab, switch to Notes, click \"New note\", type \"{topic} ({year}): <title> by <first author>, <N> citations\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "PAPER.1",
+     "start": "2026-10-13T15:51:33+00:00",
+     "end": "2026-10-13T15:58:14+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:51:33+00:00",
+       "2026-10-13T15:53:05+00:00"
+      ],
+      [
+       "2026-10-13T15:55:22+00:00",
+       "2026-10-13T15:58:14+00:00"
+      ]
+     ],
+     "values": {
+      "topic": "retrieval augmented generation",
+      "category": "Computer Science",
+      "year": "2023"
+     }
+    },
+    {
+     "id": "PAPER.2",
+     "start": "2026-10-13T16:14:10+00:00",
+     "end": "2026-10-13T16:22:32+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:14:10+00:00",
+       "2026-10-13T16:22:32+00:00"
+      ]
+     ],
+     "values": {
+      "topic": "protein structure diffusion",
+      "category": "Quantitative Biology",
+      "year": "2024"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Look up a Supreme Court case on CourtListener and the related statute on Cornell LII",
+   "use_case": "Legal",
+   "apps": [
+    "courtlistener.com",
+    "law.cornell.edu",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "case",
+    "statute"
+   ],
+   "steps": [
+    "In the CourtListener tab, click the search box, type \"{case}\" and press Enter",
+    "Open the matching Supreme Court opinion and note its citation (like 585 U.S. 296) and date filed",
+    "Open a new tab, go to law.cornell.edu, search \"{statute}\" with the site's search and open the statute page",
+    "Note the section heading, then close the tab",
+    "Switch to Notes, click \"New note\", type \"{case}: <citation>, decided <date>. See {statute} (<heading>)\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "CASE.1",
+     "start": "2026-10-13T15:58:14+00:00",
+     "end": "2026-10-13T16:03:46+00:00",
+     "segments": [
+      [
+       "2026-10-13T15:58:14+00:00",
+       "2026-10-13T16:03:46+00:00"
+      ]
+     ],
+     "values": {
+      "case": "Carpenter v. United States",
+      "statute": "18 U.S.C. 2703"
+     }
+    },
+    {
+     "id": "CASE.2",
+     "start": "2026-10-13T16:24:08+00:00",
+     "end": "2026-10-13T16:33:17+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:24:08+00:00",
+       "2026-10-13T16:26:35+00:00"
+      ],
+      [
+       "2026-10-13T16:29:22+00:00",
+       "2026-10-13T16:33:17+00:00"
+      ]
+     ],
+     "values": {
+      "case": "Bostock v. Clayton County",
+      "statute": "42 U.S.C. 2000e-2"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T15:50:55+00:00",
+   "end": "2026-10-13T15:51:33+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:50:55+00:00",
+     "2026-10-13T15:51:33+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to theguardian.com, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T15:54:12+00:00",
+   "end": "2026-10-13T15:55:22+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:54:12+00:00",
+     "2026-10-13T15:55:22+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to weather.com, search the forecast for Chicago, look at it, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T16:22:32+00:00",
+   "end": "2026-10-13T16:24:08+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:22:32+00:00",
+     "2026-10-13T16:24:08+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the 1-800-Flowers tab, search \"tulips\", scroll the results, then give up without opening any"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T16:28:23+00:00",
+   "end": "2026-10-13T16:29:22+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:28:23+00:00",
+     "2026-10-13T16:29:22+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and arXiv tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T16:46:45+00:00",
+   "end": "2026-10-13T16:49:36+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:46:45+00:00",
+     "2026-10-13T16:49:36+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to en.wikipedia.org, click Random article in the menu, skim it, close the tab"
+  },
+  {
+   "id": "EVENT.1",
+   "start": "2026-10-13T15:48:56+00:00",
+   "end": "2026-10-13T15:50:55+00:00",
+   "segments": [
+    [
+     "2026-10-13T15:48:56+00:00",
+     "2026-10-13T15:50:55+00:00"
+    ]
+   ],
+   "description": "abandoned run of EVENT.1"
+  },
+  {
+   "id": "EVENT.2",
+   "start": "2026-10-13T16:03:46+00:00",
+   "end": "2026-10-13T16:14:10+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:03:46+00:00",
+     "2026-10-13T16:14:10+00:00"
+    ]
+   ],
+   "description": "abandoned run of EVENT.2"
+  },
+  {
+   "id": "EVENT.3",
+   "start": "2026-10-13T16:33:17+00:00",
+   "end": "2026-10-13T16:41:26+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:33:17+00:00",
+     "2026-10-13T16:35:49+00:00"
+    ],
+    [
+     "2026-10-13T16:38:34+00:00",
+     "2026-10-13T16:41:26+00:00"
+    ]
+   ],
+   "description": "abandoned run of EVENT.3"
+  },
+  {
+   "id": "PAPER.3",
+   "start": "2026-10-13T16:35:49+00:00",
+   "end": "2026-10-13T16:41:26+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:35:49+00:00",
+     "2026-10-13T16:38:34+00:00"
+    ],
+    [
+     "2026-10-13T16:41:26+00:00",
+     "2026-10-13T16:41:26+00:00"
+    ]
+   ],
+   "description": "abandoned run of PAPER.3"
+  },
+  {
+   "id": "CASE.3",
+   "start": "2026-10-13T16:42:41+00:00",
+   "end": "2026-10-13T16:46:45+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:42:41+00:00",
+     "2026-10-13T16:46:45+00:00"
+    ]
+   ],
+   "description": "abandoned run of CASE.3"
+  }
+ ],
+ "failed": [
+  "CASE.3",
+  "EVENT.1",
+  "EVENT.2",
+  "EVENT.3",
+  "N1",
+  "N3",
+  "N4",
+  "N5",
+  "PAPER.3"
+ ],
+ "log_reasons": {
+  "1": "Peerspace location not recognized after two tries",
+  "2": "consent cannot dismiss without accepting or subscribing",
+  "8": "ezCater cuisine search did not accept text after two tries",
+  "10": "Flowers search did not accept text after two tries",
+  "13": "Mail tab obscured by black overlay and clicks ineffective",
+  "15": "Peerspace does not recognize Product launch after two tries",
+  "16": "year field did not accept text after two tries",
+  "17": "venue and catering unavailable from failed chunk 15; flower noted",
+  "18": "paper title unavailable from failed chunk 16",
+  "20": "new tab shortcut ineffective after two tries; Miranda citation and date noted",
+  "21": "new tab shortcut ineffective after two tries"
+ }
+}

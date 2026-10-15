@@ -1,0 +1,492 @@
+{
+ "opportunities": [
+  {
+   "name": "Kayak flight search",
+   "description": "Search one-way flights on Kayak for an origin, destination, date and traveler count, then sort/inspect results (cheapest/quickest).",
+   "site": "kayak",
+   "steps": [
+    "Open Kayak Flights",
+    "Set trip type (one-way/round-trip)",
+    "Set travelers/bags",
+    "Type origin and pick airport",
+    "Type destination and pick airport",
+    "Pick departure date in calendar",
+    "Click Search",
+    "Sort by Cheapest/Quickest and open deal"
+   ],
+   "parameters": [
+    "origin",
+    "destination",
+    "date",
+    "trip type",
+    "travelers",
+    "bags"
+   ],
+   "confidence": 0.9,
+   "instances": [
+    {
+     "actions": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      15,
+      16
+     ],
+     "values": "NYC JFK -> Male, one-way, 3/13",
+     "segments": [
+      {
+       "start_t": 22.23,
+       "end_t": 67.94
+      },
+      {
+       "start_t": 86.07,
+       "end_t": 91.47
+      }
+     ]
+    },
+    {
+     "actions": [
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      32,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      72,
+      73,
+      79,
+      80
+     ],
+     "values": "New York -> Paris, 2 travelers, Jun 4, 1 carry-on",
+     "segments": [
+      {
+       "start_t": 120.44,
+       "end_t": 141.25
+      },
+      {
+       "start_t": 188.36,
+       "end_t": 188.36
+      },
+      {
+       "start_t": 234.05,
+       "end_t": 263.68
+      },
+      {
+       "start_t": 750.11,
+       "end_t": 754.29
+      },
+      {
+       "start_t": 784.75,
+       "end_t": 790.03
+      }
+     ]
+    },
+    {
+     "actions": [
+      59,
+      60,
+      61,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      95
+     ],
+     "values": "Mumbai -> Dubai, May 24",
+     "segments": [
+      {
+       "start_t": 332.65,
+       "end_t": 343.23
+      },
+      {
+       "start_t": 688.96,
+       "end_t": 728.82
+      },
+      {
+       "start_t": 809.57,
+       "end_t": 840.38
+      },
+      {
+       "start_t": 871.41,
+       "end_t": 871.41
+      }
+     ]
+    },
+    {
+     "actions": [
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      122,
+      123,
+      124
+     ],
+     "values": "New York -> London, Apr 23, student traveler",
+     "segments": [
+      {
+       "start_t": 881.97,
+       "end_t": 940.81
+      },
+      {
+       "start_t": 1318.66,
+       "end_t": 1327.29
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "MBTA trip planner",
+   "description": "Plan an MBTA trip between two locations at a chosen date and time and view itineraries.",
+   "site": "mbta",
+   "steps": [
+    "Open Trip Planner",
+    "Enter From location and select",
+    "Enter To location and select",
+    "Open depart-at, set date",
+    "Set hour, minute, AM/PM",
+    "Click Get trip suggestions",
+    "Expand trip details/fare"
+   ],
+   "parameters": [
+    "from",
+    "to",
+    "date",
+    "hour",
+    "minute",
+    "AM/PM"
+   ],
+   "confidence": 0.85,
+   "instances": [
+    {
+     "actions": [
+      39,
+      40,
+      41,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57
+     ],
+     "values": "Gloucester -> North Plymouth, Apr 28 2:30 PM",
+     "segments": [
+      {
+       "start_t": 218.0,
+       "end_t": 229.09
+      },
+      {
+       "start_t": 270.23,
+       "end_t": 318.05
+      }
+     ]
+    },
+    {
+     "actions": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      127,
+      128,
+      129,
+      130,
+      140,
+      141
+     ],
+     "values": "Braintree -> Boston Logan, Apr 14 12:00 PM",
+     "segments": [
+      {
+       "start_t": 969.09,
+       "end_t": 1310.6
+      },
+      {
+       "start_t": 1340.07,
+       "end_t": 1354.38
+      },
+      {
+       "start_t": 1418.57,
+       "end_t": 1421.98
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Tock restaurant/winery reservation search",
+   "description": "Search a venue on Tock, open a reservation, set party size, date and time.",
+   "site": "exploretock",
+   "steps": [
+    "Click Search",
+    "Type venue name",
+    "Select venue",
+    "Open reservation",
+    "Increase party size",
+    "Pick date",
+    "Select time/search"
+   ],
+   "parameters": [
+    "venue",
+    "party size",
+    "date",
+    "time"
+   ],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "actions": [
+      34,
+      35,
+      36,
+      37,
+      38,
+      58,
+      62,
+      70,
+      71
+     ],
+     "values": "Matthews Winery, Mar 31, party 2->5",
+     "segments": [
+      {
+       "start_t": 197.5,
+       "end_t": 214.18
+      },
+      {
+       "start_t": 326.69,
+       "end_t": 326.69
+      },
+      {
+       "start_t": 684.96,
+       "end_t": 684.96
+      },
+      {
+       "start_t": 738.35,
+       "end_t": 743.8
+      }
+     ]
+    },
+    {
+     "actions": [
+      125,
+      126,
+      131,
+      133,
+      134,
+      135,
+      136,
+      137,
+      139
+     ],
+     "values": "Alinea, Apr 5, 3 guests, 5 PM",
+     "segments": [
+      {
+       "start_t": 1331.5,
+       "end_t": 1334.84
+      },
+      {
+       "start_t": 1359.1,
+       "end_t": 1359.1
+      },
+      {
+       "start_t": 1370.9,
+       "end_t": 1391.55
+      },
+      {
+       "start_t": 1413.05,
+       "end_t": 1413.05
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Recreation.gov permit search and availability",
+   "description": "Search a permit or facility on Recreation.gov and open its details/availability.",
+   "site": "recreation.gov",
+   "steps": [
+    "Open Permits tab",
+    "Type facility name",
+    "Select suggestion",
+    "Enter date and check availability / group size"
+   ],
+   "parameters": [
+    "facility",
+    "entry date",
+    "group size"
+   ],
+   "confidence": 0.7,
+   "instances": [
+    {
+     "actions": [
+      74,
+      75,
+      76,
+      77,
+      78,
+      81,
+      82,
+      83
+     ],
+     "values": "Brooks Camp, 05/22/2023, 4 people",
+     "segments": [
+      {
+       "start_t": 760.26,
+       "end_t": 779.66
+      },
+      {
+       "start_t": 795.91,
+       "end_t": 804.81
+      }
+     ]
+    },
+    {
+     "actions": [
+      142,
+      143,
+      144,
+      148,
+      154,
+      155,
+      156,
+      157,
+      159,
+      160
+     ],
+     "values": "Arizona / Bryce Canyon",
+     "segments": [
+      {
+       "start_t": 1426.85,
+       "end_t": 1665.69
+      },
+      {
+       "start_t": 1687.11,
+       "end_t": 1687.11
+      },
+      {
+       "start_t": 1721.23,
+       "end_t": 1736.37
+      },
+      {
+       "start_t": 1747.27,
+       "end_t": 1753.9
+      }
+     ]
+    },
+    {
+     "actions": [
+      90,
+      91,
+      92
+     ],
+     "values": "Alley Spring",
+     "segments": [
+      {
+       "start_t": 846.65,
+       "end_t": 855.57
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Last.fm artist search",
+   "description": "Search artist on Last.fm and view top tracks.",
+   "site": "last.fm",
+   "steps": [
+    "Click search",
+    "Type artist",
+    "Open artist",
+    "Set top tracks period"
+   ],
+   "parameters": [
+    "artist",
+    "period"
+   ],
+   "confidence": 0.4,
+   "instances": [
+    {
+     "actions": [
+      93,
+      94,
+      96,
+      110,
+      111,
+      112,
+      121
+     ],
+     "values": "Ariana Grande, all time",
+     "segments": [
+      {
+       "start_t": 860.46,
+       "end_t": 865.62
+      },
+      {
+       "start_t": 875.58,
+       "end_t": 875.58
+      },
+      {
+       "start_t": 948.02,
+       "end_t": 960.88
+      },
+      {
+       "start_t": 1314.77,
+       "end_t": 1314.77
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.2480131,
+  "seconds": 14.3,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

@@ -1,0 +1,528 @@
+{
+ "session_id": "h004",
+ "tier": "hard",
+ "dontcare_inside_instances": false,
+ "action_t": [
+  3.79,
+  9.62,
+  13.63,
+  19.33,
+  23.97,
+  27.57,
+  32.72,
+  41.95,
+  44.5,
+  51.62,
+  61.17,
+  65.24,
+  71.55,
+  76.69,
+  85.01,
+  307.19,
+  313.13,
+  320.33,
+  329.36,
+  336.97,
+  341.83,
+  344.67,
+  350.96,
+  357.07,
+  362.2,
+  367.44,
+  372.16,
+  381.36,
+  387.03,
+  394.6,
+  397.72,
+  405.83,
+  411.65,
+  414.47,
+  420.13,
+  425.28,
+  428.48,
+  430.76,
+  438.23,
+  442.74,
+  451.58,
+  454.41,
+  459.49,
+  463.84,
+  467.0,
+  473.53,
+  477.96,
+  482.23,
+  487.74,
+  494.2,
+  497.35,
+  503.36,
+  509.48,
+  513.88,
+  519.95,
+  526.46,
+  532.44,
+  536.84,
+  544.06,
+  548.89,
+  554.32,
+  558.92,
+  569.59,
+  573.78,
+  578.51,
+  582.48,
+  587.56,
+  594.07,
+  600.97,
+  609.06,
+  612.49,
+  618.75,
+  623.28,
+  628.47,
+  633.71,
+  640.89,
+  645.57
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "h004-op0",
+   "template_id": "us.megabus:track_bus_by_service_number",
+   "site": "us.megabus",
+   "name": "Track bus by service number",
+   "description": "Track a bus using service number {service_number}",
+   "parameters": [
+    "service_number"
+   ],
+   "steps": [
+    "Click Check my bus",
+    "Click Track my bus",
+    "Open Service Number tab",
+    "Type the service number",
+    "Select suggestion/submit"
+   ],
+   "observed_seconds": 56.7,
+   "instances": [
+    {
+     "task_id": "ab139e9d-eb99-47f7-8d0b-f93479fadadf",
+     "task": "Track a bus using service number 5456165184.",
+     "site": "us.megabus",
+     "spans": [
+      [
+       344.67,
+       362.2
+      ]
+     ],
+     "seqs": [
+      21,
+      22,
+      23,
+      24
+     ],
+     "seconds": 20.4,
+     "values": {
+      "service_number": "5456165184"
+     }
+    },
+    {
+     "task_id": "7eff6c15-bab6-4ce4-abb8-72619f593ea1",
+     "task": "Track my bus with service number SE4.",
+     "site": "us.megabus",
+     "spans": [
+      [
+       526.46,
+       536.84
+      ],
+      [
+       558.92,
+       573.78
+      ]
+     ],
+     "seqs": [
+      55,
+      56,
+      57,
+      61,
+      62,
+      63
+     ],
+     "seconds": 36.3,
+     "values": {
+      "service_number": "SE4"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h004-op1",
+   "template_id": "resy:book_special_event_tickets",
+   "site": "resy",
+   "name": "Book special event tickets",
+   "description": "Book {tickets} tickets for a special event/experience in {city} on {date}",
+   "parameters": [
+    "tickets",
+    "city",
+    "date"
+   ],
+   "steps": [
+    "Select city",
+    "Open Special Events & Experiences",
+    "Open the event",
+    "Select ticket count",
+    "Choose time/ticket option",
+    "Click Reserve Now"
+   ],
+   "observed_seconds": 76.2,
+   "instances": [
+    {
+     "task_id": "5f09e15c-c987-4bdb-ab6e-5db39b18317d",
+     "task": "Book 3 tickets for a Special Event or Experience in Miami on may 4",
+     "site": "resy",
+     "spans": [
+      [
+       387.03,
+       387.03
+      ],
+      [
+       397.72,
+       411.65
+      ],
+      [
+       442.74,
+       459.49
+      ],
+      [
+       513.88,
+       513.88
+      ]
+     ],
+     "seqs": [
+      28,
+      30,
+      31,
+      32,
+      39,
+      40,
+      41,
+      42,
+      53
+     ],
+     "seconds": 48.4,
+     "values": {
+      "tickets": "3",
+      "city": "Miami",
+      "date": "May 4"
+     }
+    },
+    {
+     "task_id": "b1055658-7993-448c-9af6-a722cf69ff97",
+     "task": "Make a reservation for the next restaurant-related event, only 1 ticket is needed.",
+     "site": "resy",
+     "spans": [
+      [
+       578.51,
+       578.51
+      ],
+      [
+       600.97,
+       612.49
+      ],
+      [
+       645.57,
+       645.57
+      ]
+     ],
+     "seqs": [
+      64,
+      68,
+      69,
+      70,
+      76
+     ],
+     "seconds": 27.8,
+     "values": {
+      "tickets": "1",
+      "city": "",
+      "date": "next event"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "h004-op2",
+   "template_id": "nps.gov:find_park_by_state_and_view_section",
+   "site": "nps.gov",
+   "name": "Find park by state and open park section",
+   "description": "Use Find a Park by State, pick {state}, and open a section link (e.g. {section}) for the park {park}.",
+   "parameters": [
+    "state",
+    "park",
+    "section"
+   ],
+   "steps": [
+    "Click Find a Park by State",
+    "Click the state {state}",
+    "Locate the park {park} in the results",
+    "Click the section link {section} (Current Conditions, Basic Information, National Heritage Area)"
+   ],
+   "observed_seconds": 48.3,
+   "instances": [
+    {
+     "task_id": "bef473f1-82a1-4359-a2c0-59b6dc2f6abb",
+     "task": "Find a park in Alaska that is also a National Heritage Area.",
+     "site": "nps.gov",
+     "spans": [
+      [
+       3.79,
+       9.62
+      ],
+      [
+       27.57,
+       32.72
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      5,
+      6
+     ],
+     "seconds": 18.4,
+     "values": {
+      "state": "Alaska",
+      "park": "Kenai Mountains-Turnagain Arm National Heritage Area",
+      "section": "National Heritage Area"
+     }
+    },
+    {
+     "task_id": "612653f8-defe-41be-ae48-26ed859d98ca",
+     "task": "Locate Dry Tortugas in the state of Florida and find out the Current Conditions.",
+     "site": "nps.gov",
+     "spans": [
+      [
+       13.63,
+       23.97
+      ]
+     ],
+     "seqs": [
+      2,
+      3,
+      4
+     ],
+     "seconds": 14.3,
+     "values": {
+      "state": "Florida",
+      "park": "Dry Tortugas",
+      "section": "Current Conditions"
+     }
+    },
+    {
+     "task_id": "6eeaa528-88a8-416f-94f2-ae1425d9c4a3",
+     "task": "Search for a park in the state of California called Castle Mountains National Monument and find out it's Basic Information.",
+     "site": "nps.gov",
+     "spans": [
+      [
+       582.48,
+       594.07
+      ]
+     ],
+     "seqs": [
+      65,
+      66,
+      67
+     ],
+     "seconds": 15.6,
+     "values": {
+      "state": "California",
+      "park": "Castle Mountains National Monument",
+      "section": "Basic Information"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "1bb8d48f-dac7-472d-b2b2-651ab184baf2",
+   "task": "Look for a hybrid job at Resy in software development, if the job is open apply immediately.",
+   "site": "resy",
+   "spans": [
+    [
+     414.47,
+     425.28
+    ],
+    [
+     430.76,
+     430.76
+    ],
+    [
+     487.74,
+     497.35
+    ],
+    [
+     519.95,
+     519.95
+    ]
+   ],
+   "seqs": [
+    33,
+    34,
+    35,
+    37,
+    48,
+    49,
+    50,
+    54
+   ],
+   "seconds": 37.1,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "1c6bfd10-4dcb-4a5c-bb2d-922ff9f20087",
+   "task": "Look for an English language book on roman empire history in the Kindle store released in the last 90 days, it should be displayed according to its latest publication date, and add the top result to the shopping list.",
+   "site": "amazon",
+   "spans": [
+    [
+     41.95,
+     61.17
+    ],
+    [
+     71.55,
+     85.01
+    ],
+    [
+     313.13,
+     313.13
+    ],
+    [
+     336.97,
+     341.83
+    ],
+    [
+     367.44,
+     381.36
+    ]
+   ],
+   "seqs": [
+    7,
+    8,
+    9,
+    10,
+    12,
+    13,
+    14,
+    16,
+    19,
+    20,
+    25,
+    26,
+    27
+   ],
+   "seconds": 85.8,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "7b5b2188-afd4-4279-b738-c37a1b5f2142",
+   "task": "Find a list of available opportunities for a volunteer event for year 2023",
+   "site": "nps.gov",
+   "spans": [
+    [
+     65.24,
+     65.24
+    ],
+    [
+     307.19,
+     307.19
+    ],
+    [
+     320.33,
+     329.36
+    ]
+   ],
+   "seqs": [
+    11,
+    15,
+    17,
+    18
+   ],
+   "seconds": 242.5,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "644b7bed-b5fb-4090-b04f-a669d41ac93a",
+   "task": "Find the schedule of the East Boston ferry, check connections, and fares  and download the pdf schedule.",
+   "site": "mbta",
+   "spans": [
+    [
+     463.84,
+     482.23
+    ],
+    [
+     503.36,
+     509.48
+    ]
+   ],
+   "seqs": [
+    43,
+    44,
+    45,
+    46,
+    47,
+    51,
+    52
+   ],
+   "seconds": 34.9,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "ad0369b6-cfd5-4555-bb4f-d84a942be555",
+   "task": "Order the cheapest climbing shoes in today's deals.",
+   "site": "rei",
+   "spans": [
+    [
+     544.06,
+     554.32
+    ],
+    [
+     618.75,
+     640.89
+    ]
+   ],
+   "seqs": [
+    58,
+    59,
+    60,
+    71,
+    72,
+    73,
+    74,
+    75
+   ],
+   "seconds": 45.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "f61456ed-3cc2-41a0-b79c-56737515fac9",
+   "task": "Open the photo gallery for Tsiakkos & Charcoal.",
+   "site": "resy",
+   "spans": [
+    [
+     394.6,
+     394.6
+    ],
+    [
+     428.48,
+     428.48
+    ],
+    [
+     438.23,
+     438.23
+    ]
+   ],
+   "seqs": [
+    29,
+    36,
+    38
+   ],
+   "seconds": 18.2,
+   "kind": "one_off"
+  }
+ ]
+}

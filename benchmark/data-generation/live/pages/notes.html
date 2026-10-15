@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Notes</title>
+<style>body{font:16px system-ui;max-width:640px;margin:40px auto}input{width:100%;font:inherit;padding:8px;box-sizing:border-box}li{padding:4px 0}</style>
+<h1>Notes</h1>
+<input id="new" placeholder="New note" aria-label="New note">
+<ul id="list"></ul>
+<script>
+  const list = document.getElementById("list"), input = document.getElementById("new");
+  const notes = JSON.parse(localStorage.getItem("notes") || "[]");
+  const render = () => list.replaceChildren(...notes.map(note => Object.assign(document.createElement("li"), {textContent: note})));
+  input.addEventListener("keydown", event => {
+    if (event.key !== "Enter" || !input.value.trim()) return;
+    notes.push(input.value.trim());
+    localStorage.setItem("notes", JSON.stringify(notes));
+    input.value = "";
+    render();
+  });
+  render();
+</script>

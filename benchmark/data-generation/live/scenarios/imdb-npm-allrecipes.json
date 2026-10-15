@@ -1,0 +1,247 @@
+{
+ "tabs": [
+  "https://www.imdb.com/",
+  "https://www.rottentomatoes.com/",
+  "https://www.npmjs.com/",
+  "https://github.com/",
+  "https://www.allrecipes.com/",
+  "https://en.wikipedia.org/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "MOVIE",
+   "name": "Pick a film for movie night from IMDb and Rotten Tomatoes, then email the invite",
+   "use_case": "Events and entertainment",
+   "apps": [
+    "imdb.com",
+    "rottentomatoes.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "film",
+    "friend",
+    "day"
+   ],
+   "steps": [
+    "In the IMDb tab, click the search box, type \"{film}\" and press Enter; open the matching title",
+    "Note the IMDb rating, the runtime and the director",
+    "Switch to the Rotten Tomatoes tab, click the search box, type \"{film}\" and press Enter; open the matching movie and note the Tomatometer score",
+    "Switch to the Mail tab, click To and type {friend}@example.com, click Subject and type \"Movie night {day}: {film}\"",
+    "Click Body and type \"Hi {friend}, {day} we watch {film} (<director>, <runtime>): IMDb <rating>, Tomatometer <score>.\" Do not click Send. Click Discard"
+   ]
+  },
+  {
+   "id": "DEPAUDIT",
+   "name": "Audit a JavaScript dependency on npm and its GitHub repo before upgrading",
+   "use_case": "Software development",
+   "apps": [
+    "npmjs.com",
+    "github.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "package"
+   ],
+   "steps": [
+    "In the npm tab, click the search box, type {package} and press Enter; open the package {package}",
+    "Note the latest version, the weekly downloads and the license",
+    "Click the Repository link on the right; the GitHub repo opens. Note the star count and the number of open issues",
+    "Click Releases on the repo page and note the date of the latest release, then close that GitHub page if it opened in a new tab (otherwise click Back to return to npm)",
+    "Switch to Notes, click \"New note\", type \"{package}: v<version>, <downloads>/week, <license>, <stars> stars, <issues> open issues, last release <date>\" and press Enter"
+   ]
+  },
+  {
+   "id": "MENU",
+   "name": "Build a dinner menu item from Allrecipes and the dish's background on Wikipedia",
+   "use_case": "Food and cooking",
+   "apps": [
+    "allrecipes.com",
+    "wikipedia.org",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "dish",
+    "servings"
+   ],
+   "steps": [
+    "In the Allrecipes tab, click the search box, type \"{dish}\" and press Enter",
+    "Open the first recipe with a rating; note its name, star rating and total time",
+    "Scroll to the ingredients, set the servings to {servings} if the page allows it, and note the first three ingredients",
+    "Switch to the Wikipedia tab, search \"{dish}\" and open the article; note the country of origin",
+    "Switch to Notes, click \"New note\", type \"{dish} for {servings}: <recipe> (<stars> stars, <time>), needs <ingredients>. Origin: <country>\" and press Enter"
+   ]
+  }
+ ],
+ "runs": {
+  "MOVIE.1": {
+   "workflow": "MOVIE",
+   "values": {
+    "film": "Arrival",
+    "friend": "lena",
+    "day": "Friday"
+   }
+  },
+  "MOVIE.2": {
+   "workflow": "MOVIE",
+   "values": {
+    "film": "Spirited Away",
+    "friend": "tom",
+    "day": "Saturday"
+   }
+  },
+  "MOVIE.3": {
+   "workflow": "MOVIE",
+   "values": {
+    "film": "The Grand Budapest Hotel",
+    "friend": "aisha",
+    "day": "Sunday"
+   }
+  },
+  "DEPAUDIT.1": {
+   "workflow": "DEPAUDIT",
+   "values": {
+    "package": "axios"
+   }
+  },
+  "DEPAUDIT.2": {
+   "workflow": "DEPAUDIT",
+   "values": {
+    "package": "lodash"
+   },
+   "note": "In step 1, first type \"lodahs\", notice the typo and fix it to \"lodash\""
+  },
+  "DEPAUDIT.3": {
+   "workflow": "DEPAUDIT",
+   "values": {
+    "package": "express"
+   }
+  },
+  "MENU.1": {
+   "workflow": "MENU",
+   "values": {
+    "dish": "shakshuka",
+    "servings": "4"
+   }
+  },
+  "MENU.2": {
+   "workflow": "MENU",
+   "values": {
+    "dish": "pad thai",
+    "servings": "2"
+   }
+  },
+  "MENU.3": {
+   "workflow": "MENU",
+   "values": {
+    "dish": "beef bourguignon",
+    "servings": "6"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab",
+  "N3": "Abandoned attempt: in the Allrecipes tab, search \"lemon tart\", scroll the results, then give up without opening any",
+  "N4": "Wander: click through the Notes, Mail and Wikipedia tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to stackoverflow.com, click Questions, skim the list, close the tab"
+ },
+ "script": [
+  {
+   "run": "MOVIE.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "DEPAUDIT.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "DEPAUDIT.1",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "MENU.1"
+  },
+  {
+   "run": "MOVIE.2"
+  },
+  {
+   "run": "DEPAUDIT.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "MENU.2",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "MENU.2",
+   "steps": [
+    4,
+    5
+   ]
+  },
+  {
+   "run": "MOVIE.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "DEPAUDIT.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "MOVIE.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "DEPAUDIT.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "MENU.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

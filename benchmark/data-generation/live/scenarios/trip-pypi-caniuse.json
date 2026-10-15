@@ -1,0 +1,262 @@
+{
+ "tabs": [
+  "https://www.google.com/travel/flights",
+  "https://www.booking.com/",
+  "https://www.viator.com/",
+  "https://pypi.org/",
+  "https://caniuse.com/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "TRIP",
+   "name": "Plan a trip: pick a flight, a hotel and an activity, then note the plan",
+   "use_case": "Travel agency",
+   "apps": [
+    "google.com/travel/flights",
+    "booking.com",
+    "viator.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "destination",
+    "depart",
+    "return",
+    "activity"
+   ],
+   "steps": [
+    "In the Google Flights tab (if a Google consent page shows, click \"Reject all\"), set Where from to Paris and Where to to {destination}",
+    "Set the dates to {depart} and {return}, click Done, then click Search",
+    "Read the airline and price of the first (best) flight. Do not click Select or Book",
+    "Switch to the Booking.com tab, type {destination} in the destination box, set the dates {depart} to {return}, click Search",
+    "Open the first hotel with a review score of 8 or more and note its name and total price. Do not click Reserve",
+    "Switch to the Viator tab, search \"{activity} {destination}\", open the first result and note its name and price. Do not click Check availability, Reserve or Book",
+    "Switch to Notes, click \"New note\", type \"Trip {destination} {depart}-{return}: flight <airline> <price>, hotel <name> <price>, {activity} <name> <price>\" and press Enter"
+   ]
+  },
+  {
+   "id": "PYLIB",
+   "name": "Compare two Python libraries on PyPI and GitHub",
+   "use_case": "Software development",
+   "apps": [
+    "pypi.org",
+    "github.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "package_a",
+    "package_b"
+   ],
+   "steps": [
+    "In the PyPI tab, click the search box, type {package_a}, press Enter and open the exact {package_a} result. Note the latest version and its release date",
+    "In the left sidebar click its Source / Repository / Homepage link to GitHub and read the star count and license",
+    "Go back to PyPI, search {package_b}, open the exact result and note the latest version and release date",
+    "Click its Source / Repository link to GitHub and read the star count and license",
+    "Switch to Notes, click \"New note\", type \"{package_a} <version> <date> <stars> stars <license> vs {package_b} <version> <date> <stars> stars <license>\" and press Enter"
+   ]
+  },
+  {
+   "id": "CANIUSE",
+   "name": "Answer a browser-support ticket with caniuse and MDN",
+   "use_case": "Customer service",
+   "apps": [
+    "caniuse.com",
+    "developer.mozilla.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "feature",
+    "browser",
+    "customer"
+   ],
+   "steps": [
+    "In the caniuse tab, click the search box and type \"{feature}\"",
+    "In the support table, find {browser} and note the first version that supports it (or that it is unsupported)",
+    "Open a new tab, go to developer.mozilla.org, search \"{feature}\" with the site's search and open the reference page; note its URL",
+    "Switch to the Mail tab, click To and type {customer}@example.com, then click Subject and type \"Re: {feature} in {browser}\"",
+    "Click Body and type \"Hi {customer}, {feature} is supported in {browser} from version <version> (or: not supported yet). Docs: <MDN URL>\"",
+    "Do not click Send. Click Discard to clear the draft, then close the MDN tab"
+   ]
+  }
+ ],
+ "runs": {
+  "TRIP.1": {
+   "workflow": "TRIP",
+   "values": {
+    "destination": "Lisbon",
+    "depart": "Nov 12",
+    "return": "Nov 16",
+    "activity": "food tour"
+   }
+  },
+  "TRIP.2": {
+   "workflow": "TRIP",
+   "values": {
+    "destination": "Rome",
+    "depart": "Dec 3",
+    "return": "Dec 7",
+    "activity": "Colosseum tour"
+   }
+  },
+  "TRIP.3": {
+   "workflow": "TRIP",
+   "values": {
+    "destination": "Barcelona",
+    "depart": "Jan 20",
+    "return": "Jan 24",
+    "activity": "Sagrada Familia tour"
+   },
+   "note": "In step 4, first type \"Barcleona\", notice the typo, fix it to \"Barcelona\", then continue"
+  },
+  "PYLIB.1": {
+   "workflow": "PYLIB",
+   "values": {
+    "package_a": "requests",
+    "package_b": "httpx"
+   }
+  },
+  "PYLIB.2": {
+   "workflow": "PYLIB",
+   "values": {
+    "package_a": "pandas",
+    "package_b": "polars"
+   }
+  },
+  "PYLIB.3": {
+   "workflow": "PYLIB",
+   "values": {
+    "package_a": "flask",
+    "package_b": "fastapi"
+   }
+  },
+  "CANIUSE.1": {
+   "workflow": "CANIUSE",
+   "values": {
+    "feature": "CSS :has() selector",
+    "browser": "Firefox",
+    "customer": "jordan"
+   }
+  },
+  "CANIUSE.2": {
+   "workflow": "CANIUSE",
+   "values": {
+    "feature": "View Transitions API",
+    "browser": "Safari",
+    "customer": "priya"
+   }
+  },
+  "CANIUSE.3": {
+   "workflow": "CANIUSE",
+   "values": {
+    "feature": "CSS container queries",
+    "browser": "Samsung Internet",
+    "customer": "tom"
+   }
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to weather.com, search the forecast for Paris, look at it, close the tab",
+  "N3": "Abandoned attempt: in the Booking.com tab, type Vienna in the destination box, open the date picker, then give up and press Escape",
+  "N4": "Wander: click through the Notes, Mail and PyPI tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+ },
+ "script": [
+  {
+   "run": "TRIP.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "PYLIB.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "PYLIB.1",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "CANIUSE.1"
+  },
+  {
+   "run": "TRIP.2"
+  },
+  {
+   "run": "PYLIB.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "CANIUSE.2",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "CANIUSE.2",
+   "steps": [
+    4,
+    6
+   ]
+  },
+  {
+   "run": "TRIP.3",
+   "steps": [
+    1,
+    3
+   ]
+  },
+  {
+   "run": "PYLIB.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "TRIP.3",
+   "steps": [
+    4,
+    7
+   ]
+  },
+  {
+   "run": "PYLIB.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "CANIUSE.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

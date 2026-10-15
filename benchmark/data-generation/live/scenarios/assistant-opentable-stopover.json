@@ -1,0 +1,257 @@
+{
+ "tabs": [
+  "https://www.opentable.co.uk/",
+  "https://www.allrecipes.com/",
+  "https://en.wikipedia.org/",
+  "https://www.booking.com/",
+  "https://www.timeanddate.com/",
+  "https://weather.com/",
+  "http://notes.localhost:8000/notes.html",
+  "http://mail.localhost:8000/mail.html"
+ ],
+ "workflows": [
+  {
+   "id": "DINNER",
+   "name": "Plan a family dinner: a restaurant option on OpenTable and a cook-at-home backup on Allrecipes",
+   "use_case": "Food and cooking",
+   "apps": [
+    "opentable.co.uk",
+    "allrecipes.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "cuisine",
+    "area",
+    "dish"
+   ],
+   "steps": [
+    "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter",
+    "Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve",
+    "Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time",
+    "Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter"
+   ]
+  },
+  {
+   "id": "STOPOVER",
+   "name": "Plan a one-night road-trip stopover: town facts on Wikipedia and a room on Booking.com",
+   "use_case": "Travel agency",
+   "apps": [
+    "wikipedia.org",
+    "booking.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "town",
+    "checkin",
+    "checkout"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type {town} and open the town's article",
+    "Note its population and one landmark mentioned in the introduction",
+    "Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search",
+    "Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve",
+    "Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter"
+   ]
+  },
+  {
+   "id": "FAMILYCALL",
+   "name": "Set up a call with a relative abroad: their local time and weather, then email the family",
+   "use_case": "Family logistics",
+   "apps": [
+    "timeanddate.com",
+    "weather.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "relative",
+    "city",
+    "day"
+   ],
+   "steps": [
+    "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference",
+    "Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day}",
+    "Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\"",
+    "Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard"
+   ]
+  }
+ ],
+ "runs": {
+  "DINNER.1": {
+   "workflow": "DINNER",
+   "values": {
+    "cuisine": "Italian",
+    "area": "Islington",
+    "dish": "lasagna"
+   }
+  },
+  "DINNER.2": {
+   "workflow": "DINNER",
+   "values": {
+    "cuisine": "Thai",
+    "area": "Soho",
+    "dish": "pad thai"
+   }
+  },
+  "DINNER.3": {
+   "workflow": "DINNER",
+   "values": {
+    "cuisine": "Indian",
+    "area": "Shoreditch",
+    "dish": "chicken tikka masala"
+   }
+  },
+  "STOPOVER.1": {
+   "workflow": "STOPOVER",
+   "values": {
+    "town": "Dijon",
+    "checkin": "Nov 21",
+    "checkout": "Nov 22"
+   }
+  },
+  "STOPOVER.2": {
+   "workflow": "STOPOVER",
+   "values": {
+    "town": "Reims",
+    "checkin": "Dec 19",
+    "checkout": "Dec 20"
+   }
+  },
+  "STOPOVER.3": {
+   "workflow": "STOPOVER",
+   "values": {
+    "town": "Annecy",
+    "checkin": "Feb 13",
+    "checkout": "Feb 14"
+   }
+  },
+  "FAMILYCALL.1": {
+   "workflow": "FAMILYCALL",
+   "values": {
+    "relative": "Grandma Rose",
+    "city": "Montreal",
+    "day": "Sunday"
+   }
+  },
+  "FAMILYCALL.2": {
+   "workflow": "FAMILYCALL",
+   "values": {
+    "relative": "Uncle Ben",
+    "city": "Sydney",
+    "day": "Saturday"
+   }
+  },
+  "FAMILYCALL.3": {
+   "workflow": "FAMILYCALL",
+   "values": {
+    "relative": "Aunt Mei",
+    "city": "Singapore",
+    "day": "Friday"
+   },
+   "note": "In step 1, first type \"Singaproe\", notice the typo, fix it to \"Singapore\", then continue"
+  }
+ },
+ "noise": {
+  "N1": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab",
+  "N2": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab",
+  "N3": "Abandoned attempt: in the Allrecipes tab, search \"banana bread\", scroll the results, then give up without opening any",
+  "N4": "Wander: click through the Notes, Mail and Wikipedia tabs without doing anything, scroll the Notes list",
+  "N5": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab"
+ },
+ "script": [
+  {
+   "run": "DINNER.1"
+  },
+  {
+   "noise": "N1"
+  },
+  {
+   "run": "STOPOVER.1",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 60
+  },
+  {
+   "noise": "N2"
+  },
+  {
+   "run": "STOPOVER.1",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "run": "FAMILYCALL.1"
+  },
+  {
+   "run": "DINNER.2"
+  },
+  {
+   "run": "STOPOVER.2"
+  },
+  {
+   "noise": "N3"
+  },
+  {
+   "run": "FAMILYCALL.2",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "pause": 90
+  },
+  {
+   "noise": "N4"
+  },
+  {
+   "run": "FAMILYCALL.2",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "DINNER.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "STOPOVER.3",
+   "steps": [
+    1,
+    2
+   ]
+  },
+  {
+   "run": "DINNER.3",
+   "steps": [
+    3,
+    4
+   ]
+  },
+  {
+   "run": "STOPOVER.3",
+   "steps": [
+    3,
+    5
+   ]
+  },
+  {
+   "pause": 45
+  },
+  {
+   "run": "FAMILYCALL.3"
+  },
+  {
+   "noise": "N5"
+  }
+ ]
+}

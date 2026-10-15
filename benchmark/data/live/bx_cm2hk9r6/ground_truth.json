@@ -1,0 +1,297 @@
+{
+ "workflows": [
+  {
+   "name": "Plan a family dinner: a restaurant option on OpenTable and a cook-at-home backup on Allrecipes",
+   "use_case": "Food and cooking",
+   "apps": [
+    "opentable.co.uk",
+    "allrecipes.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "cuisine",
+    "area",
+    "dish"
+   ],
+   "steps": [
+    "In the OpenTable tab, click the search box, type \"{cuisine} {area}\" and press Enter",
+    "Open the first restaurant and note its name, rating and price range. Do not click a time slot or Reserve",
+    "Switch to the Allrecipes tab, click the search box, type \"{dish}\" and press Enter; open the first recipe with 4 or more stars and note its name and total time",
+    "Switch to Notes, click \"New note\", type \"Dinner: out at <restaurant> (<rating>, <price>, {area}) or cook <recipe> (<time>)\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "DINNER.2",
+     "start": "2026-10-13T17:59:24+00:00",
+     "end": "2026-10-13T18:01:08+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:59:24+00:00",
+       "2026-10-13T18:01:08+00:00"
+      ]
+     ],
+     "values": {
+      "cuisine": "Thai",
+      "area": "Soho",
+      "dish": "pad thai"
+     }
+    },
+    {
+     "id": "DINNER.3",
+     "start": "2026-10-13T18:05:14+00:00",
+     "end": "2026-10-13T18:06:48+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:05:14+00:00",
+       "2026-10-13T18:05:39+00:00"
+      ],
+      [
+       "2026-10-13T18:05:56+00:00",
+       "2026-10-13T18:06:48+00:00"
+      ]
+     ],
+     "values": {
+      "cuisine": "Indian",
+      "area": "Shoreditch",
+      "dish": "chicken tikka masala"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Plan a one-night road-trip stopover: town facts on Wikipedia and a room on Booking.com",
+   "use_case": "Travel agency",
+   "apps": [
+    "wikipedia.org",
+    "booking.com",
+    "notes.localhost"
+   ],
+   "parameters": [
+    "town",
+    "checkin",
+    "checkout"
+   ],
+   "steps": [
+    "In the Wikipedia tab, click the search box, type {town} and open the town's article",
+    "Note its population and one landmark mentioned in the introduction",
+    "Switch to the Booking.com tab, click the destination box, type {town}, set the dates {checkin} to {checkout} and click Search",
+    "Open the first property with a review score of 8 or more and note its name and price. Do not click Reserve or I'll reserve",
+    "Switch to Notes, click \"New note\", type \"Stopover {town} {checkin}: <property> <price>. See <landmark> (pop <population>)\" and press Enter"
+   ],
+   "runs": [
+    {
+     "id": "STOPOVER.1",
+     "start": "2026-10-13T17:54:12+00:00",
+     "end": "2026-10-13T17:57:48+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:54:12+00:00",
+       "2026-10-13T17:54:51+00:00"
+      ],
+      [
+       "2026-10-13T17:56:09+00:00",
+       "2026-10-13T17:57:48+00:00"
+      ]
+     ],
+     "values": {
+      "town": "Dijon",
+      "checkin": "Nov 21",
+      "checkout": "Nov 22"
+     }
+    },
+    {
+     "id": "STOPOVER.2",
+     "start": "2026-10-13T18:01:08+00:00",
+     "end": "2026-10-13T18:02:16+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:01:08+00:00",
+       "2026-10-13T18:02:16+00:00"
+      ]
+     ],
+     "values": {
+      "town": "Reims",
+      "checkin": "Dec 19",
+      "checkout": "Dec 20"
+     }
+    },
+    {
+     "id": "STOPOVER.3",
+     "start": "2026-10-13T18:05:39+00:00",
+     "end": "2026-10-13T18:07:45+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:05:39+00:00",
+       "2026-10-13T18:05:56+00:00"
+      ],
+      [
+       "2026-10-13T18:06:48+00:00",
+       "2026-10-13T18:07:45+00:00"
+      ]
+     ],
+     "values": {
+      "town": "Annecy",
+      "checkin": "Feb 13",
+      "checkout": "Feb 14"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Set up a call with a relative abroad: their local time and weather, then email the family",
+   "use_case": "Family logistics",
+   "apps": [
+    "timeanddate.com",
+    "weather.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "relative",
+    "city",
+    "day"
+   ],
+   "steps": [
+    "In the timeanddate tab, click the search box, type {city}, press Enter and open its current local time page; note the time and the time difference",
+    "Switch to the weather.com tab, click the search box, type {city}, pick it from the list, open the 10 Day forecast and note the forecast for {day}",
+    "Switch to the Mail tab, click To and type family@example.com, click Subject and type \"Call with {relative} on {day}\"",
+    "Click Body and type \"Calling {relative} on {day}. It is <time> in {city} now (<difference>), forecast there: <forecast>.\" Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "FAMILYCALL.1",
+     "start": "2026-10-13T17:57:48+00:00",
+     "end": "2026-10-13T17:59:24+00:00",
+     "segments": [
+      [
+       "2026-10-13T17:57:48+00:00",
+       "2026-10-13T17:59:24+00:00"
+      ]
+     ],
+     "values": {
+      "relative": "Grandma Rose",
+      "city": "Montreal",
+      "day": "Sunday"
+     }
+    },
+    {
+     "id": "FAMILYCALL.2",
+     "start": "2026-10-13T18:02:29+00:00",
+     "end": "2026-10-13T18:05:14+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:02:29+00:00",
+       "2026-10-13T18:03:09+00:00"
+      ],
+      [
+       "2026-10-13T18:04:54+00:00",
+       "2026-10-13T18:05:14+00:00"
+      ]
+     ],
+     "values": {
+      "relative": "Uncle Ben",
+      "city": "Sydney",
+      "day": "Saturday"
+     }
+    },
+    {
+     "id": "FAMILYCALL.3",
+     "start": "2026-10-13T18:08:37+00:00",
+     "end": "2026-10-13T18:09:49+00:00",
+     "segments": [
+      [
+       "2026-10-13T18:08:37+00:00",
+       "2026-10-13T18:09:49+00:00"
+      ]
+     ],
+     "values": {
+      "relative": "Aunt Mei",
+      "city": "Singapore",
+      "day": "Friday"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T17:52:59+00:00",
+   "end": "2026-10-13T17:54:12+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:52:59+00:00",
+     "2026-10-13T17:54:12+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T17:55:56+00:00",
+   "end": "2026-10-13T17:56:09+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:55:56+00:00",
+     "2026-10-13T17:56:09+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to news.ycombinator.com, scroll the front page, open one comment thread, close the tab"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T18:02:16+00:00",
+   "end": "2026-10-13T18:02:29+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:02:16+00:00",
+     "2026-10-13T18:02:29+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the Allrecipes tab, search \"banana bread\", scroll the results, then give up without opening any"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T18:04:49+00:00",
+   "end": "2026-10-13T18:04:54+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:04:49+00:00",
+     "2026-10-13T18:04:54+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and Wikipedia tabs without doing anything, scroll the Notes list"
+  },
+  {
+   "id": "N5",
+   "start": "2026-10-13T18:09:49+00:00",
+   "end": "2026-10-13T18:10:23+00:00",
+   "segments": [
+    [
+     "2026-10-13T18:09:49+00:00",
+     "2026-10-13T18:10:23+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to imdb.com, scroll the home page, open one title, skim it, close the tab"
+  },
+  {
+   "id": "DINNER.1",
+   "start": "2026-10-13T17:50:54+00:00",
+   "end": "2026-10-13T17:52:59+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:50:54+00:00",
+     "2026-10-13T17:52:59+00:00"
+    ]
+   ],
+   "description": "abandoned run of DINNER.1"
+  }
+ ],
+ "failed": [
+  "DINNER.1",
+  "N1"
+ ],
+ "log_reasons": {
+  "1": "Dinner note did not save (Enter key mismatch)",
+  "2": "BBC story opening not verified"
+ }
+}

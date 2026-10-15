@@ -1,0 +1,330 @@
+{
+ "opportunities": [
+  {
+   "name": "Rentalcars car search by location, dates and times",
+   "description": "On Rentalcars.com, search for a rental car at a given pick-up location with given dates and pick-up/drop-off times, then filter and sort results and view a deal.",
+   "site": "rentalcars.com",
+   "steps": [
+    "Type the pick-up location into the Pick-up location field",
+    "Select the matching suggestion",
+    "Open the pick-up date picker and choose pick-up and drop-off dates",
+    "Set pick-up and drop-off times",
+    "Click Search",
+    "Choose a car category tab",
+    "Sort results (price or distance)",
+    "Click View deal"
+   ],
+   "parameters": [
+    "pickup location",
+    "pick-up date",
+    "drop-off date",
+    "pick-up time",
+    "drop-off time",
+    "car category",
+    "sort order"
+   ],
+   "confidence": 0.8,
+   "instances": [
+    {
+     "actions": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      40,
+      41,
+      42,
+      43,
+      44
+     ],
+     "values": "Bangkok then North Las Vegas; times 9:30/9:00; SUVs, lowest price first",
+     "segments": [
+      {
+       "start_t": 631.74,
+       "end_t": 674.74
+      },
+      {
+       "start_t": 691.69,
+       "end_t": 709.99
+      }
+     ]
+    },
+    {
+     "actions": [
+      45,
+      46,
+      52,
+      53,
+      56,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+     ],
+     "values": "North Las Vegas, Apr 29, 6PM-11PM; Premium; sort by distance",
+     "segments": [
+      {
+       "start_t": 717.68,
+       "end_t": 726.81
+      },
+      {
+       "start_t": 758.57,
+       "end_t": 764.6
+      },
+      {
+       "start_t": 780.26,
+       "end_t": 780.26
+      },
+      {
+       "start_t": 839.01,
+       "end_t": 869.23
+      }
+     ]
+    },
+    {
+     "actions": [
+      78,
+      84,
+      85,
+      86,
+      92,
+      97,
+      98,
+      99,
+      100,
+      104
+     ],
+     "values": "New York NY, Mar 28-30; SUVs; View deal and go to book",
+     "segments": [
+      {
+       "start_t": 895.71,
+       "end_t": 895.71
+      },
+      {
+       "start_t": 923.94,
+       "end_t": 935.58
+      },
+      {
+       "start_t": 976.58,
+       "end_t": 976.58
+      },
+      {
+       "start_t": 1003.3,
+       "end_t": 1018.61
+      },
+      {
+       "start_t": 1037.75,
+       "end_t": 1037.75
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Six Flags select park and go to park site",
+   "description": "On the Six Flags homepage, choose a park from the Browse the Parks dropdown and click Go to open that park's site, then explore its menus.",
+   "site": "sixflags.com",
+   "steps": [
+    "Click Browse the Parks Below",
+    "Select the park from the list",
+    "Click Go!",
+    "Open a nav menu (Plan Your Visit, Tickets, Groups, etc.) and click a submenu item"
+   ],
+   "parameters": [
+    "park name",
+    "menu section",
+    "submenu item"
+   ],
+   "confidence": 0.65,
+   "instances": [
+    {
+     "actions": [
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "values": "Fiesta Texas; Events",
+     "segments": [
+      {
+       "start_t": 514.73,
+       "end_t": 535.5
+      }
+     ]
+    },
+    {
+     "actions": [
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "values": "Six Flags Mexico; Plan Tu Visita, Mapa del Parque",
+     "segments": [
+      {
+       "start_t": 557.82,
+       "end_t": 580.4
+      }
+     ]
+    },
+    {
+     "actions": [
+      54,
+      55,
+      61,
+      62,
+      63,
+      64
+     ],
+     "values": "St. Louis; Plan Your Visit, Park Policies, Security",
+     "segments": [
+      {
+       "start_t": 770.1,
+       "end_t": 774.31
+      },
+      {
+       "start_t": 798.99,
+       "end_t": 814.95
+      }
+     ]
+    },
+    {
+     "actions": [
+      74,
+      75,
+      76,
+      77
+     ],
+     "values": "Hurricane Harbor Phoenix; Tickets and Passes, Birthdays",
+     "segments": [
+      {
+       "start_t": 874.23,
+       "end_t": 891.2
+      }
+     ]
+    },
+    {
+     "actions": [
+      102,
+      103,
+      108,
+      109
+     ],
+     "values": "Hurricane Harbor Los Angeles; Tickets and Passes",
+     "segments": [
+      {
+       "start_t": 1028.42,
+       "end_t": 1032.06
+      },
+      {
+       "start_t": 1058.77,
+       "end_t": 1064.64
+      }
+     ]
+    },
+    {
+     "actions": [
+      110,
+      111,
+      119,
+      120,
+      121,
+      122
+     ],
+     "values": "Magic Mountain; Groups, Request Information",
+     "segments": [
+      {
+       "start_t": 1070.93,
+       "end_t": 1074.3
+      },
+      {
+       "start_t": 1121.59,
+       "end_t": 1377.4
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "Megabus bus stops browse",
+   "description": "On Megabus, open Explore then Bus stops and click a stop entry in the listing.",
+   "site": "us.megabus.com",
+   "steps": [
+    "Click Explore",
+    "Click Bus stops",
+    "Click a city entry",
+    "Click a stop under it"
+   ],
+   "parameters": [
+    "city",
+    "stop"
+   ],
+   "confidence": 0.4,
+   "instances": [
+    {
+     "actions": [
+      13,
+      14,
+      21,
+      24
+     ],
+     "values": "Altavista, VA; Altavista Commons",
+     "segments": [
+      {
+       "start_t": 546.17,
+       "end_t": 549.11
+      },
+      {
+       "start_t": 585.91,
+       "end_t": 585.91
+      },
+      {
+       "start_t": 600.2,
+       "end_t": 600.2
+      }
+     ]
+    },
+    {
+     "actions": [
+      101,
+      105,
+      106,
+      107
+     ],
+     "values": "Abbotsford, WI; Super 39 Shell",
+     "segments": [
+      {
+       "start_t": 1023.09,
+       "end_t": 1023.09
+      },
+      {
+       "start_t": 1044.88,
+       "end_t": 1053.15
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "_meta": {
+  "model": "sonnet",
+  "cost_usd": 0.19470310000000002,
+  "seconds": 12.3,
+  "cached": false
+ },
+ "_features": [
+  "actions",
+  "short",
+  "whole"
+ ]
+}

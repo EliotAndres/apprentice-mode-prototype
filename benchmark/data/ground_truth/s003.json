@@ -1,0 +1,656 @@
+{
+ "session_id": "s003",
+ "tier": "easy",
+ "dontcare_inside_instances": true,
+ "action_t": [
+  13.7,
+  16.45,
+  22.69,
+  24.42,
+  38.07,
+  39.37,
+  42.3,
+  45.08,
+  45.9,
+  49.63,
+  52.92,
+  55.92,
+  97.86,
+  111.53,
+  114.56,
+  115.99,
+  116.98,
+  180.04,
+  183.6,
+  185.77,
+  190.15,
+  193.09,
+  195.75,
+  198.03,
+  200.25,
+  243.29,
+  246.99,
+  248.61,
+  251.14,
+  255.59,
+  256.78,
+  258.08,
+  260.67,
+  343.38,
+  345.22,
+  348.96,
+  351.73,
+  355.08,
+  358.17,
+  359.58,
+  360.77,
+  363.33,
+  394.51,
+  396.84,
+  400.12,
+  401.32,
+  404.63,
+  407.46,
+  411.4,
+  413.73,
+  415.53,
+  419.23,
+  421.13,
+  481.87,
+  484.09,
+  485.88,
+  492.3,
+  515.68,
+  519.47,
+  520.79,
+  523.95,
+  526.02,
+  571.46,
+  574.94,
+  577.13,
+  612.94,
+  615.05,
+  621.2,
+  624.22,
+  625.73,
+  627.13,
+  629.52,
+  635.89,
+  639.45,
+  642.68,
+  645.75,
+  650.55,
+  655.73,
+  661.04,
+  665.09,
+  719.37,
+  724.37,
+  757.55,
+  761.03,
+  764.26,
+  766.08,
+  767.18,
+  770.1,
+  800.07,
+  801.28,
+  804.66,
+  806.03,
+  808.26,
+  812.3,
+  814.78,
+  815.87,
+  817.19,
+  819.42,
+  821.01,
+  825.28,
+  827.32,
+  831.14,
+  832.95,
+  835.62,
+  838.14,
+  839.45,
+  843.95,
+  873.91,
+  876.75,
+  879.87,
+  881.9,
+  884.23,
+  887.28,
+  923.86,
+  926.4,
+  927.71,
+  930.48,
+  935.47,
+  937.16,
+  938.37,
+  941.94,
+  994.15,
+  996.77,
+  999.59,
+  1003.83,
+  1005.46,
+  1007.26,
+  1009.98,
+  1016.93,
+  1019.77,
+  1023.1,
+  1024.28,
+  1025.05,
+  1026.62,
+  1029.55,
+  1031.97,
+  1035.04,
+  1037.54,
+  1039.58,
+  1041.19,
+  1042.76,
+  1045.87,
+  1047.06,
+  1149.07,
+  1152.3,
+  1153.48,
+  1156.83
+ ],
+ "opportunities": [
+  {
+   "opportunity_id": "s003-op0",
+   "template_id": "qatarairways:search_hotels",
+   "site": "qatarairways",
+   "name": "Search hotels",
+   "description": "Search hotels in {destination} starting {check_in} for {duration} with {guests}, then sort/filter and optionally reserve",
+   "parameters": [
+    "destination",
+    "check_in",
+    "check_out_or_duration",
+    "guests",
+    "filters",
+    "sort"
+   ],
+   "steps": [
+    "Click Book then Hotels",
+    "Type destination and select option",
+    "Select check-in and check-out dates",
+    "Click Search",
+    "Set guests/rooms, filters",
+    "Sort results",
+    "Select hotel and reserve"
+   ],
+   "observed_seconds": 101.7,
+   "instances": [
+    {
+     "task_id": "e437082b-8383-4322-aa58-a6a683113970",
+     "task": "Find a hotel in Las Vegas that will cost two people the least for a week starting from 10, April",
+     "site": "qatarairways",
+     "spans": [
+      [
+       343.38,
+       363.33
+      ]
+     ],
+     "seqs": [
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41
+     ],
+     "seconds": 28.7,
+     "values": {
+      "destination": "Las Vegas",
+      "check_in": "10 April 2023",
+      "check_out_or_duration": "16 April 2023",
+      "guests": "2 people",
+      "sort": "Price (lowest first)"
+     }
+    },
+    {
+     "task_id": "4786982f-25f5-4bf8-bb91-522656489f63",
+     "task": "Reserve the cheapest hotel with 5 stars and free wifi located in downtown dc in Washington on June 5 for 4 adults in 2 rooms.",
+     "site": "qatarairways",
+     "spans": [
+      [
+       994.15,
+       1047.06
+      ]
+     ],
+     "seqs": [
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+     ],
+     "seconds": 73.0,
+     "values": {
+      "destination": "Washington",
+      "check_in": "5 June 2023",
+      "check_out_or_duration": "1 day",
+      "guests": "4 adults, 2 rooms",
+      "filters": "5 stars, free wifi, downtown DC"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "s003-op1",
+   "template_id": "qatarairways:book_flight_with_passengers_and_cabin",
+   "site": "qatarairways",
+   "name": "Book flight with passengers and cabin",
+   "description": "Book a flight from {origin} to {destination} on {date} for {passengers} in {cabin} class and select fare",
+   "parameters": [
+    "origin",
+    "destination",
+    "date",
+    "passengers",
+    "cabin"
+   ],
+   "steps": [
+    "Enter From and To cities",
+    "Pick departure date",
+    "Open Passengers / Class and set passenger counts and cabin",
+    "Confirm",
+    "Click Show flights",
+    "Select fare"
+   ],
+   "observed_seconds": 143.7,
+   "instances": [
+    {
+     "task_id": "446e3135-8a53-455f-9471-9f6660f6a94d",
+     "task": "Book a best business class flight ticket from Colombo to New York with a two-day Qatar stopover for 2 adults and 1 child on June 24.",
+     "site": "qatarairways",
+     "spans": [
+      [
+       394.51,
+       421.13
+      ],
+      [
+       515.68,
+       526.02
+      ]
+     ],
+     "seqs": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      57,
+      58,
+      59,
+      60,
+      61
+     ],
+     "seconds": 70.7,
+     "values": {
+      "origin": "Colombo",
+      "destination": "New York",
+      "date": "24 June 2023",
+      "passengers": "2 adults, 1 child",
+      "cabin": "Business"
+     }
+    },
+    {
+     "task_id": "b28e6a37-6e9c-46bb-8012-18ca742a521f",
+     "task": "Explore Durban in Africa and book a flight from Doha for 2 adults and 1 infant, on May 28, book the first flight in economy comfort.",
+     "site": "qatarairways",
+     "spans": [
+      [
+       612.94,
+       665.09
+      ]
+     ],
+     "seqs": [
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79
+     ],
+     "seconds": 73.0,
+     "values": {
+      "origin": "Doha",
+      "destination": "Durban",
+      "date": "28 May 2023",
+      "passengers": "2 adults, 1 infant",
+      "cabin": "Economy Comfort"
+     }
+    }
+   ]
+  },
+  {
+   "opportunity_id": "s003-op2",
+   "template_id": "kayak:search_hotels_with_filters",
+   "site": "kayak",
+   "name": "Search hotels with filters",
+   "description": "Search hotels in {location} for {dates} with {rooms_guests} and filters/sort {filters}",
+   "parameters": [
+    "location",
+    "dates",
+    "rooms_guests",
+    "filters"
+   ],
+   "steps": [
+    "Open Search for hotels",
+    "Enter destination and select suggestion",
+    "Select dates",
+    "Set rooms and guests",
+    "Search",
+    "Apply filters and sort"
+   ],
+   "observed_seconds": 208.4,
+   "instances": [
+    {
+     "task_id": "eee72e78-71bd-434b-ba74-33888ea5522d",
+     "task": "book the cheapest hotel in Le maraise neighborhood in paris with 2 room for 3 adult on March 27th to April 2nd.",
+     "site": "kayak",
+     "spans": [
+      [
+       13.7,
+       55.92
+      ]
+     ],
+     "seqs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "seconds": 58.7,
+     "values": {
+      "location": "Le Marais, Paris",
+      "dates": "Mar 27 - Apr 2",
+      "rooms_guests": "2 rooms, 3 adults",
+      "filters": "price low to high"
+     }
+    },
+    {
+     "task_id": "d88f70e8-9b66-4f08-9aa4-e49375b14920",
+     "task": "Browse for places to stay in Santa Fe, New Mexico for a weekend starting on Jun 16th for 3 guests and 2 rooms.",
+     "site": "kayak",
+     "spans": [
+      [
+       243.29,
+       260.67
+      ]
+     ],
+     "seqs": [
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+     ],
+     "seconds": 35.5,
+     "values": {
+      "location": "Santa Fe, New Mexico",
+      "dates": "Jun 16-18",
+      "rooms_guests": "2 rooms, 3 guests"
+     }
+    },
+    {
+     "task_id": "38fe67f7-14af-4259-8309-aa350abdc395",
+     "task": "Search for the cheapest two rooms near Kashi Vishwanath Temple in India for three adults and a 7-year-old kid from June 6 to 10 in any 3-star and up air-conditioned family hotel with a review score of at least 8, free internet.",
+     "site": "kayak",
+     "spans": [
+      [
+       719.37,
+       724.37
+      ],
+      [
+       800.07,
+       843.95
+      ]
+     ],
+     "seqs": [
+      80,
+      81,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106
+     ],
+     "seconds": 86.2,
+     "values": {
+      "location": "Kashi Vishwanath Temple",
+      "dates": "Jun 6-10",
+      "rooms_guests": "2 rooms, 3 adults, 1 child",
+      "filters": "3 star, 8+, free internet, family, AC, price low to high"
+     }
+    },
+    {
+     "task_id": "6d5c4d19-c2cc-4e68-9f51-71ba6cd6e38a",
+     "task": "Find a hotel with 4 star and above rating in Los Angeles for 3 days next week and save it.",
+     "site": "kayak",
+     "spans": [
+      [
+       923.86,
+       941.94
+      ]
+     ],
+     "seqs": [
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+     ],
+     "seconds": 28.0,
+     "values": {
+      "location": "Los Angeles",
+      "dates": "21-23",
+      "filters": "4 stars+"
+     }
+    }
+   ]
+  }
+ ],
+ "negatives": [
+  {
+   "task_id": "4b2030ff-b83c-445f-bf87-9c8fbc68498b",
+   "task": "Browse for wall art with a price range of $25 to $50.",
+   "site": "kohls",
+   "spans": [
+    [
+     97.86,
+     116.98
+    ]
+   ],
+   "seqs": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "seconds": 28.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "bb3e2b61-c14c-4a15-8de4-7c12256d52c7",
+   "task": "Search for concerts taking place in Los Angeles, CA in the next month.",
+   "site": "seatgeek",
+   "spans": [
+    [
+     180.04,
+     200.25
+    ]
+   ],
+   "seqs": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+   ],
+   "seconds": 35.0,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "851998b2-fda2-4bd4-a822-f1871a9fde12",
+   "task": "Browse the list of action figure items available for pre order.",
+   "site": "ign",
+   "spans": [
+    [
+     481.87,
+     492.3
+    ]
+   ],
+   "seqs": [
+    53,
+    54,
+    55,
+    56
+   ],
+   "seconds": 32.3,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "bba6dd60-babd-4d8d-9e8b-242b0ffc08d7",
+   "task": "Find guide for paying with commuter benefits.",
+   "site": "spothero",
+   "spans": [
+    [
+     571.46,
+     577.13
+    ]
+   ],
+   "seqs": [
+    62,
+    63,
+    64
+   ],
+   "seconds": 22.2,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "cd5d03cc-24a8-4284-ac43-b38579f416b1",
+   "task": "Find the status of flights between Abidjan and Accra.",
+   "site": "qatarairways",
+   "spans": [
+    [
+     757.55,
+     770.1
+    ]
+   ],
+   "seqs": [
+    82,
+    83,
+    84,
+    85,
+    86,
+    87
+   ],
+   "seconds": 34.2,
+   "kind": "one_off"
+  },
+  {
+   "task_id": "d6c1c4f5-74a7-4451-8dd2-aabada5d7ba1",
+   "task": "Find rental charges for bikes in 37863.",
+   "site": "rei",
+   "spans": [
+    [
+     873.91,
+     887.28
+    ]
+   ],
+   "seqs": [
+    107,
+    108,
+    109,
+    110,
+    111,
+    112
+   ],
+   "seconds": 27.9,
+   "kind": "distractor"
+  },
+  {
+   "task_id": "f385156c-4f2e-410f-bc73-7ec6d0f44448",
+   "task": "Compare all membership tier benefits.",
+   "site": "qatarairways",
+   "spans": [
+    [
+     1149.07,
+     1156.83
+    ]
+   ],
+   "seqs": [
+    143,
+    144,
+    145,
+    146
+   ],
+   "seconds": 26.2,
+   "kind": "one_off"
+  }
+ ]
+}

@@ -1,0 +1,258 @@
+{
+ "workflows": [
+  {
+   "name": "Write a pre-call account brief from SEC EDGAR and Wikipedia",
+   "use_case": "Sales",
+   "apps": [
+    "sec.gov",
+    "wikipedia.org",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "company",
+    "ticker",
+    "manager"
+   ],
+   "steps": [
+    "In the EDGAR tab, click the company search box, type {ticker} and pick {company} from the suggestions",
+    "On the company's filings page, filter the form type to 10-K",
+    "Note the filing date and period of the latest 10-K",
+    "Switch to the Wikipedia tab, search \"{company}\" and open the company article",
+    "From the infobox, note the headquarters, number of employees and CEO",
+    "Switch to the Mail tab, click To and type {manager}@example.com, click Subject and type \"Account brief: {company} ({ticker})\"",
+    "Click Body and type \"{company}: HQ <city>, <employees> employees, CEO <name>. Latest 10-K filed <date>.\" Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "BRIEF.1",
+     "start": "2026-10-13T16:12:04+00:00",
+     "end": "2026-10-13T16:14:56+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:12:04+00:00",
+       "2026-10-13T16:14:56+00:00"
+      ]
+     ],
+     "values": {
+      "company": "Snowflake",
+      "ticker": "SNOW",
+      "manager": "dana"
+     }
+    },
+    {
+     "id": "BRIEF.2",
+     "start": "2026-10-13T16:26:26+00:00",
+     "end": "2026-10-13T16:32:11+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:26:26+00:00",
+       "2026-10-13T16:32:11+00:00"
+      ]
+     ],
+     "values": {
+      "company": "Datadog",
+      "ticker": "DDOG",
+      "manager": "dana"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Convert two supplier quotes to USD and check the supplier's local time",
+   "use_case": "Procurement",
+   "apps": [
+    "xe.com",
+    "timeanddate.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "item",
+    "quote_a",
+    "quote_b",
+    "supplier_city"
+   ],
+   "steps": [
+    "In the xe.com tab, set Amount and From to {quote_a}, set To to USD, click Convert and read the result",
+    "Change Amount and From to {quote_b} (To stays USD) and read the result",
+    "Switch to the timeanddate tab, search \"{supplier_city}\" with the site's search and open its current local time",
+    "Switch to the Mail tab, click To and type procurement@example.com, click Subject and type \"Quotes: {item}\"",
+    "Click Body and type \"{quote_a} = <USD> USD, {quote_b} = <USD> USD, cheaper: <which>. Supplier time in {supplier_city}: <time>.\"",
+    "Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "QUOTES.1",
+     "start": "2026-10-13T16:15:54+00:00",
+     "end": "2026-10-13T16:23:22+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:15:54+00:00",
+       "2026-10-13T16:20:41+00:00"
+      ],
+      [
+       "2026-10-13T16:22:29+00:00",
+       "2026-10-13T16:23:22+00:00"
+      ]
+     ],
+     "values": {
+      "item": "CNC enclosures",
+      "quote_a": "12500 EUR",
+      "quote_b": "1950000 JPY",
+      "supplier_city": "Osaka"
+     }
+    },
+    {
+     "id": "QUOTES.2",
+     "start": "2026-10-13T16:32:11+00:00",
+     "end": "2026-10-13T16:45:17+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:32:11+00:00",
+       "2026-10-13T16:45:17+00:00"
+      ]
+     ],
+     "values": {
+      "item": "Shipping boxes",
+      "quote_a": "8200 GBP",
+      "quote_b": "780000 INR",
+      "supplier_city": "Pune"
+     }
+    }
+   ]
+  },
+  {
+   "name": "Plan a cross-timezone sync around public holidays",
+   "use_case": "Operations",
+   "apps": [
+    "timeanddate.com",
+    "mail.localhost"
+   ],
+   "parameters": [
+    "hq_city",
+    "remote_city",
+    "country",
+    "month"
+   ],
+   "steps": [
+    "In the timeanddate tab, open the Time Zones menu and pick Time Zone Converter",
+    "Add {hq_city} and {remote_city} and note the time difference",
+    "Open the Holidays menu, pick holidays for {country}, and note the public holidays in {month}",
+    "Switch to the Mail tab, click To and type ops@example.com, click Subject and type \"Sync: {hq_city} / {remote_city}, {month}\"",
+    "Click Body and type \"{remote_city} is <offset> from {hq_city}. Avoid: <holiday dates>.\"",
+    "Do not click Send. Click Discard"
+   ],
+   "runs": [
+    {
+     "id": "SYNC.1",
+     "start": "2026-10-13T16:23:22+00:00",
+     "end": "2026-10-13T16:26:26+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:23:22+00:00",
+       "2026-10-13T16:26:26+00:00"
+      ]
+     ],
+     "values": {
+      "hq_city": "San Francisco",
+      "remote_city": "Bangalore",
+      "country": "India",
+      "month": "October"
+     }
+    },
+    {
+     "id": "SYNC.2",
+     "start": "2026-10-13T16:48:29+00:00",
+     "end": "2026-10-13T17:01:30+00:00",
+     "segments": [
+      [
+       "2026-10-13T16:48:29+00:00",
+       "2026-10-13T16:56:01+00:00"
+      ],
+      [
+       "2026-10-13T16:58:47+00:00",
+       "2026-10-13T17:01:30+00:00"
+      ]
+     ],
+     "values": {
+      "hq_city": "New York",
+      "remote_city": "Berlin",
+      "country": "Germany",
+      "month": "December"
+     }
+    }
+   ]
+  }
+ ],
+ "noise": [
+  {
+   "id": "N1",
+   "start": "2026-10-13T16:14:56+00:00",
+   "end": "2026-10-13T16:15:54+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:14:56+00:00",
+     "2026-10-13T16:15:54+00:00"
+    ]
+   ],
+   "description": "Open a new tab, go to bbc.com/news, scroll through the headlines, open one story, skim it, close the tab"
+  },
+  {
+   "id": "N2",
+   "start": "2026-10-13T16:21:47+00:00",
+   "end": "2026-10-13T16:22:29+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:21:47+00:00",
+     "2026-10-13T16:22:29+00:00"
+    ]
+   ],
+   "description": "In the Wikipedia tab, click Random article in the menu, skim it and scroll a bit"
+  },
+  {
+   "id": "N3",
+   "start": "2026-10-13T16:45:17+00:00",
+   "end": "2026-10-13T16:48:29+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:45:17+00:00",
+     "2026-10-13T16:48:29+00:00"
+    ]
+   ],
+   "description": "Abandoned attempt: in the xe.com tab, type 50 in Amount and start setting From to CHF, then give up halfway and switch to the Wikipedia tab"
+  },
+  {
+   "id": "N4",
+   "start": "2026-10-13T16:57:51+00:00",
+   "end": "2026-10-13T16:58:47+00:00",
+   "segments": [
+    [
+     "2026-10-13T16:57:51+00:00",
+     "2026-10-13T16:58:47+00:00"
+    ]
+   ],
+   "description": "Wander: click through the Notes, Mail and EDGAR tabs without doing anything"
+  },
+  {
+   "id": "BRIEF.3",
+   "start": "2026-10-13T17:01:30+00:00",
+   "end": "2026-10-13T17:05:29+00:00",
+   "segments": [
+    [
+     "2026-10-13T17:01:30+00:00",
+     "2026-10-13T17:05:29+00:00"
+    ]
+   ],
+   "description": "abandoned run of BRIEF.3"
+  }
+ ],
+ "failed": [
+  "BRIEF.3",
+  "N1",
+  "N5",
+  "QUOTES.3",
+  "SYNC.3"
+ ],
+ "log_reasons": {
+  "2": "address-bar typing failed after 4 tries"
+ }
+}
