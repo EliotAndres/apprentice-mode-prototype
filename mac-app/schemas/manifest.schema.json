@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Session manifest",
+  "type": "object",
+  "required": ["schema_version", "session_id", "source", "started_at", "duration_s", "timing", "streams", "counts", "displays"],
+  "properties": {
+    "schema_version": {"const": "0.2"},
+    "session_id": {"type": "string", "pattern": "^[a-z0-9_-]+$"},
+    "source": {
+      "type": "object",
+      "required": ["kind", "recorder_version", "host_app"],
+      "properties": {
+        "kind": {"const": "macos_recorder"},
+        "recorder_version": {"type": "string"},
+        "host_app": {"type": "string"}
+      }
+    },
+    "started_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(Z|[+-]\\d{2}:\\d{2})$"},
+    "duration_s": {"type": "number", "minimum": 0},
+    "timing": {"type": "object", "required": ["kind"], "properties": {"kind": {"const": "observed"}}},
+    "streams": {
+      "type": "object",
+      "required": ["dom", "screenshots", "accessibility"],
+      "properties": {
+        "dom": {"type": "object", "required": ["path", "format", "count"],
+                "properties": {"path": {"const": "traces/dom.jsonl"}, "format": {"const": "jsonl"}, "count": {"type": "integer", "minimum": 0}}},
+        "screenshots": {"type": "object", "required": ["path", "format", "count"],
+                        "properties": {"path": {"const": "screenshots/"}, "format": {"type": "string"}, "count": {"type": "integer", "minimum": 0}}},
+        "accessibility": {"type": "object", "required": ["path", "format", "count"],
+                          "properties": {"path": {"const": "traces/context.jsonl"}, "format": {"const": "jsonl"}, "count": {"type": "integer", "minimum": 0}}}
+      }
+    },
+    "counts": {
+      "type": "object",
+      "required": ["actions", "sites"],
+      "properties": {"actions": {"type": "integer", "minimum": 0}, "sites": {"type": "integer", "minimum": 0}}
+    },
+    "displays": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "width_px", "height_px", "scale"],
+        "properties": {
+          "id": {"type": "integer"},
+          "width_px": {"type": "integer", "minimum": 1},
+          "height_px": {"type": "integer", "minimum": 1},
+          "scale": {"type": "number", "minimum": 1}
+        }
+      }
+    }
+  }
+}

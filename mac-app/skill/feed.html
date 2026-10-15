@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apprentice Feed</title>
+<!-- Installed by Apprentice as ~/.apprentice-mode/feed/index.html. Claude writes data.js next to it (see SKILL.md). -->
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f5f4f0; --card: #ffffff; --ink: #1f1f1f; --ink-2: #5f5f5f; --ink-3: #8a8a8a;
+    --rule: #e6e4de; --chip: #eef2fb; --chip-ink: #4a6fc9; --run: #ebe9e3;
+    --accent: #2563eb; --accent-ink: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.45 -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Helvetica, Arial, sans-serif; }
+  main { max-width: 920px; margin: 0 auto; padding: 40px 24px 80px; }
+  .date { color: var(--ink-2); font-size: 20px; font-weight: 500; }
+  h1 { font-size: clamp(36px, 7vw, 56px); line-height: 1.1; letter-spacing: -0.02em; margin: 8px 0 12px; }
+  .lede { color: var(--ink-3); font-size: 20px; margin: 0 0 36px; }
+  .card { background: var(--card); border-radius: 24px; padding: 32px 36px; margin-bottom: 24px;
+          box-shadow: 0 1px 2px rgba(0,0,0,.04), 0 8px 24px rgba(0,0,0,.04); }
+  .meta { display: flex; align-items: center; gap: 14px; }
+  .icon { width: 40px; height: 40px; border-radius: 50%; background: var(--chip); color: var(--chip-ink);
+          display: grid; place-items: center; flex: none; }
+  .label { text-transform: uppercase; letter-spacing: .08em; font-size: 14px; font-weight: 600; color: var(--ink-2); flex: 1; }
+  .when { color: var(--ink-3); font-size: 15px; }
+  h2 { font-size: clamp(22px, 3.6vw, 30px); line-height: 1.2; margin: 18px 0 12px; letter-spacing: -0.01em; }
+  .hint { display: flex; gap: 12px; color: var(--ink-2); font-size: 17px; margin-bottom: 24px; }
+  .hint svg { flex: none; margin-top: 3px; color: var(--ink-3); }
+  .runs { display: grid; grid-template-columns: 104px 1fr; gap: 10px 16px; align-items: center; margin-bottom: 28px; }
+  .runs .axis { color: var(--ink-3); font-size: 13px; white-space: nowrap; }
+  .bar { height: 34px; border-radius: 8px; background: var(--run); color: var(--ink-2); font-size: 13px;
+         display: flex; align-items: center; padding: 0 12px; white-space: nowrap; overflow: hidden; min-width: 0; }
+  .bar.after { background: none; border: 2px dashed var(--accent); color: var(--accent); font-weight: 500; }
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { font: inherit; font-size: 17px; font-weight: 600; border-radius: 999px; padding: 13px 26px; cursor: pointer;
+         text-decoration: none; border: 1.5px solid var(--rule); background: var(--card); color: var(--ink); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .btn:focus-visible { outline: 3px solid color-mix(in srgb, var(--accent) 40%, transparent); outline-offset: 2px; }
+  .details { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--rule); color: var(--ink-2); }
+  .details h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--ink-3); margin: 0 0 8px; }
+  .details ol { margin: 0 0 18px; padding-left: 22px; }
+  .details p { margin: 0 0 18px; }
+  .tag { display: inline-block; background: var(--bg); border-radius: 6px; padding: 2px 8px; margin: 0 6px 6px 0; font-size: 14px; }
+  .empty { color: var(--ink-3); }
+  @media (max-width: 600px) { main { padding: 28px 16px 60px; } .card { padding: 24px 20px; } .runs { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<main id="app"></main>
+<script src="data.js"></script>
+<script>
+/* data.js sets window.FEED = {
+     name: "Eliot",                     // optional, for the greeting
+     data_root: "/Users/…/.apprentice-mode",
+     period: "the last 3 days",
+     workflows: [{
+       title: "You look up a GitHub profile and email a lead, by hand",   // what the user keeps doing
+       category: "Browser",             // Browser, Mail, Docs, Spreadsheet, Terminal, Chat, Files, Calendar or Other
+       insight: "Same 9 steps each time; only the username and role change.",
+       runs: [{ at: "2026-10-14T14:12", minutes: 4.5 }],
+       steps: ["…"], parameters: ["username", "role"],
+       automation: "How you would automate it, in a sentence or two.",
+       saved_minutes_per_run: 4,
+       automate_prompt: "Self-contained prompt for a new Claude Code session that builds this automation."
+     }]
+   }; */
+const ICONS = {
+  Browser: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/>',
+  Mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
+  Docs: '<path d="M6 3h8l4 4v14H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/>',
+  Spreadsheet: '<rect x="4" y="4" width="16" height="16" rx="2"/><path d="M4 10h16M4 15h16M10 4v16"/>',
+  Terminal: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="m7 9 3 3-3 3M12 15h5"/>',
+  Chat: '<path d="M4 5h16v11H9l-5 4z"/>',
+  Files: '<path d="M3 6h7l2 2h9v11H3z"/>',
+  Calendar: '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4"/>',
+  Other: '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/>',
+};
+const svg = (paths, size = 20) =>
+  `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths}</svg>`;
+const BULB = '<path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z"/>';
+
+function el(tag, attrs = {}, ...children) {
+  const node = document.createElement(tag);
+  for (const [key, value] of Object.entries(attrs)) {
+    if (key === "html") node.innerHTML = value; else node.setAttribute(key, value);
+  }
+  for (const child of children) if (child != null) node.append(child);
+  return node;
+}
+const minutes = (m) => m < 1 ? `${Math.round(m * 60)} s` : `${Math.round(m)} min`;
+const whenLabel = (iso) => new Date(iso).toLocaleString(undefined, { weekday: "short", hour: "numeric", minute: "2-digit" });
+
+function card(workflow) {
+  const runs = workflow.runs || [];
+  const total = runs.reduce((sum, run) => sum + (run.minutes || 0), 0);
+  const longest = Math.max(1, ...runs.map((run) => run.minutes || 0));
+  const last = runs.map((run) => run.at).sort().at(-1);
+  const category = ICONS[workflow.category] ? workflow.category : "Other";
+
+  const runRows = el("div", { class: "runs", role: "img",
+    "aria-label": `${runs.length} runs, ${minutes(total)} in total` });
+  for (const run of runs) {
+    runRows.append(el("div", { class: "axis" }, whenLabel(run.at)),
+      el("div", { class: "bar", style: `width:${Math.max(18, (run.minutes / longest) * 100)}%` }, minutes(run.minutes)));
+  }
+  const average = runs.length ? total / runs.length : 0;
+  const after = Math.max(0, average - (workflow.saved_minutes_per_run ?? average));
+  runRows.append(el("div", { class: "axis" }, "Automated"),
+    el("div", { class: "bar after", style: `width:${Math.max(18, (after / longest) * 100)}%` }, after < 0.5 ? "~0 min" : minutes(after)));
+
+  const details = el("div", { class: "details", hidden: "" },
+    el("h3", {}, "Steps"), el("ol", {}, ...(workflow.steps || []).map((step) => el("li", {}, step))),
+    workflow.parameters?.length ? el("h3", {}, "What changes each time") : null,
+    workflow.parameters?.length ? el("p", {}, ...workflow.parameters.map((p) => el("span", { class: "tag" }, p))) : null,
+    workflow.automation ? el("h3", {}, "How to automate it") : null,
+    workflow.automation ? el("p", {}, workflow.automation) : null);
+
+  const toggle = el("button", { class: "btn", type: "button", "aria-expanded": "false" }, "See steps");
+  toggle.addEventListener("click", () => {
+    details.hidden = !details.hidden;
+    toggle.setAttribute("aria-expanded", String(!details.hidden));
+    toggle.textContent = details.hidden ? "See steps" : "Hide steps";
+  });
+
+  const link = new URL("claude://code/new");
+  if (FEED.data_root) link.searchParams.set("folder", FEED.data_root);
+  link.searchParams.set("q", workflow.automate_prompt || `Build an automation for this workflow: ${workflow.title}`);
+
+  return el("article", { class: "card" },
+    el("div", { class: "meta" },
+      el("div", { class: "icon", html: svg(ICONS[category]) }),
+      el("div", { class: "label" }, `${category} · repeated ${runs.length}×`),
+      last ? el("div", { class: "when" }, `${minutes(total)} total`) : null),
+    el("h2", {}, workflow.title),
+    workflow.insight ? el("div", { class: "hint" }, el("span", { html: svg(BULB) }), el("span", {}, workflow.insight)) : null,
+    runRows,
+    el("div", { class: "actions" }, el("a", { class: "btn primary", href: link.toString() }, "Automate this"), toggle),
+    details);
+}
+
+const FEED = window.FEED || { workflows: [] };
+const app = document.getElementById("app");
+const now = new Date();
+const hour = now.getHours();
+const greeting = hour < 12 ? "Good morning" : hour < 18 ? "Good afternoon" : "Good evening";
+const workflows = [...(FEED.workflows || [])].sort((a, b) =>
+  (b.runs || []).reduce((s, r) => s + r.minutes, 0) - (a.runs || []).reduce((s, r) => s + r.minutes, 0));
+const count = workflows.length;
+app.append(
+  el("div", { class: "date" }, now.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" })),
+  el("h1", {}, FEED.name ? `${greeting}, ${FEED.name}` : greeting),
+  el("p", { class: "lede" }, count
+    ? `${count} ${count === 1 ? "thing" : "things"} you keep doing by hand${FEED.period ? ` in ${FEED.period}` : ""}. Apprentice can take ${count === 1 ? "it" : "them"} off your plate.`
+    : "Nothing repeated yet. Keep Apprentice Mode on and check back."),
+  ...workflows.map(card));
+</script>
+</body>
+</html>

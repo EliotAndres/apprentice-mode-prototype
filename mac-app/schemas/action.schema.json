@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Action (one line of traces/dom.jsonl)",
+  "type": "object",
+  "required": ["seq", "t", "type", "op", "site", "element"],
+  "properties": {
+    "seq": {"type": "integer", "minimum": 0},
+    "t": {"type": "number", "minimum": 0},
+    "type": {"const": "action"},
+    "op": {"enum": ["CLICK", "TYPE", "SELECT", "HOVER", "ENTER", "KEY"]},
+    "value": {"type": "string"},
+    "site": {"type": "string"},
+    "url": {"type": ["string", "null"]},
+    "app": {"type": "string"},
+    "window": {"type": "string"},
+    "element": {
+      "type": "object",
+      "required": ["role", "text"],
+      "properties": {
+        "tag": {"type": "string"},
+        "role": {"type": "string"},
+        "text": {"type": "string"},
+        "bbox": {"type": ["array", "null"], "items": {"type": "number"}, "minItems": 4, "maxItems": 4}
+      }
+    },
+    "screenshot": {"type": ["string", "null"], "pattern": "^screenshots/\\d{5,}\\.jpg$"},
+    "dom_snapshot": {"type": "null"}
+  }
+}
