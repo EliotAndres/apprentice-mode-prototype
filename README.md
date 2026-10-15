@@ -2,7 +2,7 @@
 
 ### Recommendation to evaluate this project
 
-1. Watch the 2 minutes overview [TODO insert Loom link]
+1. Watch the [2 minutes overview](https://www.loom.com/share/a26d1caf5bc54e4cb55d475c6789b9ad)
 2. Look at the [benchmark data](https://apprentice-mode-benchmark.eliot.blog)
 3. [If you have time] Try out the prototype. You'll need to run it for a few hours while working, without this it can't generate useful data. Below is what it generated for me.
 
